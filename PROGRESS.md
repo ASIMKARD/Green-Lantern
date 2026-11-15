@@ -17,11 +17,23 @@ Built on Pull-List-template v3, copied at template `f7ae723` (15 Nov 2026). The 
   - Green Lantern's own `README.md`, `CLAUDE.md`, `PROGRESS.md` and `PLAN.md` are written.
   - The data is still the template's starter demo (`franchise.key` `starter`), so CI runs green until stage 2 replaces it.
   - **The template's `FEATURE-INVENTORY.md` stays too, until stage 2.** The docs test expects it while the key is `starter`. Stage 2 drops it when the key becomes `green-lantern`.
-- **Next: stage 1, the arc spine.**
-  - Research goes in Research-Repo `sessions/2026-11-14-green-lantern/`.
-  - The change report goes to John.
-  - It comes with T1's design note.
-  - Nothing goes into `dataset.json` until stage 2.
+- **Stage 1 (arc spine): researched; the change report is waiting for John (15 Nov).**
+  - Research-Repo `sessions/2026-11-14-green-lantern/`, pushed (`da65eda`), PR ASIMKARD/Research-Repo#5.
+  - The spine is 168 arcs over 714 issues, in 13 sub-eras (ranks 5000–5120) and 6 bands:
+    - the report: `change-report-stage1.md` and `.json`;
+    - the data: `arc-spine.json`;
+    - the phone page: `arc-spine.html`.
+  - T1's design note is `t1-design.md`, which also covers the date bug (T0).
+- **Where the next step begins:**
+  1. **John:** approve the stage-1 report (or change it) and T1's design (with or without T2), and decide T0.
+  2. **T0, then T1, on the template's branch:**
+     - T0 first: pin the clock in `test/layout/ref/capture-frame.js` `measureAll`, and its use in `test/layout/47-frame-v9.test.js`, to the reference's `captured` date.
+     - Then T1: `schema/dataset.schema.json` (`rows[].coreFor`), `tools/build.py` (validation, `issueCoreFor`), `app.js` (`HAS.coreFor`, ★ and Barebones scoped to the chosen Lanterns), `tools/build_workbook.py` (four columns), and tests in `20-build`, a new `9m-scoped-core`, `9f-visibility` and `24-workbook`.
+  3. **Then stage 0 is pushed here** once the template fix is copied in and both suites are green.
+  4. **Stage 2 starts** with `dataset.json`:
+     - the franchise is `green-lantern`, and `FEATURE-INVENTORY.md` is dropped;
+     - the approved eras, periods and arcs from `arc-spine.json` go in;
+     - then the rows of sub-era 5000 (Rebirth) in `data/eras/5000-rebirth.json`, with presence graded from each issue page's Appearances section.
 
 ## Decisions (John)
 - **14 Nov, question forms:**
@@ -55,7 +67,7 @@ Built on Pull-List-template v3, copied at template `f7ae723` (15 Nov 2026). The 
 | # | Stage | State |
 |---|---|---|
 | 0 | Setup | done (15 Nov) |
-| 1 | Arc spine | next |
+| 1 | Arc spine | report sent to John (15 Nov) |
 | 2 | Core spine (goes live as v1) | — |
 | 3 | Green Lantern Corps and New Guardians | — |
 | 4 | Spectrum spin-offs | — |
