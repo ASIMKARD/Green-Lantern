@@ -1,18 +1,15 @@
 # Green Lantern — progress
 
-Built on Pull-List-template v3, copied at template `f7ae723` (15 Nov 2026). The approved plan is
+Built on Pull-List-template v3: copied at template `f7ae723`, then template T0 at `9aac63d` (15 Nov 2026). The approved plan is
 `PLAN.md`; the rules are `CLAUDE.md`. Sessions: Green Lantern #1 (14–15 Nov), its log in Master-Repo
 `log/green-lantern-1.md`.
 
 ## Where it stands (15 Nov)
-- **Stage 0 (setup):** committed on this branch (`59ab9d3` and later), **not pushed yet.**
-  - **Why:** the template's v9-frame guard (`47-frame-v9`) failed on the date. John approved the fix as template T0, [ASIMKARD/Pull-List-template#12](https://github.com/ASIMKARD/Pull-List-template/pull/12) (CI green, waiting for his merge).
-  - **When T0 is merged:**
-    1. copy its three files: `test/layout/lib.js`, `test/layout/ref/capture-frame.js` and `test/layout/47-frame-v9.test.js`;
-    2. also its `BUILD-NOTES.md` change;
-    3. record the template commit here;
-    4. run `node test/run.js` and `npm run test:layout` (expect 1720 and 470, 0 failed);
-    5. push this branch and update the Master-Repo log.
+- **Stage 0 (setup): done and pushed (15 Nov).**
+  - It holds template v3 copied in (first at `f7ae723`), then template T0 (`9aac63d`, John merged ASIMKARD/Pull-List-template#12): the v9-frame guard's clock is pinned to each reference's captured day.
+  - T0 brought four files: `test/layout/lib.js`, `test/layout/ref/capture-frame.js`, `test/layout/47-frame-v9.test.js` and `BUILD-NOTES.md`. Every other template file is identical to template `main` `9aac63d`, apart from this tracker's own docs.
+  - The harness gives 1720 assertions and the layout suite 470, with 0 failed in both.
+  - The data is still the starter demo (`franchise.key` `starter`) until stage 2. The template's `FEATURE-INVENTORY.md` stays until then too, because the docs test expects it while the key is `starter`.
 - **Stage 1 (arc spine): revised after John's review (15 Nov).**
   - **Where:** Research-Repo `sessions/2026-11-14-green-lantern/`.
   - **The spine:** `spine.py` → `arc-spine-v2.json`.
@@ -78,7 +75,7 @@ Built on Pull-List-template v3, copied at template `f7ae723` (15 Nov 2026). The 
 ## Stages (from `PLAN.md`)
 | # | Stage | State |
 |---|---|---|
-| 0 | Setup | done (15 Nov) |
+| 0 | Setup | done and pushed (15 Nov) |
 | 1 | Arc spine | report sent to John (15 Nov) |
 | 2 | Core spine (goes live as v1) | — |
 | 3 | Green Lantern Corps and New Guardians | — |
