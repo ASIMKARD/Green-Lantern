@@ -33,6 +33,22 @@ Master-Repo `starter/STANDARDS.md`, "Repo safety".)
 - **Absolute Green Lantern stays out.** It is in the Absolute tracker; a gap note points there.
 - **Verify current status at build time:** the GL ongoings, any Lanterns comic, Tales of the Green
   Lantern Corps, anything announced.
+- **Check the reading order issue by issue before any report goes to John** (John, 15 Nov; standing rule
+  for every stage):
+  - **Every issue in its final position,** read back from `tools/build.py`'s output (never from the draft),
+    with its cover date, its on-sale date where the page states one, and its source revision.
+  - **Completeness:** for every volume in the stage, every number from first to last (#0s, annuals,
+    specials and one-shots included), or listed as left out with the reason. No duplicates.
+  - **Numbering:** within a series, numbers ascend in reading order. Each exception is listed with its reason.
+  - **Within a cover month:**
+    - order by stated on-sale date: the DC Database's, else the Grand Comics Database's (a second source
+      for ordering only; the DC Database stays the date of record);
+    - crossovers keep the event's published chapter order, checked against two sources;
+    - anything the sources don't settle goes to John as a question. Never pick silently.
+  - **A second, independent pass** (`verify_order.py` in the research folder) rebuilds the order from the
+    cached pages alone and must match: report issues checked and mismatches (0).
+- **Only true Elseworlds leave the spine** (John, 15 Nov): a series the DC Database files under Publisher
+  "Elseworlds", with its own reality, goes to the Elseworlds stage. Event timelines and futures stay.
 
 ### Migrations go in place (John, 23 Oct)
 Every migration goes in place, on the tracker's own repo, the way Absolute did (v8,
