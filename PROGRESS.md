@@ -14,7 +14,7 @@ Built on Pull-List-template v3: copied at template `f7ae723`, then template T0 a
   - **Where:** Research-Repo `sessions/2026-11-14-green-lantern/`, branch `claude/awesome-brahmagupta-89pq1z` at `cdc3f57`. No pull request until John says (16 Nov).
   - **The spine:** `spine.py` → `arc-spine-v2.json`: 239 arcs over 711 issues, 13 sub-eras, 6 bands.
   - **The built order:** `stage1_order.py BUILD_DIR` → `stage1.dataset.draft.json`, built with this repo's `tools/build.py` at `a789c18` → `stage1-order.json` and `stage1-order-final.json` (the order John checks).
-    - Built v1 (`5871f1adcacd`), 711 rows; the verify gate passed.
+    - Built v1 (`9ca53372a5fd`), 711 rows; the verify gate passed.
     - 0 missing, 0 duplicates, 4 numbering exceptions (the September 2012 #0s).
     - On-sale dates: the DC Database states 30; the GCD orders 679 more. 311 rows moved because of the GCD dates.
   - **The independent pass:** `verify_order.py BUILD_DIR` → `verify-order.json`: 711 checked, 0 mismatches.
