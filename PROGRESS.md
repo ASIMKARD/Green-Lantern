@@ -11,7 +11,7 @@ Built on Pull-List-template v3: copied at template `f7ae723`, then template T0 a
   - The harness gives 1720 assertions and the layout suite 470, with 0 failed in both.
   - The data is still the starter demo (`franchise.key` `starter`) until stage 2. The template's `FEATURE-INVENTORY.md` stays until then too, because the docs test expects it while the key is `starter`.
 - **Stage 1 (arc spine): revised after John's review, with the Grand Comics Database's dates (17 Nov).**
-  - **Where:** Research-Repo `sessions/2026-11-14-green-lantern/`, branch `claude/awesome-brahmagupta-89pq1z` at `1994ea5`. No pull request until John says (16 Nov).
+  - **Where:** Research-Repo `sessions/2026-11-14-green-lantern/`, branch `claude/awesome-brahmagupta-89pq1z` at `ca11f0d`. No pull request until John says (16 Nov).
   - **The spine:** `spine.py` → `arc-spine-v2.json`: 239 arcs over 711 issues, 13 sub-eras, 6 bands.
   - **The built order:** `stage1_order.py BUILD_DIR` → `stage1.dataset.draft.json`, built with this repo's `tools/build.py` at `a789c18` → `stage1-order.json` and `stage1-order-final.json` (the order John checks).
     - Built v1 (`5871f1adcacd`), 711 rows; the verify gate passed.
@@ -20,7 +20,10 @@ Built on Pull-List-template v3: copied at template `f7ae723`, then template T0 a
   - **The independent pass:** `verify_order.py BUILD_DIR` → `verify-order.json`: 711 checked, 0 mismatches.
   - **Rebuildable from Research-Repo alone:** `sh rebuild_check.sh /path/to/Green-Lantern`, offline, with a clean clone of this repo at `a789c18`. Run from fresh clones of both repos: every one of 13 generated files is identical, byte for byte.
   - **The report:** `report2.py` → `change-report-stage1.md`, `.json` and `arc-spine.html` (the phone page).
-  - **Open:** 57 same-month pairs no source settles, grouped for John: 52 out on the same day with no shared story (one question), 3 whose stories link (one question each), and 2 with a date missing.
+  - **Open:** 57 same-month pairs no source settles, grouped for John:
+    - 36 out on the same day with no shared story (one question);
+    - 19 whose stories link (one question each), each on one DC Database event page: Sinestro Corps War 1, Blackest Night 6, Brightest Day 9, Wrath of the First Lantern 2, Futures End 1;
+    - 2 with a date missing.
 - **Next steps, in order:**
   1. **John answers the grouped order questions and approves the stage-1 order.** His answers go into `stage1_order.py` as stated orders (with the reason "John, <date>"), the order is rebuilt, and `rebuild_check.sh` must pass again before the push.
   2. **T1 + T2,** as a template PR after T0 is merged, on the template's branch restarted from the new `main`:
