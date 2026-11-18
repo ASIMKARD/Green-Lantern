@@ -49,6 +49,17 @@ Master-Repo `starter/STANDARDS.md`, "Repo safety".)
     cached pages alone and must match: report issues checked and mismatches (0).
 - **Only true Elseworlds leave the spine** (John, 15 Nov): a series the DC Database files under Publisher
   "Elseworlds", with its own reality, goes to the Elseworlds stage. Event timelines and futures stay.
+- **Placement notes settle same-month order** (John, 18 Nov). A DC Database page's own "takes place
+  between/after/before" note orders two issues in the same cover month, cited with page and revision like a
+  date. Hedged notes ("likely", "seems") are skipped. Check every unsettled pair against these notes before
+  asking John; ask only what's left.
+- **Two orders: release order and story order** (John, 18 Nov).
+  - The reading order is the story order; Publication order is the release order.
+  - Within a month, a placement note beats an on-sale date in the reading order: list every such override.
+  - Across months it needs template change **T6** (a row placed after or before another issue by a cited note,
+    keeping its true date; Publication order ignores it). Until T6, list cross-month notes in each report as
+    "story placements, waiting for T6", from a scan of every page.
+  - A placement that would put an issue before a lower number of its own series isn't applied, but listed for John.
 
 ### Migrations go in place (John, 23 Oct)
 Every migration goes in place, on the tracker's own repo, the way Absolute did (v8,
