@@ -11,7 +11,7 @@ Built on Pull-List-template v3: copied at template `f7ae723`, then template T0 a
   - The harness gives 1720 assertions and the layout suite 470, with 0 failed in both.
   - The data is still the starter demo (`franchise.key` `starter`) until stage 2. The template's `FEATURE-INVENTORY.md` stays until then too, because the docs test expects it while the key is `starter`.
 - **Stage 1 (arc spine): revised with the Grand Comics Database's dates (17 Nov) and John's decisions of 18 Nov.**
-  - **Where:** Research-Repo `sessions/2026-11-14-green-lantern/`, branch `claude/awesome-brahmagupta-89pq1z` at `d5b4d7e`. No pull request until John says (16 Nov).
+  - **Where:** Research-Repo `sessions/2026-11-14-green-lantern/`, branch `claude/awesome-brahmagupta-89pq1z` at `8345db0`. No pull request until John says (16 Nov).
   - **The spine:** `spine.py` → `arc-spine-v2.json`: 239 arcs over 711 issues, 13 sub-eras, 6 bands.
   - **The built order:** `stage1_order.py BUILD_DIR` → `stage1.dataset.draft.json`, built with this repo's `tools/build.py` at `a789c18` → `stage1-order.json` and `stage1-order-final.json` (the order John checks).
     - Built v1 (`4f95944e414b`), 711 rows; the verify gate passed.
@@ -29,9 +29,9 @@ Built on Pull-List-template v3: copied at template `f7ae723`, then template T0 a
     - **Placement notes** (`placements.py`, 42 on 39 pages): 2 order a pair within a month, overriding 0 on-sale dates. Across months: 2 wait for T6, 2 would cross their own series (not applied), 1 is a question, 4 already agree.
     - **Publication order** runs against the on-sale dates in 9 pairs (a blank DC date sorts first; `seq` is the story order). The fix is in T6's design note.
   - **T6's design note:** `t6-design.md` in the session folder, for John before any template edit.
-  - **Open:** 18 linked pairs (one question each), and 2 placement notes for John's ruling (Green Lanterns (2016) #22's note about #19 onwards; Green Lanterns: Rebirth #1, which T6 would move past Green Lanterns #1–2).
+  - **Open:** 18 linked pairs (one question each), and 1 placement note for John's ruling (Green Lanterns: Rebirth #1, which T6 would move past Green Lanterns #1–2). Green Lanterns (2016) #22's note (about #19 onwards) would cross its own series, so it is listed, not asked.
 - **Next steps, in order:**
-  1. **John answers the 18 linked pairs and the 2 placement notes, and approves the stage-1 order.** His answers go into `decisions.json` (pairs) as before, the order is rebuilt, and `rebuild_check.sh` must pass again before the push.
+  1. **John answers the 18 linked pairs and the placement note, and approves the stage-1 order.** His answers go into `decisions.json` (pairs) as before, the order is rebuilt, and `rebuild_check.sh` must pass again before the push.
   2. **T1 + T2,** as a template PR after T0 is merged, on the template's branch restarted from the new `main`:
      - **`schema/dataset.schema.json`:** `rows[].coreFor`, a unique list of character slugs.
      - **`tools/build.py`:**
@@ -101,7 +101,7 @@ Built on Pull-List-template v3: copied at template `f7ae723`, then template T0 a
 | # | Stage | State |
 |---|---|---|
 | 0 | Setup | done and pushed (15 Nov) |
-| 1 | Arc spine | revised with John's 18 Nov decisions; 18 linked pairs and 2 notes await his answers |
+| 1 | Arc spine | revised with John's 18 Nov decisions; 18 linked pairs and 1 note await his answers |
 | 2 | Core spine (goes live as v1) | — |
 | 3 | Green Lantern Corps and New Guardians | — |
 | 4 | Spectrum spin-offs | — |
