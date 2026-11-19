@@ -1,37 +1,41 @@
 # Green Lantern — progress
 
 Built on Pull-List-template v3: copied at template `f7ae723`, then template T0 at `9aac63d` (15 Nov 2026). The approved plan is
-`PLAN.md`; the rules are `CLAUDE.md`. Sessions: Green Lantern #1 (14–18 Nov), its log in Master-Repo
+`PLAN.md`; the rules are `CLAUDE.md`. Sessions: Green Lantern #1 (14–19 Nov), its log in Master-Repo
 `log/green-lantern-1.md`.
 
-## Where it stands (18 Nov)
+## Where it stands (19 Nov)
 - **Stage 0 (setup): done and pushed (15 Nov).**
   - It holds template v3 copied in (first at `f7ae723`), then template T0 (`9aac63d`, John merged ASIMKARD/Pull-List-template#12): the v9-frame guard's clock is pinned to each reference's captured day.
   - T0 brought four files: `test/layout/lib.js`, `test/layout/ref/capture-frame.js`, `test/layout/47-frame-v9.test.js` and `BUILD-NOTES.md`. Every other template file is identical to template `main` `9aac63d`, apart from this tracker's own docs.
   - The harness gives 1720 assertions and the layout suite 470, with 0 failed in both.
   - The data is still the starter demo (`franchise.key` `starter`) until stage 2. The template's `FEATURE-INVENTORY.md` stays until then too, because the docs test expects it while the key is `starter`.
 - **Stage 1 (arc spine): revised with the Grand Comics Database's dates (17 Nov) and John's decisions of 18 Nov.**
-  - **Where:** Research-Repo `sessions/2026-11-14-green-lantern/`, branch `claude/awesome-brahmagupta-89pq1z` at `8345db0`. No pull request until John says (16 Nov).
+  - **Where:** Research-Repo `sessions/2026-11-14-green-lantern/`, branch `claude/awesome-brahmagupta-89pq1z` at `42cb876`. No pull request until John says (16 Nov).
   - **The spine:** `spine.py` → `arc-spine-v2.json`: 239 arcs over 711 issues, 13 sub-eras, 6 bands.
   - **The built order:** `stage1_order.py BUILD_DIR` → `stage1.dataset.draft.json`, built with this repo's `tools/build.py` at `a789c18` → `stage1-order.json` and `stage1-order-final.json` (the order John checks).
-    - Built v1 (`4f95944e414b`), 711 rows; the verify gate passed.
+    - Built v1 (`ece7c075eb84`), 711 rows; the verify gate passed.
     - 0 missing, 0 duplicates, 4 numbering exceptions (the September 2012 #0s).
     - On-sale dates: the DC Database states 30; the GCD orders 679 more. 311 rows moved because of the GCD dates.
   - **The independent pass:** `verify_order.py BUILD_DIR` → `verify-order.json`: 711 checked, 0 mismatches.
   - **Fixed on 17 Nov, before the report went out:**
     - every arc id had lost its capital letters (`reen-antern-…`); they are now `green-lantern-…`;
     - the 2021 annual is `green-lantern-2021-annual-1`, "Green Lantern (2021) Annual #1" (it was `green-lantern-2021-2021-annual-1`).
-  - **Rebuildable from Research-Repo alone:** `sh rebuild_check.sh /path/to/Green-Lantern`, offline, with a clean clone of this repo at `a789c18`. Run from fresh clones of both repos: every one of 15 generated files is identical, byte for byte.
+  - **Rebuildable from Research-Repo alone:** `sh rebuild_check.sh /path/to/Green-Lantern`, offline, with a clean clone of this repo at `a789c18`. Run from fresh clones of both repos: every one of 16 generated files is identical, byte for byte.
   - **The report:** `report2.py` → `change-report-stage1.md`, `.json` and `arc-spine.html` (the phone page).
   - **John's decisions of 18 Nov, applied** (`decisions.json`, an input):
-    - Blackest Night (2009) #0 opens the Blackest Night sub-era: position 112, after GLC (2006) #38, before GL (2005) #43. On sale 2 May 2009 (ComicList, fetched and checked); the World's Finest Special 18 Dec 2024 (dc.com refused an automated fetch, so John's citation stands).
+    - Blackest Night (2009) #0: on sale 2 May 2009 (ComicList, fetched and checked); the World's Finest Special 18 Dec 2024 (dc.com refused an automated fetch, so John's citation stands).
     - His question-form answers keep 38 pairs.
     - **Placement notes** (`placements.py`, 42 on 39 pages): 2 order a pair within a month, overriding 0 on-sale dates. Across months: 2 wait for T6, 2 would cross their own series (not applied), 1 is a question, 4 already agree.
     - **Publication order** runs against the on-sale dates in 9 pairs (a blank DC date sorts first; `seq` is the story order). The fix is in T6's design note.
   - **T6's design note:** `t6-design.md` in the session folder, for John before any template edit.
-  - **Open:** 18 linked pairs (one question each), and 1 placement note for John's ruling (Green Lanterns: Rebirth #1, which T6 would move past Green Lanterns #1–2). Green Lanterns (2016) #22's note (about #19 onwards) would cross its own series, so it is listed, not asked.
+  - **John's decisions of 19 Nov, applied:**
+    - Blackest Night (2009) #0 goes just after GL (2005) #43, before Blackest Night #1: position 113. Its reading-order month is #43's through the template's `sortDate`; its cover stays June 2009. T6 would write it as `place`.
+    - His answers to linked pairs 1–4 (pair 3 swapped, with his reason).
+    - **The method** (`collections.py`, `stage1_order.py`, `verify_order.py`): story links need evidence; on a series-by-series event page, interleaved collections are the chapter order. 39 of 173 collections count. Two agree on GL (2011) #20 before GLC (2011) #20 (over the dates); 12 pairs with no link take the Group A rule; no source disagrees with the order kept.
+  - **Open:** 1 linked pair (New Guardians (2011) #20 → Red Lanterns (2011) #20; the Wrath collection sets its provisional order), and 1 placement note for John's ruling (Green Lanterns: Rebirth #1, which T6 would move past Green Lanterns #1–2). Green Lanterns (2016) #22's note (about #19 onwards) would cross its own series, so it is listed, not asked.
 - **Next steps, in order:**
-  1. **John answers the 18 linked pairs and the placement note, and approves the stage-1 order.** His answers go into `decisions.json` (pairs) as before, the order is rebuilt, and `rebuild_check.sh` must pass again before the push.
+  1. **John answers the last linked pair and the placement note, and approves the stage-1 order.** His answers go into `decisions.json` (pairs) as before, the order is rebuilt, and `rebuild_check.sh` must pass again before the push.
   2. **T1 + T2,** as a template PR after T0 is merged, on the template's branch restarted from the new `main`:
      - **`schema/dataset.schema.json`:** `rows[].coreFor`, a unique list of character slugs.
      - **`tools/build.py`:**
@@ -81,6 +85,10 @@ Built on Pull-List-template v3: copied at template `f7ae723`, then template T0 a
   1. Blackest Night (2009) #0 opens the Blackest Night era, just before Green Lantern (2005) #43; its cover stays June 2009. Its on-sale date is 2 May 2009 (ComicList's Free Comic Book Day 2009 list); the World's Finest Special's is 18 Dec 2024 (dc.com).
   2. Placement notes settle same-month order (`CLAUDE.md`, "Green Lantern's own rules").
   3. Two orders: release order and story order; across months, template change T6, with its design note shown first and its own template PR after T1 + T2.
+- **19 Nov:**
+  - Linked pairs 1–4 answered (pair 3: Green Lantern Corps (2006) #39 before Blackest Night #2, because Blackest Night #2 ends with the Corps "fighting for its life against the Black Lanterns on Oa", the battle GLC #39 starts).
+  - Decision 1 changed: Blackest Night (2009) #0 goes just after Green Lantern (2005) #43, before Blackest Night #1; its cover stays June 2009.
+  - The method (`CLAUDE.md`, "Green Lantern's own rules"): story links need evidence; interleaved collections are an event's chapter order; open pairs are shown with the synopsis ends.
 
 ## Decided, not yet built
 - **T1 + T2:** per-Lantern CORE, the workbook columns and "Lead only" appearances (both approved 15 Nov). One template PR before stage 2, pasted to John before he merges it; the plan is in "Next steps", above.
@@ -101,7 +109,7 @@ Built on Pull-List-template v3: copied at template `f7ae723`, then template T0 a
 | # | Stage | State |
 |---|---|---|
 | 0 | Setup | done and pushed (15 Nov) |
-| 1 | Arc spine | revised with John's 18 Nov decisions; 18 linked pairs and 1 note await his answers |
+| 1 | Arc spine | revised with John's 18 and 19 Nov decisions; 1 linked pair and 1 note await his answers |
 | 2 | Core spine (goes live as v1) | — |
 | 3 | Green Lantern Corps and New Guardians | — |
 | 4 | Spectrum spin-offs | — |

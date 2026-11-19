@@ -60,6 +60,16 @@ Master-Repo `starter/STANDARDS.md`, "Repo safety".)
     keeping its true date; Publication order ignores it). Until T6, list cross-month notes in each report as
     "story placements, waiting for T6", from a scan of every page.
   - A placement that would put an issue before a lower number of its own series isn't applied, but listed for John.
+- **Story links need evidence; collections give an event's chapter order** (John, 19 Nov). Settle what the
+  sources can before asking John, and build the method into the code:
+  - Two issues' stories link only through a placement note, shared part numbering or story title, one page's
+    synopsis or notes linking to the other issue, or an interleaved collection holding both. Sharing an event
+    page alone isn't a link: such a same-day pair keeps the provisional order (John's Group A answer).
+  - When an event page lists series by series, interleaved collections are the published chapter order. Use
+    every collection named in the issues' "reprinted in" notes, and fetch any not cached. A collection counts
+    only if it interleaves series (A, B, A). Two that agree settle a pair, cited; one alone sets the provisional
+    order and is shown in the question; any disagreement is a question.
+  - For a pair still open, show John the end of the earlier issue's synopsis and the start of the later one's.
 
 ### Migrations go in place (John, 23 Oct)
 Every migration goes in place, on the tracker's own repo, the way Absolute did (v8,
