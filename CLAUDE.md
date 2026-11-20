@@ -70,6 +70,12 @@ Master-Repo `starter/STANDARDS.md`, "Repo safety".)
     only if it interleaves series (A, B, A). Two that agree settle a pair, cited; one alone sets the provisional
     order and is shown in the question; any disagreement is a question.
   - For a pair still open, show John the end of the earlier issue's synopsis and the start of the later one's.
+- **The reading step** (John, 20 Nov). Links in the pages can't show when one story picks up from another, so
+  for every same-day pair on the same event page, read the end of one issue's synopsis and the start of the
+  other's, and decide whether one picks up from the other. This is done by reading, not by a pattern.
+  - Record each verdict with the quoted lines in a file the order reads (`readings.json` in the research
+    folder), and list them in the report so they can be checked.
+  - "Picks up" orders the pair; "no link" leaves it to John's Group A rule.
 
 ### Migrations go in place (John, 23 Oct)
 Every migration goes in place, on the tracker's own repo, the way Absolute did (v8,
