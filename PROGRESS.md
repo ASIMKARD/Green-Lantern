@@ -40,7 +40,9 @@ Built on Pull-List-template v3: copied at template `f7ae723`, then template T0 a
   - **Open:** no questions. Green Lanterns (2016) #22's note (about #19 onwards) would cross its own series, so it is listed, not asked.
 - **Next steps, in order:**
   1. **Done (20 Nov): John approved the stage-1 order.** Research-Repo#6 holds it, for him to merge.
-  2. **T1 + T2,** as a template PR after T0 is merged, on the template's branch restarted from the new `main`:
+  2. **T1 + T2: built and open as ASIMKARD/Pull-List-template#13 (21 Nov),** pasted to John for his merge. Template branch `claude/awesome-brahmagupta-89pq1z` at `8c96743`; harness 1752, layout 470, 0 failed.
+     - **Once John merges it:** copy the changed template files into this repo and record the template commit here and in `CLAUDE.md`. The files: `app.js`, `tools/build.py`, `tools/build_workbook.py`, `schema/dataset.schema.json`, `BUILD-NOTES.md`, `CLAUDE.md`'s visibility list, the tests and fixtures. Then rebuild and run both suites.
+     - **What was built** (the original plan, kept for reference):
      - **`schema/dataset.schema.json`:** `rows[].coreFor`, a unique list of character slugs.
      - **`tools/build.py`:**
        - validation: each name must be a character the row has as major or minor;
@@ -101,7 +103,7 @@ Built on Pull-List-template v3: copied at template `f7ae723`, then template T0 a
   - The reading step (`CLAUDE.md`, "Green Lantern's own rules").
 
 ## Decided, not yet built
-- **T1 + T2:** per-Lantern CORE, the workbook columns and "Lead only" appearances (both approved 15 Nov). One template PR before stage 2, pasted to John before he merges it; the plan is in "Next steps", above.
+- **T1 + T2:** per-Lantern CORE, the workbook columns and "Lead only" appearances (both approved 15 Nov). Built; template PR #13 open (21 Nov), pasted to John before he merges it.
 - **T3, cross-tracker progress for shared issues** (John, 14 Nov). It is built at stage 5, in its own template PR, which John approves first, like T1.
   - "An issue marked read (or skipped) in any of my trackers counts as read in every tracker that has the same issueId."
   - Each tracker writes only its own storage. It reads the others' saved progress on asimkard.github.io and never writes to them.
