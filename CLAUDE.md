@@ -1,7 +1,7 @@
 # CLAUDE.md — read this before touching anything
 
 This is the **Green Lantern** tracker, built on Pull-List-template v3 (copied at template
-`f7ae723`; template T0 at `9aac63d`). Where the work stands and where the next step begins: `PROGRESS.md`. The approved
+`f7ae723`; template T0 at `9aac63d`; T1 + T2 at `b9a0128`). Where the work stands and where the next step begins: `PROGRESS.md`. The approved
 plan: `PLAN.md`.
 
 ## Repo rules (read first, every session)
@@ -229,7 +229,8 @@ a running log of what it did, and a word-for-word archive of the session.
     - no era jump bar with only one era.
   - **Extended (accepted 4 Oct).** Each control needs:
     - depth, type and strand chips: two or more in use;
-    - "Include cameos": cameo data;
+    - "Including cameos": cameo data; "Lead": both major and minor grades in use (T2);
+    - the per-character core hint: `coreFor` data (T1);
     - "Mandatory only": both mandatory and optional rows;
     - "Notes only" and tap to reveal: notes;
     - "Gap notes": a gap note;
