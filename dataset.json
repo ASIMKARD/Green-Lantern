@@ -1,37 +1,316 @@
 {
-  "$schema": "./schema/dataset.schema.json",
-  "schemaVersion": 1,
-  "franchise": {
-    "key": "starter",
-    "wordmark": "Starter",
-    "title": "Starter Tracker — Reading Order",
-    "strapline": "template demo · replace this dataset with your franchise",
-    "span": "2001–2002",
-    "theme": "#1B1D24",
-    "background": "#F4F2EC",
-    "strictCredits": true
+ "$schema": "./schema/dataset.schema.json",
+ "schemaVersion": 1,
+ "franchise": {
+  "key": "green-lantern",
+  "wordmark": "Green Lantern",
+  "title": "Green Lantern — Reading Order",
+  "strapline": "From Green Lantern: Rebirth (2004) on",
+  "span": "2004–2007",
+  "theme": "#0B5D33",
+  "strictCredits": true
+ },
+ "eras": [
+  {
+   "id": "rebirth",
+   "name": "Rebirth",
+   "rank": 5000
+  }
+ ],
+ "periods": [
+  {
+   "id": "johns",
+   "name": "The Johns era",
+   "label": "2004–2013",
+   "eras": [
+    "rebirth"
+   ]
+  }
+ ],
+ "strands": [
+  "Green Lantern"
+ ],
+ "types": [
+  "MAIN",
+  "SOLO",
+  "MINI",
+  "SPIN-OFF",
+  "EVENT"
+ ],
+ "tiers": [
+  "Barebones",
+  "Essential",
+  "Everything"
+ ],
+ "media": [
+  "comic"
+ ],
+ "characters": [
+  {
+   "id": "hal-jordan",
+   "name": "Hal Jordan"
   },
-  "eras": [
-    { "id": "first-light", "name": "First Light", "rank": 5000, "years": "2001", "intro": "A placeholder era. Replace it." },
-    { "id": "second-wind", "name": "Second Wind", "rank": 5010, "years": "2002", "intro": "Another placeholder era." }
-  ],
-  "strands": ["Main"],
-  "types": ["MAIN", "MINI"],
-  "tiers": ["Barebones", "Essential", "Everything"],
-  "media": ["comic"],
-  "arcs": [
-    { "id": "opening", "name": "Opening", "era": "first-light", "strands": ["Main"], "type": "MAIN", "mo": "M", "tier": "Barebones",
-      "credits": { "writers": ["Placeholder Writer"], "artists": ["Placeholder Artist"] } },
-    { "id": "aside", "name": "Aside", "era": "second-wind", "strands": ["Main"], "type": "MINI", "mo": "O", "tier": "Everything",
-      "credits": { "writers": ["Placeholder Writer"], "artists": ["Second Artist"] } }
-  ],
-  "rows": [
-    { "issueId": "starter-2001-1", "series": "Starter", "vol": "2001", "num": "1", "title": "Starter (2001) #1", "era": "first-light", "arc": "opening", "date": { "cover": "2001-01", "source": "template placeholder" } },
-    { "issueId": "starter-2001-2", "series": "Starter", "vol": "2001", "num": "2", "title": "Starter (2001) #2", "era": "first-light", "arc": "opening", "date": { "cover": "2001-02", "source": "template placeholder" } },
-    { "issueId": "starter-2001-3", "series": "Starter", "vol": "2001", "num": "3", "title": "Starter (2001) #3", "era": "first-light", "arc": "opening", "core": true, "date": { "cover": "2001-03", "source": "template placeholder" } },
-    { "issueId": "starter-aside-2002-1", "series": "Starter Aside", "vol": "2002", "num": "1", "title": "Starter Aside (2002) #1", "era": "second-wind", "arc": "aside", "date": { "cover": "2002-01", "source": "template placeholder" } },
-    { "issueId": "starter-aside-2002-2", "series": "Starter Aside", "vol": "2002", "num": "2", "title": "Starter Aside (2002) #2", "era": "second-wind", "arc": "aside", "date": { "cover": "2002-02", "source": "template placeholder" } }
-  ],
-  "legend": [{ "term": "★ core", "meaning": "Barebones path" }],
-  "maintenance": ["Template demo dataset. Replace dataset.json with your franchise."]
+  {
+   "id": "john-stewart",
+   "name": "John Stewart"
+  },
+  {
+   "id": "guy-gardner",
+   "name": "Guy Gardner"
+  },
+  {
+   "id": "kyle-rayner",
+   "name": "Kyle Rayner"
+  },
+  {
+   "id": "green-arrow",
+   "name": "Green Arrow"
+  },
+  {
+   "id": "star-sapphires",
+   "name": "The Star Sapphires"
+  }
+ ],
+ "creatorMononyms": [
+  "BIT",
+  "CAFU",
+  "ChrisCross",
+  "Montos",
+  "Moritat",
+  "Xermanico"
+ ],
+ "arcs": [
+  {
+   "id": "green-lantern-rebirth-rebirth",
+   "name": "Rebirth",
+   "era": "rebirth",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Barebones",
+   "importance": 5,
+   "year": "2004",
+   "blurb": "Collected in Green Lantern: Rebirth (2005).",
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Ethan Van Sciver"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-no-fear",
+   "name": "No Fear",
+   "era": "rebirth",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 4,
+   "year": "2005",
+   "blurb": "Collected in Green Lantern: No Fear (2006).",
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Ethan Van Sciver",
+     "Carlos Pacheco",
+     "Simone Bianchi"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-a-perfect-life",
+   "name": "A Perfect Life",
+   "era": "rebirth",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 4,
+   "year": "2006",
+   "blurb": "Collected in Green Lantern: Revenge of the Green Lanterns (2006).",
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Carlos Pacheco"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-branded",
+   "name": "Branded",
+   "era": "rebirth",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 4,
+   "year": "2006",
+   "blurb": "Collected in Green Lantern: Revenge of the Green Lanterns (2006).",
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Ethan Van Sciver"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-revenge-of-the-green-lanterns",
+   "name": "Revenge of the Green Lanterns",
+   "era": "rebirth",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 4,
+   "year": "2006",
+   "blurb": "Collected in Green Lantern: Revenge of the Green Lanterns (2006).",
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Ivan Reis"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-wanted-hal-jordan",
+   "name": "Wanted: Hal Jordan",
+   "era": "rebirth",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 4,
+   "year": "2006",
+   "blurb": "Collected in Green Lantern: Wanted: Hal Jordan (2007).",
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Ivan Reis"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-mystery-of-the-star-sapphires",
+   "name": "Mystery of the Star Sapphires",
+   "era": "rebirth",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 4,
+   "year": "2007",
+   "blurb": "Collected in Green Lantern: Wanted: Hal Jordan (2007).",
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Daniel Acuña"
+    ]
+   }
+  },
+  {
+   "id": "ion-ion-the-torchbearer",
+   "name": "Ion: The Torchbearer",
+   "era": "rebirth",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "SOLO",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2006",
+   "blurb": "Collected in Ion: The Torchbearer (2007).",
+   "credits": {
+    "writers": [
+     "Ron Marz"
+    ],
+    "artists": [
+     "Greg Tocchini",
+     "Tom Grindberg"
+    ]
+   }
+  },
+  {
+   "id": "ion-ion-the-dying-flame",
+   "name": "Ion: The Dying Flame",
+   "era": "rebirth",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "SOLO",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2006",
+   "blurb": "Collected in Ion: The Dying Flame (2007).",
+   "credits": {
+    "writers": [
+     "Ron Marz"
+    ],
+    "artists": [
+     "Greg Tocchini",
+     "Fernando Pasarin",
+     "Paco Diaz",
+     "Yvel Guichet"
+    ]
+   }
+  },
+  {
+   "id": "guy-gardner-collateral-damage-collateral-damage",
+   "name": "Collateral Damage",
+   "era": "rebirth",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "SOLO",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2007",
+   "blurb": "Collected in Green Lantern: Rebirth Compendium (2025).",
+   "credits": {
+    "writers": [
+     "Howard Chaykin"
+    ],
+    "artists": [
+     "Howard Chaykin"
+    ]
+   }
+  }
+ ],
+ "sources": [
+  "data/eras/5000-rebirth.json"
+ ],
+ "maintenance": [
+  "Stage 2 (Green Lantern #1): the core spine, sub-era by sub-era. Each sub-era's rows are committed after John approves its report. Rows come from Research-Repo sessions/2026-11-14-green-lantern/ (stage2.py)."
+ ]
 }

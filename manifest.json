@@ -1,13 +1,13 @@
 {
-  "name": "Starter Tracker — Reading Order",
-  "short_name": "Starter",
-  "description": "template demo · replace this dataset with your franchise",
+  "name": "Green Lantern — Reading Order",
+  "short_name": "Green Lantern",
+  "description": "From Green Lantern: Rebirth (2004) on",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
   "orientation": "any",
-  "background_color": "#F4F2EC",
-  "theme_color": "#1B1D24",
+  "background_color": "#0B5D33",
+  "theme_color": "#0B5D33",
   "icons": [
     {
       "src": "./icons/icon-192.png",

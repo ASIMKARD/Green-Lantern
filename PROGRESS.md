@@ -15,7 +15,11 @@ Built on Pull-List-template v3: copied at template `f7ae723`, then template T0 a
     - the generated files.
     `CLAUDE.md` takes the template's visibility-list lines. The rebuilt `data.js` is byte for byte the template's (v52, `88308c019615`).
   - The harness gives 1765 assertions (38 suites) and the layout suite 470, with 0 failed in both. Template T0 also gave 1720, so the +45 is T1 + T2's own.
-  - The data is still the starter demo (`franchise.key` `starter`) until stage 2. The template's `FEATURE-INVENTORY.md` stays until then too, because the docs test expects it while the key is `starter`.
+  - **Since stage 2's sub-era 1 (21 Nov) the data is the tracker's own:**
+    - `franchise.key` `green-lantern`, with rows in `data/eras/`;
+    - the interim icons (an emerald "GL" monogram, until stage 8);
+    - `FEATURE-INVENTORY.md` dropped;
+    - the starter's generated `data.js` removed before the first build, so the version started at v1.
 - **Stage 1 (arc spine): approved by John, 20 Nov.** Revised with the Grand Comics Database's dates (17 Nov) and John's decisions of 18–20 Nov. The research folder is merged: ASIMKARD/Research-Repo#6, `a43c300` (21 Nov).
   - **Where:** Research-Repo `sessions/2026-11-14-green-lantern/`, branch `claude/awesome-brahmagupta-89pq1z` at `f3d9fdf`. No pull request until John says (16 Nov).
   - **The spine:** `spine.py` → `arc-spine-v2.json`: 239 arcs over 711 issues, 13 sub-eras, 6 bands.
@@ -71,20 +75,21 @@ Built on Pull-List-template v3: copied at template `f7ae723`, then template T0 a
        - `verify_order.py --subset`: the independent pass.
        - `report_stage2.py`: the report and the phone page.
        - `rebuild_check_stage2.sh`: the offline rebuild check.
-     - **Sub-era 1, Rebirth:** report with John (21 Nov): `change-report-stage2-rebirth.md`, plus the phone page.
+     - **Sub-era 1, Rebirth: approved and committed (21 Nov).** Report: `change-report-stage2-rebirth.md`, plus the phone page.
        - 40 rows: Green Lantern: Rebirth #1–6, Green Lantern (2005) #1–20, Ion #1–12, Guy Gardner: Collateral Damage #1–2.
        - The order equals stage 1's; independent pass 40 checked, 0 mismatches.
        - Rebuilds offline, 10 of 10 files identical.
-     - **Two questions are open with John:**
-       - the threshold for the per-Lantern picks (provisionally 4);
-       - the interim icons.
-     - **Once John approves, the commit here (where the next step begins):**
+     - **John's answers (21 Nov):**
+       - the per-Lantern picks take arcs rated 5 only ("5 only");
+       - the interim icons are used until stage 8 ("Use them").
+     - **The commit's steps** (sub-era 1; later sub-eras need only step 1's data files and step 4):
        1. copy `stage2/dataset.json` over `dataset.json`, `stage2/data/eras/` into `data/eras/`, and `stage2/icons/*.png` into `icons/`;
        2. delete the starter's generated `data.js`, so the first build is v1 and the starter's five demo ids aren't treated as saved progress (they lived under the key `starter`);
        3. `git rm FEATURE-INVENTORY.md`; the docs test allows it once the key isn't `starter`; update `CLAUDE.md`'s repo map;
        4. `python3 tools/build.py`, `--check`, the gate, both suites.
 
-       Tried in a scratch copy: build fresh, gate 0 warnings, harness 1762, layout 470, 0 failed.
+       Done: built v1 (`5e2e702217ef`), 40 rows; the gate passed with 0 warnings. Its data is the same as the build the order checks read, apart from the build hash (the icons count in it).
+     - **Next: sub-era 2, the Sinestro Corps War** (8 stage-2 rows in stage 1's order). Run `stage2.py sinestro-corps-war` with `GL_REPO` at this branch's latest pushed commit. Its check confirms sub-era 1's committed file is byte for byte the draft's.
 
 ## Decisions (John)
 - **14 Nov, question forms:**
@@ -129,6 +134,10 @@ Built on Pull-List-template v3: copied at template `f7ae723`, then template T0 a
     - the depths must nest with a character chosen (a bug);
     - John's decision: "if none of the chosen characters has any core picks (for Green Lantern: Green Arrow, the Indigo Tribe, the Star Sapphires), ★ and Barebones fall back to the overall core, as with no character chosen. With several chosen, only those with picks count."
   - Both merged (Research-Repo#6, template #13): "Copy T1 + T2 into Green-Lantern, record the template commit, and start stage 2. Send each sub-era's report to me before its rows are committed."
+  - Sub-era 1 (Rebirth), question form:
+    - per-Lantern picks, "5 only": a Lantern's picks are the CORE-path issues they're in, plus their lead arcs rated 5;
+    - the interim icons, "Use them";
+    - "Approved: commit".
 - **20 Nov:**
   - Answers: New Guardians #20 before Red Lanterns #20; for T6, Hal Jordan and the GLC: Rebirth #1 just before Green Lanterns: Rebirth #1.
   - T6's design note approved, with the four recommendations.
@@ -157,7 +166,7 @@ Built on Pull-List-template v3: copied at template `f7ae723`, then template T0 a
 |---|---|---|
 | 0 | Setup | done and pushed (15 Nov) |
 | 1 | Arc spine | approved (20 Nov); Research-Repo#6 merged (`a43c300`, 21 Nov) |
-| 2 | Core spine (goes live as v1) | sub-era 1 (Rebirth) reported to John, 21 Nov |
+| 2 | Core spine (goes live as v1) | sub-era 1 (Rebirth) approved and committed, 21 Nov; 12 to go |
 | 3 | Green Lantern Corps and New Guardians | — |
 | 4 | Spectrum spin-offs | — |
 | 5 | Canonical events, with T3 | — |

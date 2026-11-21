@@ -166,7 +166,7 @@ a running log of what it did, and a word-for-word archive of the session.
 | `README.md`, `BUILD-NOTES.md`, `MIGRATING.md`, `.claude/skills/comic-tracker-build/` | start a tracker; conventions; migrating; the Skill. `25-docs` checks every path and command they name |
 | `test/layout/` | real-Chromium suites (`npm run test:layout`): overflow sweep, motion, fonts, the rule finder, contrast, Pull vs X-Men (`ref/`), the v9 frame's guard (47-frame-v9). Same runner; CI runs it |
 | `test/run.js` | the harness; `test/suites/*.test.js`; `test/fixtures/` (`basic`, `no-periods`, `mixed` formats, `minimal` (comics only, one era, no extras), `pull-ref` (the X-Men comparison's data), `sig-v9` (the v9 frame's guard), `broken/*`, `gate/*`); `test/lib/colour.js`, the tests' own copy of the colour maths (OKLCH, the sRGB gamut, contrast) |
-| `FEATURE-INVENTORY.md` | the parity checklist — v3 is not done until every line is present or dropped with a reason |
+| `FEATURE-INVENTORY.md` | the template's parity checklist; this tracker dropped its copy at stage 2 (21 Nov), as planned (`25-docs` allows that once the key isn't `starter`) |
 
 ## Data rules (v3)
 - **`id` is the progress key and never changes.** Migrated trackers keep their old
