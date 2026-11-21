@@ -64,7 +64,27 @@ Built on Pull-List-template v3: copied at template `f7ae723`, then template T0 a
        - `24-workbook`'s `String.fromCharCode(64 + n)` must become a real column name: the sheet passes 26 columns.
      - **Tests:** `20-build`, a new `9m-scoped-core`, `9f-visibility` and `92-filters`.
      - **Docs:** `BUILD-NOTES.md` and the template's `PROGRESS.md`.
-  3. **Stage 2,** sub-era by sub-era: `dataset.json` takes the key `green-lantern`, and `FEATURE-INVENTORY.md` is dropped.
+  3. **Stage 2, sub-era by sub-era (started 21 Nov).** Each sub-era's report goes to John, and its rows are committed only after he approves it (John, 21 Nov).
+     - **The research:** Research-Repo `sessions/2026-11-14-green-lantern/`, branch `claude/awesome-brahmagupta-89pq1z` at `d4ae921` (no pull request yet).
+       - `appearances.py`: presence, graded by the plan's written rule.
+       - `stage2.py`: the sub-era's rows in this repo's layout, from stage 1's approved order. It builds them with this repo's `tools/build.py` and checks the order read back.
+       - `verify_order.py --subset`: the independent pass.
+       - `report_stage2.py`: the report and the phone page.
+       - `rebuild_check_stage2.sh`: the offline rebuild check.
+     - **Sub-era 1, Rebirth:** report with John (21 Nov): `change-report-stage2-rebirth.md`, plus the phone page.
+       - 40 rows: Green Lantern: Rebirth #1–6, Green Lantern (2005) #1–20, Ion #1–12, Guy Gardner: Collateral Damage #1–2.
+       - The order equals stage 1's; independent pass 40 checked, 0 mismatches.
+       - Rebuilds offline, 10 of 10 files identical.
+     - **Two questions are open with John:**
+       - the threshold for the per-Lantern picks (provisionally 4);
+       - the interim icons.
+     - **Once John approves, the commit here (where the next step begins):**
+       1. copy `stage2/dataset.json` over `dataset.json`, `stage2/data/eras/` into `data/eras/`, and `stage2/icons/*.png` into `icons/`;
+       2. delete the starter's generated `data.js`, so the first build is v1 and the starter's five demo ids aren't treated as saved progress (they lived under the key `starter`);
+       3. `git rm FEATURE-INVENTORY.md`; the docs test allows it once the key isn't `starter`; update `CLAUDE.md`'s repo map;
+       4. `python3 tools/build.py`, `--check`, the gate, both suites.
+
+       Tried in a scratch copy: build fresh, gate 0 warnings, harness 1762, layout 470, 0 failed.
 
 ## Decisions (John)
 - **14 Nov, question forms:**
@@ -137,7 +157,7 @@ Built on Pull-List-template v3: copied at template `f7ae723`, then template T0 a
 |---|---|---|
 | 0 | Setup | done and pushed (15 Nov) |
 | 1 | Arc spine | approved (20 Nov); Research-Repo#6 merged (`a43c300`, 21 Nov) |
-| 2 | Core spine (goes live as v1) | — |
+| 2 | Core spine (goes live as v1) | sub-era 1 (Rebirth) reported to John, 21 Nov |
 | 3 | Green Lantern Corps and New Guardians | — |
 | 4 | Spectrum spin-offs | — |
 | 5 | Canonical events, with T3 | — |
