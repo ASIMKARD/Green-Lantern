@@ -1,0 +1,343 @@
+{
+ "$schema": "../../schema/era-file.schema.json",
+ "era": "sinestro-corps-war",
+ "rows": [
+  {
+   "issueId": "green-lantern-2005-21",
+   "series": "Green Lantern",
+   "vol": "2005",
+   "num": "21",
+   "title": "Green Lantern (2005) #21",
+   "arc": "green-lantern-the-sinestro-corps-war",
+   "date": {
+    "cover": "2007-09",
+    "source": "DC Database, \"Green Lantern Vol 4 21\" (rev 3993418, fetched 2026-11-15): cover date 2007-09"
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Ivan Reis"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "minor"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "minor"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "minor"
+    }
+   ],
+   "core": true,
+   "coreFor": [
+    "hal-jordan",
+    "john-stewart",
+    "guy-gardner",
+    "kyle-rayner"
+   ]
+  },
+  {
+   "issueId": "green-lantern-2005-22",
+   "series": "Green Lantern",
+   "vol": "2005",
+   "num": "22",
+   "title": "Green Lantern (2005) #22",
+   "arc": "green-lantern-the-sinestro-corps-war",
+   "date": {
+    "cover": "2007-10",
+    "source": "DC Database, \"Green Lantern Vol 4 22\" (rev 3993419, fetched 2026-11-15): cover date 2007-10"
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Ivan Reis"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "minor"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "minor"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "minor"
+    }
+   ],
+   "core": true,
+   "coreFor": [
+    "hal-jordan",
+    "john-stewart",
+    "guy-gardner",
+    "kyle-rayner"
+   ]
+  },
+  {
+   "issueId": "green-lantern-2005-23",
+   "series": "Green Lantern",
+   "vol": "2005",
+   "num": "23",
+   "title": "Green Lantern (2005) #23",
+   "arc": "green-lantern-the-sinestro-corps-war",
+   "date": {
+    "cover": "2007-11",
+    "source": "DC Database, \"Green Lantern Vol 4 23\" (rev 3993421, fetched 2026-11-15): cover date 2007-11"
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Ivan Reis"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "minor"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "minor"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "minor"
+    }
+   ],
+   "core": true,
+   "coreFor": [
+    "hal-jordan",
+    "john-stewart",
+    "guy-gardner",
+    "kyle-rayner"
+   ]
+  },
+  {
+   "issueId": "green-lantern-2005-24",
+   "series": "Green Lantern",
+   "vol": "2005",
+   "num": "24",
+   "title": "Green Lantern (2005) #24",
+   "arc": "green-lantern-the-sinestro-corps-war",
+   "date": {
+    "cover": "2007-12",
+    "source": "DC Database, \"Green Lantern Vol 4 24\" (rev 3993423, fetched 2026-11-15): cover date 2007-12"
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Ivan Reis"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "minor"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "minor"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "minor"
+    }
+   ],
+   "core": true,
+   "coreFor": [
+    "hal-jordan",
+    "john-stewart",
+    "guy-gardner",
+    "kyle-rayner"
+   ]
+  },
+  {
+   "issueId": "green-lantern-2005-25",
+   "series": "Green Lantern",
+   "vol": "2005",
+   "num": "25",
+   "title": "Green Lantern (2005) #25",
+   "arc": "green-lantern-the-sinestro-corps-war",
+   "date": {
+    "cover": "2008-01",
+    "source": "DC Database, \"Green Lantern Vol 4 25\" (rev 3993425, fetched 2026-11-15): cover date 2008-01"
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Ivan Reis",
+     "Ethan Van Sciver"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "major"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "major"
+    },
+    {
+     "who": "green-arrow",
+     "grade": "minor"
+    },
+    {
+     "who": "indigo-tribe",
+     "grade": "minor"
+    },
+    {
+     "who": "star-sapphires",
+     "grade": "minor"
+    }
+   ],
+   "core": true,
+   "coreFor": [
+    "hal-jordan",
+    "john-stewart",
+    "guy-gardner",
+    "kyle-rayner"
+   ]
+  },
+  {
+   "issueId": "green-lantern-2005-26",
+   "series": "Green Lantern",
+   "vol": "2005",
+   "num": "26",
+   "title": "Green Lantern (2005) #26",
+   "arc": "green-lantern-the-alpha-lanterns",
+   "date": {
+    "cover": "2008-02",
+    "onsale": "2007-12-28",
+    "source": "DC Database, \"Green Lantern Vol 4 26\" (rev 3993454, fetched 2026-11-15): cover date 2008-02"
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Mike McKone"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "minor"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2005-27",
+   "series": "Green Lantern",
+   "vol": "2005",
+   "num": "27",
+   "title": "Green Lantern (2005) #27",
+   "arc": "green-lantern-the-alpha-lanterns",
+   "date": {
+    "cover": "2008-03",
+    "source": "DC Database, \"Green Lantern Vol 4 27\" (rev 3993456, fetched 2026-11-15): cover date 2008-03"
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Mike McKone"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "minor"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2005-28",
+   "series": "Green Lantern",
+   "vol": "2005",
+   "num": "28",
+   "title": "Green Lantern (2005) #28",
+   "arc": "green-lantern-the-alpha-lanterns",
+   "date": {
+    "cover": "2008-04",
+    "source": "DC Database, \"Green Lantern Vol 4 28\" (rev 3993457, fetched 2026-11-15): cover date 2008-04"
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Mike McKone"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "minor"
+    }
+   ]
+  }
+ ]
+}

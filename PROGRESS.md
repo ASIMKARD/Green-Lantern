@@ -90,13 +90,15 @@ Built on Pull-List-template v3: copied at template `f7ae723`, then template T0 a
 
        Done: built v1 (`5e2e702217ef`), 40 rows; the gate passed with 0 warnings. Its data is the same as the build the order checks read, apart from the build hash (the icons count in it).
      - **Sub-era 1's commit:** `2e89122`, CI green.
-     - **Sub-era 2, the Sinestro Corps War: report with John (21 Nov).**
+     - **Sub-era 2, the Sinestro Corps War: approved (John, 22 Nov) and committed.**
        - 8 rows: Green Lantern (2005) #21–28; ★ #21–25.
        - The order equals stage 1's; independent pass 48 / 0 mismatches. Sub-era 1's committed file is byte for byte the draft's.
        - Research-Repo `c241ee9`.
        - Tried in a scratch copy: gate 0 warnings, harness 1764, layout 470, 0 failed.
        - No questions.
-       - **Once John approves:** copy `stage2/dataset.json` and `stage2/data/eras/5010-sinestro-corps-war.json` in; build, `--check`, the gate, both suites; commit and push. Then sub-era 3, Secret Origin to Agent Orange.
+       - Built v2 (`1bd4f87756fb`, the same hash as the build the checks read); gate 0 warnings.
+     - **Per-Lantern picks (John, 22 Nov):** threshold 5 stays. For a Lantern left with few picks (Simon Baz, Jessica Cruz), propose their best arcs by hand, with sources, in that sub-era's report for John to approve (`stage2-decisions.json`, `corefor.hand_picks`).
+     - **Next: sub-era 3, Secret Origin to Agent Orange** (14 stage-2 rows). Run `stage2.py secret-origin` with `GL_REPO` at this branch's latest pushed commit.
 
 ## Decisions (John)
 - **14 Nov, question forms:**
@@ -145,6 +147,9 @@ Built on Pull-List-template v3: copied at template `f7ae723`, then template T0 a
     - per-Lantern picks, "5 only": a Lantern's picks are the CORE-path issues they're in, plus their lead arcs rated 5;
     - the interim icons, "Use them";
     - "Approved: commit".
+- **22 Nov:**
+  - Sub-era 2 (the Sinestro Corps War): "Approved: commit".
+  - "On per-Lantern picks: keep 5 only, and for a Lantern left with few picks (Simon Baz, Jessica Cruz), propose their best arcs by hand, with sources, in that sub-era's report for me to approve."
 - **20 Nov:**
   - Answers: New Guardians #20 before Red Lanterns #20; for T6, Hal Jordan and the GLC: Rebirth #1 just before Green Lanterns: Rebirth #1.
   - T6's design note approved, with the four recommendations.
@@ -173,7 +178,7 @@ Built on Pull-List-template v3: copied at template `f7ae723`, then template T0 a
 |---|---|---|
 | 0 | Setup | done and pushed (15 Nov) |
 | 1 | Arc spine | approved (20 Nov); Research-Repo#6 merged (`a43c300`, 21 Nov) |
-| 2 | Core spine (goes live as v1) | sub-era 1 committed (21 Nov); sub-era 2 reported to John; 11 to go |
+| 2 | Core spine (goes live as v1) | sub-eras 1–2 committed (21–22 Nov); 11 to go |
 | 3 | Green Lantern Corps and New Guardians | — |
 | 4 | Spectrum spin-offs | — |
 | 5 | Canonical events, with T3 | — |

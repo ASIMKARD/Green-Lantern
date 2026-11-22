@@ -6,7 +6,7 @@
   "wordmark": "Green Lantern",
   "title": "Green Lantern — Reading Order",
   "strapline": "From Green Lantern: Rebirth (2004) on",
-  "span": "2004–2007",
+  "span": "2004–2008",
   "theme": "#0B5D33",
   "strictCredits": true
  },
@@ -15,6 +15,11 @@
    "id": "rebirth",
    "name": "Rebirth",
    "rank": 5000
+  },
+  {
+   "id": "sinestro-corps-war",
+   "name": "The Sinestro Corps War",
+   "rank": 5010
   }
  ],
  "periods": [
@@ -23,7 +28,8 @@
    "name": "The Johns era",
    "label": "2004–2013",
    "eras": [
-    "rebirth"
+    "rebirth",
+    "sinestro-corps-war"
    ]
   }
  ],
@@ -65,6 +71,10 @@
   {
    "id": "green-arrow",
    "name": "Green Arrow"
+  },
+  {
+   "id": "indigo-tribe",
+   "name": "The Indigo Tribe"
   },
   {
    "id": "star-sapphires",
@@ -237,6 +247,51 @@
    }
   },
   {
+   "id": "green-lantern-the-sinestro-corps-war",
+   "name": "The Sinestro Corps War",
+   "era": "sinestro-corps-war",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Barebones",
+   "importance": 5,
+   "year": "2007",
+   "blurb": "Collected in Green Lantern: The Sinestro Corps War Vol. 1 (2008).",
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Ivan Reis",
+     "Ethan Van Sciver"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-the-alpha-lanterns",
+   "name": "The Alpha-Lanterns",
+   "era": "sinestro-corps-war",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 4,
+   "year": "2008",
+   "blurb": "Collected in Green Lantern: Rage of the Red Lanterns (None).",
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Mike McKone"
+    ]
+   }
+  },
+  {
    "id": "ion-ion-the-torchbearer",
    "name": "Ion: The Torchbearer",
    "era": "rebirth",
@@ -308,7 +363,8 @@
   }
  ],
  "sources": [
-  "data/eras/5000-rebirth.json"
+  "data/eras/5000-rebirth.json",
+  "data/eras/5010-sinestro-corps-war.json"
  ],
  "maintenance": [
   "Stage 2 (Green Lantern #1): the core spine, sub-era by sub-era. Each sub-era's rows are committed after John approves its report. Rows come from Research-Repo sessions/2026-11-14-green-lantern/ (stage2.py)."
