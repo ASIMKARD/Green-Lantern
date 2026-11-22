@@ -1,6 +1,6 @@
 # Green Lantern — progress
 
-Built on Pull-List-template v3: copied at template `f7ae723`, then template T0 at `9aac63d` (15 Nov 2026), then T1 + T2 at `b9a0128` (21 Nov). The approved plan is
+Built on Pull-List-template v3: copied at template `f7ae723`, then template T0 at `9aac63d` (15 Nov 2026), then T1 + T2 at `b9a0128` (21 Nov), then T7 at `d5c1585` (22 Nov). The approved plan is
 `PLAN.md`; the rules are `CLAUDE.md`. Sessions: Green Lantern #1 (14–21 Nov), its log in Master-Repo
 `log/green-lantern-1.md`.
 
@@ -112,7 +112,8 @@ Built on Pull-List-template v3: copied at template `f7ae723`, then template T0 a
          - `.erasel` and `.sgrp` take `min-width: 0; max-width: 100%`.
          - `10-sweep`'s long-era check now covers every control on the List and in Settings. It was written first and fails on the old CSS.
          - Template harness 1765, layout 472, 0 failed. Sub-eras 1–3 with the fix: `10-sweep` 313, 0 failed.
-       - **Where it resumes, once John merges #14:**
+       - **T7 merged (John, 22 Nov) as template `d5c1585`, and copied in.** Its three files (`styles.css`, `test/layout/10-sweep.test.js`, `BUILD-NOTES.md`) were checked identical to the template's before T7, then taken as they are. The rebuilt data is unchanged.
+       - **The steps for sub-era 3** (step 1 is done):
          1. copy the template's `styles.css`, `test/layout/10-sweep.test.js` and `BUILD-NOTES.md` into this repo, and record the template commit here and in `CLAUDE.md`;
          2. copy `stage2/dataset.json` and `stage2/data/eras/5020-secret-origin.json` in (Research-Repo `f397095`);
          3. build, `--check`, the gate, both suites (layout expected 472); commit and push.
@@ -168,6 +169,7 @@ Built on Pull-List-template v3: copied at template `f7ae723`, then template T0 a
   - Sub-era 2 (the Sinestro Corps War): "Approved: commit".
   - "On per-Lantern picks: keep 5 only, and for a Lantern left with few picks (Simon Baz, Jessica Cruz), propose their best arcs by hand, with sources, in that sub-era's report for me to approve."
   - The Mark range fix: "Template change T7". Sub-era 3: "Approved: commit after fix".
+  - T7 merged (#14, `d5c1585`). "T6 after stage 2's sub-eras is fine, but it must be merged before go-live v1."
 - **20 Nov:**
   - Answers: New Guardians #20 before Red Lanterns #20; for T6, Hal Jordan and the GLC: Rebirth #1 just before Green Lanterns: Rebirth #1.
   - T6's design note approved, with the four recommendations.
@@ -189,8 +191,7 @@ Built on Pull-List-template v3: copied at template `f7ae723`, then template T0 a
 - **Stage 5, collections as chapter order** (John, 20 Nov): judge interleaving around the pair, meaning both series alternate near the two issues, not anywhere in the book.
   - A book that interleaves one story but prints others as blocks shouldn't count as chapter order for the blocks. Example: Green Lantern by Geoff Johns Omnibus Vol. 1 interleaves the Sinestro Corps War but prints Recharge #1–5 before Green Lantern (2005) #1–20.
   - Write it into `collections.py`'s rule at stage 5 (in that stage's own research folder); nothing in stage 1 changes.
-- **T6** (John, 18 Nov): a row placed after or before another issue by a cited note, keeping its true date; Publication order ignores it; a placement that crosses its own series isn't applied but listed. The design note (`t6-design.md` in the Research-Repo session folder) also gives a clean release order. **Approved, 20 Nov**, with its four recommendations: "between A and B" lands nearest the row's own date; the release date is `date.order` with a citation; "before the epilogue of" places the row before the whole issue; the "Placed after …" line shows. Its own template PR, after T1 + T2.
-- **T7** (John, 22 Nov): the era selects (Mark era, Mark range, Jump to an era) shrink to fit their row, so a long sub-era name can't push one past its Settings section. Built: ASIMKARD/Pull-List-template#14 (`8fbcc32`), for John to merge; Green Lantern's sub-era 3 waits for it.
+- **T6** (John, 18 Nov): a row placed after or before another issue by a cited note, keeping its true date; Publication order ignores it; a placement that crosses its own series isn't applied but listed. The design note (`t6-design.md` in the Research-Repo session folder) also gives a clean release order. **Approved, 20 Nov**, with its four recommendations: "between A and B" lands nearest the row's own date; the release date is `date.order` with a citation; "before the epilogue of" places the row before the whole issue; the "Placed after …" line shows. Its own template PR, after T1 + T2. **When (John, 22 Nov):** after stage 2's sub-eras, and merged before go-live v1.
 
 ## Stages (from `PLAN.md`)
 | # | Stage | State |

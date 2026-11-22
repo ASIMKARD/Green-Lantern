@@ -1,7 +1,7 @@
 # CLAUDE.md — read this before touching anything
 
 This is the **Green Lantern** tracker, built on Pull-List-template v3 (copied at template
-`f7ae723`; template T0 at `9aac63d`; T1 + T2 at `b9a0128`). Where the work stands and where the next step begins: `PROGRESS.md`. The approved
+`f7ae723`; template T0 at `9aac63d`; T1 + T2 at `b9a0128`; T7 at `d5c1585`). Where the work stands and where the next step begins: `PROGRESS.md`. The approved
 plan: `PLAN.md`.
 
 ## Repo rules (read first, every session)
