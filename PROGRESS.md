@@ -99,7 +99,7 @@ Built on Pull-List-template v3: copied at template `f7ae723`, then template T0 a
        - Built v2 (`1bd4f87756fb`, the same hash as the build the checks read); gate 0 warnings.
      - **Per-Lantern picks (John, 22 Nov):** threshold 5 stays. For a Lantern left with few picks (Simon Baz, Jessica Cruz), propose their best arcs by hand, with sources, in that sub-era's report for John to approve (`stage2-decisions.json`, `corefor.hand_picks`).
      - **Sub-era 2's commit:** `813e1c6`, CI green.
-     - **Sub-era 3, Secret Origin to Agent Orange: report with John (22 Nov). Blocked by a template layout bug.**
+     - **Sub-era 3, Secret Origin to Agent Orange: approved by John (22 Nov), to be committed once T7 is in.**
        - 14 rows: Green Lantern (2005) #29–42.
        - The order equals stage 1's; independent pass 62 / 0 mismatches.
        - ★: Secret Origin (#29–35) and Agent Orange (#39–42).
@@ -108,10 +108,14 @@ Built on Pull-List-template v3: copied at template `f7ae723`, then template T0 a
          - `10-sweep` finds Settings → Mark range's end select (`#bulkTo`) cut off by its section at 320 px (9 px; 46 px with large text) and at 360 px with large text (6 px).
          - A select is as wide as its longest option, and "Secret Origin to Agent Orange" (29 characters) is the longest sub-era name so far. Later names run to 40.
          - The cause is the template's CSS: `.erasel` has no `max-width`, and `.sgrp` keeps "through" and the select on one line.
-       - **Put to John:** a template change (T7) so the era selects shrink to fit their row, or shorter names. The rows wait for his answer and for the fix.
-       - **Where it resumes:**
-         - **If T7:** template branch from `main` `b9a0128`, the CSS fix in `styles.css` (`.erasel`, `.sgrp`), and a long sub-era name in the fixture the sweep runs on, proved by putting the bug back; template PR; John merges; copy into this repo.
-         - **Then:** copy `stage2/dataset.json` and `stage2/data/eras/5020-secret-origin.json` in; build, the gate, both suites; commit.
+       - **John chose template change T7 (22 Nov), now ASIMKARD/Pull-List-template#14** (`8fbcc32`, CI green on the push and the PR).
+         - `.erasel` and `.sgrp` take `min-width: 0; max-width: 100%`.
+         - `10-sweep`'s long-era check now covers every control on the List and in Settings. It was written first and fails on the old CSS.
+         - Template harness 1765, layout 472, 0 failed. Sub-eras 1–3 with the fix: `10-sweep` 313, 0 failed.
+       - **Where it resumes, once John merges #14:**
+         1. copy the template's `styles.css`, `test/layout/10-sweep.test.js` and `BUILD-NOTES.md` into this repo, and record the template commit here and in `CLAUDE.md`;
+         2. copy `stage2/dataset.json` and `stage2/data/eras/5020-secret-origin.json` in (Research-Repo `f397095`);
+         3. build, `--check`, the gate, both suites (layout expected 472); commit and push.
 
 ## Decisions (John)
 - **14 Nov, question forms:**
@@ -163,6 +167,7 @@ Built on Pull-List-template v3: copied at template `f7ae723`, then template T0 a
 - **22 Nov:**
   - Sub-era 2 (the Sinestro Corps War): "Approved: commit".
   - "On per-Lantern picks: keep 5 only, and for a Lantern left with few picks (Simon Baz, Jessica Cruz), propose their best arcs by hand, with sources, in that sub-era's report for me to approve."
+  - The Mark range fix: "Template change T7". Sub-era 3: "Approved: commit after fix".
 - **20 Nov:**
   - Answers: New Guardians #20 before Red Lanterns #20; for T6, Hal Jordan and the GLC: Rebirth #1 just before Green Lanterns: Rebirth #1.
   - T6's design note approved, with the four recommendations.
@@ -185,13 +190,14 @@ Built on Pull-List-template v3: copied at template `f7ae723`, then template T0 a
   - A book that interleaves one story but prints others as blocks shouldn't count as chapter order for the blocks. Example: Green Lantern by Geoff Johns Omnibus Vol. 1 interleaves the Sinestro Corps War but prints Recharge #1–5 before Green Lantern (2005) #1–20.
   - Write it into `collections.py`'s rule at stage 5 (in that stage's own research folder); nothing in stage 1 changes.
 - **T6** (John, 18 Nov): a row placed after or before another issue by a cited note, keeping its true date; Publication order ignores it; a placement that crosses its own series isn't applied but listed. The design note (`t6-design.md` in the Research-Repo session folder) also gives a clean release order. **Approved, 20 Nov**, with its four recommendations: "between A and B" lands nearest the row's own date; the release date is `date.order` with a citation; "before the epilogue of" places the row before the whole issue; the "Placed after …" line shows. Its own template PR, after T1 + T2.
+- **T7** (John, 22 Nov): the era selects (Mark era, Mark range, Jump to an era) shrink to fit their row, so a long sub-era name can't push one past its Settings section. Built: ASIMKARD/Pull-List-template#14 (`8fbcc32`), for John to merge; Green Lantern's sub-era 3 waits for it.
 
 ## Stages (from `PLAN.md`)
 | # | Stage | State |
 |---|---|---|
 | 0 | Setup | done and pushed (15 Nov) |
 | 1 | Arc spine | approved (20 Nov); Research-Repo#6 merged (`a43c300`, 21 Nov) |
-| 2 | Core spine (goes live as v1) | sub-eras 1–2 committed (21–22 Nov); sub-era 3 reported, blocked by a template layout bug; 11 to go |
+| 2 | Core spine (goes live as v1) | sub-eras 1–2 committed (21–22 Nov); sub-era 3 approved, waiting for T7 (Pull-List-template#14); 10 to go after it |
 | 3 | Green Lantern Corps and New Guardians | — |
 | 4 | Spectrum spin-offs | — |
 | 5 | Canonical events, with T3 | — |
