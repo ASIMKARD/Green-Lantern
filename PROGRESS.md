@@ -99,7 +99,7 @@ Built on Pull-List-template v3: copied at template `f7ae723`, then template T0 a
        - Built v2 (`1bd4f87756fb`, the same hash as the build the checks read); gate 0 warnings.
      - **Per-Lantern picks (John, 22 Nov):** threshold 5 stays. For a Lantern left with few picks (Simon Baz, Jessica Cruz), propose their best arcs by hand, with sources, in that sub-era's report for John to approve (`stage2-decisions.json`, `corefor.hand_picks`).
      - **Sub-era 2's commit:** `813e1c6`, CI green.
-     - **Sub-era 3, Secret Origin to Agent Orange: approved by John (22 Nov), to be committed once T7 is in.**
+     - **Sub-era 3, Secret Origin to Agent Orange: approved by John (22 Nov) and committed after T7.** Built v4 (`c3e542ff1537`); 62 rows in stage 1's order; gate 0 warnings; harness 1764, layout 472, 0 failed.
        - 14 rows: Green Lantern (2005) #29–42.
        - The order equals stage 1's; independent pass 62 / 0 mismatches.
        - ★: Secret Origin (#29–35) and Agent Orange (#39–42).
@@ -117,6 +117,7 @@ Built on Pull-List-template v3: copied at template `f7ae723`, then template T0 a
          1. copy the template's `styles.css`, `test/layout/10-sweep.test.js` and `BUILD-NOTES.md` into this repo, and record the template commit here and in `CLAUDE.md`;
          2. copy `stage2/dataset.json` and `stage2/data/eras/5020-secret-origin.json` in (Research-Repo `f397095`);
          3. build, `--check`, the gate, both suites (layout expected 472); commit and push.
+     - **Next: sub-era 4, Blackest Night** (10 stage-2 rows: Green Lantern (2005) #43–52). Run `stage2.py blackest-night` with `GL_REPO` at this branch's latest pushed commit.
 
 ## Decisions (John)
 - **14 Nov, question forms:**
@@ -198,7 +199,7 @@ Built on Pull-List-template v3: copied at template `f7ae723`, then template T0 a
 |---|---|---|
 | 0 | Setup | done and pushed (15 Nov) |
 | 1 | Arc spine | approved (20 Nov); Research-Repo#6 merged (`a43c300`, 21 Nov) |
-| 2 | Core spine (goes live as v1) | sub-eras 1–2 committed (21–22 Nov); sub-era 3 approved, waiting for T7 (Pull-List-template#14); 10 to go after it |
+| 2 | Core spine (goes live as v1) | sub-eras 1–3 committed (21–22 Nov); 10 to go; then T6, merged before go-live v1 |
 | 3 | Green Lantern Corps and New Guardians | — |
 | 4 | Spectrum spin-offs | — |
 | 5 | Canonical events, with T3 | — |

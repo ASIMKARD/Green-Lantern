@@ -6,7 +6,7 @@
   "wordmark": "Green Lantern",
   "title": "Green Lantern — Reading Order",
   "strapline": "From Green Lantern: Rebirth (2004) on",
-  "span": "2004–2008",
+  "span": "2004–2009",
   "theme": "#0B5D33",
   "strictCredits": true
  },
@@ -20,6 +20,11 @@
    "id": "sinestro-corps-war",
    "name": "The Sinestro Corps War",
    "rank": 5010
+  },
+  {
+   "id": "secret-origin",
+   "name": "Secret Origin to Agent Orange",
+   "rank": 5020
   }
  ],
  "periods": [
@@ -29,12 +34,14 @@
    "label": "2004–2013",
    "eras": [
     "rebirth",
-    "sinestro-corps-war"
+    "sinestro-corps-war",
+    "secret-origin"
    ]
   }
  ],
  "strands": [
-  "Green Lantern"
+  "Green Lantern",
+  "Red Lanterns"
  ],
  "types": [
   "MAIN",
@@ -292,6 +299,51 @@
    }
   },
   {
+   "id": "green-lantern-secret-origin",
+   "name": "Secret Origin",
+   "era": "secret-origin",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Barebones",
+   "importance": 5,
+   "year": "2008",
+   "blurb": "Collected in Green Lantern: Secret Origin (2008).",
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Ivan Reis"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-agent-orange",
+   "name": "Agent Orange",
+   "era": "secret-origin",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Barebones",
+   "importance": 5,
+   "year": "2009",
+   "blurb": "Collected in Green Lantern: Agent Orange (2009).",
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Philip Tan",
+     "Eddy Barrows"
+    ]
+   }
+  },
+  {
    "id": "ion-ion-the-torchbearer",
    "name": "Ion: The Torchbearer",
    "era": "rebirth",
@@ -360,11 +412,36 @@
      "Howard Chaykin"
     ]
    }
+  },
+  {
+   "id": "rage-of-the-red-lanterns",
+   "name": "Rage of the Red Lanterns",
+   "era": "secret-origin",
+   "strands": [
+    "Red Lanterns",
+    "Green Lantern"
+   ],
+   "type": "SPIN-OFF",
+   "mo": "O",
+   "tier": "Everything",
+   "importance": 4,
+   "year": "2008",
+   "blurb": "Collected in Green Lantern: Rage of the Red Lanterns (2009).",
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Ivan Reis",
+     "Shane Davis"
+    ]
+   }
   }
  ],
  "sources": [
   "data/eras/5000-rebirth.json",
-  "data/eras/5010-sinestro-corps-war.json"
+  "data/eras/5010-sinestro-corps-war.json",
+  "data/eras/5020-secret-origin.json"
  ],
  "maintenance": [
   "Stage 2 (Green Lantern #1): the core spine, sub-era by sub-era. Each sub-era's rows are committed after John approves its report. Rows come from Research-Repo sessions/2026-11-14-green-lantern/ (stage2.py)."
