@@ -118,14 +118,14 @@ Built on Pull-List-template v3: copied at template `f7ae723`, then template T0 a
          2. copy `stage2/dataset.json` and `stage2/data/eras/5020-secret-origin.json` in (Research-Repo `f397095`);
          3. build, `--check`, the gate, both suites (layout expected 472); commit and push.
      - **Sub-era 3's commit:** `b4a1c27`, CI green.
-     - **Sub-era 4, Blackest Night: report with John (22 Nov).**
+     - **Sub-era 4, Blackest Night: approved (John, 23 Nov) and committed.** Built v5 (`ed20ba5dc2af`); 72 rows in stage 1's order; gate 0 warnings.
        - 10 rows: Green Lantern (2005) #43–52.
        - The order equals stage 1's; independent pass 72 / 0 mismatches. Sub-eras 1–3's committed files are byte for byte the draft's.
        - ★: the nine Blackest Night chapters. #49 is Tales of the Corps, rated 4.
        - Research-Repo `ff0dc1a`.
        - Tried in a scratch copy: build v5, gate 0 warnings, harness 1764, layout 472, 0 failed.
        - No questions.
-       - **Once John approves:** copy `stage2/dataset.json` and `stage2/data/eras/5030-blackest-night.json` in; build, the gate, both suites; commit. Then sub-era 5, Brightest Day.
+     - **Next: sub-era 5, Brightest Day** (10 stage-2 rows: Green Lantern (2005) #53–62). Check Green Lantern (2005) #61, whose page gave no one on panel (Hal only on the cover).
 
 ## Decisions (John)
 - **14 Nov, question forms:**
@@ -179,6 +179,7 @@ Built on Pull-List-template v3: copied at template `f7ae723`, then template T0 a
   - "On per-Lantern picks: keep 5 only, and for a Lantern left with few picks (Simon Baz, Jessica Cruz), propose their best arcs by hand, with sources, in that sub-era's report for me to approve."
   - The Mark range fix: "Template change T7". Sub-era 3: "Approved: commit after fix".
   - T7 merged (#14, `d5c1585`). "T6 after stage 2's sub-eras is fine, but it must be merged before go-live v1."
+- **23 Nov:** sub-era 4 (Blackest Night): "Approved: commit".
 - **20 Nov:**
   - Answers: New Guardians #20 before Red Lanterns #20; for T6, Hal Jordan and the GLC: Rebirth #1 just before Green Lanterns: Rebirth #1.
   - T6's design note approved, with the four recommendations.
@@ -207,7 +208,7 @@ Built on Pull-List-template v3: copied at template `f7ae723`, then template T0 a
 |---|---|---|
 | 0 | Setup | done and pushed (15 Nov) |
 | 1 | Arc spine | approved (20 Nov); Research-Repo#6 merged (`a43c300`, 21 Nov) |
-| 2 | Core spine (goes live as v1) | sub-eras 1–3 committed (21–22 Nov); sub-era 4 reported; 10 to go; then T6, merged before go-live v1 |
+| 2 | Core spine (goes live as v1) | sub-eras 1–4 committed (21–23 Nov); 9 to go; then T6, merged before go-live v1 |
 | 3 | Green Lantern Corps and New Guardians | — |
 | 4 | Spectrum spin-offs | — |
 | 5 | Canonical events, with T3 | — |

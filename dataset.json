@@ -6,7 +6,7 @@
   "wordmark": "Green Lantern",
   "title": "Green Lantern — Reading Order",
   "strapline": "From Green Lantern: Rebirth (2004) on",
-  "span": "2004–2009",
+  "span": "2004–2010",
   "theme": "#0B5D33",
   "strictCredits": true
  },
@@ -25,6 +25,11 @@
    "id": "secret-origin",
    "name": "Secret Origin to Agent Orange",
    "rank": 5020
+  },
+  {
+   "id": "blackest-night",
+   "name": "Blackest Night",
+   "rank": 5030
   }
  ],
  "periods": [
@@ -35,7 +40,8 @@
    "eras": [
     "rebirth",
     "sinestro-corps-war",
-    "secret-origin"
+    "secret-origin",
+    "blackest-night"
    ]
   }
  ],
@@ -344,6 +350,51 @@
    }
   },
   {
+   "id": "green-lantern-blackest-night-green-lantern",
+   "name": "Blackest Night: Green Lantern",
+   "era": "blackest-night",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Barebones",
+   "importance": 5,
+   "year": "2009",
+   "blurb": "Collected in Blackest Night: Green Lantern (2011).",
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Doug Mahnke"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-tales-of-the-corps",
+   "name": "Tales of the Corps",
+   "era": "blackest-night",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 4,
+   "year": "2010",
+   "blurb": "Collected in Blackest Night: Tales of the Corps (2010).",
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Ed Benes",
+     "Marcos Marz"
+    ]
+   }
+  },
+  {
    "id": "ion-ion-the-torchbearer",
    "name": "Ion: The Torchbearer",
    "era": "rebirth",
@@ -441,7 +492,8 @@
  "sources": [
   "data/eras/5000-rebirth.json",
   "data/eras/5010-sinestro-corps-war.json",
-  "data/eras/5020-secret-origin.json"
+  "data/eras/5020-secret-origin.json",
+  "data/eras/5030-blackest-night.json"
  ],
  "maintenance": [
   "Stage 2 (Green Lantern #1): the core spine, sub-era by sub-era. Each sub-era's rows are committed after John approves its report. Rows come from Research-Repo sessions/2026-11-14-green-lantern/ (stage2.py)."

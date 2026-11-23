@@ -1,0 +1,414 @@
+{
+ "$schema": "../../schema/era-file.schema.json",
+ "era": "blackest-night",
+ "rows": [
+  {
+   "issueId": "green-lantern-2005-43",
+   "series": "Green Lantern",
+   "vol": "2005",
+   "num": "43",
+   "title": "Green Lantern (2005) #43",
+   "arc": "green-lantern-blackest-night-green-lantern",
+   "date": {
+    "cover": "2009-09",
+    "source": "DC Database, \"Green Lantern Vol 4 43\" (rev 3348184, fetched 2026-11-15): cover date 2009-09"
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Doug Mahnke"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "minor"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "minor"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "cameo"
+    },
+    {
+     "who": "green-arrow",
+     "grade": "cameo"
+    }
+   ],
+   "core": true,
+   "coreFor": [
+    "hal-jordan",
+    "john-stewart"
+   ]
+  },
+  {
+   "issueId": "green-lantern-2005-44",
+   "series": "Green Lantern",
+   "vol": "2005",
+   "num": "44",
+   "title": "Green Lantern (2005) #44",
+   "arc": "green-lantern-blackest-night-green-lantern",
+   "date": {
+    "cover": "2009-09",
+    "source": "DC Database, \"Green Lantern Vol 4 44\" (rev 3348875, fetched 2026-11-15): cover date 2009-09"
+   },
+   "seq": 6,
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Doug Mahnke"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "star-sapphires",
+     "grade": "minor"
+    }
+   ],
+   "core": true,
+   "coreFor": [
+    "hal-jordan",
+    "john-stewart"
+   ]
+  },
+  {
+   "issueId": "green-lantern-2005-45",
+   "series": "Green Lantern",
+   "vol": "2005",
+   "num": "45",
+   "title": "Green Lantern (2005) #45",
+   "arc": "green-lantern-blackest-night-green-lantern",
+   "date": {
+    "cover": "2009-10",
+    "source": "DC Database, \"Green Lantern Vol 4 45\" (rev 3635093, fetched 2026-11-15): cover date 2009-10"
+   },
+   "seq": 3,
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Doug Mahnke"
+    ]
+   },
+   "presence": [
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "indigo-tribe",
+     "grade": "minor"
+    },
+    {
+     "who": "star-sapphires",
+     "grade": "minor"
+    }
+   ],
+   "core": true,
+   "coreFor": [
+    "john-stewart"
+   ]
+  },
+  {
+   "issueId": "green-lantern-2005-46",
+   "series": "Green Lantern",
+   "vol": "2005",
+   "num": "46",
+   "title": "Green Lantern (2005) #46",
+   "arc": "green-lantern-blackest-night-green-lantern",
+   "date": {
+    "cover": "2009-11",
+    "source": "DC Database, \"Green Lantern Vol 4 46\" (rev 3635094, fetched 2026-11-15): cover date 2009-11"
+   },
+   "seq": 3,
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Doug Mahnke"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "indigo-tribe",
+     "grade": "minor"
+    },
+    {
+     "who": "star-sapphires",
+     "grade": "minor"
+    }
+   ],
+   "core": true,
+   "coreFor": [
+    "hal-jordan",
+    "john-stewart"
+   ]
+  },
+  {
+   "issueId": "green-lantern-2005-47",
+   "series": "Green Lantern",
+   "vol": "2005",
+   "num": "47",
+   "title": "Green Lantern (2005) #47",
+   "arc": "green-lantern-blackest-night-green-lantern",
+   "date": {
+    "cover": "2009-12",
+    "source": "DC Database, \"Green Lantern Vol 4 47\" (rev 3635095, fetched 2026-11-15): cover date 2009-12"
+   },
+   "seq": 3,
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Doug Mahnke"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "minor"
+    },
+    {
+     "who": "indigo-tribe",
+     "grade": "minor"
+    },
+    {
+     "who": "star-sapphires",
+     "grade": "minor"
+    }
+   ],
+   "core": true,
+   "coreFor": [
+    "hal-jordan",
+    "john-stewart"
+   ]
+  },
+  {
+   "issueId": "green-lantern-2005-48",
+   "series": "Green Lantern",
+   "vol": "2005",
+   "num": "48",
+   "title": "Green Lantern (2005) #48",
+   "arc": "green-lantern-blackest-night-green-lantern",
+   "date": {
+    "cover": "2010-01",
+    "source": "DC Database, \"Green Lantern Vol 4 48\" (rev 3635096, fetched 2026-11-15): cover date 2010-01"
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Doug Mahnke"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "indigo-tribe",
+     "grade": "minor"
+    },
+    {
+     "who": "star-sapphires",
+     "grade": "minor"
+    }
+   ],
+   "core": true,
+   "coreFor": [
+    "hal-jordan"
+   ]
+  },
+  {
+   "issueId": "green-lantern-2005-49",
+   "series": "Green Lantern",
+   "vol": "2005",
+   "num": "49",
+   "title": "Green Lantern (2005) #49",
+   "arc": "green-lantern-tales-of-the-corps",
+   "date": {
+    "cover": "2010-02",
+    "source": "DC Database, \"Green Lantern Vol 4 49\" (rev 3352226, fetched 2026-11-15): cover date 2010-02"
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Ed Benes",
+     "Marcos Marz"
+    ]
+   },
+   "presence": [
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "green-arrow",
+     "grade": "minor"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2005-50",
+   "series": "Green Lantern",
+   "vol": "2005",
+   "num": "50",
+   "title": "Green Lantern (2005) #50",
+   "arc": "green-lantern-blackest-night-green-lantern",
+   "date": {
+    "cover": "2010-03",
+    "source": "DC Database, \"Green Lantern Vol 4 50\" (rev 3635097, fetched 2026-11-15): cover date 2010-03"
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Doug Mahnke"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "indigo-tribe",
+     "grade": "minor"
+    },
+    {
+     "who": "star-sapphires",
+     "grade": "minor"
+    }
+   ],
+   "core": true,
+   "coreFor": [
+    "hal-jordan"
+   ]
+  },
+  {
+   "issueId": "green-lantern-2005-51",
+   "series": "Green Lantern",
+   "vol": "2005",
+   "num": "51",
+   "title": "Green Lantern (2005) #51",
+   "arc": "green-lantern-blackest-night-green-lantern",
+   "date": {
+    "cover": "2010-04",
+    "source": "DC Database, \"Green Lantern Vol 4 51\" (rev 3635098, fetched 2026-11-15): cover date 2010-04"
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Doug Mahnke"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "green-arrow",
+     "grade": "minor"
+    },
+    {
+     "who": "indigo-tribe",
+     "grade": "minor"
+    },
+    {
+     "who": "star-sapphires",
+     "grade": "minor"
+    }
+   ],
+   "core": true,
+   "coreFor": [
+    "hal-jordan"
+   ]
+  },
+  {
+   "issueId": "green-lantern-2005-52",
+   "series": "Green Lantern",
+   "vol": "2005",
+   "num": "52",
+   "title": "Green Lantern (2005) #52",
+   "arc": "green-lantern-blackest-night-green-lantern",
+   "date": {
+    "cover": "2010-05",
+    "source": "DC Database, \"Green Lantern Vol 4 52\" (rev 3635099, fetched 2026-11-15): cover date 2010-05"
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Doug Mahnke"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "indigo-tribe",
+     "grade": "minor"
+    },
+    {
+     "who": "star-sapphires",
+     "grade": "minor"
+    }
+   ],
+   "core": true,
+   "coreFor": [
+    "hal-jordan",
+    "john-stewart"
+   ]
+  }
+ ]
+}
