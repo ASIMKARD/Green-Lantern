@@ -125,7 +125,15 @@ Built on Pull-List-template v3: copied at template `f7ae723`, then template T0 a
        - Research-Repo `ff0dc1a`.
        - Tried in a scratch copy: build v5, gate 0 warnings, harness 1764, layout 472, 0 failed.
        - No questions.
-     - **Next: sub-era 5, Brightest Day** (10 stage-2 rows: Green Lantern (2005) #53–62). Check Green Lantern (2005) #61, whose page gave no one on panel (Hal only on the cover).
+     - **Sub-era 4's commit:** `e2791b8`, CI green.
+     - **Sub-era 5, Brightest Day: report with John (23 Nov).**
+       - 10 rows: Green Lantern (2005) #53–62, the New Guardians arc, all on the CORE path.
+       - The order equals stage 1's; independent pass 82 / 0 mismatches.
+       - #61 has no presence: Atrocitus' story, with Hal on the cover only (rev 3976104). It's a note, not a question.
+       - Research-Repo `f97aa26`.
+       - Tried in a scratch copy: build v6, gate 0 warnings, harness 1764, layout 472, 0 failed.
+       - No questions.
+       - **Once John approves:** copy `stage2/dataset.json` and `stage2/data/eras/5040-brightest-day.json` in; build, the gate, both suites; commit. Then sub-era 6, War of the Green Lanterns.
 
 ## Decisions (John)
 - **14 Nov, question forms:**
@@ -208,7 +216,7 @@ Built on Pull-List-template v3: copied at template `f7ae723`, then template T0 a
 |---|---|---|
 | 0 | Setup | done and pushed (15 Nov) |
 | 1 | Arc spine | approved (20 Nov); Research-Repo#6 merged (`a43c300`, 21 Nov) |
-| 2 | Core spine (goes live as v1) | sub-eras 1–4 committed (21–23 Nov); 9 to go; then T6, merged before go-live v1 |
+| 2 | Core spine (goes live as v1) | sub-eras 1–4 committed (21–23 Nov); sub-era 5 reported; 9 to go; then T6, merged before go-live v1 |
 | 3 | Green Lantern Corps and New Guardians | — |
 | 4 | Spectrum spin-offs | — |
 | 5 | Canonical events, with T3 | — |
