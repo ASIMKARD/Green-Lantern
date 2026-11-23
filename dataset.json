@@ -6,7 +6,7 @@
   "wordmark": "Green Lantern",
   "title": "Green Lantern — Reading Order",
   "strapline": "From Green Lantern: Rebirth (2004) on",
-  "span": "2004–2011",
+  "span": "2004–2013",
   "theme": "#0B5D33",
   "strictCredits": true
  },
@@ -40,6 +40,11 @@
    "id": "war-of-the-green-lanterns",
    "name": "War of the Green Lanterns",
    "rank": 5050
+  },
+  {
+   "id": "new-52",
+   "name": "The New 52: to the First Lantern",
+   "rank": 5060
   }
  ],
  "periods": [
@@ -53,7 +58,8 @@
     "secret-origin",
     "blackest-night",
     "brightest-day",
-    "war-of-the-green-lanterns"
+    "war-of-the-green-lanterns",
+    "new-52"
    ]
   }
  ],
@@ -92,6 +98,14 @@
   {
    "id": "kyle-rayner",
    "name": "Kyle Rayner"
+  },
+  {
+   "id": "simon-baz",
+   "name": "Simon Baz"
+  },
+  {
+   "id": "jessica-cruz",
+   "name": "Jessica Cruz"
   },
   {
    "id": "green-arrow",
@@ -570,6 +584,129 @@
    }
   },
   {
+   "id": "green-lantern-green-lantern-sinestro",
+   "name": "Green Lantern: Sinestro",
+   "era": "new-52",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 4,
+   "year": "2011",
+   "blurb": "Collected in Green Lantern: Sinestro (2012).",
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Doug Mahnke",
+     "Michael Choi"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-revenge-of-the-black-hand",
+   "name": "Revenge of the Black Hand",
+   "era": "new-52",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 4,
+   "year": "2012",
+   "blurb": "Collected in Green Lantern: Revenge of the Black Hand (2013).",
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Doug Mahnke",
+     "Renato Guedes",
+     "Jim Calafiore"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-rise-of-the-third-army",
+   "name": "Rise of the Third Army",
+   "era": "new-52",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Barebones",
+   "importance": 5,
+   "year": "2012",
+   "blurb": "Collected in Green Lantern: The End (2013).",
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Doug Mahnke"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-the-end",
+   "name": "The End",
+   "era": "new-52",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Barebones",
+   "importance": 5,
+   "year": "2013",
+   "blurb": "Collected in Green Lantern: The End (2013).",
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Doug Mahnke",
+     "Szymon Kudranski",
+     "Ardian Syaf",
+     "Dan Jurgens",
+     "Phil Jimenez",
+     "Patrick Gleason",
+     "Cully Hamner",
+     "Aaron Kuder",
+     "Jerry Ordway",
+     "Ivan Reis",
+     "Ethan Van Sciver"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-annual-revenge-of-the-black-hand",
+   "name": "Revenge of the Black Hand",
+   "era": "new-52",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MINI",
+   "mo": "O",
+   "tier": "Everything",
+   "importance": 2,
+   "year": "2012",
+   "blurb": "Collected in Green Lantern: Revenge of the Black Hand (2013).",
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Ethan Van Sciver"
+    ]
+   }
+  },
+  {
    "id": "rage-of-the-red-lanterns",
    "name": "Rage of the Red Lanterns",
    "era": "secret-origin",
@@ -600,7 +737,8 @@
   "data/eras/5020-secret-origin.json",
   "data/eras/5030-blackest-night.json",
   "data/eras/5040-brightest-day.json",
-  "data/eras/5050-war-of-the-green-lanterns.json"
+  "data/eras/5050-war-of-the-green-lanterns.json",
+  "data/eras/5060-new-52.json"
  ],
  "maintenance": [
   "Stage 2 (Green Lantern #1): the core spine, sub-era by sub-era. Each sub-era's rows are committed after John approves its report. Rows come from Research-Repo sessions/2026-11-14-green-lantern/ (stage2.py)."
