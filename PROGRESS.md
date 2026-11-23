@@ -133,7 +133,14 @@ Built on Pull-List-template v3: copied at template `f7ae723`, then template T0 a
        - Research-Repo `f97aa26`.
        - Tried in a scratch copy: build v6, gate 0 warnings, harness 1764, layout 472, 0 failed.
        - No questions.
-     - **Next: sub-era 6, War of the Green Lanterns** (11 stage-2 rows). Run `stage2.py war-of-the-green-lanterns` with `GL_REPO` at this branch's latest pushed commit.
+     - **Sub-era 5's commit:** `bd70645`, CI green.
+     - **Sub-era 6, War of the Green Lanterns: report with John (23 Nov), with one question.**
+       - 11 rows: Green Lantern (2005) #63–67 (★), then Flashpoint: Abin Sur #1–3 and Flashpoint: Hal Jordan #1–3.
+       - The order equals stage 1's; independent pass 93 / 0 mismatches.
+       - **The question:** whether event-timeline versions count in presence. Hal Jordan (Flashpoint Timeline) leads Flashpoint: Hal Jordan, and only New Earth and Prime Earth versions count today. 12 stage-2 rows depend on it: 5 here, Futures End #1, Future State #1–2.
+       - Research-Repo `73e141f`.
+       - Tried in a scratch copy: build v7, gate 0 warnings, harness 1764, layout 472, 0 failed.
+       - **Once John answers:** if timeline versions count, `stage2.py` counts the `timeline` class too (`appearances.json` already holds it), and every sub-era is re-run; committed sub-eras 1–5 have no timeline matches, so their files stay byte for byte. Then copy `stage2/dataset.json` and `stage2/data/eras/5050-war-of-the-green-lanterns.json` in; build, the gate, both suites; commit.
 
 ## Decisions (John)
 - **14 Nov, question forms:**
@@ -216,7 +223,7 @@ Built on Pull-List-template v3: copied at template `f7ae723`, then template T0 a
 |---|---|---|
 | 0 | Setup | done and pushed (15 Nov) |
 | 1 | Arc spine | approved (20 Nov); Research-Repo#6 merged (`a43c300`, 21 Nov) |
-| 2 | Core spine (goes live as v1) | sub-eras 1–5 committed (21–23 Nov); 8 to go; then T6, merged before go-live v1 |
+| 2 | Core spine (goes live as v1) | sub-eras 1–5 committed (21–23 Nov); sub-era 6 reported with a question; 8 to go; then T6, merged before go-live v1 |
 | 3 | Green Lantern Corps and New Guardians | — |
 | 4 | Spectrum spin-offs | — |
 | 5 | Canonical events, with T3 | — |
