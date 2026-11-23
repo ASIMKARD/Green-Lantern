@@ -134,13 +134,15 @@ Built on Pull-List-template v3: copied at template `f7ae723`, then template T0 a
        - Tried in a scratch copy: build v6, gate 0 warnings, harness 1764, layout 472, 0 failed.
        - No questions.
      - **Sub-era 5's commit:** `bd70645`, CI green.
-     - **Sub-era 6, War of the Green Lanterns: report with John (23 Nov), with one question.**
+     - **Sub-era 6, War of the Green Lanterns: approved (John, 23 Nov) and committed, with event-timeline versions counted.**
        - 11 rows: Green Lantern (2005) #63–67 (★), then Flashpoint: Abin Sur #1–3 and Flashpoint: Hal Jordan #1–3.
        - The order equals stage 1's; independent pass 93 / 0 mismatches.
        - **The question:** whether event-timeline versions count in presence. Hal Jordan (Flashpoint Timeline) leads Flashpoint: Hal Jordan, and only New Earth and Prime Earth versions count today. 12 stage-2 rows depend on it: 5 here, Futures End #1, Future State #1–2.
        - Research-Repo `73e141f`.
        - Tried in a scratch copy: build v7, gate 0 warnings, harness 1764, layout 472, 0 failed.
-       - **Once John answers:** if timeline versions count, `stage2.py` counts the `timeline` class too (`appearances.json` already holds it), and every sub-era is re-run; committed sub-eras 1–5 have no timeline matches, so their files stay byte for byte. Then copy `stage2/dataset.json` and `stage2/data/eras/5050-war-of-the-green-lanterns.json` in; build, the gate, both suites; commit.
+       - **John's answer: "Count them".** `stage2.py` now counts the timeline class (`stage2-decisions.json`, `presence`), taking the best grade. Sub-eras 1–5 have no timeline matches, and their committed files are still byte for byte the draft's.
+       - Flashpoint: Hal Jordan #1–3 show Hal (major); Abin Sur #2 Hal (minor); Abin Sur #1 Green Arrow (cameo). Abin Sur #3 has none of the ten.
+     - **Next: sub-era 7, The New 52: to the First Lantern** (22 stage-2 rows). Run `stage2.py new-52` with `GL_REPO` at this branch's latest pushed commit.
 
 ## Decisions (John)
 - **14 Nov, question forms:**
@@ -194,7 +196,9 @@ Built on Pull-List-template v3: copied at template `f7ae723`, then template T0 a
   - "On per-Lantern picks: keep 5 only, and for a Lantern left with few picks (Simon Baz, Jessica Cruz), propose their best arcs by hand, with sources, in that sub-era's report for me to approve."
   - The Mark range fix: "Template change T7". Sub-era 3: "Approved: commit after fix".
   - T7 merged (#14, `d5c1585`). "T6 after stage 2's sub-eras is fine, but it must be merged before go-live v1."
-- **23 Nov:** sub-eras 4 (Blackest Night) and 5 (Brightest Day): "Approved: commit".
+- **23 Nov:**
+  - sub-eras 4 (Blackest Night), 5 (Brightest Day) and 6 (War of the Green Lanterns): "Approved: commit";
+  - event-timeline versions in presence (Flashpoint, Futures End, Future State): "Count them". Counterparts from other worlds stay listed, not counted.
 - **20 Nov:**
   - Answers: New Guardians #20 before Red Lanterns #20; for T6, Hal Jordan and the GLC: Rebirth #1 just before Green Lanterns: Rebirth #1.
   - T6's design note approved, with the four recommendations.
@@ -223,7 +227,7 @@ Built on Pull-List-template v3: copied at template `f7ae723`, then template T0 a
 |---|---|---|
 | 0 | Setup | done and pushed (15 Nov) |
 | 1 | Arc spine | approved (20 Nov); Research-Repo#6 merged (`a43c300`, 21 Nov) |
-| 2 | Core spine (goes live as v1) | sub-eras 1–5 committed (21–23 Nov); sub-era 6 reported with a question; 8 to go; then T6, merged before go-live v1 |
+| 2 | Core spine (goes live as v1) | sub-eras 1–6 committed (21–23 Nov); 7 to go; then T6, merged before go-live v1 |
 | 3 | Green Lantern Corps and New Guardians | — |
 | 4 | Spectrum spin-offs | — |
 | 5 | Canonical events, with T3 | — |

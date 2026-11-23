@@ -35,6 +35,11 @@
    "id": "brightest-day",
    "name": "Brightest Day",
    "rank": 5040
+  },
+  {
+   "id": "war-of-the-green-lanterns",
+   "name": "War of the Green Lanterns",
+   "rank": 5050
   }
  ],
  "periods": [
@@ -47,7 +52,8 @@
     "sinestro-corps-war",
     "secret-origin",
     "blackest-night",
-    "brightest-day"
+    "brightest-day",
+    "war-of-the-green-lanterns"
    ]
   }
  ],
@@ -423,6 +429,30 @@
    }
   },
   {
+   "id": "green-lantern-war-of-the-green-lanterns",
+   "name": "War of the Green Lanterns",
+   "era": "war-of-the-green-lanterns",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Barebones",
+   "importance": 5,
+   "year": "2011",
+   "blurb": "Collected in Green Lantern: War of the Green Lanterns (2011).",
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Doug Mahnke",
+     "Ed Benes",
+     "Ardian Syaf"
+    ]
+   }
+  },
+  {
    "id": "ion-ion-the-torchbearer",
    "name": "Ion: The Torchbearer",
    "era": "rebirth",
@@ -493,6 +523,53 @@
    }
   },
   {
+   "id": "flashpoint-hal-jordan-flashpoint-hal-jordan",
+   "name": "Flashpoint: Hal Jordan",
+   "era": "war-of-the-green-lanterns",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MINI",
+   "mo": "O",
+   "tier": "Everything",
+   "importance": 2,
+   "year": "2011",
+   "blurb": "Collected in The World of Flashpoint Featuring Green Lantern (2012).",
+   "credits": {
+    "writers": [
+     "Adam Schlagman"
+    ],
+    "artists": [
+     "Cliff Richards",
+     "Ben Oliver"
+    ]
+   }
+  },
+  {
+   "id": "flashpoint-abin-sur-the-green-lantern-flashpoint-abin-sur-th",
+   "name": "Flashpoint: Abin Sur – The Green Lantern",
+   "era": "war-of-the-green-lanterns",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MINI",
+   "mo": "O",
+   "tier": "Everything",
+   "importance": 2,
+   "year": "2011",
+   "blurb": "Collected in The World of Flashpoint Featuring Green Lantern (2012).",
+   "credits": {
+    "writers": [
+     "Adam Schlagman"
+    ],
+    "artists": [
+     "Felipe Massafera",
+     "Robson Rocha",
+     "Joe Prado"
+    ]
+   }
+  },
+  {
    "id": "rage-of-the-red-lanterns",
    "name": "Rage of the Red Lanterns",
    "era": "secret-origin",
@@ -522,7 +599,8 @@
   "data/eras/5010-sinestro-corps-war.json",
   "data/eras/5020-secret-origin.json",
   "data/eras/5030-blackest-night.json",
-  "data/eras/5040-brightest-day.json"
+  "data/eras/5040-brightest-day.json",
+  "data/eras/5050-war-of-the-green-lanterns.json"
  ],
  "maintenance": [
   "Stage 2 (Green Lantern #1): the core spine, sub-era by sub-era. Each sub-era's rows are committed after John approves its report. Rows come from Research-Repo sessions/2026-11-14-green-lantern/ (stage2.py)."
