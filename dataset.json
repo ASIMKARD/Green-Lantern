@@ -6,7 +6,7 @@
   "wordmark": "Green Lantern",
   "title": "Green Lantern — Reading Order",
   "strapline": "From Green Lantern: Rebirth (2004) on",
-  "span": "2004–2013",
+  "span": "2004–2015",
   "theme": "#0B5D33",
   "strictCredits": true
  },
@@ -45,6 +45,11 @@
    "id": "new-52",
    "name": "The New 52: to the First Lantern",
    "rank": 5060
+  },
+  {
+   "id": "lights-out",
+   "name": "Lights Out to Godhead",
+   "rank": 5070
   }
  ],
  "periods": [
@@ -60,6 +65,14 @@
     "brightest-day",
     "war-of-the-green-lanterns",
     "new-52"
+   ]
+  },
+  {
+   "id": "venditti",
+   "name": "After Johns",
+   "label": "2013–2016",
+   "eras": [
+    "lights-out"
    ]
   }
  ],
@@ -685,6 +698,185 @@
    }
   },
   {
+   "id": "green-lantern-dark-days",
+   "name": "Dark Days",
+   "era": "lights-out",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2013",
+   "blurb": "Collected in Green Lantern: Dark Days (2014).",
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Billy Tan"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-lights-out",
+   "name": "Lights Out",
+   "era": "lights-out",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "O",
+   "tier": "Everything",
+   "importance": 2,
+   "year": "2013",
+   "blurb": "Collected in Green Lantern: Lights Out (2014).",
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Rags Morales"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-worthy-foes",
+   "name": "Worthy Foes",
+   "era": "lights-out",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "O",
+   "tier": "Everything",
+   "importance": 2,
+   "year": "2013",
+   "credits": {
+    "writers": [
+     "Jim Starlin"
+    ],
+    "artists": [
+     "Howard Porter"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-the-new-black-hand",
+   "name": "The New Black Hand",
+   "era": "lights-out",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "O",
+   "tier": "Everything",
+   "importance": 2,
+   "year": "2013",
+   "credits": {
+    "writers": [
+     "Charles Soule"
+    ],
+    "artists": [
+     "Alberto Ponticelli"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-the-demon-within",
+   "name": "The Demon Within",
+   "era": "lights-out",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "O",
+   "tier": "Everything",
+   "importance": 2,
+   "year": "2013",
+   "blurb": "Collected in Sinestro: The Demon Within (2015).",
+   "credits": {
+    "writers": [
+     "Matt Kindt"
+    ],
+    "artists": [
+     "Dale Eaglesham"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-test-of-wills",
+   "name": "Test of Wills",
+   "era": "lights-out",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2014",
+   "blurb": "Collected in Green Lantern: Test of Wills (2014).",
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Billy Tan",
+     "Martin Coccolo",
+     "Dale Eaglesham"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-supergirl-red-daughter-of-krypton",
+   "name": "Supergirl: Red Daughter of Krypton",
+   "era": "lights-out",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2014",
+   "blurb": "Collected in Green Lantern: Test of Wills (2014).",
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Billy Tan"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-the-life-equation",
+   "name": "The Life Equation",
+   "era": "lights-out",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2014",
+   "blurb": "Collected in Green Lantern: The Life Equation (2015).",
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Billy Tan",
+     "Francis Portela",
+     "Scott McDaniel",
+     "Admira Wijaya"
+    ]
+   }
+  },
+  {
    "id": "green-lantern-annual-revenge-of-the-black-hand",
    "name": "Revenge of the Black Hand",
    "era": "new-52",
@@ -703,6 +895,72 @@
     ],
     "artists": [
      "Ethan Van Sciver"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-annual-lights-out",
+   "name": "Lights Out",
+   "era": "lights-out",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MINI",
+   "mo": "O",
+   "tier": "Everything",
+   "importance": 2,
+   "year": "2013",
+   "blurb": "Collected in Green Lantern: Lights Out (2014).",
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Sean Chen"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-annual-the-life-equation",
+   "name": "The Life Equation",
+   "era": "lights-out",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MINI",
+   "mo": "O",
+   "tier": "Everything",
+   "importance": 2,
+   "year": "2015",
+   "blurb": "Collected in Green Lantern: The Life Equation (2015).",
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Billy Tan"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-futures-end-the-next-life",
+   "name": "The Next Life",
+   "era": "lights-out",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MINI",
+   "mo": "O",
+   "tier": "Everything",
+   "importance": 1,
+   "year": "2014",
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Martin Coccolo",
+     "Aaron Lopresti"
     ]
    }
   },
@@ -738,7 +996,8 @@
   "data/eras/5030-blackest-night.json",
   "data/eras/5040-brightest-day.json",
   "data/eras/5050-war-of-the-green-lanterns.json",
-  "data/eras/5060-new-52.json"
+  "data/eras/5060-new-52.json",
+  "data/eras/5070-lights-out.json"
  ],
  "maintenance": [
   "Stage 2 (Green Lantern #1): the core spine, sub-era by sub-era. Each sub-era's rows are committed after John approves its report. Rows come from Research-Repo sessions/2026-11-14-green-lantern/ (stage2.py)."

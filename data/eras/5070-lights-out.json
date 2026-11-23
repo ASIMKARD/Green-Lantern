@@ -1,0 +1,874 @@
+{
+ "$schema": "../../schema/era-file.schema.json",
+ "era": "lights-out",
+ "rows": [
+  {
+   "issueId": "green-lantern-2011-21",
+   "series": "Green Lantern",
+   "vol": "2011",
+   "num": "21",
+   "title": "Green Lantern (2011) #21",
+   "arc": "green-lantern-dark-days",
+   "date": {
+    "cover": "2013-08",
+    "source": "DC Database, \"Green Lantern Vol 5 21\" (rev 3937348, fetched 2026-11-15): cover date 2013-08"
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Billy Tan"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "minor"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "minor"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2011-22",
+   "series": "Green Lantern",
+   "vol": "2011",
+   "num": "22",
+   "title": "Green Lantern (2011) #22",
+   "arc": "green-lantern-dark-days",
+   "date": {
+    "cover": "2013-09",
+    "source": "DC Database, \"Green Lantern Vol 5 22\" (rev 3937349, fetched 2026-11-15): cover date 2013-09"
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Billy Tan"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "star-sapphires",
+     "grade": "minor"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2011-23",
+   "series": "Green Lantern",
+   "vol": "2011",
+   "num": "23",
+   "title": "Green Lantern (2011) #23",
+   "arc": "green-lantern-dark-days",
+   "date": {
+    "cover": "2013-10",
+    "source": "DC Database, \"Green Lantern Vol 5 23\" (rev 3937350, fetched 2026-11-15): cover date 2013-10"
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Billy Tan"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "minor"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2011-23-1",
+   "series": "Green Lantern",
+   "vol": "2011",
+   "num": "23.1",
+   "title": "Green Lantern (2011) #23.1",
+   "arc": "green-lantern-lights-out",
+   "date": {
+    "cover": "2013-11",
+    "source": "DC Database, \"Green Lantern Vol 5 23.1: Relic\" (rev 3982377, fetched 2026-11-15): cover date 2013-11"
+   },
+   "seq": 1,
+   "flags": [
+    "SPECIAL_NUMBERING"
+   ],
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Rags Morales"
+    ]
+   },
+   "presence": [
+    {
+     "who": "kyle-rayner",
+     "grade": "cameo"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2011-23-2",
+   "series": "Green Lantern",
+   "vol": "2011",
+   "num": "23.2",
+   "title": "Green Lantern (2011) #23.2",
+   "arc": "green-lantern-worthy-foes",
+   "date": {
+    "cover": "2013-11",
+    "source": "DC Database, \"Green Lantern Vol 5 23.2: Mongul\" (rev 3837118, fetched 2026-11-15): cover date 2013-11"
+   },
+   "seq": 2,
+   "flags": [
+    "SPECIAL_NUMBERING"
+   ],
+   "credits": {
+    "writers": [
+     "Jim Starlin"
+    ],
+    "artists": [
+     "Howard Porter"
+    ]
+   }
+  },
+  {
+   "issueId": "green-lantern-2011-23-3",
+   "series": "Green Lantern",
+   "vol": "2011",
+   "num": "23.3",
+   "title": "Green Lantern (2011) #23.3",
+   "arc": "green-lantern-the-new-black-hand",
+   "date": {
+    "cover": "2013-11",
+    "source": "DC Database, \"Green Lantern Vol 5 23.3: Black Hand\" (rev 3837119, fetched 2026-11-15): cover date 2013-11"
+   },
+   "seq": 3,
+   "flags": [
+    "SPECIAL_NUMBERING"
+   ],
+   "credits": {
+    "writers": [
+     "Charles Soule"
+    ],
+    "artists": [
+     "Alberto Ponticelli"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "cameo"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2011-23-4",
+   "series": "Green Lantern",
+   "vol": "2011",
+   "num": "23.4",
+   "title": "Green Lantern (2011) #23.4",
+   "arc": "green-lantern-the-demon-within",
+   "date": {
+    "cover": "2013-11",
+    "source": "DC Database, \"Green Lantern Vol 5 23.4: Sinestro\" (rev 3837121, fetched 2026-11-15): cover date 2013-11"
+   },
+   "seq": 4,
+   "flags": [
+    "SPECIAL_NUMBERING"
+   ],
+   "credits": {
+    "writers": [
+     "Matt Kindt"
+    ],
+    "artists": [
+     "Dale Eaglesham"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "cameo"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2011-24",
+   "series": "Green Lantern",
+   "vol": "2011",
+   "num": "24",
+   "title": "Green Lantern (2011) #24",
+   "arc": "green-lantern-dark-days",
+   "date": {
+    "cover": "2013-12",
+    "source": "DC Database, \"Green Lantern Vol 5 24\" (rev 3837248, fetched 2026-11-15): cover date 2013-12"
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Billy Tan"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "minor"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "minor"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2011-annual-2",
+   "series": "Green Lantern",
+   "vol": "2011",
+   "num": "Annual 2",
+   "title": "Green Lantern (2011) Annual #2",
+   "arc": "green-lantern-annual-lights-out",
+   "date": {
+    "cover": "2013-12",
+    "source": "DC Database, \"Green Lantern Annual Vol 5 2\" (rev 3837262, fetched 2026-11-15): cover date 2013-12"
+   },
+   "seq": 6,
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Sean Chen"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "major"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "major"
+    },
+    {
+     "who": "indigo-tribe",
+     "grade": "minor"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2011-25",
+   "series": "Green Lantern",
+   "vol": "2011",
+   "num": "25",
+   "title": "Green Lantern (2011) #25",
+   "arc": "green-lantern-dark-days",
+   "date": {
+    "cover": "2014-01",
+    "source": "DC Database, \"Green Lantern Vol 5 25\" (rev 3837249, fetched 2026-11-15): cover date 2014-01"
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Billy Tan"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "minor"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2011-26",
+   "series": "Green Lantern",
+   "vol": "2011",
+   "num": "26",
+   "title": "Green Lantern (2011) #26",
+   "arc": "green-lantern-dark-days",
+   "date": {
+    "cover": "2014-02",
+    "source": "DC Database, \"Green Lantern Vol 5 26\" (rev 3837256, fetched 2026-11-15): cover date 2014-02"
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Billy Tan"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2011-27",
+   "series": "Green Lantern",
+   "vol": "2011",
+   "num": "27",
+   "title": "Green Lantern (2011) #27",
+   "arc": "green-lantern-test-of-wills",
+   "date": {
+    "cover": "2014-03",
+    "source": "DC Database, \"Green Lantern Vol 5 27\" (rev 3838365, fetched 2026-11-15): cover date 2014-03"
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Dale Eaglesham"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "minor"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "minor"
+    },
+    {
+     "who": "simon-baz",
+     "grade": "cameo"
+    },
+    {
+     "who": "star-sapphires",
+     "grade": "minor"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2011-28",
+   "series": "Green Lantern",
+   "vol": "2011",
+   "num": "28",
+   "title": "Green Lantern (2011) #28",
+   "arc": "green-lantern-supergirl-red-daughter-of-krypton",
+   "date": {
+    "cover": "2014-04",
+    "source": "DC Database, \"Green Lantern Vol 5 28\" (rev 3838370, fetched 2026-11-15): cover date 2014-04"
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Billy Tan"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "minor"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2011-29",
+   "series": "Green Lantern",
+   "vol": "2011",
+   "num": "29",
+   "title": "Green Lantern (2011) #29",
+   "arc": "green-lantern-test-of-wills",
+   "date": {
+    "cover": "2014-05",
+    "source": "DC Database, \"Green Lantern Vol 5 29\" (rev 3436474, fetched 2026-11-15): cover date 2014-05"
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Billy Tan",
+     "Martin Coccolo"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "simon-baz",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2011-30",
+   "series": "Green Lantern",
+   "vol": "2011",
+   "num": "30",
+   "title": "Green Lantern (2011) #30",
+   "arc": "green-lantern-test-of-wills",
+   "date": {
+    "cover": "2014-06",
+    "source": "DC Database, \"Green Lantern Vol 5 30\" (rev 3436475, fetched 2026-11-15): cover date 2014-06"
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Martin Coccolo"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2011-31",
+   "series": "Green Lantern",
+   "vol": "2011",
+   "num": "31",
+   "title": "Green Lantern (2011) #31",
+   "arc": "green-lantern-test-of-wills",
+   "date": {
+    "cover": "2014-07",
+    "source": "DC Database, \"Green Lantern Vol 5 31\" (rev 3436476, fetched 2026-11-15): cover date 2014-07"
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Billy Tan"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2011-32",
+   "series": "Green Lantern",
+   "vol": "2011",
+   "num": "32",
+   "title": "Green Lantern (2011) #32",
+   "arc": "green-lantern-test-of-wills",
+   "date": {
+    "cover": "2014-08",
+    "source": "DC Database, \"Green Lantern Vol 5 32\" (rev 3436477, fetched 2026-11-15): cover date 2014-08"
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Billy Tan"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2011-33",
+   "series": "Green Lantern",
+   "vol": "2011",
+   "num": "33",
+   "title": "Green Lantern (2011) #33",
+   "arc": "green-lantern-test-of-wills",
+   "date": {
+    "cover": "2014-09",
+    "source": "DC Database, \"Green Lantern Vol 5 33\" (rev 3598190, fetched 2026-11-15): cover date 2014-09"
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Billy Tan"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2011-34",
+   "series": "Green Lantern",
+   "vol": "2011",
+   "num": "34",
+   "title": "Green Lantern (2011) #34",
+   "arc": "green-lantern-test-of-wills",
+   "date": {
+    "cover": "2014-10",
+    "source": "DC Database, \"Green Lantern Vol 5 34\" (rev 3436479, fetched 2026-11-15): cover date 2014-10"
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Billy Tan",
+     "Martin Coccolo"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "simon-baz",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-futures-end-2014-1",
+   "series": "Green Lantern: Futures End",
+   "vol": "2014",
+   "num": "1",
+   "title": "Green Lantern: Futures End (2014) #1",
+   "arc": "green-lantern-futures-end-the-next-life",
+   "date": {
+    "cover": "2014-11",
+    "source": "DC Database, \"Green Lantern: Futures End Vol 1 1\" (rev 3525935, fetched 2026-11-15): cover date 2014-11"
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Martin Coccolo",
+     "Aaron Lopresti"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2011-35",
+   "series": "Green Lantern",
+   "vol": "2011",
+   "num": "35",
+   "title": "Green Lantern (2011) #35",
+   "arc": "green-lantern-the-life-equation",
+   "date": {
+    "cover": "2014-12",
+    "source": "DC Database, \"Green Lantern Vol 5 35\" (rev 3635123, fetched 2026-11-15): cover date 2014-12"
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Billy Tan"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "minor"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "cameo"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2011-36",
+   "series": "Green Lantern",
+   "vol": "2011",
+   "num": "36",
+   "title": "Green Lantern (2011) #36",
+   "arc": "green-lantern-the-life-equation",
+   "date": {
+    "cover": "2015-01",
+    "source": "DC Database, \"Green Lantern Vol 5 36\" (rev 3635124, fetched 2026-11-15): cover date 2015-01"
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Francis Portela",
+     "Scott McDaniel"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "minor"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2011-37",
+   "series": "Green Lantern",
+   "vol": "2011",
+   "num": "37",
+   "title": "Green Lantern (2011) #37",
+   "arc": "green-lantern-the-life-equation",
+   "date": {
+    "cover": "2015-02",
+    "source": "DC Database, \"Green Lantern Vol 5 37\" (rev 3925602, fetched 2026-11-15): cover date 2015-02"
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Francis Portela",
+     "Scott McDaniel"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "minor"
+    },
+    {
+     "who": "star-sapphires",
+     "grade": "minor"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2011-annual-3",
+   "series": "Green Lantern",
+   "vol": "2011",
+   "num": "Annual 3",
+   "title": "Green Lantern (2011) Annual #3",
+   "arc": "green-lantern-annual-the-life-equation",
+   "date": {
+    "cover": "2015-02",
+    "source": "DC Database, \"Green Lantern Annual Vol 5 3\" (rev 3635001, fetched 2026-11-15): cover date 2015-02"
+   },
+   "seq": 7,
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Billy Tan"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "minor"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "minor"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "minor"
+    },
+    {
+     "who": "simon-baz",
+     "grade": "minor"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2011-38",
+   "series": "Green Lantern",
+   "vol": "2011",
+   "num": "38",
+   "title": "Green Lantern (2011) #38",
+   "arc": "green-lantern-the-life-equation",
+   "date": {
+    "cover": "2015-03",
+    "source": "DC Database, \"Green Lantern Vol 5 38\" (rev 3436483, fetched 2026-11-15): cover date 2015-03"
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Admira Wijaya"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "minor"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2011-39",
+   "series": "Green Lantern",
+   "vol": "2011",
+   "num": "39",
+   "title": "Green Lantern (2011) #39",
+   "arc": "green-lantern-the-life-equation",
+   "date": {
+    "cover": "2015-04",
+    "source": "DC Database, \"Green Lantern Vol 5 39\" (rev 3436484, fetched 2026-11-15): cover date 2015-04"
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Billy Tan"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "cameo"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2011-40",
+   "series": "Green Lantern",
+   "vol": "2011",
+   "num": "40",
+   "title": "Green Lantern (2011) #40",
+   "arc": "green-lantern-the-life-equation",
+   "date": {
+    "cover": "2015-05",
+    "source": "DC Database, \"Green Lantern Vol 5 40\" (rev 3436485, fetched 2026-11-15): cover date 2015-05"
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Billy Tan"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    }
+   ]
+  }
+ ]
+}

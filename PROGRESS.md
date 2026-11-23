@@ -152,7 +152,7 @@ Built on Pull-List-template v3: copied at template `f7ae723`, then template T0 a
        - Tried in a scratch copy: build v8, gate 0 warnings, harness 1764, layout 472, 0 failed.
        - No questions.
      - **Sub-era 7's commit:** `f314550`, CI green.
-     - **Sub-era 8, Lights Out to Godhead: report with John (23 Nov).**
+     - **Sub-era 8, Lights Out to Godhead: approved (John, 23 Nov) and committed.** Built v9 (`75494e07735f`); 142 rows in stage 1's order; gate 0 warnings.
        - 27 rows: Green Lantern (2011) #21–40, #23.1–23.4, Annuals #2–3, and Green Lantern: Futures End #1.
        - The order equals stage 1's; independent pass 142 / 0 mismatches.
        - No ★: stage 1 rated none of it Barebones.
@@ -160,7 +160,7 @@ Built on Pull-List-template v3: copied at template `f7ae723`, then template T0 a
        - Research-Repo `2e740c4`; it rebuilds offline, 17 of 17.
        - Tried in a scratch copy: build v9, gate 0 warnings, harness 1764, layout 472, 0 failed.
        - No questions.
-       - **Once John approves:** copy `stage2/dataset.json` and `stage2/data/eras/5070-lights-out.json` in; build, the gate, both suites; commit. Then sub-era 9, Renegade and the Lost Army.
+     - **Next: sub-era 9, Renegade and the Lost Army** (13 stage-2 rows). Run `stage2.py renegade` with `GL_REPO` at this branch's latest pushed commit.
        - **Still to do, in sub-era 13:** Green Lantern: War Journal #1–2 have no credits in stage 1's draft. Check their pages before that report.
 
 ## Decisions (John)
@@ -216,7 +216,7 @@ Built on Pull-List-template v3: copied at template `f7ae723`, then template T0 a
   - The Mark range fix: "Template change T7". Sub-era 3: "Approved: commit after fix".
   - T7 merged (#14, `d5c1585`). "T6 after stage 2's sub-eras is fine, but it must be merged before go-live v1."
 - **23 Nov:**
-  - sub-eras 4 (Blackest Night), 5 (Brightest Day), 6 (War of the Green Lanterns) and 7 (The New 52): "Approved: commit";
+  - sub-eras 4 (Blackest Night), 5 (Brightest Day), 6 (War of the Green Lanterns), 7 (The New 52) and 8 (Lights Out to Godhead): "Approved: commit";
   - event-timeline versions in presence (Flashpoint, Futures End, Future State): "Count them". Counterparts from other worlds stay listed, not counted.
 - **20 Nov:**
   - Answers: New Guardians #20 before Red Lanterns #20; for T6, Hal Jordan and the GLC: Rebirth #1 just before Green Lanterns: Rebirth #1.
@@ -246,7 +246,7 @@ Built on Pull-List-template v3: copied at template `f7ae723`, then template T0 a
 |---|---|---|
 | 0 | Setup | done and pushed (15 Nov) |
 | 1 | Arc spine | approved (20 Nov); Research-Repo#6 merged (`a43c300`, 21 Nov) |
-| 2 | Core spine (goes live as v1) | sub-eras 1–7 committed (21–23 Nov); sub-era 8 reported; 6 to go; then T6, merged before go-live v1 |
+| 2 | Core spine (goes live as v1) | sub-eras 1–8 committed (21–23 Nov); 5 to go; then T6, merged before go-live v1 |
 | 3 | Green Lantern Corps and New Guardians | — |
 | 4 | Spectrum spin-offs | — |
 | 5 | Canonical events, with T3 | — |
