@@ -6,7 +6,7 @@
   "wordmark": "Green Lantern",
   "title": "Green Lantern — Reading Order",
   "strapline": "From Green Lantern: Rebirth (2004) on",
-  "span": "2004–2010",
+  "span": "2004–2011",
   "theme": "#0B5D33",
   "strictCredits": true
  },
@@ -30,6 +30,11 @@
    "id": "blackest-night",
    "name": "Blackest Night",
    "rank": 5030
+  },
+  {
+   "id": "brightest-day",
+   "name": "Brightest Day",
+   "rank": 5040
   }
  ],
  "periods": [
@@ -41,7 +46,8 @@
     "rebirth",
     "sinestro-corps-war",
     "secret-origin",
-    "blackest-night"
+    "blackest-night",
+    "brightest-day"
    ]
   }
  ],
@@ -395,6 +401,28 @@
    }
   },
   {
+   "id": "green-lantern-green-lantern-new-guardians",
+   "name": "Green Lantern: New Guardians",
+   "era": "brightest-day",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Barebones",
+   "importance": 5,
+   "year": "2010",
+   "blurb": "Collected in Green Lantern: Brightest Day (2011).",
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Doug Mahnke"
+    ]
+   }
+  },
+  {
    "id": "ion-ion-the-torchbearer",
    "name": "Ion: The Torchbearer",
    "era": "rebirth",
@@ -493,7 +521,8 @@
   "data/eras/5000-rebirth.json",
   "data/eras/5010-sinestro-corps-war.json",
   "data/eras/5020-secret-origin.json",
-  "data/eras/5030-blackest-night.json"
+  "data/eras/5030-blackest-night.json",
+  "data/eras/5040-brightest-day.json"
  ],
  "maintenance": [
   "Stage 2 (Green Lantern #1): the core spine, sub-era by sub-era. Each sub-era's rows are committed after John approves its report. Rows come from Research-Repo sessions/2026-11-14-green-lantern/ (stage2.py)."

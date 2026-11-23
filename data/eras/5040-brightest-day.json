@@ -1,0 +1,344 @@
+{
+ "$schema": "../../schema/era-file.schema.json",
+ "era": "brightest-day",
+ "rows": [
+  {
+   "issueId": "green-lantern-2005-53",
+   "series": "Green Lantern",
+   "vol": "2005",
+   "num": "53",
+   "title": "Green Lantern (2005) #53",
+   "arc": "green-lantern-green-lantern-new-guardians",
+   "date": {
+    "cover": "2010-06",
+    "source": "DC Database, \"Green Lantern Vol 4 53\" (rev 3933525, fetched 2026-11-15): cover date 2010-06"
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Doug Mahnke"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "cameo"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "minor"
+    },
+    {
+     "who": "green-arrow",
+     "grade": "cameo"
+    }
+   ],
+   "core": true,
+   "coreFor": [
+    "hal-jordan",
+    "guy-gardner"
+   ]
+  },
+  {
+   "issueId": "green-lantern-2005-54",
+   "series": "Green Lantern",
+   "vol": "2005",
+   "num": "54",
+   "title": "Green Lantern (2005) #54",
+   "arc": "green-lantern-green-lantern-new-guardians",
+   "date": {
+    "cover": "2010-07",
+    "source": "DC Database, \"Green Lantern Vol 4 54\" (rev 3965213, fetched 2026-11-15): cover date 2010-07"
+   },
+   "seq": 3,
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Doug Mahnke"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    }
+   ],
+   "core": true,
+   "coreFor": [
+    "hal-jordan"
+   ]
+  },
+  {
+   "issueId": "green-lantern-2005-55",
+   "series": "Green Lantern",
+   "vol": "2005",
+   "num": "55",
+   "title": "Green Lantern (2005) #55",
+   "arc": "green-lantern-green-lantern-new-guardians",
+   "date": {
+    "cover": "2010-08",
+    "source": "DC Database, \"Green Lantern Vol 4 55\" (rev 3965214, fetched 2026-11-15): cover date 2010-08"
+   },
+   "seq": 4,
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Doug Mahnke"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    }
+   ],
+   "core": true,
+   "coreFor": [
+    "hal-jordan"
+   ]
+  },
+  {
+   "issueId": "green-lantern-2005-56",
+   "series": "Green Lantern",
+   "vol": "2005",
+   "num": "56",
+   "title": "Green Lantern (2005) #56",
+   "arc": "green-lantern-green-lantern-new-guardians",
+   "date": {
+    "cover": "2010-09",
+    "source": "DC Database, \"Green Lantern Vol 4 56\" (rev 3973491, fetched 2026-11-15): cover date 2010-09"
+   },
+   "seq": 3,
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Doug Mahnke"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "indigo-tribe",
+     "grade": "minor"
+    }
+   ],
+   "core": true,
+   "coreFor": [
+    "hal-jordan"
+   ]
+  },
+  {
+   "issueId": "green-lantern-2005-57",
+   "series": "Green Lantern",
+   "vol": "2005",
+   "num": "57",
+   "title": "Green Lantern (2005) #57",
+   "arc": "green-lantern-green-lantern-new-guardians",
+   "date": {
+    "cover": "2010-10",
+    "source": "DC Database, \"Green Lantern Vol 4 57\" (rev 3933530, fetched 2026-11-15): cover date 2010-10"
+   },
+   "seq": 5,
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Doug Mahnke"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "star-sapphires",
+     "grade": "minor"
+    }
+   ],
+   "core": true,
+   "coreFor": [
+    "hal-jordan"
+   ]
+  },
+  {
+   "issueId": "green-lantern-2005-58",
+   "series": "Green Lantern",
+   "vol": "2005",
+   "num": "58",
+   "title": "Green Lantern (2005) #58",
+   "arc": "green-lantern-green-lantern-new-guardians",
+   "date": {
+    "cover": "2010-11",
+    "source": "DC Database, \"Green Lantern Vol 4 58\" (rev 3933531, fetched 2026-11-15): cover date 2010-11"
+   },
+   "seq": 5,
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Doug Mahnke"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "star-sapphires",
+     "grade": "minor"
+    }
+   ],
+   "core": true,
+   "coreFor": [
+    "hal-jordan"
+   ]
+  },
+  {
+   "issueId": "green-lantern-2005-59",
+   "series": "Green Lantern",
+   "vol": "2005",
+   "num": "59",
+   "title": "Green Lantern (2005) #59",
+   "arc": "green-lantern-green-lantern-new-guardians",
+   "date": {
+    "cover": "2010-12",
+    "source": "DC Database, \"Green Lantern Vol 4 59\" (rev 3933532, fetched 2026-11-15): cover date 2010-12"
+   },
+   "seq": 5,
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Doug Mahnke"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "indigo-tribe",
+     "grade": "minor"
+    }
+   ],
+   "core": true,
+   "coreFor": [
+    "hal-jordan"
+   ]
+  },
+  {
+   "issueId": "green-lantern-2005-60",
+   "series": "Green Lantern",
+   "vol": "2005",
+   "num": "60",
+   "title": "Green Lantern (2005) #60",
+   "arc": "green-lantern-green-lantern-new-guardians",
+   "date": {
+    "cover": "2011-01",
+    "source": "DC Database, \"Green Lantern Vol 4 60\" (rev 3933533, fetched 2026-11-15): cover date 2011-01"
+   },
+   "seq": 5,
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Doug Mahnke"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "indigo-tribe",
+     "grade": "minor"
+    }
+   ],
+   "core": true,
+   "coreFor": [
+    "hal-jordan"
+   ]
+  },
+  {
+   "issueId": "green-lantern-2005-61",
+   "series": "Green Lantern",
+   "vol": "2005",
+   "num": "61",
+   "title": "Green Lantern (2005) #61",
+   "arc": "green-lantern-green-lantern-new-guardians",
+   "date": {
+    "cover": "2011-02",
+    "source": "DC Database, \"Green Lantern Vol 4 61\" (rev 3976104, fetched 2026-11-15): cover date 2011-02"
+   },
+   "seq": 6,
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Doug Mahnke"
+    ]
+   },
+   "core": true
+  },
+  {
+   "issueId": "green-lantern-2005-62",
+   "series": "Green Lantern",
+   "vol": "2005",
+   "num": "62",
+   "title": "Green Lantern (2005) #62",
+   "arc": "green-lantern-green-lantern-new-guardians",
+   "date": {
+    "cover": "2011-03",
+    "source": "DC Database, \"Green Lantern Vol 4 62\" (rev 3933535, fetched 2026-11-15): cover date 2011-03"
+   },
+   "seq": 5,
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Doug Mahnke"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "indigo-tribe",
+     "grade": "minor"
+    }
+   ],
+   "core": true,
+   "coreFor": [
+    "hal-jordan"
+   ]
+  }
+ ]
+}
