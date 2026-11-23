@@ -160,7 +160,15 @@ Built on Pull-List-template v3: copied at template `f7ae723`, then template T0 a
        - Research-Repo `2e740c4`; it rebuilds offline, 17 of 17.
        - Tried in a scratch copy: build v9, gate 0 warnings, harness 1764, layout 472, 0 failed.
        - No questions.
-     - **Next: sub-era 9, Renegade and the Lost Army** (13 stage-2 rows). Run `stage2.py renegade` with `GL_REPO` at this branch's latest pushed commit.
+     - **Sub-era 8's commit:** `e0327c8`, CI green.
+     - **Sub-era 9, Renegade and the Lost Army: report with John (23 Nov).**
+       - 13 rows: Green Lantern (2011) #41–52 and Annual #4. Hal alone; no ★.
+       - The order equals stage 1's; independent pass 155 / 0 mismatches.
+       - Research-Repo `c27e613`; it rebuilds offline, 18 of 18.
+       - Tried in a scratch copy: build v10, gate 0 warnings, harness 1764, layout 472, 0 failed.
+       - No questions.
+       - **Once John approves:** copy `stage2/dataset.json` and `stage2/data/eras/5080-renegade.json` in; build, the gate, both suites; commit.
+       - **Then sub-era 10, Hal Jordan and the Corps; Green Lanterns** (110 rows, the largest). Simon Baz's and Jessica Cruz's Green Lanterns run is there: propose their best arcs by hand, with sources (John, 22 Nov).
        - **Still to do, in sub-era 13:** Green Lantern: War Journal #1–2 have no credits in stage 1's draft. Check their pages before that report.
 
 ## Decisions (John)
@@ -246,7 +254,7 @@ Built on Pull-List-template v3: copied at template `f7ae723`, then template T0 a
 |---|---|---|
 | 0 | Setup | done and pushed (15 Nov) |
 | 1 | Arc spine | approved (20 Nov); Research-Repo#6 merged (`a43c300`, 21 Nov) |
-| 2 | Core spine (goes live as v1) | sub-eras 1–8 committed (21–23 Nov); 5 to go; then T6, merged before go-live v1 |
+| 2 | Core spine (goes live as v1) | sub-eras 1–8 committed (21–23 Nov); sub-era 9 reported; 5 to go; then T6, merged before go-live v1 |
 | 3 | Green Lantern Corps and New Guardians | — |
 | 4 | Spectrum spin-offs | — |
 | 5 | Canonical events, with T3 | — |
