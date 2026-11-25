@@ -6,7 +6,7 @@
   "wordmark": "Green Lantern",
   "title": "Green Lantern — Reading Order",
   "strapline": "From Green Lantern: Rebirth (2004) on",
-  "span": "2004–2016",
+  "span": "2004–2018",
   "theme": "#0B5D33",
   "strictCredits": true
  },
@@ -55,6 +55,11 @@
    "id": "renegade",
    "name": "Renegade and the Lost Army",
    "rank": 5080
+  },
+  {
+   "id": "rebirth-2016",
+   "name": "Hal Jordan and the Corps; Green Lanterns",
+   "rank": 5090
   }
  ],
  "periods": [
@@ -79,6 +84,14 @@
    "eras": [
     "lights-out",
     "renegade"
+   ]
+  },
+  {
+   "id": "rebirth",
+   "name": "DC Rebirth",
+   "label": "2016–2018",
+   "eras": [
+    "rebirth-2016"
    ]
   }
  ],
@@ -1145,6 +1158,728 @@
    }
   },
   {
+   "id": "green-lanterns-rebirth-rage-planet",
+   "name": "Rage Planet",
+   "era": "rebirth-2016",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2016",
+   "blurb": "Collected in Green Lanterns: Rage Planet (2017).",
+   "credits": {
+    "writers": [
+     "Geoff Johns",
+     "Sam Humphries"
+    ],
+    "artists": [
+     "Ethan Van Sciver",
+     "Ed Benes"
+    ]
+   }
+  },
+  {
+   "id": "green-lanterns-rage-planet",
+   "name": "Rage Planet",
+   "era": "rebirth-2016",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2016",
+   "blurb": "Collected in Green Lanterns: Rage Planet (2017).",
+   "credits": {
+    "writers": [
+     "Sam Humphries"
+    ],
+    "artists": [
+     "Robson Rocha",
+     "Tom Derenick",
+     "Jack Herbert",
+     "Neil Edwards",
+     "Ed Benes",
+     "Eduardo Pansica",
+     "Will Conrad"
+    ]
+   }
+  },
+  {
+   "id": "green-lanterns-family-matters",
+   "name": "Family Matters",
+   "era": "rebirth-2016",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2016",
+   "blurb": "Collected in Green Lanterns: The Phantom Lantern (2017).",
+   "credits": {
+    "writers": [
+     "Sam Humphries"
+    ],
+    "artists": [
+     "Ronan Cliquet",
+     "Ed Benes"
+    ]
+   }
+  },
+  {
+   "id": "green-lanterns-the-phantom-lantern",
+   "name": "The Phantom Lantern",
+   "era": "rebirth-2016",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2016",
+   "blurb": "Collected in Green Lanterns: The Phantom Lantern (2017).",
+   "credits": {
+    "writers": [
+     "Sam Humphries"
+    ],
+    "artists": [
+     "Eduardo Pansica",
+     "Robson Rocha",
+     "Ronan Cliquet"
+    ]
+   }
+  },
+  {
+   "id": "green-lanterns-a-day-in-the-life",
+   "name": "A Day in the Life",
+   "era": "rebirth-2016",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2017",
+   "blurb": "Collected in Green Lanterns: Polarity (2017).",
+   "credits": {
+    "writers": [
+     "Sam Humphries"
+    ],
+    "artists": [
+     "Tom Derenick",
+     "Miguel Mendonca"
+    ]
+   }
+  },
+  {
+   "id": "green-lanterns-darkest-knights",
+   "name": "Darkest Knights",
+   "era": "rebirth-2016",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2017",
+   "blurb": "Collected in Green Lanterns: Polarity (2017).",
+   "credits": {
+    "writers": [
+     "Sam Humphries"
+    ],
+    "artists": [
+     "Neil Edwards",
+     "Eduardo Pansica"
+    ]
+   }
+  },
+  {
+   "id": "green-lanterns-the-last-testament-of-the-first-lantern",
+   "name": "The Last Testament of the First Lantern",
+   "era": "rebirth-2016",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2017",
+   "blurb": "Collected in Green Lanterns: Polarity (2017).",
+   "credits": {
+    "writers": [
+     "Sam Humphries"
+    ],
+    "artists": [
+     "Robson Rocha"
+    ]
+   }
+  },
+  {
+   "id": "green-lanterns-polarity",
+   "name": "Polarity",
+   "era": "rebirth-2016",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2017",
+   "blurb": "Collected in Green Lanterns: Polarity (2017).",
+   "credits": {
+    "writers": [
+     "Sam Humphries"
+    ],
+    "artists": [
+     "Ronan Cliquet",
+     "Eduardo Pansica",
+     "Robson Rocha"
+    ]
+   }
+  },
+  {
+   "id": "green-lanterns-the-first-ring",
+   "name": "The First Ring",
+   "era": "rebirth-2016",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2017",
+   "blurb": "Collected in Green Lanterns: The First Ring (2017).",
+   "credits": {
+    "writers": [
+     "Sam Humphries"
+    ],
+    "artists": [
+     "Ronan Cliquet",
+     "Eduardo Pansica",
+     "Carlo Barberi",
+     "Robson Rocha"
+    ]
+   }
+  },
+  {
+   "id": "green-lanterns-out-of-time",
+   "name": "Out of Time",
+   "era": "rebirth-2016",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2017",
+   "blurb": "Collected in Green Lanterns: Out of Time (2018).",
+   "credits": {
+    "writers": [
+     "Sam Humphries"
+    ],
+    "artists": [
+     "Ronan Cliquet",
+     "Eduardo Pansica",
+     "Carlo Barberi",
+     "Scott Godlewski"
+    ]
+   }
+  },
+  {
+   "id": "green-lanterns-work-release",
+   "name": "Work Release",
+   "era": "rebirth-2016",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2017",
+   "blurb": "Collected in Green Lanterns: A World of Our Own (2018).",
+   "credits": {
+    "writers": [
+     "Tim Seeley"
+    ],
+    "artists": [
+     "Eduardo Pansica",
+     "Ronan Cliquet"
+    ]
+   }
+  },
+  {
+   "id": "green-lanterns-oh-bolphunga-where-art-thou",
+   "name": "Oh, Bolphunga, Where Art Thou?",
+   "era": "rebirth-2016",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2018",
+   "blurb": "Collected in Green Lanterns: A World of Our Own (2018).",
+   "credits": {
+    "writers": [
+     "Tim Seeley"
+    ],
+    "artists": [
+     "Carlo Barberi",
+     "Ronan Cliquet"
+    ]
+   }
+  },
+  {
+   "id": "green-lanterns-a-world-of-our-own",
+   "name": "A World of Our Own",
+   "era": "rebirth-2016",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2018",
+   "blurb": "Collected in Green Lanterns: A World of Our Own (2018).",
+   "credits": {
+    "writers": [
+     "Tim Seeley"
+    ],
+    "artists": [
+     "Carlo Barberi",
+     "German Peralta",
+     "Ronan Cliquet"
+    ]
+   }
+  },
+  {
+   "id": "green-lanterns-superhuman-trafficking",
+   "name": "Superhuman Trafficking",
+   "era": "rebirth-2016",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2018",
+   "credits": {
+    "writers": [
+     "Tim Seeley"
+    ],
+    "artists": [
+     "Barnaby Bagenda",
+     "V. Ken Marion",
+     "Tom Derenick"
+    ]
+   }
+  },
+  {
+   "id": "green-lanterns-ghosts-of-the-past",
+   "name": "Ghosts of the Past",
+   "era": "rebirth-2016",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2018",
+   "credits": {
+    "writers": [
+     "Tim Seeley"
+    ],
+    "artists": [
+     "Ronan Cliquet",
+     "V. Ken Marion"
+    ]
+   }
+  },
+  {
+   "id": "green-lanterns-rebel-run",
+   "name": "Rebel Run",
+   "era": "rebirth-2016",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2018",
+   "credits": {
+    "writers": [
+     "Aaron Gillespie"
+    ],
+    "artists": [
+     "Ronan Cliquet",
+     "Roge Antonio"
+    ]
+   }
+  },
+  {
+   "id": "green-lanterns-evil-s-might",
+   "name": "Evil's Might",
+   "era": "rebirth-2016",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2018",
+   "credits": {
+    "writers": [
+     "Dan Jurgens"
+    ],
+    "artists": [
+     "Mike Perkins",
+     "Marco Santucci"
+    ]
+   }
+  },
+  {
+   "id": "green-lanterns-evil-s-might-conclusion",
+   "name": "Evil's Might Conclusion",
+   "era": "rebirth-2016",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2018",
+   "credits": {
+    "writers": [
+     "Dan Jurgens"
+    ],
+    "artists": [
+     "Mike Perkins"
+    ]
+   }
+  },
+  {
+   "id": "green-lanterns-annual-the-lost-lantern",
+   "name": "The Lost Lantern",
+   "era": "rebirth-2016",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MINI",
+   "mo": "O",
+   "tier": "Everything",
+   "importance": 2,
+   "year": "2018",
+   "credits": {
+    "writers": [
+     "Andy Diggle"
+    ],
+    "artists": [
+     "Mike Perkins"
+    ]
+   }
+  },
+  {
+   "id": "hal-jordan-and-the-green-lantern-corps-rebirth-reflections",
+   "name": "Reflections",
+   "era": "rebirth-2016",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2016",
+   "blurb": "Collected in Green Lantern: Reflections (2016).",
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Ethan Van Sciver"
+    ]
+   }
+  },
+  {
+   "id": "hal-jordan-and-the-green-lantern-corps-sinestro-s-law",
+   "name": "Sinestro's Law",
+   "era": "rebirth-2016",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 4,
+   "year": "2016",
+   "blurb": "Collected in Hal Jordan and the Green Lantern Corps: Sinestro's Law (2017).",
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Rafa Sandoval",
+     "Ethan Van Sciver"
+    ]
+   }
+  },
+  {
+   "id": "hal-jordan-and-the-green-lantern-corps-bottled-light",
+   "name": "Bottled Light",
+   "era": "rebirth-2016",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 4,
+   "year": "2017",
+   "blurb": "Collected in Hal Jordan and the Green Lantern Corps: Bottled Light (2017).",
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Ethan Van Sciver",
+     "Rafa Sandoval",
+     "Ed Benes",
+     "V. Ken Marion"
+    ]
+   }
+  },
+  {
+   "id": "hal-jordan-and-the-green-lantern-corps-quest-for-hope",
+   "name": "Quest for Hope",
+   "era": "rebirth-2016",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 4,
+   "year": "2017",
+   "blurb": "Collected in Hal Jordan and the Green Lantern Corps: Quest for the Blue Lanterns (2017).",
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Rafa Sandoval",
+     "Ethan Van Sciver"
+    ]
+   }
+  },
+  {
+   "id": "hal-jordan-and-the-green-lantern-corps-the-prism-of-time",
+   "name": "The Prism of Time",
+   "era": "rebirth-2016",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 4,
+   "year": "2017",
+   "blurb": "Collected in Hal Jordan and the Green Lantern Corps: Quest for the Blue Lanterns (2017).",
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "V. Ken Marion",
+     "Rafa Sandoval"
+    ]
+   }
+  },
+  {
+   "id": "hal-jordan-and-the-green-lantern-corps-fracture",
+   "name": "Fracture",
+   "era": "rebirth-2016",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 4,
+   "year": "2017",
+   "blurb": "Collected in Hal Jordan and the Green Lantern Corps: Fracture (2018).",
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Ethan Van Sciver"
+    ]
+   }
+  },
+  {
+   "id": "hal-jordan-and-the-green-lantern-corps-fall-of-the-gods",
+   "name": "Fall of the Gods",
+   "era": "rebirth-2016",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 4,
+   "year": "2017",
+   "blurb": "Collected in Hal Jordan and the Green Lantern Corps: Fracture (2018).",
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Rafa Sandoval"
+    ]
+   }
+  },
+  {
+   "id": "hal-jordan-and-the-green-lantern-corps-twilight-of-the-guard",
+   "name": "Twilight of the Guardians",
+   "era": "rebirth-2016",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 4,
+   "year": "2017",
+   "blurb": "Collected in Hal Jordan and the Green Lantern Corps: Twilight of the Guardians (2018).",
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Jack Herbert",
+     "Tom Derenick",
+     "Patrick Zircher",
+     "José Luis"
+    ]
+   }
+  },
+  {
+   "id": "hal-jordan-and-the-green-lantern-corps-bats-out-of-hell-part",
+   "name": "Bats out of Hell, Part Three: None More Black",
+   "era": "rebirth-2016",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 4,
+   "year": "2018",
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Ethan Van Sciver",
+     "Liam Sharp"
+    ]
+   }
+  },
+  {
+   "id": "hal-jordan-and-the-green-lantern-corps-zod-s-will",
+   "name": "Zod's Will",
+   "era": "rebirth-2016",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 4,
+   "year": "2018",
+   "blurb": "Collected in Hal Jordan and the Green Lantern Corps: Zod's Will (2018).",
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Rafa Sandoval",
+     "Ethan Van Sciver",
+     "Brandon Peterson"
+    ]
+   }
+  },
+  {
+   "id": "hal-jordan-and-the-green-lantern-corps-dark-stars-rising",
+   "name": "Dark Stars Rising",
+   "era": "rebirth-2016",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 4,
+   "year": "2018",
+   "blurb": "Collected in Hal Jordan and the Green Lantern Corps: Darkstars Rising (2019).",
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Ethan Van Sciver",
+     "Rafa Sandoval",
+     "Brandon Peterson",
+     "Clayton Henry",
+     "Fernando Pasarin"
+    ]
+   }
+  },
+  {
+   "id": "hal-jordan-and-the-green-lantern-corps-last-charge",
+   "name": "Last Charge",
+   "era": "rebirth-2016",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 4,
+   "year": "2018",
+   "blurb": "Collected in Hal Jordan and the Green Lantern Corps: Darkstars Rising (2019).",
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Rafa Sandoval",
+     "Sergio Davila"
+    ]
+   }
+  },
+  {
    "id": "rage-of-the-red-lanterns",
    "name": "Rage of the Red Lanterns",
    "era": "secret-origin",
@@ -1178,7 +1913,8 @@
   "data/eras/5050-war-of-the-green-lanterns.json",
   "data/eras/5060-new-52.json",
   "data/eras/5070-lights-out.json",
-  "data/eras/5080-renegade.json"
+  "data/eras/5080-renegade.json",
+  "data/eras/5090-rebirth-2016.json"
  ],
  "maintenance": [
   "Stage 2 (Green Lantern #1): the core spine, sub-era by sub-era. Each sub-era's rows are committed after John approves its report. Rows come from Research-Repo sessions/2026-11-14-green-lantern/ (stage2.py)."

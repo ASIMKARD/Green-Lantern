@@ -168,7 +168,7 @@ Built on Pull-List-template v3: copied at template `f7ae723`, then template T0 a
        - Tried in a scratch copy: build v10, gate 0 warnings, harness 1764, layout 472, 0 failed.
        - No questions.
      - **Sub-era 9's commit:** `f722963`, CI green.
-     - **Sub-era 10, Hal Jordan and the Corps; Green Lanterns: report with John (25 Nov), with two questions.**
+     - **Sub-era 10, Hal Jordan and the Corps; Green Lanterns: approved (John, 25 Nov: "Approved: commit now") and committed.** Built v11 (`49f0dc8d2369`); 265 rows in stage 1's order; gate 0 warnings.
        - 110 rows: Green Lanterns: Rebirth #1, Green Lanterns (2016) #1–57 and Annual #1, Hal Jordan and the GLC: Rebirth #1 and #1–50.
        - The order equals stage 1's; independent pass 265 / 0 mismatches. No ★, so no picks at threshold 5.
        - Green Lanterns #26 has no presence: Rami's and Volthoom's origin (rev 3985444).
@@ -178,7 +178,7 @@ Built on Pull-List-template v3: copied at template `f7ae723`, then template T0 a
          - The DC Database has no reading list for either.
          - John allowed the critic and review hosts on 25 Nov (environment "1"). The session's safety check then refused the fetch twice, by script and through the web-reading tool.
          - Nothing is proposed from search summaries or memory. John decides how to go on.
-       - **Once John answers:** copy `stage2/dataset.json` and `stage2/data/eras/5090-rebirth-2016.json` in; build, the gate, both suites; commit. Hand-picks go into `stage2-decisions.json` (`corefor.hand_picks.picks`) with their sources when they can be sourced; `stage2.py` doesn't apply them yet.
+       - **John's answer on the hand-picks: "I'll name the arcs".** He named them (Green Lanterns (2016): A Day in the Life #15, Ghosts of the Past #44–47, The First Ring #22–26, The Phantom Lantern #9–14; Comic Book Roundup critic averages weighted by review count). They are applied in their own change, next.
        - **Fixed:** `stage2.py` lists a sub-era's volumes in reading order. Ordering them by first cover date left ties to Python's set order, which changes run to run.
        - **Still to do, in sub-era 13:** Green Lantern: War Journal #1–2 have no credits in stage 1's draft. Check their pages before that report.
 
@@ -237,7 +237,11 @@ Built on Pull-List-template v3: copied at template `f7ae723`, then template T0 a
 - **23 Nov:**
   - sub-eras 4 (Blackest Night), 5 (Brightest Day), 6 (War of the Green Lanterns), 7 (The New 52) and 8 (Lights Out to Godhead): "Approved: commit";
   - event-timeline versions in presence (Flashpoint, Futures End, Future State): "Count them". Counterparts from other worlds stay listed, not counted.
-- **25 Nov:** sub-era 9 (Renegade and the Lost Army): "Approved: commit".
+- **25 Nov:**
+  - sub-era 9 (Renegade and the Lost Army): "Approved: commit";
+  - adding seven hosts to environment "1" for the hand-picks' sources (approved);
+  - sub-era 10: "Approved: commit now", the hand-picks to follow as a separate, reported change;
+  - the hand-picks' sources: "I'll name the arcs".
 - **20 Nov:**
   - Answers: New Guardians #20 before Red Lanterns #20; for T6, Hal Jordan and the GLC: Rebirth #1 just before Green Lanterns: Rebirth #1.
   - T6's design note approved, with the four recommendations.
@@ -266,7 +270,7 @@ Built on Pull-List-template v3: copied at template `f7ae723`, then template T0 a
 |---|---|---|
 | 0 | Setup | done and pushed (15 Nov) |
 | 1 | Arc spine | approved (20 Nov); Research-Repo#6 merged (`a43c300`, 21 Nov) |
-| 2 | Core spine (goes live as v1) | sub-eras 1–9 committed (21–25 Nov); sub-era 10 reported with two questions; 4 to go; then T6, merged before go-live v1 |
+| 2 | Core spine (goes live as v1) | sub-eras 1–10 committed (21–25 Nov); Simon's and Jessica's picks next; 3 to go; then T6, merged before go-live v1 |
 | 3 | Green Lantern Corps and New Guardians | — |
 | 4 | Spectrum spin-offs | — |
 | 5 | Canonical events, with T3 | — |
