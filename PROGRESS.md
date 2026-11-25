@@ -178,7 +178,12 @@ Built on Pull-List-template v3: copied at template `f7ae723`, then template T0 a
          - The DC Database has no reading list for either.
          - John allowed the critic and review hosts on 25 Nov (environment "1"). The session's safety check then refused the fetch twice, by script and through the web-reading tool.
          - Nothing is proposed from search summaries or memory. John decides how to go on.
-       - **John's answer on the hand-picks: "I'll name the arcs".** He named them (Green Lanterns (2016): A Day in the Life #15, Ghosts of the Past #44–47, The First Ring #22–26, The Phantom Lantern #9–14; Comic Book Roundup critic averages weighted by review count). They are applied in their own change, next.
+       - **John's answer on the hand-picks: "I'll name the arcs".** He named them (Green Lanterns (2016): A Day in the Life #15, Ghosts of the Past #44–47, The First Ring #22–26, The Phantom Lantern #9–14; Comic Book Roundup critic averages weighted by review count). **Applied in their own change (built v12, `de68cf002a93`):**
+         - 14 rows each: Green Lanterns #10–15, #22–25 and #44–47.
+         - #9 (both cameos) and #26 (neither in it) can't be picks and are listed.
+         - The tracker now has 23 picks for Simon and 15 for Jessica.
+         - The source is John's reading of Comic Book Roundup (26 Nov); this session didn't fetch it.
+     - **Next: sub-era 11, The Green Lantern and Far Sector** (39 stage-2 rows). Run `stage2.py the-green-lantern` with `GL_REPO` at this branch's latest pushed commit.
        - **Fixed:** `stage2.py` lists a sub-era's volumes in reading order. Ordering them by first cover date left ties to Python's set order, which changes run to run.
        - **Still to do, in sub-era 13:** Green Lantern: War Journal #1–2 have no credits in stage 1's draft. Check their pages before that report.
 
@@ -241,7 +246,7 @@ Built on Pull-List-template v3: copied at template `f7ae723`, then template T0 a
   - sub-era 9 (Renegade and the Lost Army): "Approved: commit";
   - adding seven hosts to environment "1" for the hand-picks' sources (approved);
   - sub-era 10: "Approved: commit now", the hand-picks to follow as a separate, reported change;
-  - the hand-picks' sources: "I'll name the arcs".
+  - the hand-picks' sources: "I'll name the arcs". He named them: A Day in the Life (#15), Ghosts of the Past (#44–47), The First Ring (#22–26) and The Phantom Lantern (#9–14), "the four highest-rated arcs by Comic Book Roundup's critic averages, weighted by review count". "Record them as my decision with that source."
 - **20 Nov:**
   - Answers: New Guardians #20 before Red Lanterns #20; for T6, Hal Jordan and the GLC: Rebirth #1 just before Green Lanterns: Rebirth #1.
   - T6's design note approved, with the four recommendations.
@@ -270,7 +275,7 @@ Built on Pull-List-template v3: copied at template `f7ae723`, then template T0 a
 |---|---|---|
 | 0 | Setup | done and pushed (15 Nov) |
 | 1 | Arc spine | approved (20 Nov); Research-Repo#6 merged (`a43c300`, 21 Nov) |
-| 2 | Core spine (goes live as v1) | sub-eras 1–10 committed (21–25 Nov); Simon's and Jessica's picks next; 3 to go; then T6, merged before go-live v1 |
+| 2 | Core spine (goes live as v1) | sub-eras 1–10 committed (21–25 Nov), with Simon's and Jessica's picks; 3 to go; then T6, merged before go-live v1 |
 | 3 | Green Lantern Corps and New Guardians | — |
 | 4 | Spectrum spin-offs | — |
 | 5 | Canonical events, with T3 | — |
