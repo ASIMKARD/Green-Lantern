@@ -6,7 +6,7 @@
   "wordmark": "Green Lantern",
   "title": "Green Lantern — Reading Order",
   "strapline": "From Green Lantern: Rebirth (2004) on",
-  "span": "2004–2015",
+  "span": "2004–2016",
   "theme": "#0B5D33",
   "strictCredits": true
  },
@@ -50,6 +50,11 @@
    "id": "lights-out",
    "name": "Lights Out to Godhead",
    "rank": 5070
+  },
+  {
+   "id": "renegade",
+   "name": "Renegade and the Lost Army",
+   "rank": 5080
   }
  ],
  "periods": [
@@ -72,7 +77,8 @@
    "name": "After Johns",
    "label": "2013–2016",
    "eras": [
-    "lights-out"
+    "lights-out",
+    "renegade"
    ]
   }
  ],
@@ -877,6 +883,158 @@
    }
   },
   {
+   "id": "green-lantern-at-odds",
+   "name": "At Odds",
+   "era": "renegade",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2015",
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Billy Tan"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-written-in-stone",
+   "name": "Written in Stone",
+   "era": "renegade",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2015",
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Billy Tan"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-a-wounded-universe",
+   "name": "A Wounded Universe",
+   "era": "renegade",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2015",
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Ethan Van Sciver"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-emergency-stop",
+   "name": "Emergency Stop",
+   "era": "renegade",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2015",
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Billy Tan",
+     "Martin Coccolo"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-idle-hand",
+   "name": "Idle Hand",
+   "era": "renegade",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2015",
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Billy Tan"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-laid-to-rest",
+   "name": "Laid to Rest",
+   "era": "renegade",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2016",
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Billy Tan"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-reflections",
+   "name": "Reflections",
+   "era": "renegade",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2016",
+   "blurb": "Collected in Green Lantern: Reflections (2016).",
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Billy Tan",
+     "Martin Coccolo",
+     "Vicente Cifuentes",
+     "Rafa Sandoval"
+    ]
+   }
+  },
+  {
    "id": "green-lantern-annual-revenge-of-the-black-hand",
    "name": "Revenge of the Black Hand",
    "era": "new-52",
@@ -943,6 +1101,28 @@
    }
   },
   {
+   "id": "green-lantern-annual-renegade",
+   "name": "Renegade",
+   "era": "renegade",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MINI",
+   "mo": "O",
+   "tier": "Everything",
+   "importance": 2,
+   "year": "2015",
+   "blurb": "Collected in Green Lantern: Renegade (2016).",
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Pascal Alixe"
+    ]
+   }
+  },
+  {
    "id": "green-lantern-futures-end-the-next-life",
    "name": "The Next Life",
    "era": "lights-out",
@@ -997,7 +1177,8 @@
   "data/eras/5040-brightest-day.json",
   "data/eras/5050-war-of-the-green-lanterns.json",
   "data/eras/5060-new-52.json",
-  "data/eras/5070-lights-out.json"
+  "data/eras/5070-lights-out.json",
+  "data/eras/5080-renegade.json"
  ],
  "maintenance": [
   "Stage 2 (Green Lantern #1): the core spine, sub-era by sub-era. Each sub-era's rows are committed after John approves its report. Rows come from Research-Repo sessions/2026-11-14-green-lantern/ (stage2.py)."

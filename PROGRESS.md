@@ -161,14 +161,13 @@ Built on Pull-List-template v3: copied at template `f7ae723`, then template T0 a
        - Tried in a scratch copy: build v9, gate 0 warnings, harness 1764, layout 472, 0 failed.
        - No questions.
      - **Sub-era 8's commit:** `e0327c8`, CI green.
-     - **Sub-era 9, Renegade and the Lost Army: report with John (23 Nov).**
+     - **Sub-era 9, Renegade and the Lost Army: approved (John, 25 Nov) and committed.** Built v10 (`c9a1ff56bc0b`); 155 rows in stage 1's order; gate 0 warnings.
        - 13 rows: Green Lantern (2011) #41–52 and Annual #4. Hal alone; no ★.
        - The order equals stage 1's; independent pass 155 / 0 mismatches.
        - Research-Repo `c27e613`; it rebuilds offline, 18 of 18.
        - Tried in a scratch copy: build v10, gate 0 warnings, harness 1764, layout 472, 0 failed.
        - No questions.
-       - **Once John approves:** copy `stage2/dataset.json` and `stage2/data/eras/5080-renegade.json` in; build, the gate, both suites; commit.
-       - **Then sub-era 10, Hal Jordan and the Corps; Green Lanterns** (110 rows, the largest). Simon Baz's and Jessica Cruz's Green Lanterns run is there: propose their best arcs by hand, with sources (John, 22 Nov).
+     - **Next: sub-era 10, Hal Jordan and the Corps; Green Lanterns** (110 rows, the largest). Simon Baz's and Jessica Cruz's Green Lanterns run is there: propose their best arcs by hand, with sources (John, 22 Nov).
        - **Still to do, in sub-era 13:** Green Lantern: War Journal #1–2 have no credits in stage 1's draft. Check their pages before that report.
 
 ## Decisions (John)
@@ -226,6 +225,7 @@ Built on Pull-List-template v3: copied at template `f7ae723`, then template T0 a
 - **23 Nov:**
   - sub-eras 4 (Blackest Night), 5 (Brightest Day), 6 (War of the Green Lanterns), 7 (The New 52) and 8 (Lights Out to Godhead): "Approved: commit";
   - event-timeline versions in presence (Flashpoint, Futures End, Future State): "Count them". Counterparts from other worlds stay listed, not counted.
+- **25 Nov:** sub-era 9 (Renegade and the Lost Army): "Approved: commit".
 - **20 Nov:**
   - Answers: New Guardians #20 before Red Lanterns #20; for T6, Hal Jordan and the GLC: Rebirth #1 just before Green Lanterns: Rebirth #1.
   - T6's design note approved, with the four recommendations.
@@ -254,7 +254,7 @@ Built on Pull-List-template v3: copied at template `f7ae723`, then template T0 a
 |---|---|---|
 | 0 | Setup | done and pushed (15 Nov) |
 | 1 | Arc spine | approved (20 Nov); Research-Repo#6 merged (`a43c300`, 21 Nov) |
-| 2 | Core spine (goes live as v1) | sub-eras 1–8 committed (21–23 Nov); sub-era 9 reported; 5 to go; then T6, merged before go-live v1 |
+| 2 | Core spine (goes live as v1) | sub-eras 1–9 committed (21–25 Nov); 4 to go; then T6, merged before go-live v1 |
 | 3 | Green Lantern Corps and New Guardians | — |
 | 4 | Spectrum spin-offs | — |
 | 5 | Canonical events, with T3 | — |
