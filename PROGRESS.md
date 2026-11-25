@@ -172,7 +172,7 @@ Built on Pull-List-template v3: copied at template `f7ae723`, then template T0 a
        - 110 rows: Green Lanterns: Rebirth #1, Green Lanterns (2016) #1–57 and Annual #1, Hal Jordan and the GLC: Rebirth #1 and #1–50.
        - The order equals stage 1's; independent pass 265 / 0 mismatches. No ★, so no picks at threshold 5.
        - Green Lanterns #26 has no presence: Rami's and Volthoom's origin (rev 3985444).
-       - Research-Repo `d67714a`; it rebuilds offline, 21 of 21, twice.
+       - Research-Repo `d67714a`; it rebuilds offline, 19 of 19, twice.
        - Tried in a scratch copy: build v11, gate 0 warnings, harness 1764, layout 472, 0 failed.
        - **Simon Baz's and Jessica Cruz's hand-picks (John, 22 Nov) are not proposed yet.**
          - The DC Database has no reading list for either.
