@@ -183,7 +183,16 @@ Built on Pull-List-template v3: copied at template `f7ae723`, then template T0 a
          - #9 (both cameos) and #26 (neither in it) can't be picks and are listed.
          - The tracker now has 23 picks for Simon and 15 for Jessica.
          - The source is John's reading of Comic Book Roundup (26 Nov); this session didn't fetch it.
-     - **Next: sub-era 11, The Green Lantern and Far Sector** (39 stage-2 rows). Run `stage2.py the-green-lantern` with `GL_REPO` at this branch's latest pushed commit.
+     - **The picks' commit:** `137f9b3`, CI green.
+     - **Sub-era 11, The Green Lantern and Far Sector: report with John (25 Nov).**
+       - 39 rows: The Green Lantern (2019) #1–12 and Annual #1, Blackstars #1–3, Far Sector #1–12, Season Two #1–10, the 80th Anniversary Special.
+       - The order equals stage 1's; independent pass 304 / 0 mismatches.
+       - ★: 33 rows (Hal's Morrison run, and Far Sector for Jo).
+       - 26 counterpart lines from other worlds are listed, not counted.
+       - Research-Repo `22efa48`; it rebuilds offline, 20 of 20.
+       - Tried in a scratch copy: build v13, gate 0 warnings, harness 1764, layout 472, 0 failed.
+       - No questions.
+       - **Once John approves:** copy `stage2/dataset.json` and `stage2/data/eras/5100-the-green-lantern.json` in; build, the gate, both suites; commit. Then sub-era 12, Future State and Infinite Frontier.
        - **Fixed:** `stage2.py` lists a sub-era's volumes in reading order. Ordering them by first cover date left ties to Python's set order, which changes run to run.
        - **Still to do, in sub-era 13:** Green Lantern: War Journal #1–2 have no credits in stage 1's draft. Check their pages before that report.
 
@@ -275,7 +284,7 @@ Built on Pull-List-template v3: copied at template `f7ae723`, then template T0 a
 |---|---|---|
 | 0 | Setup | done and pushed (15 Nov) |
 | 1 | Arc spine | approved (20 Nov); Research-Repo#6 merged (`a43c300`, 21 Nov) |
-| 2 | Core spine (goes live as v1) | sub-eras 1–10 committed (21–25 Nov), with Simon's and Jessica's picks; 3 to go; then T6, merged before go-live v1 |
+| 2 | Core spine (goes live as v1) | sub-eras 1–10 committed (21–25 Nov), with Simon's and Jessica's picks; sub-era 11 reported; 3 to go; then T6, merged before go-live v1 |
 | 3 | Green Lantern Corps and New Guardians | — |
 | 4 | Spectrum spin-offs | — |
 | 5 | Canonical events, with T3 | — |
