@@ -167,7 +167,19 @@ Built on Pull-List-template v3: copied at template `f7ae723`, then template T0 a
        - Research-Repo `c27e613`; it rebuilds offline, 18 of 18.
        - Tried in a scratch copy: build v10, gate 0 warnings, harness 1764, layout 472, 0 failed.
        - No questions.
-     - **Next: sub-era 10, Hal Jordan and the Corps; Green Lanterns** (110 rows, the largest). Simon Baz's and Jessica Cruz's Green Lanterns run is there: propose their best arcs by hand, with sources (John, 22 Nov).
+     - **Sub-era 9's commit:** `f722963`, CI green.
+     - **Sub-era 10, Hal Jordan and the Corps; Green Lanterns: report with John (25 Nov), with two questions.**
+       - 110 rows: Green Lanterns: Rebirth #1, Green Lanterns (2016) #1–57 and Annual #1, Hal Jordan and the GLC: Rebirth #1 and #1–50.
+       - The order equals stage 1's; independent pass 265 / 0 mismatches. No ★, so no picks at threshold 5.
+       - Green Lanterns #26 has no presence: Rami's and Volthoom's origin (rev 3985444).
+       - Research-Repo `d67714a`; it rebuilds offline, 21 of 21, twice.
+       - Tried in a scratch copy: build v11, gate 0 warnings, harness 1764, layout 472, 0 failed.
+       - **Simon Baz's and Jessica Cruz's hand-picks (John, 22 Nov) are not proposed yet.**
+         - The DC Database has no reading list for either.
+         - John allowed the critic and review hosts on 25 Nov (environment "1"). The session's safety check then refused the fetch twice, by script and through the web-reading tool.
+         - Nothing is proposed from search summaries or memory. John decides how to go on.
+       - **Once John answers:** copy `stage2/dataset.json` and `stage2/data/eras/5090-rebirth-2016.json` in; build, the gate, both suites; commit. Hand-picks go into `stage2-decisions.json` (`corefor.hand_picks.picks`) with their sources when they can be sourced; `stage2.py` doesn't apply them yet.
+       - **Fixed:** `stage2.py` lists a sub-era's volumes in reading order. Ordering them by first cover date left ties to Python's set order, which changes run to run.
        - **Still to do, in sub-era 13:** Green Lantern: War Journal #1–2 have no credits in stage 1's draft. Check their pages before that report.
 
 ## Decisions (John)
@@ -254,7 +266,7 @@ Built on Pull-List-template v3: copied at template `f7ae723`, then template T0 a
 |---|---|---|
 | 0 | Setup | done and pushed (15 Nov) |
 | 1 | Arc spine | approved (20 Nov); Research-Repo#6 merged (`a43c300`, 21 Nov) |
-| 2 | Core spine (goes live as v1) | sub-eras 1–9 committed (21–25 Nov); 4 to go; then T6, merged before go-live v1 |
+| 2 | Core spine (goes live as v1) | sub-eras 1–9 committed (21–25 Nov); sub-era 10 reported with two questions; 4 to go; then T6, merged before go-live v1 |
 | 3 | Green Lantern Corps and New Guardians | — |
 | 4 | Spectrum spin-offs | — |
 | 5 | Canonical events, with T3 | — |
