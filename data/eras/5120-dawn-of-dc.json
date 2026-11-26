@@ -1,0 +1,2084 @@
+{
+ "$schema": "../../schema/era-file.schema.json",
+ "era": "dawn-of-dc",
+ "rows": [
+  {
+   "issueId": "green-lantern-2023-1",
+   "series": "Green Lantern",
+   "vol": "2023",
+   "num": "1",
+   "title": "Green Lantern (2023) #1",
+   "arc": "green-lantern-back-in-action",
+   "date": {
+    "cover": "2023-07",
+    "source": "DC Database, \"Green Lantern Vol 7 1\" (rev 3866680, fetched 2026-11-15): cover date 2023-07"
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Jeremy Adams"
+    ],
+    "artists": [
+     "Xermanico"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2023-2",
+   "series": "Green Lantern",
+   "vol": "2023",
+   "num": "2",
+   "title": "Green Lantern (2023) #2",
+   "arc": "green-lantern-back-in-action",
+   "date": {
+    "cover": "2023-08",
+    "source": "DC Database, \"Green Lantern Vol 7 2\" (rev 3824742, fetched 2026-11-15): cover date 2023-08"
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Jeremy Adams"
+    ],
+    "artists": [
+     "Xermanico"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "knight-terrors-green-lantern-2023-1",
+   "series": "Knight Terrors: Green Lantern",
+   "vol": "2023",
+   "num": "1",
+   "title": "Knight Terrors: Green Lantern (2023) #1",
+   "arc": "knight-terrors-green-lantern-back-in-action",
+   "date": {
+    "cover": "2023-09",
+    "source": "DC Database, \"Knight Terrors: Green Lantern Vol 1 1\" (rev 3635484, fetched 2026-11-15): cover date 2023-09"
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Jeremy Adams"
+    ],
+    "artists": [
+     "Eduardo Pansica"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "knight-terrors-green-lantern-2023-2",
+   "series": "Knight Terrors: Green Lantern",
+   "vol": "2023",
+   "num": "2",
+   "title": "Knight Terrors: Green Lantern (2023) #2",
+   "arc": "knight-terrors-green-lantern-back-in-action",
+   "date": {
+    "cover": "2023-10",
+    "source": "DC Database, \"Knight Terrors: Green Lantern Vol 1 2\" (rev 3635485, fetched 2026-11-15): cover date 2023-10"
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Jeremy Adams"
+    ],
+    "artists": [
+     "Eduardo Pansica",
+     "Jordi Tarragona",
+     "Julio Ferreira"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2023-3",
+   "series": "Green Lantern",
+   "vol": "2023",
+   "num": "3",
+   "title": "Green Lantern (2023) #3",
+   "arc": "green-lantern-back-in-action",
+   "date": {
+    "cover": "2023-11",
+    "source": "DC Database, \"Green Lantern Vol 7 3\" (rev 3872690, fetched 2026-11-15): cover date 2023-11"
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Jeremy Adams"
+    ],
+    "artists": [
+     "Xermanico"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "minor"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "cameo"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-war-journal-2023-1",
+   "series": "Green Lantern: War Journal",
+   "vol": "2023",
+   "num": "1",
+   "title": "Green Lantern: War Journal (2023) #1",
+   "arc": "green-lantern-war-journal-war-journal-contagion",
+   "date": {
+    "cover": "2023-11",
+    "source": "DC Database, \"Green Lantern: War Journal Vol 1 1\" (rev 3857516, fetched 2026-11-15): cover date 2023-11"
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "Phillip Kennedy Johnson"
+    ],
+    "artists": [
+     "Montos"
+    ]
+   },
+   "presence": [
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2023-4",
+   "series": "Green Lantern",
+   "vol": "2023",
+   "num": "4",
+   "title": "Green Lantern (2023) #4",
+   "arc": "green-lantern-back-in-action",
+   "date": {
+    "cover": "2023-12",
+    "source": "DC Database, \"Green Lantern Vol 7 4\" (rev 3700252, fetched 2026-11-15): cover date 2023-12"
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Jeremy Adams"
+    ],
+    "artists": [
+     "Xermanico"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-war-journal-2023-2",
+   "series": "Green Lantern: War Journal",
+   "vol": "2023",
+   "num": "2",
+   "title": "Green Lantern: War Journal (2023) #2",
+   "arc": "green-lantern-war-journal-war-journal-contagion",
+   "date": {
+    "cover": "2023-12",
+    "source": "DC Database, \"Green Lantern: War Journal Vol 1 2\" (rev 3872670, fetched 2026-11-15): cover date 2023-12"
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "Phillip Kennedy Johnson"
+    ],
+    "artists": [
+     "Montos"
+    ]
+   },
+   "presence": [
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2023-5",
+   "series": "Green Lantern",
+   "vol": "2023",
+   "num": "5",
+   "title": "Green Lantern (2023) #5",
+   "arc": "green-lantern-back-in-action",
+   "date": {
+    "cover": "2024-01",
+    "source": "DC Database, \"Green Lantern Vol 7 5\" (rev 3671723, fetched 2026-11-15): cover date 2024-01"
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Jeremy Adams"
+    ],
+    "artists": [
+     "Xermanico"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "cameo"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "cameo"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-war-journal-2023-3",
+   "series": "Green Lantern: War Journal",
+   "vol": "2023",
+   "num": "3",
+   "title": "Green Lantern: War Journal (2023) #3",
+   "arc": "green-lantern-war-journal-war-journal-contagion",
+   "date": {
+    "cover": "2024-01",
+    "source": "DC Database, \"Green Lantern: War Journal Vol 1 3\" (rev 3826027, fetched 2026-11-15): cover date 2024-01"
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "Phillip Kennedy Johnson"
+    ],
+    "artists": [
+     "Montos"
+    ]
+   },
+   "presence": [
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2023-6",
+   "series": "Green Lantern",
+   "vol": "2023",
+   "num": "6",
+   "title": "Green Lantern (2023) #6",
+   "arc": "green-lantern-back-in-action",
+   "date": {
+    "cover": "2024-02",
+    "source": "DC Database, \"Green Lantern Vol 7 6\" (rev 3912373, fetched 2026-11-15): cover date 2024-02"
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Jeremy Adams"
+    ],
+    "artists": [
+     "Xermanico"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-war-journal-2023-4",
+   "series": "Green Lantern: War Journal",
+   "vol": "2023",
+   "num": "4",
+   "title": "Green Lantern: War Journal (2023) #4",
+   "arc": "green-lantern-war-journal-war-journal-contagion",
+   "date": {
+    "cover": "2024-02",
+    "source": "DC Database, \"Green Lantern: War Journal Vol 1 4\" (rev 3824736, fetched 2026-11-15): cover date 2024-02"
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "Phillip Kennedy Johnson"
+    ],
+    "artists": [
+     "Montos"
+    ]
+   },
+   "presence": [
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2023-7",
+   "series": "Green Lantern",
+   "vol": "2023",
+   "num": "7",
+   "title": "Green Lantern (2023) #7",
+   "arc": "green-lantern-love-and-war",
+   "date": {
+    "cover": "2024-03",
+    "source": "DC Database, \"Green Lantern Vol 7 7\" (rev 3635141, fetched 2026-11-15): cover date 2024-03"
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Jeremy Adams"
+    ],
+    "artists": [
+     "Amancay Nahuelpan"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "cameo"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "cameo"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "cameo"
+    },
+    {
+     "who": "simon-baz",
+     "grade": "cameo"
+    },
+    {
+     "who": "jessica-cruz",
+     "grade": "cameo"
+    },
+    {
+     "who": "jo-mullein",
+     "grade": "cameo"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-war-journal-2023-5",
+   "series": "Green Lantern: War Journal",
+   "vol": "2023",
+   "num": "5",
+   "title": "Green Lantern: War Journal (2023) #5",
+   "arc": "green-lantern-war-journal-war-journal-contagion",
+   "date": {
+    "cover": "2024-03",
+    "source": "DC Database, \"Green Lantern: War Journal Vol 1 5\" (rev 3824740, fetched 2026-11-15): cover date 2024-03"
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "Phillip Kennedy Johnson"
+    ],
+    "artists": [
+     "Montos"
+    ]
+   },
+   "presence": [
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2023-8",
+   "series": "Green Lantern",
+   "vol": "2023",
+   "num": "8",
+   "title": "Green Lantern (2023) #8",
+   "arc": "green-lantern-love-and-war",
+   "date": {
+    "cover": "2024-04",
+    "source": "DC Database, \"Green Lantern Vol 7 8\" (rev 3826168, fetched 2026-11-15): cover date 2024-04"
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Jeremy Adams"
+    ],
+    "artists": [
+     "Amancay Nahuelpan"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "major"
+    },
+    {
+     "who": "jo-mullein",
+     "grade": "minor"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-war-journal-2023-6",
+   "series": "Green Lantern: War Journal",
+   "vol": "2023",
+   "num": "6",
+   "title": "Green Lantern: War Journal (2023) #6",
+   "arc": "green-lantern-war-journal-war-journal-contagion",
+   "date": {
+    "cover": "2024-04",
+    "source": "DC Database, \"Green Lantern: War Journal Vol 1 6\" (rev 3769255, fetched 2026-11-15): cover date 2024-04"
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "Phillip Kennedy Johnson"
+    ],
+    "artists": [
+     "Montos"
+    ]
+   },
+   "presence": [
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2023-9",
+   "series": "Green Lantern",
+   "vol": "2023",
+   "num": "9",
+   "title": "Green Lantern (2023) #9",
+   "arc": "green-lantern-love-and-war",
+   "date": {
+    "cover": "2024-05",
+    "source": "DC Database, \"Green Lantern Vol 7 9\" (rev 3954905, fetched 2026-11-15): cover date 2024-05"
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Jeremy Adams"
+    ],
+    "artists": [
+     "Xermanico"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "jessica-cruz",
+     "grade": "major"
+    },
+    {
+     "who": "jo-mullein",
+     "grade": "minor"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-war-journal-2023-7",
+   "series": "Green Lantern: War Journal",
+   "vol": "2023",
+   "num": "7",
+   "title": "Green Lantern: War Journal (2023) #7",
+   "arc": "green-lantern-war-journal-war-journal-the-builder",
+   "date": {
+    "cover": "2024-05",
+    "source": "DC Database, \"Green Lantern: War Journal Vol 1 7\" (rev 3661027, fetched 2026-11-15): cover date 2024-05"
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "Phillip Kennedy Johnson"
+    ],
+    "artists": [
+     "Montos"
+    ]
+   },
+   "presence": [
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "cameo"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2023-10",
+   "series": "Green Lantern",
+   "vol": "2023",
+   "num": "10",
+   "title": "Green Lantern (2023) #10",
+   "arc": "green-lantern-love-and-war",
+   "date": {
+    "cover": "2024-06",
+    "source": "DC Database, \"Green Lantern Vol 7 10\" (rev 3672842, fetched 2026-11-15): cover date 2024-06"
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Jeremy Adams"
+    ],
+    "artists": [
+     "Xermanico",
+     "Amancay Nahuelpan"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "major"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "minor"
+    },
+    {
+     "who": "simon-baz",
+     "grade": "minor"
+    },
+    {
+     "who": "jessica-cruz",
+     "grade": "minor"
+    },
+    {
+     "who": "jo-mullein",
+     "grade": "minor"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-war-journal-2023-8",
+   "series": "Green Lantern: War Journal",
+   "vol": "2023",
+   "num": "8",
+   "title": "Green Lantern: War Journal (2023) #8",
+   "arc": "green-lantern-war-journal-war-journal-the-builder",
+   "date": {
+    "cover": "2024-06",
+    "source": "DC Database, \"Green Lantern: War Journal Vol 1 8\" (rev 3661028, fetched 2026-11-15): cover date 2024-06"
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "Phillip Kennedy Johnson"
+    ],
+    "artists": [
+     "Montos"
+    ]
+   },
+   "presence": [
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "cameo"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2023-11",
+   "series": "Green Lantern",
+   "vol": "2023",
+   "num": "11",
+   "title": "Green Lantern (2023) #11",
+   "arc": "green-lantern-love-and-war",
+   "date": {
+    "cover": "2024-07",
+    "source": "DC Database, \"Green Lantern Vol 7 11\" (rev 3712400, fetched 2026-11-15): cover date 2024-07"
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Jeremy Adams"
+    ],
+    "artists": [
+     "Xermanico"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "major"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "minor"
+    },
+    {
+     "who": "simon-baz",
+     "grade": "minor"
+    },
+    {
+     "who": "jo-mullein",
+     "grade": "minor"
+    },
+    {
+     "who": "star-sapphires",
+     "grade": "minor"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-war-journal-2023-9",
+   "series": "Green Lantern: War Journal",
+   "vol": "2023",
+   "num": "9",
+   "title": "Green Lantern: War Journal (2023) #9",
+   "arc": "green-lantern-war-journal-war-journal-the-builder",
+   "date": {
+    "cover": "2024-07",
+    "source": "DC Database, \"Green Lantern: War Journal Vol 1 9\" (rev 3872680, fetched 2026-11-15): cover date 2024-07"
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "Phillip Kennedy Johnson"
+    ],
+    "artists": [
+     "Montos"
+    ]
+   },
+   "presence": [
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "cameo"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2023-12",
+   "series": "Green Lantern",
+   "vol": "2023",
+   "num": "12",
+   "title": "Green Lantern (2023) #12",
+   "arc": "green-lantern-love-and-war",
+   "date": {
+    "cover": "2024-08",
+    "source": "DC Database, \"Green Lantern Vol 7 12\" (rev 3698718, fetched 2026-11-15): cover date 2024-08"
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Jeremy Adams"
+    ],
+    "artists": [
+     "Xermanico"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "major"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "minor"
+    },
+    {
+     "who": "simon-baz",
+     "grade": "minor"
+    },
+    {
+     "who": "jo-mullein",
+     "grade": "minor"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-war-journal-2023-10",
+   "series": "Green Lantern: War Journal",
+   "vol": "2023",
+   "num": "10",
+   "title": "Green Lantern: War Journal (2023) #10",
+   "arc": "green-lantern-war-journal-war-journal-the-builder",
+   "date": {
+    "cover": "2024-08",
+    "source": "DC Database, \"Green Lantern: War Journal Vol 1 10\" (rev 3857518, fetched 2026-11-15): cover date 2024-08"
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "Phillip Kennedy Johnson"
+    ],
+    "artists": [
+     "Montos"
+    ]
+   },
+   "presence": [
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "minor"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2023-13",
+   "series": "Green Lantern",
+   "vol": "2023",
+   "num": "13",
+   "title": "Green Lantern (2023) #13",
+   "arc": "green-lantern-power-of-will",
+   "date": {
+    "cover": "2024-09",
+    "source": "DC Database, \"Green Lantern Vol 7 13\" (rev 3712401, fetched 2026-11-15): cover date 2024-09"
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Jeremy Adams"
+    ],
+    "artists": [
+     "Fernando Pasarin"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "minor"
+    },
+    {
+     "who": "jessica-cruz",
+     "grade": "minor"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-war-journal-2023-11",
+   "series": "Green Lantern: War Journal",
+   "vol": "2023",
+   "num": "11",
+   "title": "Green Lantern: War Journal (2023) #11",
+   "arc": "green-lantern-war-journal-war-journal-the-builder",
+   "date": {
+    "cover": "2024-09",
+    "source": "DC Database, \"Green Lantern: War Journal Vol 1 11\" (rev 3872673, fetched 2026-11-15): cover date 2024-09"
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "Phillip Kennedy Johnson"
+    ],
+    "artists": [
+     "Montos"
+    ]
+   },
+   "presence": [
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "minor"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2023-14",
+   "series": "Green Lantern",
+   "vol": "2023",
+   "num": "14",
+   "title": "Green Lantern (2023) #14",
+   "arc": "green-lantern-power-of-will",
+   "date": {
+    "cover": "2024-10",
+    "source": "DC Database, \"Green Lantern Vol 7 14\" (rev 3712403, fetched 2026-11-15): cover date 2024-10"
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Jeremy Adams"
+    ],
+    "artists": [
+     "Fernando Pasarin"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-war-journal-2023-12",
+   "series": "Green Lantern: War Journal",
+   "vol": "2023",
+   "num": "12",
+   "title": "Green Lantern: War Journal (2023) #12",
+   "arc": "green-lantern-war-journal-war-journal-the-builder",
+   "date": {
+    "cover": "2024-10",
+    "source": "DC Database, \"Green Lantern: War Journal Vol 1 12\" (rev 3872669, fetched 2026-11-15): cover date 2024-10"
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "Phillip Kennedy Johnson"
+    ],
+    "artists": [
+     "Montos"
+    ]
+   },
+   "presence": [
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "minor"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2023-15",
+   "series": "Green Lantern",
+   "vol": "2023",
+   "num": "15",
+   "title": "Green Lantern (2023) #15",
+   "arc": "green-lantern-power-of-will",
+   "date": {
+    "cover": "2024-11",
+    "source": "DC Database, \"Green Lantern Vol 7 15\" (rev 3918059, fetched 2026-11-15): cover date 2024-11"
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Jeremy Adams"
+    ],
+    "artists": [
+     "Fernando Pasarin"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-civil-corps-special-2024-1",
+   "series": "Green Lantern: Civil Corps Special",
+   "vol": "2024",
+   "num": "1",
+   "title": "Green Lantern: Civil Corps Special (2024) #1",
+   "arc": "green-lantern-civil-corps-special-civil-corps",
+   "date": {
+    "cover": "2024-12",
+    "source": "DC Database, \"Green Lantern: Civil Corps Special Vol 1 1\" (rev 3933548, fetched 2026-11-15): cover date 2024-12"
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Jeremy Adams",
+     "Phillip Kennedy Johnson"
+    ],
+    "artists": [
+     "Salvador Larroca"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2023-16",
+   "series": "Green Lantern",
+   "vol": "2023",
+   "num": "16",
+   "title": "Green Lantern (2023) #16",
+   "arc": "green-lantern-civil-corps",
+   "date": {
+    "cover": "2024-12",
+    "source": "DC Database, \"Green Lantern Vol 7 16\" (rev 3918057, fetched 2026-11-15): cover date 2024-12"
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "Jeremy Adams"
+    ],
+    "artists": [
+     "Xermanico"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "minor"
+    },
+    {
+     "who": "simon-baz",
+     "grade": "cameo"
+    },
+    {
+     "who": "jo-mullein",
+     "grade": "minor"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2023-17",
+   "series": "Green Lantern",
+   "vol": "2023",
+   "num": "17",
+   "title": "Green Lantern (2023) #17",
+   "arc": "green-lantern-civil-corps",
+   "date": {
+    "cover": "2025-01",
+    "source": "DC Database, \"Green Lantern Vol 7 17\" (rev 3857513, fetched 2026-11-15): cover date 2025-01"
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Jeremy Adams"
+    ],
+    "artists": [
+     "Xermanico"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "minor"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "minor"
+    },
+    {
+     "who": "simon-baz",
+     "grade": "minor"
+    },
+    {
+     "who": "jessica-cruz",
+     "grade": "minor"
+    },
+    {
+     "who": "jo-mullein",
+     "grade": "minor"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2023-18",
+   "series": "Green Lantern",
+   "vol": "2023",
+   "num": "18",
+   "title": "Green Lantern (2023) #18",
+   "arc": "green-lantern-civil-corps",
+   "date": {
+    "cover": "2025-02",
+    "source": "DC Database, \"Green Lantern Vol 7 18\" (rev 3933549, fetched 2026-11-15): cover date 2025-02"
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Jeremy Adams"
+    ],
+    "artists": [
+     "Xermanico"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "minor"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "major"
+    },
+    {
+     "who": "simon-baz",
+     "grade": "minor"
+    },
+    {
+     "who": "jessica-cruz",
+     "grade": "minor"
+    },
+    {
+     "who": "jo-mullein",
+     "grade": "minor"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-green-arrow-worlds-finest-special-2025-1",
+   "series": "Green Lantern/Green Arrow: World's Finest Special",
+   "vol": "2025",
+   "num": "1",
+   "title": "Green Lantern/Green Arrow: World's Finest Special (2025) #1",
+   "arc": "green-lantern-green-arrow-world-s-finest-special-livin-free",
+   "date": {
+    "cover": "2025-02",
+    "source": "DC Database, \"Green Lantern/Green Arrow: World's Finest Special Vol 1 1\" (rev 3687344, fetched 2026-11-15): cover date 2025-02"
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "Jeremy Adams"
+    ],
+    "artists": [
+     "Lucas Meyer"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "green-arrow",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-fractured-spectrum-2025-1",
+   "series": "Green Lantern: Fractured Spectrum",
+   "vol": "2025",
+   "num": "1",
+   "title": "Green Lantern: Fractured Spectrum (2025) #1",
+   "arc": "green-lantern-fractured-spectrum-civil-corps",
+   "date": {
+    "cover": "2025-03",
+    "source": "DC Database, \"Green Lantern: Fractured Spectrum Vol 1 1\" (rev 3933662, fetched 2026-11-15): cover date 2025-03"
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Jeremy Adams"
+    ],
+    "artists": [
+     "V. Ken Marion"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "major"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "minor"
+    },
+    {
+     "who": "simon-baz",
+     "grade": "minor"
+    },
+    {
+     "who": "jessica-cruz",
+     "grade": "major"
+    },
+    {
+     "who": "jo-mullein",
+     "grade": "minor"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2023-19",
+   "series": "Green Lantern",
+   "vol": "2023",
+   "num": "19",
+   "title": "Green Lantern (2023) #19",
+   "arc": "green-lantern-loose-threads",
+   "date": {
+    "cover": "2025-03",
+    "source": "DC Database, \"Green Lantern Vol 7 19\" (rev 3804553, fetched 2026-11-15): cover date 2025-03"
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "Jeremy Adams"
+    ],
+    "artists": [
+     "Fernando Pasarin",
+     "Oclair Albert",
+     "Jason Paz"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "cameo"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "minor"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2023-20",
+   "series": "Green Lantern",
+   "vol": "2023",
+   "num": "20",
+   "title": "Green Lantern (2023) #20",
+   "arc": "green-lantern-the-life-and-death-of-erastus-the-blacksmith",
+   "date": {
+    "cover": "2025-04",
+    "source": "DC Database, \"Green Lantern Vol 7 20\" (rev 3715966, fetched 2026-11-15): cover date 2025-04"
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "Jeremy Adams"
+    ],
+    "artists": [
+     "Jack Herbert"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2023-21",
+   "series": "Green Lantern",
+   "vol": "2023",
+   "num": "21",
+   "title": "Green Lantern (2023) #21",
+   "arc": "green-lantern-mind-games",
+   "date": {
+    "cover": "2025-05",
+    "source": "DC Database, \"Green Lantern Vol 7 21\" (rev 3847110, fetched 2026-11-15): cover date 2025-05"
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "Jeremy Adams"
+    ],
+    "artists": [
+     "Jack Herbert"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "major"
+    },
+    {
+     "who": "simon-baz",
+     "grade": "minor"
+    },
+    {
+     "who": "jessica-cruz",
+     "grade": "minor"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2023-22",
+   "series": "Green Lantern",
+   "vol": "2023",
+   "num": "22",
+   "title": "Green Lantern (2023) #22",
+   "arc": "green-lantern-highway-to-hell",
+   "date": {
+    "cover": "2025-06",
+    "source": "DC Database, \"Green Lantern Vol 7 22\" (rev 3787141, fetched 2026-11-15): cover date 2025-06"
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "Jeremy Adams"
+    ],
+    "artists": [
+     "Xermanico"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2023-23",
+   "series": "Green Lantern",
+   "vol": "2023",
+   "num": "23",
+   "title": "Green Lantern (2023) #23",
+   "arc": "green-lantern-hellbound",
+   "date": {
+    "cover": "2025-07",
+    "source": "DC Database, \"Green Lantern Vol 7 23\" (rev 3794502, fetched 2026-11-15): cover date 2025-07"
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "Jeremy Adams"
+    ],
+    "artists": [
+     "Xermanico"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2023-24",
+   "series": "Green Lantern",
+   "vol": "2023",
+   "num": "24",
+   "title": "Green Lantern (2023) #24",
+   "arc": "green-lantern-because-i-m-happy",
+   "date": {
+    "cover": "2025-08",
+    "source": "DC Database, \"Green Lantern Vol 7 24\" (rev 3794504, fetched 2026-11-15): cover date 2025-08"
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "Jeremy Adams"
+    ],
+    "artists": [
+     "Xermanico"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2023-25",
+   "series": "Green Lantern",
+   "vol": "2023",
+   "num": "25",
+   "title": "Green Lantern (2023) #25",
+   "arc": "starbreaker-supremacy",
+   "date": {
+    "cover": "2025-09",
+    "source": "DC Database, \"Green Lantern Vol 7 25\" (rev 3857643, fetched 2026-11-15): cover date 2025-09"
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "Jeremy Adams"
+    ],
+    "artists": [
+     "Xermanico"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "minor"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "major"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2023-26",
+   "series": "Green Lantern",
+   "vol": "2023",
+   "num": "26",
+   "title": "Green Lantern (2023) #26",
+   "arc": "starbreaker-supremacy",
+   "date": {
+    "cover": "2025-10",
+    "source": "DC Database, \"Green Lantern Vol 7 26\" (rev 3904506, fetched 2026-11-15): cover date 2025-10"
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "Jeremy Adams"
+    ],
+    "artists": [
+     "V. Ken Marion"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "minor"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "major"
+    },
+    {
+     "who": "simon-baz",
+     "grade": "minor"
+    },
+    {
+     "who": "jessica-cruz",
+     "grade": "minor"
+    },
+    {
+     "who": "jo-mullein",
+     "grade": "minor"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2023-27",
+   "series": "Green Lantern",
+   "vol": "2023",
+   "num": "27",
+   "title": "Green Lantern (2023) #27",
+   "arc": "starbreaker-supremacy",
+   "date": {
+    "cover": "2025-11",
+    "source": "DC Database, \"Green Lantern Vol 7 27\" (rev 3827222, fetched 2026-11-15): cover date 2025-11"
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "Jeremy Adams"
+    ],
+    "artists": [
+     "Xermanico"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "minor"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "minor"
+    },
+    {
+     "who": "simon-baz",
+     "grade": "minor"
+    },
+    {
+     "who": "jessica-cruz",
+     "grade": "minor"
+    },
+    {
+     "who": "jo-mullein",
+     "grade": "minor"
+    },
+    {
+     "who": "indigo-tribe",
+     "grade": "minor"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2023-28",
+   "series": "Green Lantern",
+   "vol": "2023",
+   "num": "28",
+   "title": "Green Lantern (2023) #28",
+   "arc": "green-lantern-with-this-ring",
+   "date": {
+    "cover": "2025-12",
+    "source": "DC Database, \"Green Lantern Vol 7 28\" (rev 3846281, fetched 2026-11-15): cover date 2025-12"
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "Jeremy Adams"
+    ],
+    "artists": [
+     "V. Ken Marion"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "major"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "major"
+    },
+    {
+     "who": "jessica-cruz",
+     "grade": "minor"
+    },
+    {
+     "who": "jo-mullein",
+     "grade": "minor"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2023-29",
+   "series": "Green Lantern",
+   "vol": "2023",
+   "num": "29",
+   "title": "Green Lantern (2023) #29",
+   "arc": "green-lantern-with-this-ring",
+   "date": {
+    "cover": "2026-01",
+    "source": "DC Database, \"Green Lantern Vol 7 29\" (rev 3846283, fetched 2026-11-15): cover date 2026-01"
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "Jeremy Adams"
+    ],
+    "artists": [
+     "Carmine Di Giandomenico"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "green-arrow",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2023-30",
+   "series": "Green Lantern",
+   "vol": "2023",
+   "num": "30",
+   "title": "Green Lantern (2023) #30",
+   "arc": "green-lantern-with-this-ring",
+   "date": {
+    "cover": "2026-02",
+    "source": "DC Database, \"Green Lantern Vol 7 30\" (rev 3918063, fetched 2026-11-15): cover date 2026-02"
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "Jeremy Adams"
+    ],
+    "artists": [
+     "Carmine Di Giandomenico"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "dc-k-o-green-lantern-galactic-slam-2026-1",
+   "series": "DC K.O.: Green Lantern Galactic Slam",
+   "vol": "2026",
+   "num": "1",
+   "title": "DC K.O.: Green Lantern Galactic Slam (2026) #1",
+   "arc": "dc-k-o-green-lantern-galactic-slam-green-lantern-galactic-sl",
+   "date": {
+    "cover": "2026-03",
+    "source": "DC Database, \"DC K.O.: Green Lantern Galactic Slam Vol 1 1\" (rev 3959247, fetched 2026-11-15): cover date 2026-03"
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "Jeremy Adams"
+    ],
+    "artists": [
+     "Cian Tormey",
+     "Pat Boutin"
+    ]
+   },
+   "presence": [
+    {
+     "who": "guy-gardner",
+     "grade": "minor"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2023-31",
+   "series": "Green Lantern",
+   "vol": "2023",
+   "num": "31",
+   "title": "Green Lantern (2023) #31",
+   "arc": "green-lantern-with-this-ring",
+   "date": {
+    "cover": "2026-03",
+    "source": "DC Database, \"Green Lantern Vol 7 31\" (rev 3911500, fetched 2026-11-15): cover date 2026-03"
+   },
+   "seq": 3,
+   "credits": {
+    "writers": [
+     "Jeremy Adams"
+    ],
+    "artists": [
+     "Montos"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2023-32",
+   "series": "Green Lantern",
+   "vol": "2023",
+   "num": "32",
+   "title": "Green Lantern (2023) #32",
+   "arc": "green-lantern-with-this-ring",
+   "date": {
+    "cover": "2026-04",
+    "source": "DC Database, \"Green Lantern Vol 7 32\" (rev 3933733, fetched 2026-11-15): cover date 2026-04"
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "Jeremy Adams"
+    ],
+    "artists": [
+     "Montos"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "minor"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2023-33",
+   "series": "Green Lantern",
+   "vol": "2023",
+   "num": "33",
+   "title": "Green Lantern (2023) #33",
+   "arc": "green-lantern-with-this-ring",
+   "date": {
+    "cover": "2026-05",
+    "source": "DC Database, \"Green Lantern Vol 7 33\" (rev 3937374, fetched 2026-11-15): cover date 2026-05"
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "Jeremy Adams"
+    ],
+    "artists": [
+     "Xermanico"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "minor"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "minor"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "minor"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "major"
+    },
+    {
+     "who": "simon-baz",
+     "grade": "minor"
+    },
+    {
+     "who": "jessica-cruz",
+     "grade": "minor"
+    },
+    {
+     "who": "jo-mullein",
+     "grade": "minor"
+    },
+    {
+     "who": "green-arrow",
+     "grade": "cameo"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2023-34",
+   "series": "Green Lantern",
+   "vol": "2023",
+   "num": "34",
+   "title": "Green Lantern (2023) #34",
+   "arc": "green-lantern-a-star-is-born",
+   "date": {
+    "cover": "2026-06",
+    "source": "DC Database, \"Green Lantern Vol 7 34\" (rev 3927386, fetched 2026-11-15): cover date 2026-06"
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "Jeremy Adams"
+    ],
+    "artists": [
+     "Montos",
+     "Ig Guara"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "tales-of-the-green-lantern-corps-guy-gardner-2026-1",
+   "series": "Tales of the Green Lantern Corps: Guy Gardner",
+   "vol": "2026",
+   "num": "1",
+   "title": "Tales of the Green Lantern Corps: Guy Gardner (2026) #1",
+   "arc": "tales-of-the-green-lantern-corps-guy-gardner-light-club",
+   "date": {
+    "cover": "2026-07",
+    "source": "DC Database, \"Tales of the Green Lantern Corps: Guy Gardner Vol 1 1\" (rev 3897486, fetched 2026-11-15): cover date 2026-07"
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Gerry Duggan"
+    ],
+    "artists": [
+     "Matteo Lolli",
+     "Laura Braga",
+     "Vasco Georgiev"
+    ]
+   },
+   "presence": [
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "major"
+    },
+    {
+     "who": "simon-baz",
+     "grade": "minor"
+    },
+    {
+     "who": "jessica-cruz",
+     "grade": "cameo"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2023-35",
+   "series": "Green Lantern",
+   "vol": "2023",
+   "num": "35",
+   "title": "Green Lantern (2023) #35",
+   "arc": "green-lantern-filler-episode",
+   "date": {
+    "cover": "2026-07",
+    "source": "DC Database, \"Green Lantern Vol 7 35\" (rev 3911516, fetched 2026-11-15): cover date 2026-07"
+   },
+   "seq": 3,
+   "credits": {
+    "writers": [
+     "Jeremy Adams"
+    ],
+    "artists": [
+     "Montos",
+     "Ig Guara"
+    ]
+   },
+   "presence": [
+    {
+     "who": "kyle-rayner",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2023-36",
+   "series": "Green Lantern",
+   "vol": "2023",
+   "num": "36",
+   "title": "Green Lantern (2023) #36",
+   "arc": "green-lantern-second-chance",
+   "date": {
+    "cover": "2026-08",
+    "source": "DC Database, \"Green Lantern Vol 7 36\" (rev 3954742, fetched 2026-11-15): cover date 2026-08"
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "Jeremy Adams"
+    ],
+    "artists": [
+     "Montos",
+     "Ig Guara"
+    ]
+   },
+   "presence": [
+    {
+     "who": "kyle-rayner",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2023-37",
+   "series": "Green Lantern",
+   "vol": "2023",
+   "num": "37",
+   "title": "Green Lantern (2023) #37",
+   "arc": "green-lantern-don-t-feed-the-trolls",
+   "date": {
+    "cover": "2026-09",
+    "source": "DC Database, \"Green Lantern Vol 7 37\" (rev 3937407, fetched 2026-11-15): cover date 2026-09"
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "Jeremy Adams"
+    ],
+    "artists": [
+     "Montos",
+     "Ig Guara"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2023-38",
+   "series": "Green Lantern",
+   "vol": "2023",
+   "num": "38",
+   "title": "Green Lantern (2023) #38",
+   "arc": "green-lantern-food-fight",
+   "date": {
+    "cover": "2026-10",
+    "source": "DC Database, \"Green Lantern Vol 7 38\" (rev 3954743, fetched 2026-11-15): cover date 2026-10"
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "Jeremy Adams"
+    ],
+    "artists": [
+     "Xermanico",
+     "Szymon Kudranski"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2023-39",
+   "series": "Green Lantern",
+   "vol": "2023",
+   "num": "39",
+   "title": "Green Lantern (2023) #39",
+   "arc": "green-lantern-food-fight",
+   "date": {
+    "cover": "2026-11",
+    "source": "DC Database, \"Green Lantern Vol 7 39\" (rev 3956166, fetched 2026-11-15): cover date 2026-11"
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "Jeremy Adams"
+    ],
+    "artists": [
+     "Adriana Melo"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "cameo"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "cameo"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2023-40",
+   "series": "Green Lantern",
+   "vol": "2023",
+   "num": "40",
+   "title": "Green Lantern (2023) #40",
+   "arc": "first-light",
+   "date": {
+    "cover": "2026-12",
+    "source": "DC Database, \"Green Lantern Vol 7 40\" (rev 3993537, fetched 2026-11-15): cover date 2026-12"
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "Jeremy Adams"
+    ],
+    "artists": [
+     "Scott Godlewski",
+     "Vasco Georgiev"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "minor"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "major"
+    },
+    {
+     "who": "simon-baz",
+     "grade": "cameo"
+    },
+    {
+     "who": "jessica-cruz",
+     "grade": "minor"
+    }
+   ]
+  },
+  {
+   "id": "gap-absolute-green-lantern",
+   "title": "Absolute Green Lantern (2025–)",
+   "arc": "green-lantern-highway-to-hell",
+   "flags": [
+    "GAPNOTE"
+   ],
+   "note": "Absolute Green Lantern (2025–) is in the Absolute tracker · asimkard.github.io/Absolute/",
+   "date": {
+    "cover": "2025-06",
+    "source": "DC Database, \"Absolute Green Lantern Vol 1 1\" (rev 3845762, fetched 2026-11-26): cover date 2025-06"
+   },
+   "seq": 9
+  }
+ ]
+}

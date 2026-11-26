@@ -212,7 +212,7 @@ Built on Pull-List-template v3: copied at template `f7ae723`, then template T0 a
      - **John's instructions (26 Nov)** (`CLAUDE.md`): back to back; commit clean sub-eras (up to three together) without waiting; three checks in every report; questions batched (four, or the end of stage 2); stop before the go-live PR.
        - The three checks are `stage2_checks.py`, in every sub-era's report, with every sub-era in its own section of `change-report-stage2.md`.
        - **Over stage 2:** 381 of 381 rows match their saved pages; every collection difference has its reason; 2 plain-text entries.
-     - **Sub-era 13, Dawn of DC to today: drafted, with two questions for John (the end of stage 2).**
+     - **Sub-era 13, Dawn of DC to today: approved (John's answers, 26 Nov) and committed.** Built v15 (`d056649cfacb`): 382 rows, 381 issues and the gap note; gate 0 warnings.
        - 59 rows: Green Lantern (2023) #1–40, War Journal #1–12, Knight Terrors: Green Lantern #1–2, and five one-shots and specials.
        - The order equals stage 1's; independent pass 381 / 0; presence check 1,026 / 0. No ★.
        - War Journal #1–2's credits are read from their pages (listed under an untitled story 2).
@@ -220,9 +220,26 @@ Built on Pull-List-template v3: copied at template `f7ae723`, then template T0 a
        - The current status was checked 26 Nov: Green Lantern #41's page appeared as a stub; #42–43, Training Day and Lanterns have none.
        - Research-Repo `080c2f5`; it rebuilds offline, 23 of 23.
        - Tried in a scratch copy with all 13 sub-eras: v15, gate 0 warnings, harness 1764, layout 472, 0 failed.
-       - **The questions:** (1) add Green Lantern (2023) #41 now, or hold it until its page is complete; (2) where the gap note sits.
-       - **Where it resumes:** apply John's answers in `stage2-decisions.json` (`eras.dawn-of-dc`); re-run `stage2.py dawn-of-dc`; copy `stage2/dataset.json` and `stage2/data/eras/5120-dawn-of-dc.json` in; build, the gate, both suites; commit.
-     - **Then:** T6 (its own template PR, merged before go-live v1); then stop before the go-live PR for John's one-pass check of all of stage 2.
+       - **John's answers:**
+         - Green Lantern (2023) #41: "Hold it, and check its page again in the pass before go-live: add it then if the page lists the story, on-sale date and appearances." It is recorded in `stage2-decisions.json` (`before_go_live`).
+         - The gap note: June 2025, after Green Lantern (2023) #22.
+   - **Stage 2 is complete: 13 sub-eras, 381 issues and one gap note** (21–26 Nov).
+     - All 381 rows match their saved pages, and the presence check gives 1,026 tags, 0 failures.
+     - `change-report-stage2.md` (Research-Repo) has every sub-era in its own section, for John's one-pass check.
+   - **Next step: T6** (John: after stage 2's sub-eras, merged before go-live v1). Design approved 20 Nov, with four recommendations (`t6-design.md`):
+     - "between A and B" lands nearest the row's own date;
+     - the release date is `date.order` with a citation;
+     - "before the epilogue of" places a row before the whole issue;
+     - the "Placed after …" line shows.
+
+     Where it begins:
+     1. Pull-List-template branch `claude/awesome-brahmagupta-89pq1z` from `main` `d5c1585`.
+     2. `schema/dataset.schema.json` gains `rows[].place` and `date.order`; then `tools/build.py` (placement, validation, a release order for Publication order); then a new placement suite with its bug-back proofs.
+     3. A template PR pasted to John. After he merges it, this repo copies it in and applies the "waiting for T6" notes.
+   - **Then the pass before go-live:**
+     - Check Green Lantern (2023) #41's page again and add it if it is complete (John, 26 Nov).
+     - Check the current status again.
+     - Stop before the go-live PR for John's one-pass check of all of stage 2.
        - **Fixed:** `stage2.py` lists a sub-era's volumes in reading order. Ordering them by first cover date left ties to Python's set order, which changes run to run.
        - **Still to do, in sub-era 13:** Green Lantern: War Journal #1–2 have no credits in stage 1's draft. Check their pages before that report.
 
@@ -284,6 +301,7 @@ Built on Pull-List-template v3: copied at template `f7ae723`, then template T0 a
 - **26 Nov:**
   - sub-era 11: "Commit after one fix": Season Two #10 loses Guy Gardner's cameo (a counterpart linked to the generic Guy Gardner page); add a check that every presence tag comes from a main-world or event-timeline link, and run it on all committed rows;
   - the standing rule for stage 2's sub-eras (`CLAUDE.md`, "Green Lantern's own rules");
+  - the end-of-stage-2 form: Green Lantern (2023) #41 is held, to be checked again in the pass before go-live; the gap note sits in June 2025;
   - later the same day, five instructions: the fix (already made); work back to back, committing clean sub-eras (up to three together) without waiting; three checks in every sub-era report; questions together at four or the end of stage 2; stop before the go-live PR.
 - **25 Nov:**
   - sub-era 9 (Renegade and the Lost Army): "Approved: commit";
@@ -318,7 +336,7 @@ Built on Pull-List-template v3: copied at template `f7ae723`, then template T0 a
 |---|---|---|
 | 0 | Setup | done and pushed (15 Nov) |
 | 1 | Arc spine | approved (20 Nov); Research-Repo#6 merged (`a43c300`, 21 Nov) |
-| 2 | Core spine (goes live as v1) | sub-eras 1–12 committed (21–26 Nov); sub-era 13 drafted, two questions with John; then T6, merged before go-live v1; stop before the go-live PR |
+| 2 | Core spine (goes live as v1) | **all 13 sub-eras committed (21–26 Nov)**; next T6, merged before go-live v1; then the pass before go-live; stop before the go-live PR |
 | 3 | Green Lantern Corps and New Guardians | — |
 | 4 | Spectrum spin-offs | — |
 | 5 | Canonical events, with T3 | — |

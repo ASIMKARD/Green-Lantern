@@ -6,7 +6,7 @@
   "wordmark": "Green Lantern",
   "title": "Green Lantern — Reading Order",
   "strapline": "From Green Lantern: Rebirth (2004) on",
-  "span": "2004–2022",
+  "span": "2004–2026",
   "theme": "#0B5D33",
   "strictCredits": true
  },
@@ -70,6 +70,11 @@
    "id": "infinite-frontier",
    "name": "Future State and Infinite Frontier",
    "rank": 5110
+  },
+  {
+   "id": "dawn-of-dc",
+   "name": "Dawn of DC to today",
+   "rank": 5120
   }
  ],
  "periods": [
@@ -119,10 +124,19 @@
    "eras": [
     "infinite-frontier"
    ]
+  },
+  {
+   "id": "dawn",
+   "name": "Dawn of DC to today",
+   "label": "2023–",
+   "eras": [
+    "dawn-of-dc"
+   ]
   }
  ],
  "strands": [
   "Green Lantern",
+  "Corps",
   "Red Lanterns"
  ],
  "types": [
@@ -2306,6 +2320,538 @@
    }
   },
   {
+   "id": "green-lantern-war-journal-war-journal-contagion",
+   "name": "War Journal: Contagion",
+   "era": "dawn-of-dc",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "SOLO",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2023",
+   "blurb": "Collected in Green Lantern: War Journal: Contagion (2024).",
+   "credits": {
+    "writers": [
+     "Phillip Kennedy Johnson"
+    ],
+    "artists": [
+     "Montos"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-war-journal-war-journal-the-builder",
+   "name": "War Journal: The Builder",
+   "era": "dawn-of-dc",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "SOLO",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2024",
+   "blurb": "Collected in Green Lantern: War Journal: The Builder (2025).",
+   "credits": {
+    "writers": [
+     "Phillip Kennedy Johnson"
+    ],
+    "artists": [
+     "Montos"
+    ]
+   }
+  },
+  {
+   "id": "knight-terrors-green-lantern-back-in-action",
+   "name": "Back in Action",
+   "era": "dawn-of-dc",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MINI",
+   "mo": "O",
+   "tier": "Everything",
+   "importance": 1,
+   "year": "2023",
+   "blurb": "Collected in Green Lantern: Back in Action (2024).",
+   "credits": {
+    "writers": [
+     "Jeremy Adams"
+    ],
+    "artists": [
+     "Eduardo Pansica",
+     "Jordi Tarragona",
+     "Julio Ferreira"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-back-in-action",
+   "name": "Back in Action",
+   "era": "dawn-of-dc",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2023",
+   "blurb": "Collected in Green Lantern: Back in Action (2024).",
+   "credits": {
+    "writers": [
+     "Jeremy Adams"
+    ],
+    "artists": [
+     "Xermanico"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-love-and-war",
+   "name": "Love and War",
+   "era": "dawn-of-dc",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2024",
+   "blurb": "Collected in Green Lantern: Love and War (2025).",
+   "credits": {
+    "writers": [
+     "Jeremy Adams"
+    ],
+    "artists": [
+     "Xermanico",
+     "Amancay Nahuelpan"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-power-of-will",
+   "name": "Power of Will",
+   "era": "dawn-of-dc",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2024",
+   "blurb": "Collected in Green Lantern: Power of Will (2025).",
+   "credits": {
+    "writers": [
+     "Jeremy Adams"
+    ],
+    "artists": [
+     "Fernando Pasarin"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-civil-corps",
+   "name": "Civil Corps",
+   "era": "dawn-of-dc",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2024",
+   "blurb": "Collected in Green Lantern: Civil Corps (2025).",
+   "credits": {
+    "writers": [
+     "Jeremy Adams"
+    ],
+    "artists": [
+     "Xermanico"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-loose-threads",
+   "name": "Loose Threads",
+   "era": "dawn-of-dc",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2025",
+   "credits": {
+    "writers": [
+     "Jeremy Adams"
+    ],
+    "artists": [
+     "Fernando Pasarin",
+     "Oclair Albert",
+     "Jason Paz"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-the-life-and-death-of-erastus-the-blacksmith",
+   "name": "The Life and Death of Erastus the Blacksmith",
+   "era": "dawn-of-dc",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2025",
+   "credits": {
+    "writers": [
+     "Jeremy Adams"
+    ],
+    "artists": [
+     "Jack Herbert"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-mind-games",
+   "name": "Mind Games",
+   "era": "dawn-of-dc",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2025",
+   "credits": {
+    "writers": [
+     "Jeremy Adams"
+    ],
+    "artists": [
+     "Jack Herbert"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-highway-to-hell",
+   "name": "Highway to Hell",
+   "era": "dawn-of-dc",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2025",
+   "credits": {
+    "writers": [
+     "Jeremy Adams"
+    ],
+    "artists": [
+     "Xermanico"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-hellbound",
+   "name": "Hellbound",
+   "era": "dawn-of-dc",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2025",
+   "credits": {
+    "writers": [
+     "Jeremy Adams"
+    ],
+    "artists": [
+     "Xermanico"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-because-i-m-happy",
+   "name": "Because I'm Happy",
+   "era": "dawn-of-dc",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2025",
+   "credits": {
+    "writers": [
+     "Jeremy Adams"
+    ],
+    "artists": [
+     "Xermanico"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-with-this-ring",
+   "name": "With This Ring",
+   "era": "dawn-of-dc",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2025",
+   "blurb": "Collected in Green Lantern: With This Ring (2026).",
+   "credits": {
+    "writers": [
+     "Jeremy Adams"
+    ],
+    "artists": [
+     "Carmine Di Giandomenico",
+     "Montos",
+     "V. Ken Marion",
+     "Xermanico"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-a-star-is-born",
+   "name": "A Star Is Born",
+   "era": "dawn-of-dc",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2026",
+   "credits": {
+    "writers": [
+     "Jeremy Adams"
+    ],
+    "artists": [
+     "Montos",
+     "Ig Guara"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-filler-episode",
+   "name": "Filler Episode",
+   "era": "dawn-of-dc",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2026",
+   "credits": {
+    "writers": [
+     "Jeremy Adams"
+    ],
+    "artists": [
+     "Montos",
+     "Ig Guara"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-second-chance",
+   "name": "Second Chance",
+   "era": "dawn-of-dc",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2026",
+   "credits": {
+    "writers": [
+     "Jeremy Adams"
+    ],
+    "artists": [
+     "Montos",
+     "Ig Guara"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-don-t-feed-the-trolls",
+   "name": "Don't Feed the Trolls",
+   "era": "dawn-of-dc",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2026",
+   "credits": {
+    "writers": [
+     "Jeremy Adams"
+    ],
+    "artists": [
+     "Montos",
+     "Ig Guara"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-food-fight",
+   "name": "Food Fight",
+   "era": "dawn-of-dc",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2026",
+   "credits": {
+    "writers": [
+     "Jeremy Adams"
+    ],
+    "artists": [
+     "Xermanico",
+     "Szymon Kudranski",
+     "Adriana Melo"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-civil-corps-special-civil-corps",
+   "name": "Civil Corps",
+   "era": "dawn-of-dc",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MINI",
+   "mo": "O",
+   "tier": "Everything",
+   "importance": 2,
+   "year": "2024",
+   "blurb": "Collected in Green Lantern: Civil Corps (2025).",
+   "credits": {
+    "writers": [
+     "Jeremy Adams",
+     "Phillip Kennedy Johnson"
+    ],
+    "artists": [
+     "Salvador Larroca"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-fractured-spectrum-civil-corps",
+   "name": "Civil Corps",
+   "era": "dawn-of-dc",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MINI",
+   "mo": "O",
+   "tier": "Everything",
+   "importance": 2,
+   "year": "2025",
+   "blurb": "Collected in Green Lantern: Civil Corps (2025).",
+   "credits": {
+    "writers": [
+     "Jeremy Adams"
+    ],
+    "artists": [
+     "V. Ken Marion"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-green-arrow-world-s-finest-special-livin-free",
+   "name": "Livin' Free",
+   "era": "dawn-of-dc",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MINI",
+   "mo": "O",
+   "tier": "Everything",
+   "importance": 2,
+   "year": "2025",
+   "credits": {
+    "writers": [
+     "Jeremy Adams"
+    ],
+    "artists": [
+     "Lucas Meyer"
+    ]
+   }
+  },
+  {
+   "id": "dc-k-o-green-lantern-galactic-slam-green-lantern-galactic-sl",
+   "name": "Green Lantern Galactic Slam",
+   "era": "dawn-of-dc",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MINI",
+   "mo": "O",
+   "tier": "Everything",
+   "importance": 1,
+   "year": "2026",
+   "credits": {
+    "writers": [
+     "Jeremy Adams"
+    ],
+    "artists": [
+     "Cian Tormey",
+     "Pat Boutin"
+    ]
+   }
+  },
+  {
+   "id": "tales-of-the-green-lantern-corps-guy-gardner-light-club",
+   "name": "Light Club",
+   "era": "dawn-of-dc",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MINI",
+   "mo": "O",
+   "tier": "Everything",
+   "importance": 2,
+   "year": "2026",
+   "credits": {
+    "writers": [
+     "Gerry Duggan"
+    ],
+    "artists": [
+     "Matteo Lolli",
+     "Laura Braga",
+     "Vasco Georgiev"
+    ]
+   }
+  },
+  {
    "id": "rage-of-the-red-lanterns",
    "name": "Rage of the Red Lanterns",
    "era": "secret-origin",
@@ -2328,6 +2874,57 @@
      "Shane Davis"
     ]
    }
+  },
+  {
+   "id": "starbreaker-supremacy",
+   "name": "Starbreaker Supremacy",
+   "era": "dawn-of-dc",
+   "strands": [
+    "Green Lantern",
+    "Corps"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2025",
+   "credits": {
+    "writers": [
+     "Jeremy Adams",
+     "Morgan Hampton"
+    ],
+    "artists": [
+     "Fernando Pasarin",
+     "Xermanico",
+     "V. Ken Marion"
+    ]
+   }
+  },
+  {
+   "id": "first-light",
+   "name": "First Light",
+   "era": "dawn-of-dc",
+   "strands": [
+    "Green Lantern",
+    "Corps"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2026",
+   "credits": {
+    "writers": [
+     "Jeremy Adams",
+     "Morgan Hampton"
+    ],
+    "artists": [
+     "Vasco Georgiev",
+     "Scott Godlewski",
+     "Fernando Pasarin",
+     "Serg Acuña"
+    ]
+   }
   }
  ],
  "sources": [
@@ -2342,7 +2939,14 @@
   "data/eras/5080-renegade.json",
   "data/eras/5090-rebirth-2016.json",
   "data/eras/5100-the-green-lantern.json",
-  "data/eras/5110-infinite-frontier.json"
+  "data/eras/5110-infinite-frontier.json",
+  "data/eras/5120-dawn-of-dc.json"
+ ],
+ "legend": [
+  {
+   "term": "Absolute Green Lantern",
+   "meaning": "in the Absolute tracker (asimkard.github.io/Absolute/), not here"
+  }
  ],
  "maintenance": [
   "Stage 2 (Green Lantern #1): the core spine, sub-era by sub-era. Each sub-era's rows are committed after John approves its report. Rows come from Research-Repo sessions/2026-11-14-green-lantern/ (stage2.py)."
