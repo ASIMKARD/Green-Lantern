@@ -1,0 +1,1246 @@
+{
+ "$schema": "../../schema/era-file.schema.json",
+ "era": "the-green-lantern",
+ "rows": [
+  {
+   "issueId": "the-green-lantern-2019-1",
+   "series": "The Green Lantern",
+   "vol": "2019",
+   "num": "1",
+   "title": "The Green Lantern (2019) #1",
+   "arc": "the-green-lantern-intergalactic-lawman",
+   "date": {
+    "cover": "2019-01",
+    "source": "DC Database, \"The Green Lantern Vol 1 1\" (rev 3985471, fetched 2026-11-15): cover date 2019-01"
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Grant Morrison"
+    ],
+    "artists": [
+     "Liam Sharp"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    }
+   ],
+   "core": true,
+   "coreFor": [
+    "hal-jordan"
+   ]
+  },
+  {
+   "issueId": "the-green-lantern-2019-2",
+   "series": "The Green Lantern",
+   "vol": "2019",
+   "num": "2",
+   "title": "The Green Lantern (2019) #2",
+   "arc": "the-green-lantern-intergalactic-lawman",
+   "date": {
+    "cover": "2019-02",
+    "source": "DC Database, \"The Green Lantern Vol 1 2\" (rev 3985470, fetched 2026-11-15): cover date 2019-02"
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Grant Morrison"
+    ],
+    "artists": [
+     "Liam Sharp"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    }
+   ],
+   "core": true,
+   "coreFor": [
+    "hal-jordan"
+   ]
+  },
+  {
+   "issueId": "the-green-lantern-2019-3",
+   "series": "The Green Lantern",
+   "vol": "2019",
+   "num": "3",
+   "title": "The Green Lantern (2019) #3",
+   "arc": "the-green-lantern-intergalactic-lawman",
+   "date": {
+    "cover": "2019-03",
+    "source": "DC Database, \"The Green Lantern Vol 1 3\" (rev 3985469, fetched 2026-11-15): cover date 2019-03"
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Grant Morrison"
+    ],
+    "artists": [
+     "Liam Sharp"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "cameo"
+    }
+   ],
+   "core": true,
+   "coreFor": [
+    "hal-jordan"
+   ]
+  },
+  {
+   "issueId": "the-green-lantern-2019-4",
+   "series": "The Green Lantern",
+   "vol": "2019",
+   "num": "4",
+   "title": "The Green Lantern (2019) #4",
+   "arc": "the-green-lantern-intergalactic-lawman",
+   "date": {
+    "cover": "2019-04",
+    "source": "DC Database, \"The Green Lantern Vol 1 4\" (rev 3985468, fetched 2026-11-15): cover date 2019-04"
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Grant Morrison"
+    ],
+    "artists": [
+     "Liam Sharp"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    }
+   ],
+   "core": true,
+   "coreFor": [
+    "hal-jordan"
+   ]
+  },
+  {
+   "issueId": "the-green-lantern-2019-5",
+   "series": "The Green Lantern",
+   "vol": "2019",
+   "num": "5",
+   "title": "The Green Lantern (2019) #5",
+   "arc": "the-green-lantern-intergalactic-lawman",
+   "date": {
+    "cover": "2019-05",
+    "source": "DC Database, \"The Green Lantern Vol 1 5\" (rev 3985467, fetched 2026-11-15): cover date 2019-05"
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Grant Morrison"
+    ],
+    "artists": [
+     "Liam Sharp"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    }
+   ],
+   "core": true,
+   "coreFor": [
+    "hal-jordan"
+   ]
+  },
+  {
+   "issueId": "the-green-lantern-2019-6",
+   "series": "The Green Lantern",
+   "vol": "2019",
+   "num": "6",
+   "title": "The Green Lantern (2019) #6",
+   "arc": "the-green-lantern-intergalactic-lawman",
+   "date": {
+    "cover": "2019-06",
+    "source": "DC Database, \"The Green Lantern Vol 1 6\" (rev 3985466, fetched 2026-11-15): cover date 2019-06"
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Grant Morrison"
+    ],
+    "artists": [
+     "Liam Sharp"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    }
+   ],
+   "core": true,
+   "coreFor": [
+    "hal-jordan"
+   ]
+  },
+  {
+   "issueId": "the-green-lantern-2019-7",
+   "series": "The Green Lantern",
+   "vol": "2019",
+   "num": "7",
+   "title": "The Green Lantern (2019) #7",
+   "arc": "the-green-lantern-the-day-the-stars-fell",
+   "date": {
+    "cover": "2019-07",
+    "source": "DC Database, \"The Green Lantern Vol 1 7\" (rev 3985455, fetched 2026-11-15): cover date 2019-07"
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Grant Morrison"
+    ],
+    "artists": [
+     "Liam Sharp"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    }
+   ],
+   "core": true,
+   "coreFor": [
+    "hal-jordan"
+   ]
+  },
+  {
+   "issueId": "the-green-lantern-2019-8",
+   "series": "The Green Lantern",
+   "vol": "2019",
+   "num": "8",
+   "title": "The Green Lantern (2019) #8",
+   "arc": "the-green-lantern-the-day-the-stars-fell",
+   "date": {
+    "cover": "2019-08",
+    "source": "DC Database, \"The Green Lantern Vol 1 8\" (rev 3985456, fetched 2026-11-15): cover date 2019-08"
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Grant Morrison"
+    ],
+    "artists": [
+     "Liam Sharp"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "green-arrow",
+     "grade": "major"
+    }
+   ],
+   "core": true,
+   "coreFor": [
+    "hal-jordan"
+   ]
+  },
+  {
+   "issueId": "the-green-lantern-2019-9",
+   "series": "The Green Lantern",
+   "vol": "2019",
+   "num": "9",
+   "title": "The Green Lantern (2019) #9",
+   "arc": "the-green-lantern-the-day-the-stars-fell",
+   "date": {
+    "cover": "2019-09",
+    "source": "DC Database, \"The Green Lantern Vol 1 9\" (rev 3985457, fetched 2026-11-15): cover date 2019-09"
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Grant Morrison"
+    ],
+    "artists": [
+     "Liam Sharp"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    }
+   ],
+   "core": true,
+   "coreFor": [
+    "hal-jordan"
+   ]
+  },
+  {
+   "issueId": "the-green-lantern-2019-annual-1",
+   "series": "The Green Lantern",
+   "vol": "2019",
+   "num": "Annual 1",
+   "title": "The Green Lantern (2019) Annual #1",
+   "arc": "the-green-lantern-annual-the-day-the-stars-fell",
+   "date": {
+    "cover": "2019-09",
+    "source": "DC Database, \"The Green Lantern Annual Vol 1 1\" (rev 3901636, fetched 2026-11-15): cover date 2019-09"
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "Grant Morrison"
+    ],
+    "artists": [
+     "Giuseppe Camuncoli"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "the-green-lantern-2019-10",
+   "series": "The Green Lantern",
+   "vol": "2019",
+   "num": "10",
+   "title": "The Green Lantern (2019) #10",
+   "arc": "the-green-lantern-the-day-the-stars-fell",
+   "date": {
+    "cover": "2019-10",
+    "source": "DC Database, \"The Green Lantern Vol 1 10\" (rev 3985460, fetched 2026-11-15): cover date 2019-10"
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Grant Morrison"
+    ],
+    "artists": [
+     "Liam Sharp"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    }
+   ],
+   "core": true,
+   "coreFor": [
+    "hal-jordan"
+   ]
+  },
+  {
+   "issueId": "the-green-lantern-2019-11",
+   "series": "The Green Lantern",
+   "vol": "2019",
+   "num": "11",
+   "title": "The Green Lantern (2019) #11",
+   "arc": "the-green-lantern-the-day-the-stars-fell",
+   "date": {
+    "cover": "2019-11",
+    "source": "DC Database, \"The Green Lantern Vol 1 11\" (rev 3985454, fetched 2026-11-15): cover date 2019-11"
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Grant Morrison"
+    ],
+    "artists": [
+     "Liam Sharp"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    }
+   ],
+   "core": true,
+   "coreFor": [
+    "hal-jordan"
+   ]
+  },
+  {
+   "issueId": "the-green-lantern-2019-12",
+   "series": "The Green Lantern",
+   "vol": "2019",
+   "num": "12",
+   "title": "The Green Lantern (2019) #12",
+   "arc": "the-green-lantern-the-day-the-stars-fell",
+   "date": {
+    "cover": "2019-12",
+    "source": "DC Database, \"The Green Lantern Vol 1 12\" (rev 3985461, fetched 2026-11-15): cover date 2019-12"
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Grant Morrison"
+    ],
+    "artists": [
+     "Liam Sharp"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    }
+   ],
+   "core": true,
+   "coreFor": [
+    "hal-jordan"
+   ]
+  },
+  {
+   "issueId": "green-lantern-blackstars-2020-1",
+   "series": "Green Lantern: Blackstars",
+   "vol": "2020",
+   "num": "1",
+   "title": "Green Lantern: Blackstars (2020) #1",
+   "arc": "green-lantern-blackstars-blackstars",
+   "date": {
+    "cover": "2020-01",
+    "source": "DC Database, \"Green Lantern: Blackstars Vol 1 1\" (rev 3709669, fetched 2026-11-15): cover date 2020-01"
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Grant Morrison"
+    ],
+    "artists": [
+     "Xermanico"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    }
+   ],
+   "core": true,
+   "coreFor": [
+    "hal-jordan"
+   ]
+  },
+  {
+   "issueId": "far-sector-2020-1",
+   "series": "Far Sector",
+   "vol": "2020",
+   "num": "1",
+   "title": "Far Sector (2020) #1",
+   "arc": "far-sector-far-sector",
+   "date": {
+    "cover": "2020-01",
+    "source": "DC Database, \"Far Sector Vol 1 1\" (rev 3561587, fetched 2026-11-15): cover date 2020-01"
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "N.K. Jemisin"
+    ],
+    "artists": [
+     "Jamal Campbell"
+    ]
+   },
+   "presence": [
+    {
+     "who": "jo-mullein",
+     "grade": "major"
+    }
+   ],
+   "core": true,
+   "coreFor": [
+    "jo-mullein"
+   ]
+  },
+  {
+   "issueId": "green-lantern-blackstars-2020-2",
+   "series": "Green Lantern: Blackstars",
+   "vol": "2020",
+   "num": "2",
+   "title": "Green Lantern: Blackstars (2020) #2",
+   "arc": "green-lantern-blackstars-blackstars",
+   "date": {
+    "cover": "2020-02",
+    "source": "DC Database, \"Green Lantern: Blackstars Vol 1 2\" (rev 3709670, fetched 2026-11-15): cover date 2020-02"
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Grant Morrison"
+    ],
+    "artists": [
+     "Xermanico"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    }
+   ],
+   "core": true,
+   "coreFor": [
+    "hal-jordan"
+   ]
+  },
+  {
+   "issueId": "far-sector-2020-2",
+   "series": "Far Sector",
+   "vol": "2020",
+   "num": "2",
+   "title": "Far Sector (2020) #2",
+   "arc": "far-sector-far-sector",
+   "date": {
+    "cover": "2020-02",
+    "source": "DC Database, \"Far Sector Vol 1 2\" (rev 3561588, fetched 2026-11-15): cover date 2020-02"
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "N.K. Jemisin"
+    ],
+    "artists": [
+     "Jamal Campbell"
+    ]
+   },
+   "presence": [
+    {
+     "who": "jo-mullein",
+     "grade": "major"
+    }
+   ],
+   "core": true,
+   "coreFor": [
+    "jo-mullein"
+   ]
+  },
+  {
+   "issueId": "far-sector-2020-3",
+   "series": "Far Sector",
+   "vol": "2020",
+   "num": "3",
+   "title": "Far Sector (2020) #3",
+   "arc": "far-sector-far-sector",
+   "date": {
+    "cover": "2020-03",
+    "source": "DC Database, \"Far Sector Vol 1 3\" (rev 3571542, fetched 2026-11-15): cover date 2020-03"
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "N.K. Jemisin"
+    ],
+    "artists": [
+     "Jamal Campbell"
+    ]
+   },
+   "presence": [
+    {
+     "who": "jo-mullein",
+     "grade": "major"
+    }
+   ],
+   "core": true,
+   "coreFor": [
+    "jo-mullein"
+   ]
+  },
+  {
+   "issueId": "green-lantern-blackstars-2020-3",
+   "series": "Green Lantern: Blackstars",
+   "vol": "2020",
+   "num": "3",
+   "title": "Green Lantern: Blackstars (2020) #3",
+   "arc": "green-lantern-blackstars-blackstars",
+   "date": {
+    "cover": "2020-03",
+    "source": "DC Database, \"Green Lantern: Blackstars Vol 1 3\" (rev 3718007, fetched 2026-11-15): cover date 2020-03"
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "Grant Morrison"
+    ],
+    "artists": [
+     "Xermanico"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    }
+   ],
+   "core": true,
+   "coreFor": [
+    "hal-jordan"
+   ]
+  },
+  {
+   "issueId": "the-green-lantern-season-two-2020-1",
+   "series": "The Green Lantern: Season Two",
+   "vol": "2020",
+   "num": "1",
+   "title": "The Green Lantern: Season Two (2020) #1",
+   "arc": "the-green-lantern-season-two-the-green-lantern-season-two",
+   "date": {
+    "cover": "2020-04",
+    "source": "DC Database, \"The Green Lantern: Season Two Vol 1 1\" (rev 3783090, fetched 2026-11-15): cover date 2020-04"
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Grant Morrison"
+    ],
+    "artists": [
+     "Liam Sharp"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "minor"
+    },
+    {
+     "who": "jessica-cruz",
+     "grade": "minor"
+    }
+   ],
+   "core": true,
+   "coreFor": [
+    "hal-jordan",
+    "john-stewart",
+    "jessica-cruz"
+   ]
+  },
+  {
+   "issueId": "far-sector-2020-4",
+   "series": "Far Sector",
+   "vol": "2020",
+   "num": "4",
+   "title": "Far Sector (2020) #4",
+   "arc": "far-sector-far-sector",
+   "date": {
+    "cover": "2020-04",
+    "source": "DC Database, \"Far Sector Vol 1 4\" (rev 3933717, fetched 2026-11-15): cover date 2020-04"
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "N.K. Jemisin"
+    ],
+    "artists": [
+     "Jamal Campbell"
+    ]
+   },
+   "presence": [
+    {
+     "who": "jo-mullein",
+     "grade": "major"
+    }
+   ],
+   "core": true,
+   "coreFor": [
+    "jo-mullein"
+   ]
+  },
+  {
+   "issueId": "the-green-lantern-season-two-2020-2",
+   "series": "The Green Lantern: Season Two",
+   "vol": "2020",
+   "num": "2",
+   "title": "The Green Lantern: Season Two (2020) #2",
+   "arc": "the-green-lantern-season-two-the-green-lantern-season-two",
+   "date": {
+    "cover": "2020-05",
+    "source": "DC Database, \"The Green Lantern: Season Two Vol 1 2\" (rev 3442591, fetched 2026-11-15): cover date 2020-05"
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Grant Morrison"
+    ],
+    "artists": [
+     "Liam Sharp"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    }
+   ],
+   "core": true,
+   "coreFor": [
+    "hal-jordan"
+   ]
+  },
+  {
+   "issueId": "far-sector-2020-5",
+   "series": "Far Sector",
+   "vol": "2020",
+   "num": "5",
+   "title": "Far Sector (2020) #5",
+   "arc": "far-sector-far-sector",
+   "date": {
+    "cover": "2020-05",
+    "source": "DC Database, \"Far Sector Vol 1 5\" (rev 3933713, fetched 2026-11-15): cover date 2020-05"
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "N.K. Jemisin"
+    ],
+    "artists": [
+     "Jamal Campbell"
+    ]
+   },
+   "presence": [
+    {
+     "who": "jo-mullein",
+     "grade": "major"
+    }
+   ],
+   "core": true,
+   "coreFor": [
+    "jo-mullein"
+   ]
+  },
+  {
+   "issueId": "the-green-lantern-season-two-2020-3",
+   "series": "The Green Lantern: Season Two",
+   "vol": "2020",
+   "num": "3",
+   "title": "The Green Lantern: Season Two (2020) #3",
+   "arc": "the-green-lantern-season-two-the-green-lantern-season-two",
+   "date": {
+    "cover": "2020-07",
+    "source": "DC Database, \"The Green Lantern: Season Two Vol 1 3\" (rev 3442592, fetched 2026-11-15): cover date 2020-07"
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Grant Morrison"
+    ],
+    "artists": [
+     "Liam Sharp"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    }
+   ],
+   "core": true,
+   "coreFor": [
+    "hal-jordan"
+   ]
+  },
+  {
+   "issueId": "far-sector-2020-6",
+   "series": "Far Sector",
+   "vol": "2020",
+   "num": "6",
+   "title": "Far Sector (2020) #6",
+   "arc": "far-sector-far-sector",
+   "date": {
+    "cover": "2020-07",
+    "onsale": "2020-06-03",
+    "source": "DC Database, \"Far Sector Vol 1 6\" (rev 3573196, fetched 2026-11-15): cover date 2020-07"
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "N.K. Jemisin"
+    ],
+    "artists": [
+     "Jamal Campbell"
+    ]
+   },
+   "presence": [
+    {
+     "who": "john-stewart",
+     "grade": "cameo"
+    },
+    {
+     "who": "jo-mullein",
+     "grade": "major"
+    }
+   ],
+   "core": true,
+   "coreFor": [
+    "jo-mullein"
+   ]
+  },
+  {
+   "issueId": "the-green-lantern-season-two-2020-4",
+   "series": "The Green Lantern: Season Two",
+   "vol": "2020",
+   "num": "4",
+   "title": "The Green Lantern: Season Two (2020) #4",
+   "arc": "the-green-lantern-season-two-the-green-lantern-season-two",
+   "date": {
+    "cover": "2020-08",
+    "source": "DC Database, \"The Green Lantern: Season Two Vol 1 4\" (rev 3819901, fetched 2026-11-15): cover date 2020-08"
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Grant Morrison"
+    ],
+    "artists": [
+     "Liam Sharp"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    }
+   ],
+   "core": true,
+   "coreFor": [
+    "hal-jordan"
+   ]
+  },
+  {
+   "issueId": "green-lantern-80th-anniversary-100-page-super-spectacular-2020-1",
+   "series": "Green Lantern 80th Anniversary 100-Page Super Spectacular",
+   "vol": "2020",
+   "num": "1",
+   "title": "Green Lantern 80th Anniversary 100-Page Super Spectacular (2020) #1",
+   "arc": "green-lantern-80th-anniversary-100-page-super-spectacular-da",
+   "date": {
+    "cover": "2020-08",
+    "source": "DC Database, \"Green Lantern 80th Anniversary 100-Page Super Spectacular Vol 1 1\" (rev 3634999, fetched 2026-11-15): cover date 2020-08"
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "James Tynion IV"
+    ],
+    "artists": [
+     "Gary Frank"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "major"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "major"
+    },
+    {
+     "who": "simon-baz",
+     "grade": "major"
+    },
+    {
+     "who": "jessica-cruz",
+     "grade": "major"
+    },
+    {
+     "who": "jo-mullein",
+     "grade": "major"
+    },
+    {
+     "who": "green-arrow",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "the-green-lantern-season-two-2020-5",
+   "series": "The Green Lantern: Season Two",
+   "vol": "2020",
+   "num": "5",
+   "title": "The Green Lantern: Season Two (2020) #5",
+   "arc": "the-green-lantern-season-two-the-green-lantern-season-two",
+   "date": {
+    "cover": "2020-09",
+    "source": "DC Database, \"The Green Lantern: Season Two Vol 1 5\" (rev 3806905, fetched 2026-11-15): cover date 2020-09"
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Grant Morrison"
+    ],
+    "artists": [
+     "Liam Sharp"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    }
+   ],
+   "core": true,
+   "coreFor": [
+    "hal-jordan"
+   ]
+  },
+  {
+   "issueId": "far-sector-2020-7",
+   "series": "Far Sector",
+   "vol": "2020",
+   "num": "7",
+   "title": "Far Sector (2020) #7",
+   "arc": "far-sector-far-sector",
+   "date": {
+    "cover": "2020-10",
+    "onsale": "2020-08-04",
+    "source": "DC Database, \"Far Sector Vol 1 7\" (rev 3933716, fetched 2026-11-15): cover date 2020-10"
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "N.K. Jemisin"
+    ],
+    "artists": [
+     "Jamal Campbell"
+    ]
+   },
+   "presence": [
+    {
+     "who": "jo-mullein",
+     "grade": "major"
+    }
+   ],
+   "core": true,
+   "coreFor": [
+    "jo-mullein"
+   ]
+  },
+  {
+   "issueId": "the-green-lantern-season-two-2020-6",
+   "series": "The Green Lantern: Season Two",
+   "vol": "2020",
+   "num": "6",
+   "title": "The Green Lantern: Season Two (2020) #6",
+   "arc": "the-green-lantern-season-two-the-green-lantern-season-two",
+   "date": {
+    "cover": "2020-10",
+    "source": "DC Database, \"The Green Lantern: Season Two Vol 1 6\" (rev 3442595, fetched 2026-11-15): cover date 2020-10"
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "Grant Morrison"
+    ],
+    "artists": [
+     "Liam Sharp"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    }
+   ],
+   "core": true,
+   "coreFor": [
+    "hal-jordan"
+   ]
+  },
+  {
+   "issueId": "the-green-lantern-season-two-2020-7",
+   "series": "The Green Lantern: Season Two",
+   "vol": "2020",
+   "num": "7",
+   "title": "The Green Lantern: Season Two (2020) #7",
+   "arc": "the-green-lantern-season-two-ultrawarrior",
+   "date": {
+    "cover": "2020-11",
+    "source": "DC Database, \"The Green Lantern: Season Two Vol 1 7\" (rev 3442596, fetched 2026-11-15): cover date 2020-11"
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Grant Morrison"
+    ],
+    "artists": [
+     "Liam Sharp"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "far-sector-2020-8",
+   "series": "Far Sector",
+   "vol": "2020",
+   "num": "8",
+   "title": "Far Sector (2020) #8",
+   "arc": "far-sector-far-sector",
+   "date": {
+    "cover": "2020-12",
+    "onsale": "2020-10-06",
+    "source": "DC Database, \"Far Sector Vol 1 8\" (rev 3561599, fetched 2026-11-15): cover date 2020-12"
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "N.K. Jemisin"
+    ],
+    "artists": [
+     "Jamal Campbell"
+    ]
+   },
+   "presence": [
+    {
+     "who": "jo-mullein",
+     "grade": "major"
+    }
+   ],
+   "core": true,
+   "coreFor": [
+    "jo-mullein"
+   ]
+  },
+  {
+   "issueId": "the-green-lantern-season-two-2020-8",
+   "series": "The Green Lantern: Season Two",
+   "vol": "2020",
+   "num": "8",
+   "title": "The Green Lantern: Season Two (2020) #8",
+   "arc": "the-green-lantern-season-two-war-of-with-the-anti-world",
+   "date": {
+    "cover": "2020-12",
+    "source": "DC Database, \"The Green Lantern: Season Two Vol 1 8\" (rev 3635752, fetched 2026-11-15): cover date 2020-12"
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "Grant Morrison"
+    ],
+    "artists": [
+     "Liam Sharp"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "cameo"
+    }
+   ]
+  },
+  {
+   "issueId": "the-green-lantern-season-two-2020-9",
+   "series": "The Green Lantern: Season Two",
+   "vol": "2020",
+   "num": "9",
+   "title": "The Green Lantern: Season Two (2020) #9",
+   "arc": "the-green-lantern-season-two-the-wedding-of-the-trillennium",
+   "date": {
+    "cover": "2021-01",
+    "source": "DC Database, \"The Green Lantern: Season Two Vol 1 9\" (rev 3442598, fetched 2026-11-15): cover date 2021-01"
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Grant Morrison"
+    ],
+    "artists": [
+     "Liam Sharp"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "far-sector-2020-9",
+   "series": "Far Sector",
+   "vol": "2020",
+   "num": "9",
+   "title": "Far Sector (2020) #9",
+   "arc": "far-sector-far-sector",
+   "date": {
+    "cover": "2021-01",
+    "onsale": "2020-12-01",
+    "source": "DC Database, \"Far Sector Vol 1 9\" (rev 3561600, fetched 2026-11-15): cover date 2021-01"
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "N.K. Jemisin"
+    ],
+    "artists": [
+     "Jamal Campbell"
+    ]
+   },
+   "presence": [
+    {
+     "who": "jo-mullein",
+     "grade": "major"
+    }
+   ],
+   "core": true,
+   "coreFor": [
+    "jo-mullein"
+   ]
+  },
+  {
+   "issueId": "the-green-lantern-season-two-2020-10",
+   "series": "The Green Lantern: Season Two",
+   "vol": "2020",
+   "num": "10",
+   "title": "The Green Lantern: Season Two (2020) #10",
+   "arc": "the-green-lantern-season-two-multi-crisis-on-intimate-earths",
+   "date": {
+    "cover": "2021-02",
+    "source": "DC Database, \"The Green Lantern: Season Two Vol 1 10\" (rev 3635751, fetched 2026-11-15): cover date 2021-02"
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Grant Morrison"
+    ],
+    "artists": [
+     "Liam Sharp"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "far-sector-2020-10",
+   "series": "Far Sector",
+   "vol": "2020",
+   "num": "10",
+   "title": "Far Sector (2020) #10",
+   "arc": "far-sector-far-sector",
+   "date": {
+    "cover": "2021-04",
+    "onsale": "2021-02-02",
+    "source": "DC Database, \"Far Sector Vol 1 10\" (rev 3561601, fetched 2026-11-15): cover date 2021-04"
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "N.K. Jemisin"
+    ],
+    "artists": [
+     "Jamal Campbell"
+    ]
+   },
+   "presence": [
+    {
+     "who": "jo-mullein",
+     "grade": "major"
+    }
+   ],
+   "core": true,
+   "coreFor": [
+    "jo-mullein"
+   ]
+  },
+  {
+   "issueId": "far-sector-2020-11",
+   "series": "Far Sector",
+   "vol": "2020",
+   "num": "11",
+   "title": "Far Sector (2020) #11",
+   "arc": "far-sector-far-sector",
+   "date": {
+    "cover": "2021-06",
+    "source": "DC Database, \"Far Sector Vol 1 11\" (rev 3573219, fetched 2026-11-15): cover date 2021-06"
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "N.K. Jemisin"
+    ],
+    "artists": [
+     "Jamal Campbell"
+    ]
+   },
+   "presence": [
+    {
+     "who": "jo-mullein",
+     "grade": "major"
+    }
+   ],
+   "core": true,
+   "coreFor": [
+    "jo-mullein"
+   ]
+  },
+  {
+   "issueId": "far-sector-2020-12",
+   "series": "Far Sector",
+   "vol": "2020",
+   "num": "12",
+   "title": "Far Sector (2020) #12",
+   "arc": "far-sector-far-sector",
+   "date": {
+    "cover": "2021-08",
+    "source": "DC Database, \"Far Sector Vol 1 12\" (rev 3933715, fetched 2026-11-15): cover date 2021-08"
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "N.K. Jemisin"
+    ],
+    "artists": [
+     "Jamal Campbell"
+    ]
+   },
+   "presence": [
+    {
+     "who": "jo-mullein",
+     "grade": "major"
+    }
+   ],
+   "core": true,
+   "coreFor": [
+    "jo-mullein"
+   ]
+  }
+ ]
+}

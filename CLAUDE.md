@@ -76,6 +76,14 @@ Master-Repo `starter/STANDARDS.md`, "Repo safety".)
   - Record each verdict with the quoted lines in a file the order reads (`readings.json` in the research
     folder), and list them in the report so they can be checked.
   - "Picks up" orders the pair; "no link" leaves it to John's Group A rule.
+- **Stage 2's sub-eras commit on a clean report** (John, 26 Nov). Commit a sub-era without asking John when its
+  report has the order equal to stage 1's, the independent pass at 0 mismatches and no questions. Still ask him about
+  anything with a question or a decision, and about every template PR. Before the go-live PR, stop so all of stage 2
+  can be checked in one pass.
+- **Presence comes only from main-world or event-timeline links** (John, 23 and 26 Nov). A presence tag comes from a
+  line whose link names New Earth, Prime Earth or an event's own timeline (Flashpoint, Futures End, Future State), or
+  reaches one by the DC Database's redirect. A disambiguation page or another world's counterpart is listed, never
+  counted. The research's `stage2.py` checks every tag on every row built.
 
 ### Migrations go in place (John, 23 Oct)
 Every migration goes in place, on the tracker's own repo, the way Absolute did (v8,

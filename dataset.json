@@ -6,7 +6,7 @@
   "wordmark": "Green Lantern",
   "title": "Green Lantern — Reading Order",
   "strapline": "From Green Lantern: Rebirth (2004) on",
-  "span": "2004–2018",
+  "span": "2004–2021",
   "theme": "#0B5D33",
   "strictCredits": true
  },
@@ -60,6 +60,11 @@
    "id": "rebirth-2016",
    "name": "Hal Jordan and the Corps; Green Lanterns",
    "rank": 5090
+  },
+  {
+   "id": "the-green-lantern",
+   "name": "The Green Lantern and Far Sector",
+   "rank": 5100
   }
  ],
  "periods": [
@@ -92,6 +97,14 @@
    "label": "2016–2018",
    "eras": [
     "rebirth-2016"
+   ]
+  },
+  {
+   "id": "morrison",
+   "name": "Morrison and Jemisin",
+   "label": "2018–2021",
+   "eras": [
+    "the-green-lantern"
    ]
   }
  ],
@@ -138,6 +151,10 @@
   {
    "id": "jessica-cruz",
    "name": "Jessica Cruz"
+  },
+  {
+   "id": "jo-mullein",
+   "name": "Jo Mullein"
   },
   {
    "id": "green-arrow",
@@ -1880,6 +1897,244 @@
    }
   },
   {
+   "id": "the-green-lantern-intergalactic-lawman",
+   "name": "Intergalactic Lawman",
+   "era": "the-green-lantern",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Barebones",
+   "importance": 5,
+   "year": "2019",
+   "blurb": "Collected in The Green Lantern: Intergalactic Lawman (2019).",
+   "credits": {
+    "writers": [
+     "Grant Morrison"
+    ],
+    "artists": [
+     "Liam Sharp"
+    ]
+   }
+  },
+  {
+   "id": "the-green-lantern-the-day-the-stars-fell",
+   "name": "The Day the Stars Fell",
+   "era": "the-green-lantern",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Barebones",
+   "importance": 5,
+   "year": "2019",
+   "blurb": "Collected in The Green Lantern: The Day the Stars Fell (2019).",
+   "credits": {
+    "writers": [
+     "Grant Morrison"
+    ],
+    "artists": [
+     "Liam Sharp"
+    ]
+   }
+  },
+  {
+   "id": "the-green-lantern-annual-the-day-the-stars-fell",
+   "name": "The Day the Stars Fell",
+   "era": "the-green-lantern",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MINI",
+   "mo": "O",
+   "tier": "Everything",
+   "importance": 2,
+   "year": "2019",
+   "blurb": "Collected in The Green Lantern: The Day the Stars Fell (2019).",
+   "credits": {
+    "writers": [
+     "Grant Morrison"
+    ],
+    "artists": [
+     "Giuseppe Camuncoli"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-blackstars-blackstars",
+   "name": "Blackstars",
+   "era": "the-green-lantern",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Barebones",
+   "importance": 5,
+   "year": "2020",
+   "blurb": "Collected in The Green Lantern Season Two Vol. 1 (2020).",
+   "credits": {
+    "writers": [
+     "Grant Morrison"
+    ],
+    "artists": [
+     "Xermanico"
+    ]
+   }
+  },
+  {
+   "id": "the-green-lantern-season-two-the-green-lantern-season-two",
+   "name": "The Green Lantern Season Two",
+   "era": "the-green-lantern",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Barebones",
+   "importance": 5,
+   "year": "2020",
+   "blurb": "Collected in The Green Lantern Season Two Vol. 1 (2020).",
+   "credits": {
+    "writers": [
+     "Grant Morrison"
+    ],
+    "artists": [
+     "Liam Sharp"
+    ]
+   }
+  },
+  {
+   "id": "the-green-lantern-season-two-ultrawarrior",
+   "name": "Ultrawarrior",
+   "era": "the-green-lantern",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2020",
+   "credits": {
+    "writers": [
+     "Grant Morrison"
+    ],
+    "artists": [
+     "Liam Sharp"
+    ]
+   }
+  },
+  {
+   "id": "the-green-lantern-season-two-war-of-with-the-anti-world",
+   "name": "War of with the Anti-World",
+   "era": "the-green-lantern",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2020",
+   "credits": {
+    "writers": [
+     "Grant Morrison"
+    ],
+    "artists": [
+     "Liam Sharp"
+    ]
+   }
+  },
+  {
+   "id": "the-green-lantern-season-two-the-wedding-of-the-trillennium",
+   "name": "The Wedding of the Trillennium!",
+   "era": "the-green-lantern",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2021",
+   "credits": {
+    "writers": [
+     "Grant Morrison"
+    ],
+    "artists": [
+     "Liam Sharp"
+    ]
+   }
+  },
+  {
+   "id": "the-green-lantern-season-two-multi-crisis-on-intimate-earths",
+   "name": "Multi-Crisis On Intimate Earths!",
+   "era": "the-green-lantern",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2021",
+   "credits": {
+    "writers": [
+     "Grant Morrison"
+    ],
+    "artists": [
+     "Liam Sharp"
+    ]
+   }
+  },
+  {
+   "id": "far-sector-far-sector",
+   "name": "Far Sector",
+   "era": "the-green-lantern",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "SOLO",
+   "mo": "M",
+   "tier": "Barebones",
+   "importance": 5,
+   "year": "2020",
+   "blurb": "Collected in Far Sector (2021).",
+   "credits": {
+    "writers": [
+     "N.K. Jemisin"
+    ],
+    "artists": [
+     "Jamal Campbell"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-80th-anniversary-100-page-super-spectacular-da",
+   "name": "Dark Things Cannot Stand the Light",
+   "era": "the-green-lantern",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MINI",
+   "mo": "O",
+   "tier": "Everything",
+   "importance": 2,
+   "year": "2020",
+   "blurb": "Collected in Green Lantern Corps by Peter J. Tomasi and Patrick Gleason Omnibus Vol. 2 (2024).",
+   "credits": {
+    "writers": [
+     "James Tynion IV"
+    ],
+    "artists": [
+     "Gary Frank"
+    ]
+   }
+  },
+  {
    "id": "rage-of-the-red-lanterns",
    "name": "Rage of the Red Lanterns",
    "era": "secret-origin",
@@ -1914,7 +2169,8 @@
   "data/eras/5060-new-52.json",
   "data/eras/5070-lights-out.json",
   "data/eras/5080-renegade.json",
-  "data/eras/5090-rebirth-2016.json"
+  "data/eras/5090-rebirth-2016.json",
+  "data/eras/5100-the-green-lantern.json"
  ],
  "maintenance": [
   "Stage 2 (Green Lantern #1): the core spine, sub-era by sub-era. Each sub-era's rows are committed after John approves its report. Rows come from Research-Repo sessions/2026-11-14-green-lantern/ (stage2.py)."

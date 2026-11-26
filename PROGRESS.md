@@ -184,15 +184,22 @@ Built on Pull-List-template v3: copied at template `f7ae723`, then template T0 a
          - The tracker now has 23 picks for Simon and 15 for Jessica.
          - The source is John's reading of Comic Book Roundup (26 Nov); this session didn't fetch it.
      - **The picks' commit:** `137f9b3`, CI green.
-     - **Sub-era 11, The Green Lantern and Far Sector: report with John (25 Nov).**
+     - **Sub-era 11, The Green Lantern and Far Sector: approved after one fix (John, 26 Nov) and committed.** Built v13 (`30c1a0f55b3e`); 304 rows in stage 1's order; gate 0 warnings.
        - 39 rows: The Green Lantern (2019) #1–12 and Annual #1, Blackstars #1–3, Far Sector #1–12, Season Two #1–10, the 80th Anniversary Special.
        - The order equals stage 1's; independent pass 304 / 0 mismatches.
        - ★: 33 rows (Hal's Morrison run, and Far Sector for Jo).
        - 26 counterpart lines from other worlds are listed, not counted.
        - Research-Repo `22efa48`; it rebuilds offline, 20 of 20.
        - Tried in a scratch copy: build v13, gate 0 warnings, harness 1764, layout 472, 0 failed.
-       - No questions.
-       - **Once John approves:** copy `stage2/dataset.json` and `stage2/data/eras/5100-the-green-lantern.json` in; build, the gate, both suites; commit. Then sub-era 12, Future State and Infinite Frontier.
+       - **John's fix:** Season Two #10 loses Guy Gardner's cameo.
+         - Guy's only line there is "Guy Gardner's Counterpart", linked to the generic Guy Gardner page (a disambiguation), so it's another world's counterpart.
+         - A link with no reality now counts only through the DC Database's redirect. 29 such lines are now listed, not counted; only this tag changed.
+       - **John's check:** every presence tag on every row built comes from a New Earth, Prime Earth or event-timeline link. 783 tags on 304 rows, 0 failures. It fails on the old rule (Season Two #10's Guy).
+     - **John's standing rule (26 Nov):**
+       - commit a sub-era without asking when its report has the order equal to stage 1's, the independent pass at 0 mismatches and no questions;
+       - still ask about questions, decisions and every template PR;
+       - stop before the go-live PR, so all of stage 2 can be checked in one pass (`CLAUDE.md`).
+     - **Next: sub-era 12, Future State and Infinite Frontier** (18 stage-2 rows). Then sub-era 13, Dawn of DC to today (59 rows), where War Journal #1–2's missing credits and current status (the GL ongoings, Lanterns, announcements) are checked first.
        - **Fixed:** `stage2.py` lists a sub-era's volumes in reading order. Ordering them by first cover date left ties to Python's set order, which changes run to run.
        - **Still to do, in sub-era 13:** Green Lantern: War Journal #1–2 have no credits in stage 1's draft. Check their pages before that report.
 
@@ -251,6 +258,9 @@ Built on Pull-List-template v3: copied at template `f7ae723`, then template T0 a
 - **23 Nov:**
   - sub-eras 4 (Blackest Night), 5 (Brightest Day), 6 (War of the Green Lanterns), 7 (The New 52) and 8 (Lights Out to Godhead): "Approved: commit";
   - event-timeline versions in presence (Flashpoint, Futures End, Future State): "Count them". Counterparts from other worlds stay listed, not counted.
+- **26 Nov:**
+  - sub-era 11: "Commit after one fix": Season Two #10 loses Guy Gardner's cameo (a counterpart linked to the generic Guy Gardner page); add a check that every presence tag comes from a main-world or event-timeline link, and run it on all committed rows;
+  - the standing rule for stage 2's sub-eras (`CLAUDE.md`, "Green Lantern's own rules").
 - **25 Nov:**
   - sub-era 9 (Renegade and the Lost Army): "Approved: commit";
   - adding seven hosts to environment "1" for the hand-picks' sources (approved);
@@ -284,7 +294,7 @@ Built on Pull-List-template v3: copied at template `f7ae723`, then template T0 a
 |---|---|---|
 | 0 | Setup | done and pushed (15 Nov) |
 | 1 | Arc spine | approved (20 Nov); Research-Repo#6 merged (`a43c300`, 21 Nov) |
-| 2 | Core spine (goes live as v1) | sub-eras 1–10 committed (21–25 Nov), with Simon's and Jessica's picks; sub-era 11 reported; 3 to go; then T6, merged before go-live v1 |
+| 2 | Core spine (goes live as v1) | sub-eras 1–11 committed (21–26 Nov); 2 to go; then T6, merged before go-live v1; stop before the go-live PR |
 | 3 | Green Lantern Corps and New Guardians | — |
 | 4 | Spectrum spin-offs | — |
 | 5 | Canonical events, with T3 | — |
