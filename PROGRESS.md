@@ -199,7 +199,16 @@ Built on Pull-List-template v3: copied at template `f7ae723`, then template T0 a
        - commit a sub-era without asking when its report has the order equal to stage 1's, the independent pass at 0 mismatches and no questions;
        - still ask about questions, decisions and every template PR;
        - stop before the go-live PR, so all of stage 2 can be checked in one pass (`CLAUDE.md`).
-     - **Next: sub-era 12, Future State and Infinite Frontier** (18 stage-2 rows). Then sub-era 13, Dawn of DC to today (59 rows), where War Journal #1–2's missing credits and current status (the GL ongoings, Lanterns, announcements) are checked first.
+     - **Sub-era 12, Future State and Infinite Frontier: committed without asking (John's 26 Nov rule; a clean report).**
+       - 18 rows: Future State: Green Lantern #1–2, Season Two #11–12, Green Lantern (2021) #1–12 and Annual #1, Dark Crisis: Worlds Without a Justice League – Green Lantern #1.
+       - The order equals stage 1's; independent pass 322 / 0 mismatches; presence check 853 tags, 0 failures.
+       - No ★. Built v14 (`fad370f7dadb`); gate 0 warnings.
+       - **Notes:**
+         - Future State's Lanterns count under the timeline rule.
+         - Dark Crisis' dream-world Kyle is listed as another world's.
+         - Jessica leads only the one-issue Annual (rated 2), so no hand-pick is proposed.
+         - The Annual's placement note waits for T6.
+     - **Next: sub-era 13, Dawn of DC to today** (59 rows). Check War Journal #1–2's missing credits and the current status (the GL ongoings, Lanterns, announcements) first.
        - **Fixed:** `stage2.py` lists a sub-era's volumes in reading order. Ordering them by first cover date left ties to Python's set order, which changes run to run.
        - **Still to do, in sub-era 13:** Green Lantern: War Journal #1–2 have no credits in stage 1's draft. Check their pages before that report.
 
@@ -294,7 +303,7 @@ Built on Pull-List-template v3: copied at template `f7ae723`, then template T0 a
 |---|---|---|
 | 0 | Setup | done and pushed (15 Nov) |
 | 1 | Arc spine | approved (20 Nov); Research-Repo#6 merged (`a43c300`, 21 Nov) |
-| 2 | Core spine (goes live as v1) | sub-eras 1–11 committed (21–26 Nov); 2 to go; then T6, merged before go-live v1; stop before the go-live PR |
+| 2 | Core spine (goes live as v1) | sub-eras 1–12 committed (21–26 Nov); 1 to go; then T6, merged before go-live v1; stop before the go-live PR |
 | 3 | Green Lantern Corps and New Guardians | — |
 | 4 | Spectrum spin-offs | — |
 | 5 | Canonical events, with T3 | — |

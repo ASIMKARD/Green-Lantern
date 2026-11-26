@@ -6,7 +6,7 @@
   "wordmark": "Green Lantern",
   "title": "Green Lantern — Reading Order",
   "strapline": "From Green Lantern: Rebirth (2004) on",
-  "span": "2004–2021",
+  "span": "2004–2022",
   "theme": "#0B5D33",
   "strictCredits": true
  },
@@ -65,6 +65,11 @@
    "id": "the-green-lantern",
    "name": "The Green Lantern and Far Sector",
    "rank": 5100
+  },
+  {
+   "id": "infinite-frontier",
+   "name": "Future State and Infinite Frontier",
+   "rank": 5110
   }
  ],
  "periods": [
@@ -105,6 +110,14 @@
    "label": "2018–2021",
    "eras": [
     "the-green-lantern"
+   ]
+  },
+  {
+   "id": "frontier",
+   "name": "Infinite Frontier",
+   "label": "2021–2023",
+   "eras": [
+    "infinite-frontier"
    ]
   }
  ],
@@ -2091,6 +2104,48 @@
    }
   },
   {
+   "id": "the-green-lantern-season-two-contest-of-crowns",
+   "name": "Contest of Crowns",
+   "era": "infinite-frontier",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2021",
+   "credits": {
+    "writers": [
+     "Grant Morrison"
+    ],
+    "artists": [
+     "Liam Sharp"
+    ]
+   }
+  },
+  {
+   "id": "the-green-lantern-season-two-the-intelligence-engine",
+   "name": "The Intelligence Engine",
+   "era": "infinite-frontier",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2021",
+   "credits": {
+    "writers": [
+     "Grant Morrison"
+    ],
+    "artists": [
+     "Liam Sharp"
+    ]
+   }
+  },
+  {
    "id": "far-sector-far-sector",
    "name": "Far Sector",
    "era": "the-green-lantern",
@@ -2135,6 +2190,122 @@
    }
   },
   {
+   "id": "future-state-green-lantern-invictus",
+   "name": "Invictus",
+   "era": "infinite-frontier",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MINI",
+   "mo": "O",
+   "tier": "Everything",
+   "importance": 2,
+   "year": "2021",
+   "blurb": "Collected in Green Lantern: Invictus (2021).",
+   "credits": {
+    "writers": [
+     "Geoffrey Thorne"
+    ],
+    "artists": [
+     "Tom Raney"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-invictus",
+   "name": "Invictus",
+   "era": "infinite-frontier",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2021",
+   "blurb": "Collected in Green Lantern: Invictus (2021).",
+   "credits": {
+    "writers": [
+     "Geoffrey Thorne"
+    ],
+    "artists": [
+     "Marco Santucci",
+     "Dexter Soy",
+     "Tom Raney"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-horatius",
+   "name": "Horatius",
+   "era": "infinite-frontier",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2021",
+   "blurb": "Collected in Green Lantern: Horatius (2022).",
+   "credits": {
+    "writers": [
+     "Geoffrey Thorne"
+    ],
+    "artists": [
+     "Marco Santucci",
+     "Tom Raney",
+     "ChrisCross",
+     "Andy McDonald",
+     "Maria Laura Sanapo"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-2021-annual-horatius",
+   "name": "Horatius",
+   "era": "infinite-frontier",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MINI",
+   "mo": "O",
+   "tier": "Everything",
+   "importance": 2,
+   "year": "2021",
+   "blurb": "Collected in Green Lantern: Horatius (2022).",
+   "credits": {
+    "writers": [
+     "Ryan Cady"
+    ],
+    "artists": [
+     "Sami Basri",
+     "Tom Derenick"
+    ]
+   }
+  },
+  {
+   "id": "dark-crisis-worlds-without-a-justice-league-green-lantern-da",
+   "name": "Dark Crisis: Worlds Without a Justice League - Green Lantern",
+   "era": "infinite-frontier",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MINI",
+   "mo": "O",
+   "tier": "Everything",
+   "importance": 1,
+   "year": "2022",
+   "credits": {
+    "writers": [
+     "Phillip Kennedy Johnson"
+    ],
+    "artists": [
+     "Fernando Blanco"
+    ]
+   }
+  },
+  {
    "id": "rage-of-the-red-lanterns",
    "name": "Rage of the Red Lanterns",
    "era": "secret-origin",
@@ -2170,7 +2341,8 @@
   "data/eras/5070-lights-out.json",
   "data/eras/5080-renegade.json",
   "data/eras/5090-rebirth-2016.json",
-  "data/eras/5100-the-green-lantern.json"
+  "data/eras/5100-the-green-lantern.json",
+  "data/eras/5110-infinite-frontier.json"
  ],
  "maintenance": [
   "Stage 2 (Green Lantern #1): the core spine, sub-era by sub-era. Each sub-era's rows are committed after John approves its report. Rows come from Research-Repo sessions/2026-11-14-green-lantern/ (stage2.py)."

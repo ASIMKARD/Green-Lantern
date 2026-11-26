@@ -1,0 +1,714 @@
+{
+ "$schema": "../../schema/era-file.schema.json",
+ "era": "infinite-frontier",
+ "rows": [
+  {
+   "issueId": "future-state-green-lantern-2021-1",
+   "series": "Future State: Green Lantern",
+   "vol": "2021",
+   "num": "1",
+   "title": "Future State: Green Lantern (2021) #1",
+   "arc": "future-state-green-lantern-invictus",
+   "date": {
+    "cover": "2021-03",
+    "source": "DC Database, \"Future State: Green Lantern Vol 1 1\" (rev 3933720, fetched 2026-11-15): cover date 2021-03"
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Geoffrey Thorne"
+    ],
+    "artists": [
+     "Tom Raney"
+    ]
+   },
+   "presence": [
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "major"
+    },
+    {
+     "who": "jessica-cruz",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "future-state-green-lantern-2021-2",
+   "series": "Future State: Green Lantern",
+   "vol": "2021",
+   "num": "2",
+   "title": "Future State: Green Lantern (2021) #2",
+   "arc": "future-state-green-lantern-invictus",
+   "date": {
+    "cover": "2021-04",
+    "source": "DC Database, \"Future State: Green Lantern Vol 1 2\" (rev 3933722, fetched 2026-11-15): cover date 2021-04"
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Geoffrey Thorne"
+    ],
+    "artists": [
+     "Tom Raney"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "jo-mullein",
+     "grade": "cameo"
+    }
+   ]
+  },
+  {
+   "issueId": "the-green-lantern-season-two-2020-11",
+   "series": "The Green Lantern: Season Two",
+   "vol": "2020",
+   "num": "11",
+   "title": "The Green Lantern: Season Two (2020) #11",
+   "arc": "the-green-lantern-season-two-contest-of-crowns",
+   "date": {
+    "cover": "2021-04",
+    "source": "DC Database, \"The Green Lantern: Season Two Vol 1 11\" (rev 3847176, fetched 2026-11-15): cover date 2021-04"
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "Grant Morrison"
+    ],
+    "artists": [
+     "Liam Sharp"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "jo-mullein",
+     "grade": "cameo"
+    }
+   ]
+  },
+  {
+   "issueId": "the-green-lantern-season-two-2020-12",
+   "series": "The Green Lantern: Season Two",
+   "vol": "2020",
+   "num": "12",
+   "title": "The Green Lantern: Season Two (2020) #12",
+   "arc": "the-green-lantern-season-two-the-intelligence-engine",
+   "date": {
+    "cover": "2021-05",
+    "source": "DC Database, \"The Green Lantern: Season Two Vol 1 12\" (rev 3694038, fetched 2026-11-15): cover date 2021-05"
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Grant Morrison"
+    ],
+    "artists": [
+     "Liam Sharp"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2021-1",
+   "series": "Green Lantern",
+   "vol": "2021",
+   "num": "1",
+   "title": "Green Lantern (2021) #1",
+   "arc": "green-lantern-invictus",
+   "date": {
+    "cover": "2021-06",
+    "source": "DC Database, \"Green Lantern Vol 6 1\" (rev 3847096, fetched 2026-11-15): cover date 2021-06"
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Geoffrey Thorne"
+    ],
+    "artists": [
+     "Dexter Soy",
+     "Marco Santucci"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "cameo"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "minor"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "cameo"
+    },
+    {
+     "who": "simon-baz",
+     "grade": "major"
+    },
+    {
+     "who": "jessica-cruz",
+     "grade": "cameo"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2021-2",
+   "series": "Green Lantern",
+   "vol": "2021",
+   "num": "2",
+   "title": "Green Lantern (2021) #2",
+   "arc": "green-lantern-invictus",
+   "date": {
+    "cover": "2021-07",
+    "source": "DC Database, \"Green Lantern Vol 6 2\" (rev 3923106, fetched 2026-11-15): cover date 2021-07"
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Geoffrey Thorne"
+    ],
+    "artists": [
+     "Dexter Soy"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "cameo"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "minor"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "cameo"
+    },
+    {
+     "who": "simon-baz",
+     "grade": "major"
+    },
+    {
+     "who": "jessica-cruz",
+     "grade": "cameo"
+    },
+    {
+     "who": "jo-mullein",
+     "grade": "minor"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2021-3",
+   "series": "Green Lantern",
+   "vol": "2021",
+   "num": "3",
+   "title": "Green Lantern (2021) #3",
+   "arc": "green-lantern-invictus",
+   "date": {
+    "cover": "2021-08",
+    "source": "DC Database, \"Green Lantern Vol 6 3\" (rev 3923107, fetched 2026-11-15): cover date 2021-08"
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Geoffrey Thorne"
+    ],
+    "artists": [
+     "Tom Raney",
+     "Marco Santucci"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "cameo"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "cameo"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "cameo"
+    },
+    {
+     "who": "simon-baz",
+     "grade": "minor"
+    },
+    {
+     "who": "jo-mullein",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2021-4",
+   "series": "Green Lantern",
+   "vol": "2021",
+   "num": "4",
+   "title": "Green Lantern (2021) #4",
+   "arc": "green-lantern-invictus",
+   "date": {
+    "cover": "2021-09",
+    "source": "DC Database, \"Green Lantern Vol 6 4\" (rev 3866106, fetched 2026-11-15): cover date 2021-09"
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Geoffrey Thorne"
+    ],
+    "artists": [
+     "Tom Raney",
+     "Marco Santucci"
+    ]
+   },
+   "presence": [
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "simon-baz",
+     "grade": "minor"
+    },
+    {
+     "who": "jo-mullein",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2021-5",
+   "series": "Green Lantern",
+   "vol": "2021",
+   "num": "5",
+   "title": "Green Lantern (2021) #5",
+   "arc": "green-lantern-horatius",
+   "date": {
+    "cover": "2021-10",
+    "source": "DC Database, \"Green Lantern Vol 6 5\" (rev 3847105, fetched 2026-11-15): cover date 2021-10"
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Geoffrey Thorne"
+    ],
+    "artists": [
+     "Tom Raney",
+     "Marco Santucci",
+     "Andy McDonald"
+    ]
+   },
+   "presence": [
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "simon-baz",
+     "grade": "minor"
+    },
+    {
+     "who": "jessica-cruz",
+     "grade": "minor"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2021-annual-1",
+   "series": "Green Lantern",
+   "vol": "2021",
+   "num": "Annual 1",
+   "title": "Green Lantern (2021) Annual #1",
+   "arc": "green-lantern-2021-annual-horatius",
+   "date": {
+    "cover": "2021-11",
+    "source": "DC Database, \"Green Lantern 2021 Annual Vol 6 1\" (rev 3933721, fetched 2026-11-15): cover date 2021-11"
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Ryan Cady"
+    ],
+    "artists": [
+     "Sami Basri",
+     "Tom Derenick"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "minor"
+    },
+    {
+     "who": "jessica-cruz",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2021-6",
+   "series": "Green Lantern",
+   "vol": "2021",
+   "num": "6",
+   "title": "Green Lantern (2021) #6",
+   "arc": "green-lantern-horatius",
+   "date": {
+    "cover": "2021-11",
+    "source": "DC Database, \"Green Lantern Vol 6 6\" (rev 3847106, fetched 2026-11-15): cover date 2021-11"
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "Geoffrey Thorne"
+    ],
+    "artists": [
+     "Marco Santucci",
+     "Tom Raney"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "cameo"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "cameo"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "cameo"
+    },
+    {
+     "who": "simon-baz",
+     "grade": "minor"
+    },
+    {
+     "who": "jo-mullein",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2021-7",
+   "series": "Green Lantern",
+   "vol": "2021",
+   "num": "7",
+   "title": "Green Lantern (2021) #7",
+   "arc": "green-lantern-horatius",
+   "date": {
+    "cover": "2021-12",
+    "source": "DC Database, \"Green Lantern Vol 6 7\" (rev 3898340, fetched 2026-11-15): cover date 2021-12"
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Geoffrey Thorne"
+    ],
+    "artists": [
+     "Tom Raney",
+     "Marco Santucci"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "cameo"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "simon-baz",
+     "grade": "major"
+    },
+    {
+     "who": "jessica-cruz",
+     "grade": "cameo"
+    },
+    {
+     "who": "jo-mullein",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2021-8",
+   "series": "Green Lantern",
+   "vol": "2021",
+   "num": "8",
+   "title": "Green Lantern (2021) #8",
+   "arc": "green-lantern-horatius",
+   "date": {
+    "cover": "2022-01",
+    "source": "DC Database, \"Green Lantern Vol 6 8\" (rev 3846143, fetched 2026-11-15): cover date 2022-01"
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Geoffrey Thorne"
+    ],
+    "artists": [
+     "ChrisCross",
+     "Marco Santucci"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "cameo"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "cameo"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "cameo"
+    },
+    {
+     "who": "simon-baz",
+     "grade": "minor"
+    },
+    {
+     "who": "jo-mullein",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2021-9",
+   "series": "Green Lantern",
+   "vol": "2021",
+   "num": "9",
+   "title": "Green Lantern (2021) #9",
+   "arc": "green-lantern-horatius",
+   "date": {
+    "cover": "2022-02",
+    "source": "DC Database, \"Green Lantern Vol 6 9\" (rev 3847108, fetched 2026-11-15): cover date 2022-02"
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Geoffrey Thorne"
+    ],
+    "artists": [
+     "Tom Raney",
+     "Marco Santucci",
+     "Maria Laura Sanapo"
+    ]
+   },
+   "presence": [
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "simon-baz",
+     "grade": "major"
+    },
+    {
+     "who": "jo-mullein",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2021-10",
+   "series": "Green Lantern",
+   "vol": "2021",
+   "num": "10",
+   "title": "Green Lantern (2021) #10",
+   "arc": "green-lantern-horatius",
+   "date": {
+    "cover": "2022-03",
+    "source": "DC Database, \"Green Lantern Vol 6 10\" (rev 3955111, fetched 2026-11-15): cover date 2022-03"
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Geoffrey Thorne"
+    ],
+    "artists": [
+     "ChrisCross",
+     "Marco Santucci"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "minor"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "simon-baz",
+     "grade": "minor"
+    },
+    {
+     "who": "jo-mullein",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2021-11",
+   "series": "Green Lantern",
+   "vol": "2021",
+   "num": "11",
+   "title": "Green Lantern (2021) #11",
+   "arc": "green-lantern-horatius",
+   "date": {
+    "cover": "2022-04",
+    "source": "DC Database, \"Green Lantern Vol 6 11\" (rev 3933728, fetched 2026-11-15): cover date 2022-04"
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Geoffrey Thorne"
+    ],
+    "artists": [
+     "Tom Raney",
+     "Marco Santucci"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "jo-mullein",
+     "grade": "major"
+    },
+    {
+     "who": "star-sapphires",
+     "grade": "minor"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2021-12",
+   "series": "Green Lantern",
+   "vol": "2021",
+   "num": "12",
+   "title": "Green Lantern (2021) #12",
+   "arc": "green-lantern-horatius",
+   "date": {
+    "cover": "2022-06",
+    "source": "DC Database, \"Green Lantern Vol 6 12\" (rev 3933768, fetched 2026-11-15): cover date 2022-06"
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Geoffrey Thorne"
+    ],
+    "artists": [
+     "Tom Raney",
+     "Marco Santucci"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "simon-baz",
+     "grade": "minor"
+    },
+    {
+     "who": "jo-mullein",
+     "grade": "minor"
+    },
+    {
+     "who": "star-sapphires",
+     "grade": "cameo"
+    }
+   ]
+  },
+  {
+   "issueId": "dark-crisis-worlds-without-a-justice-league-green-lantern-2022-1",
+   "series": "Dark Crisis: Worlds Without a Justice League - Green Lantern",
+   "vol": "2022",
+   "num": "1",
+   "title": "Dark Crisis: Worlds Without a Justice League - Green Lantern (2022) #1",
+   "arc": "dark-crisis-worlds-without-a-justice-league-green-lantern-da",
+   "date": {
+    "cover": "2022-10",
+    "source": "DC Database, \"Dark Crisis: Worlds Without a Justice League - Green Lantern Vol 1 1\" (rev 3936103, fetched 2026-11-15): cover date 2022-10"
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Phillip Kennedy Johnson"
+    ],
+    "artists": [
+     "Fernando Blanco"
+    ]
+   },
+   "presence": [
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    }
+   ]
+  }
+ ]
+}
