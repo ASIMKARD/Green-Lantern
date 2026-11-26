@@ -76,10 +76,18 @@ Master-Repo `starter/STANDARDS.md`, "Repo safety".)
   - Record each verdict with the quoted lines in a file the order reads (`readings.json` in the research
     folder), and list them in the report so they can be checked.
   - "Picks up" orders the pair; "no link" leaves it to John's Group A rule.
-- **Stage 2's sub-eras commit on a clean report** (John, 26 Nov). Commit a sub-era without asking John when its
-  report has the order equal to stage 1's, the independent pass at 0 mismatches and no questions. Still ask him about
-  anything with a question or a decision, and about every template PR. Before the go-live PR, stop so all of stage 2
-  can be checked in one pass.
+- **Stage 2's sub-eras commit on a clean report** (John, 26 Nov).
+  - Work through the sub-eras back to back. Commit each one, or up to three together with one full test run, as soon
+    as its order equals stage 1's, the independent pass is 0 mismatches and it has no questions. Don't wait for John.
+  - Every sub-era report carries three checks, each sub-era in its own section:
+    - rows against their saved pages (revision, cover month, writer, artist);
+    - every collection holding two or more of its issues, with each difference and its reason (plain-text "#41"-style
+      entries counted);
+    - every presence tag where a marker decided the grade, with the line that decided it.
+  - Save questions up and ask them together in one form once there are four, or at the end of stage 2, whichever comes
+    first. Each says which sub-era it's from.
+  - Still ask about every template PR.
+  - Stop before the go-live PR, so all of stage 2 can be checked in one pass.
 - **Presence comes only from main-world or event-timeline links** (John, 23 and 26 Nov). A presence tag comes from a
   line whose link names New Earth, Prime Earth or an event's own timeline (Flashpoint, Futures End, Future State), or
   reaches one by the DC Database's redirect. A disambiguation page or another world's counterpart is listed, never
