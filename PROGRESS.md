@@ -292,6 +292,7 @@ Built on Pull-List-template v3: copied at template `f7ae723`, then template T0 a
      - Only `version` changed (17 → 1). The build hash (`5dd787a012e7`), the cache name, `sw.js`, `index.html` and the workbook are byte for byte the same.
      - `--check` is fresh, the gate passes, and harness 1843 and layout 490 have 0 failed.
      - The merge into `main` tags `v1` (`tools/version_tag.py`).
+     - **`.nojekyll` added (27 Nov),** so Pages serves the files as they are, as `MIGRATING.md` step 8 says and Absolute's live repo has. The template has never carried it. The build, `--check`, the gate and both suites are unchanged (harness 1843, layout 490).
    - **Next:**
      1. Research-Repo #7 (stage 2's research) and this session's folder's PR, for John to merge.
      2. The go-live PR (`claude/serene-fermi-1io9gs` → `main`), opened for John. He merges it and turns on Pages.
