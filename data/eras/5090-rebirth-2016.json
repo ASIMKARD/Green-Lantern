@@ -1,0 +1,4568 @@
+{
+ "$schema": "../../schema/era-file.schema.json",
+ "era": "rebirth-2016",
+ "rows": [
+  {
+   "issueId": "green-lanterns-rebirth-2016-1",
+   "series": "Green Lanterns: Rebirth",
+   "vol": "2016",
+   "num": "1",
+   "title": "Green Lanterns: Rebirth (2016) #1",
+   "arc": "green-lanterns-rebirth-rage-planet",
+   "date": {
+    "cover": "2016-08",
+    "source": "DC Database, \"Green Lanterns: Rebirth Vol 1 1\" (rev 3635228, fetched 2026-11-15): cover date 2016-08",
+    "order": {
+     "date": "2016-06-01",
+     "source": "Grand Comics Database, \"Green Lanterns: Rebirth (2016 series) #1 [Ethan Van Sciver Cover]\" (https://www.comics.org/api/issue/1575598/?format=json, fetched 2026-11-15): on sale 2016-06-01"
+    }
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Geoff Johns",
+     "Sam Humphries"
+    ],
+    "artists": [
+     "Ethan Van Sciver",
+     "Ed Benes"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "minor"
+    },
+    {
+     "who": "simon-baz",
+     "grade": "major"
+    },
+    {
+     "who": "jessica-cruz",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lanterns-2016-1",
+   "series": "Green Lanterns",
+   "vol": "2016",
+   "num": "1",
+   "title": "Green Lanterns (2016) #1",
+   "arc": "green-lanterns-rage-planet",
+   "date": {
+    "cover": "2016-08",
+    "source": "DC Database, \"Green Lanterns Vol 1 1\" (rev 3635217, fetched 2026-11-15): cover date 2016-08",
+    "order": {
+     "date": "2016-06-15",
+     "source": "Grand Comics Database, \"Green Lanterns (2016 series) #1 [Robson Rocha / Joe Prado Cover]\" (https://www.comics.org/api/issue/1581813/?format=json, fetched 2026-11-15): on sale 2016-06-15"
+    }
+   },
+   "seq": 3,
+   "credits": {
+    "writers": [
+     "Sam Humphries"
+    ],
+    "artists": [
+     "Robson Rocha"
+    ]
+   },
+   "presence": [
+    {
+     "who": "simon-baz",
+     "grade": "major"
+    },
+    {
+     "who": "jessica-cruz",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lanterns-2016-2",
+   "series": "Green Lanterns",
+   "vol": "2016",
+   "num": "2",
+   "title": "Green Lanterns (2016) #2",
+   "arc": "green-lanterns-rage-planet",
+   "date": {
+    "cover": "2016-09",
+    "source": "DC Database, \"Green Lanterns Vol 1 2\" (rev 3819424, fetched 2026-11-15): cover date 2016-09",
+    "order": {
+     "date": "2016-07-06",
+     "source": "Grand Comics Database, \"Green Lanterns (2016 series) #2 [Robson Rocha / Joe Prado Cover]\" (https://www.comics.org/api/issue/1599791/?format=json, fetched 2026-11-15): on sale 2016-07-06"
+    }
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Sam Humphries"
+    ],
+    "artists": [
+     "Robson Rocha"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "minor"
+    },
+    {
+     "who": "simon-baz",
+     "grade": "major"
+    },
+    {
+     "who": "jessica-cruz",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "hal-jordan-and-the-green-lantern-corps-rebirth-2016-1",
+   "series": "Hal Jordan and the Green Lantern Corps: Rebirth",
+   "vol": "2016",
+   "num": "1",
+   "title": "Hal Jordan and the Green Lantern Corps: Rebirth (2016) #1",
+   "arc": "hal-jordan-and-the-green-lantern-corps-rebirth-reflections",
+   "date": {
+    "cover": "2016-09",
+    "source": "DC Database, \"Hal Jordan and the Green Lantern Corps: Rebirth Vol 1 1\" (rev 3937352, fetched 2026-11-15): cover date 2016-09",
+    "order": {
+     "date": "2016-07-13",
+     "source": "Grand Comics Database, \"Hal Jordan and the Green Lantern Corps: Rebirth (2016 series) #1 [Ethan Van Sciver Cover]\" (https://www.comics.org/api/issue/1602197/?format=json, fetched 2026-11-15): on sale 2016-07-13"
+    }
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Ethan Van Sciver"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "cameo"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "cameo"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "minor"
+    },
+    {
+     "who": "simon-baz",
+     "grade": "cameo"
+    },
+    {
+     "who": "jessica-cruz",
+     "grade": "cameo"
+    }
+   ],
+   "place": {
+    "before": "green-lanterns-rebirth-2016-1",
+    "source": "DC Database, \"Green Lanterns: Rebirth Vol 1 1\" (rev 3635228, fetched 2026-11-15): \"This story takes place after the events of DCU: Rebirth Vol 1 1 as well as Hal Jordan and the Green Lantern Corps: Rebirth Vol 1 1.\" John, 20 Nov: placed just before it, so Green Lanterns: Rebirth #1 still leads straight into Green Lanterns #1."
+   }
+  },
+  {
+   "issueId": "green-lanterns-2016-3",
+   "series": "Green Lanterns",
+   "vol": "2016",
+   "num": "3",
+   "title": "Green Lanterns (2016) #3",
+   "arc": "green-lanterns-rage-planet",
+   "date": {
+    "cover": "2016-09",
+    "source": "DC Database, \"Green Lanterns Vol 1 3\" (rev 3635224, fetched 2026-11-15): cover date 2016-09",
+    "order": {
+     "date": "2016-07-20",
+     "source": "Grand Comics Database, \"Green Lanterns (2016 series) #3 [Robson Rocha / Joe Prado Cover]\" (https://www.comics.org/api/issue/1604117/?format=json, fetched 2026-11-15): on sale 2016-07-20"
+    }
+   },
+   "seq": 3,
+   "credits": {
+    "writers": [
+     "Sam Humphries"
+    ],
+    "artists": [
+     "Tom Derenick",
+     "Robson Rocha",
+     "Jack Herbert",
+     "Neil Edwards"
+    ]
+   },
+   "presence": [
+    {
+     "who": "simon-baz",
+     "grade": "major"
+    },
+    {
+     "who": "jessica-cruz",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "hal-jordan-and-the-green-lantern-corps-2016-1",
+   "series": "Hal Jordan and the Green Lantern Corps",
+   "vol": "2016",
+   "num": "1",
+   "title": "Hal Jordan and the Green Lantern Corps (2016) #1",
+   "arc": "hal-jordan-and-the-green-lantern-corps-sinestro-s-law",
+   "date": {
+    "cover": "2016-09",
+    "source": "DC Database, \"Hal Jordan and the Green Lantern Corps Vol 1 1\" (rev 3937353, fetched 2026-11-15): cover date 2016-09",
+    "order": {
+     "date": "2016-07-27",
+     "source": "Grand Comics Database, \"Hal Jordan and the Green Lantern Corps (2016 series) #1 [Rafa Sandoval / Jordi Tarragona Cover]\" (https://www.comics.org/api/issue/1605806/?format=json, fetched 2026-11-15): on sale 2016-07-27"
+    }
+   },
+   "seq": 4,
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Rafa Sandoval"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "cameo"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "cameo"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lanterns-2016-4",
+   "series": "Green Lanterns",
+   "vol": "2016",
+   "num": "4",
+   "title": "Green Lanterns (2016) #4",
+   "arc": "green-lanterns-rage-planet",
+   "date": {
+    "cover": "2016-10",
+    "source": "DC Database, \"Green Lanterns Vol 1 4\" (rev 3635225, fetched 2026-11-15): cover date 2016-10",
+    "order": {
+     "date": "2016-08-03",
+     "source": "Grand Comics Database, \"Green Lanterns (2016 series) #4 [Robson Rocha / Jay Leisten Cover]\" (https://www.comics.org/api/issue/1608171/?format=json, fetched 2026-11-15): on sale 2016-08-03"
+    }
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Sam Humphries"
+    ],
+    "artists": [
+     "Ed Benes",
+     "Robson Rocha",
+     "Tom Derenick"
+    ]
+   },
+   "presence": [
+    {
+     "who": "simon-baz",
+     "grade": "major"
+    },
+    {
+     "who": "jessica-cruz",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "hal-jordan-and-the-green-lantern-corps-2016-2",
+   "series": "Hal Jordan and the Green Lantern Corps",
+   "vol": "2016",
+   "num": "2",
+   "title": "Hal Jordan and the Green Lantern Corps (2016) #2",
+   "arc": "hal-jordan-and-the-green-lantern-corps-sinestro-s-law",
+   "date": {
+    "cover": "2016-10",
+    "source": "DC Database, \"Hal Jordan and the Green Lantern Corps Vol 1 2\" (rev 3937354, fetched 2026-11-15): cover date 2016-10",
+    "order": {
+     "date": "2016-08-10",
+     "source": "Grand Comics Database, \"Hal Jordan and the Green Lantern Corps (2016 series) #2 [Rafa Sandoval / Jordi Tarragona Cover]\" (https://www.comics.org/api/issue/1611097/?format=json, fetched 2026-11-15): on sale 2016-08-10"
+    }
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Rafa Sandoval"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lanterns-2016-5",
+   "series": "Green Lanterns",
+   "vol": "2016",
+   "num": "5",
+   "title": "Green Lanterns (2016) #5",
+   "arc": "green-lanterns-rage-planet",
+   "date": {
+    "cover": "2016-10",
+    "source": "DC Database, \"Green Lanterns Vol 1 5\" (rev 3635226, fetched 2026-11-15): cover date 2016-10",
+    "order": {
+     "date": "2016-08-17",
+     "source": "Grand Comics Database, \"Green Lanterns (2016 series) #5 [Robson Rocha / Jay Leisten Cover]\" (https://www.comics.org/api/issue/1615984/?format=json, fetched 2026-11-15): on sale 2016-08-17"
+    }
+   },
+   "seq": 3,
+   "credits": {
+    "writers": [
+     "Sam Humphries"
+    ],
+    "artists": [
+     "Robson Rocha",
+     "Eduardo Pansica"
+    ]
+   },
+   "presence": [
+    {
+     "who": "simon-baz",
+     "grade": "major"
+    },
+    {
+     "who": "jessica-cruz",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "hal-jordan-and-the-green-lantern-corps-2016-3",
+   "series": "Hal Jordan and the Green Lantern Corps",
+   "vol": "2016",
+   "num": "3",
+   "title": "Hal Jordan and the Green Lantern Corps (2016) #3",
+   "arc": "hal-jordan-and-the-green-lantern-corps-sinestro-s-law",
+   "date": {
+    "cover": "2016-10",
+    "source": "DC Database, \"Hal Jordan and the Green Lantern Corps Vol 1 3\" (rev 3937355, fetched 2026-11-15): cover date 2016-10",
+    "order": {
+     "date": "2016-08-24",
+     "source": "Grand Comics Database, \"Hal Jordan and the Green Lantern Corps (2016 series) #3 [Rafa Sandoval / Jordi Tarragona Cover]\" (https://www.comics.org/api/issue/1618163/?format=json, fetched 2026-11-15): on sale 2016-08-24"
+    }
+   },
+   "seq": 4,
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Rafa Sandoval"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "minor"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "minor"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lanterns-2016-6",
+   "series": "Green Lanterns",
+   "vol": "2016",
+   "num": "6",
+   "title": "Green Lanterns (2016) #6",
+   "arc": "green-lanterns-rage-planet",
+   "date": {
+    "cover": "2016-11",
+    "source": "DC Database, \"Green Lanterns Vol 1 6\" (rev 3635227, fetched 2026-11-15): cover date 2016-11",
+    "order": {
+     "date": "2016-09-14",
+     "source": "Grand Comics Database, \"Green Lanterns (2016 series) #6 [Robson Rocha / Jay Leisten Cover]\" (https://www.comics.org/api/issue/1621997/?format=json, fetched 2026-11-15): on sale 2016-09-14"
+    }
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Sam Humphries"
+    ],
+    "artists": [
+     "Will Conrad",
+     "Jack Herbert"
+    ]
+   },
+   "presence": [
+    {
+     "who": "simon-baz",
+     "grade": "major"
+    },
+    {
+     "who": "jessica-cruz",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "hal-jordan-and-the-green-lantern-corps-2016-4",
+   "series": "Hal Jordan and the Green Lantern Corps",
+   "vol": "2016",
+   "num": "4",
+   "title": "Hal Jordan and the Green Lantern Corps (2016) #4",
+   "arc": "hal-jordan-and-the-green-lantern-corps-sinestro-s-law",
+   "date": {
+    "cover": "2016-11",
+    "source": "DC Database, \"Hal Jordan and the Green Lantern Corps Vol 1 4\" (rev 3937358, fetched 2026-11-15): cover date 2016-11",
+    "order": {
+     "date": "2016-09-14",
+     "source": "Grand Comics Database, \"Hal Jordan and the Green Lantern Corps (2016 series) #4 [Ethan Van Sciver Cover]\" (https://www.comics.org/api/issue/1621998/?format=json, fetched 2026-11-15): on sale 2016-09-14"
+    }
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Ethan Van Sciver"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "minor"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lanterns-2016-7",
+   "series": "Green Lanterns",
+   "vol": "2016",
+   "num": "7",
+   "title": "Green Lanterns (2016) #7",
+   "arc": "green-lanterns-family-matters",
+   "date": {
+    "cover": "2016-11",
+    "source": "DC Database, \"Green Lanterns Vol 1 7\" (rev 3548669, fetched 2026-11-15): cover date 2016-11",
+    "order": {
+     "date": "2016-09-21",
+     "source": "Grand Comics Database, \"Green Lanterns (2016 series) #7 [Robson Rocha / Joe Prado Cover]\" (https://www.comics.org/api/issue/1624176/?format=json, fetched 2026-11-15): on sale 2016-09-21"
+    }
+   },
+   "seq": 3,
+   "credits": {
+    "writers": [
+     "Sam Humphries"
+    ],
+    "artists": [
+     "Ronan Cliquet"
+    ]
+   },
+   "presence": [
+    {
+     "who": "simon-baz",
+     "grade": "major"
+    },
+    {
+     "who": "jessica-cruz",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "hal-jordan-and-the-green-lantern-corps-2016-5",
+   "series": "Hal Jordan and the Green Lantern Corps",
+   "vol": "2016",
+   "num": "5",
+   "title": "Hal Jordan and the Green Lantern Corps (2016) #5",
+   "arc": "hal-jordan-and-the-green-lantern-corps-sinestro-s-law",
+   "date": {
+    "cover": "2016-11",
+    "source": "DC Database, \"Hal Jordan and the Green Lantern Corps Vol 1 5\" (rev 3937360, fetched 2026-11-15): cover date 2016-11",
+    "order": {
+     "date": "2016-09-28",
+     "source": "Grand Comics Database, \"Hal Jordan and the Green Lantern Corps (2016 series) #5 [Ethan Van Sciver Cover]\" (https://www.comics.org/api/issue/1628451/?format=json, fetched 2026-11-15): on sale 2016-09-28"
+    }
+   },
+   "seq": 4,
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Ethan Van Sciver"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lanterns-2016-8",
+   "series": "Green Lanterns",
+   "vol": "2016",
+   "num": "8",
+   "title": "Green Lanterns (2016) #8",
+   "arc": "green-lanterns-family-matters",
+   "date": {
+    "cover": "2016-12",
+    "source": "DC Database, \"Green Lanterns Vol 1 8\" (rev 3952331, fetched 2026-11-15): cover date 2016-12",
+    "order": {
+     "date": "2016-10-05",
+     "source": "Grand Comics Database, \"Green Lanterns (2016 series) #8 [Robson Rocha / Joe Prado Cover]\" (https://www.comics.org/api/issue/1635249/?format=json, fetched 2026-11-15): on sale 2016-10-05"
+    }
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Sam Humphries"
+    ],
+    "artists": [
+     "Ed Benes"
+    ]
+   },
+   "presence": [
+    {
+     "who": "simon-baz",
+     "grade": "major"
+    },
+    {
+     "who": "jessica-cruz",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "hal-jordan-and-the-green-lantern-corps-2016-6",
+   "series": "Hal Jordan and the Green Lantern Corps",
+   "vol": "2016",
+   "num": "6",
+   "title": "Hal Jordan and the Green Lantern Corps (2016) #6",
+   "arc": "hal-jordan-and-the-green-lantern-corps-sinestro-s-law",
+   "date": {
+    "cover": "2016-12",
+    "source": "DC Database, \"Hal Jordan and the Green Lantern Corps Vol 1 6\" (rev 3937361, fetched 2026-11-15): cover date 2016-12",
+    "order": {
+     "date": "2016-10-12",
+     "source": "Grand Comics Database, \"Hal Jordan and the Green Lantern Corps (2016 series) #6 [Rafa Sandoval / Jordi Tarragona Cover]\" (https://www.comics.org/api/issue/1637899/?format=json, fetched 2026-11-15): on sale 2016-10-12"
+    }
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Rafa Sandoval"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lanterns-2016-9",
+   "series": "Green Lanterns",
+   "vol": "2016",
+   "num": "9",
+   "title": "Green Lanterns (2016) #9",
+   "arc": "green-lanterns-the-phantom-lantern",
+   "date": {
+    "cover": "2016-12",
+    "source": "DC Database, \"Green Lanterns Vol 1 9\" (rev 3952296, fetched 2026-11-15): cover date 2016-12",
+    "order": {
+     "date": "2016-10-19",
+     "source": "Grand Comics Database, \"Green Lanterns (2016 series) #9 [Robson Rocha / Joe Prado Cover]\" (https://www.comics.org/api/issue/1639191/?format=json, fetched 2026-11-15): on sale 2016-10-19"
+    }
+   },
+   "seq": 3,
+   "credits": {
+    "writers": [
+     "Sam Humphries"
+    ],
+    "artists": [
+     "Robson Rocha"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "cameo"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "minor"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "cameo"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "cameo"
+    },
+    {
+     "who": "simon-baz",
+     "grade": "cameo"
+    },
+    {
+     "who": "jessica-cruz",
+     "grade": "cameo"
+    }
+   ]
+  },
+  {
+   "issueId": "hal-jordan-and-the-green-lantern-corps-2016-7",
+   "series": "Hal Jordan and the Green Lantern Corps",
+   "vol": "2016",
+   "num": "7",
+   "title": "Hal Jordan and the Green Lantern Corps (2016) #7",
+   "arc": "hal-jordan-and-the-green-lantern-corps-sinestro-s-law",
+   "date": {
+    "cover": "2016-12",
+    "source": "DC Database, \"Hal Jordan and the Green Lantern Corps Vol 1 7\" (rev 3937364, fetched 2026-11-15): cover date 2016-12",
+    "order": {
+     "date": "2016-10-26",
+     "source": "Grand Comics Database, \"Hal Jordan and the Green Lantern Corps (2016 series) #7 [Rafa Sandoval / Jordi Tarragona Cover]\" (https://www.comics.org/api/issue/1641199/?format=json, fetched 2026-11-15): on sale 2016-10-26"
+    }
+   },
+   "seq": 4,
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Rafa Sandoval"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lanterns-2016-10",
+   "series": "Green Lanterns",
+   "vol": "2016",
+   "num": "10",
+   "title": "Green Lanterns (2016) #10",
+   "arc": "green-lanterns-the-phantom-lantern",
+   "date": {
+    "cover": "2017-01",
+    "source": "DC Database, \"Green Lanterns Vol 1 10\" (rev 3970069, fetched 2026-11-15): cover date 2017-01",
+    "order": {
+     "date": "2016-11-02",
+     "source": "Grand Comics Database, \"Green Lanterns (2016 series) #10 [Ed Benes Cover]\" (https://www.comics.org/api/issue/1642978/?format=json, fetched 2026-11-15): on sale 2016-11-02"
+    }
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Sam Humphries"
+    ],
+    "artists": [
+     "Eduardo Pansica"
+    ]
+   },
+   "presence": [
+    {
+     "who": "simon-baz",
+     "grade": "major"
+    },
+    {
+     "who": "jessica-cruz",
+     "grade": "major"
+    }
+   ],
+   "coreFor": [
+    "simon-baz",
+    "jessica-cruz"
+   ]
+  },
+  {
+   "issueId": "hal-jordan-and-the-green-lantern-corps-2016-8",
+   "series": "Hal Jordan and the Green Lantern Corps",
+   "vol": "2016",
+   "num": "8",
+   "title": "Hal Jordan and the Green Lantern Corps (2016) #8",
+   "arc": "hal-jordan-and-the-green-lantern-corps-bottled-light",
+   "date": {
+    "cover": "2017-01",
+    "source": "DC Database, \"Hal Jordan and the Green Lantern Corps Vol 1 8\" (rev 3937367, fetched 2026-11-15): cover date 2017-01",
+    "order": {
+     "date": "2016-11-09",
+     "source": "Grand Comics Database, \"Hal Jordan and the Green Lantern Corps (2016 series) #8 [Ethan Van Sciver Cover]\" (https://www.comics.org/api/issue/1648441/?format=json, fetched 2026-11-15): on sale 2016-11-09"
+    }
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Ethan Van Sciver"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "cameo"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "minor"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lanterns-2016-11",
+   "series": "Green Lanterns",
+   "vol": "2016",
+   "num": "11",
+   "title": "Green Lanterns (2016) #11",
+   "arc": "green-lanterns-the-phantom-lantern",
+   "date": {
+    "cover": "2017-01",
+    "source": "DC Database, \"Green Lanterns Vol 1 11\" (rev 3971185, fetched 2026-11-15): cover date 2017-01",
+    "order": {
+     "date": "2016-11-16",
+     "source": "Grand Comics Database, \"Green Lanterns (2016 series) #11 [Robson Rocha Cover]\" (https://www.comics.org/api/issue/1649475/?format=json, fetched 2026-11-15): on sale 2016-11-16"
+    }
+   },
+   "seq": 3,
+   "credits": {
+    "writers": [
+     "Sam Humphries"
+    ],
+    "artists": [
+     "Robson Rocha"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "cameo"
+    },
+    {
+     "who": "simon-baz",
+     "grade": "major"
+    },
+    {
+     "who": "jessica-cruz",
+     "grade": "major"
+    }
+   ],
+   "coreFor": [
+    "simon-baz",
+    "jessica-cruz"
+   ]
+  },
+  {
+   "issueId": "hal-jordan-and-the-green-lantern-corps-2016-9",
+   "series": "Hal Jordan and the Green Lantern Corps",
+   "vol": "2016",
+   "num": "9",
+   "title": "Hal Jordan and the Green Lantern Corps (2016) #9",
+   "arc": "hal-jordan-and-the-green-lantern-corps-bottled-light",
+   "date": {
+    "cover": "2017-01",
+    "source": "DC Database, \"Hal Jordan and the Green Lantern Corps Vol 1 9\" (rev 3937368, fetched 2026-11-15): cover date 2017-01",
+    "order": {
+     "date": "2016-11-23",
+     "source": "Grand Comics Database, \"Hal Jordan and the Green Lantern Corps (2016 series) #9 [Rafa Sandoval / Jordi Tarragona Cover]\" (https://www.comics.org/api/issue/1653355/?format=json, fetched 2026-11-15): on sale 2016-11-23"
+    }
+   },
+   "seq": 4,
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Rafa Sandoval"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "major"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "cameo"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lanterns-2016-12",
+   "series": "Green Lanterns",
+   "vol": "2016",
+   "num": "12",
+   "title": "Green Lanterns (2016) #12",
+   "arc": "green-lanterns-the-phantom-lantern",
+   "date": {
+    "cover": "2017-02",
+    "source": "DC Database, \"Green Lanterns Vol 1 12\" (rev 3981344, fetched 2026-11-15): cover date 2017-02",
+    "order": {
+     "date": "2016-12-07",
+     "source": "Grand Comics Database, \"Green Lanterns (2016 series) #12 [Robson Rocha / Joe Prado Cover]\" (https://www.comics.org/api/issue/1657221/?format=json, fetched 2026-11-15): on sale 2016-12-07"
+    }
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Sam Humphries"
+    ],
+    "artists": [
+     "Eduardo Pansica"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "cameo"
+    },
+    {
+     "who": "simon-baz",
+     "grade": "major"
+    },
+    {
+     "who": "jessica-cruz",
+     "grade": "major"
+    }
+   ],
+   "coreFor": [
+    "simon-baz",
+    "jessica-cruz"
+   ]
+  },
+  {
+   "issueId": "hal-jordan-and-the-green-lantern-corps-2016-10",
+   "series": "Hal Jordan and the Green Lantern Corps",
+   "vol": "2016",
+   "num": "10",
+   "title": "Hal Jordan and the Green Lantern Corps (2016) #10",
+   "arc": "hal-jordan-and-the-green-lantern-corps-bottled-light",
+   "date": {
+    "cover": "2017-02",
+    "source": "DC Database, \"Hal Jordan and the Green Lantern Corps Vol 1 10\" (rev 3716315, fetched 2026-11-15): cover date 2017-02",
+    "order": {
+     "date": "2016-12-14",
+     "source": "Grand Comics Database, \"Hal Jordan and the Green Lantern Corps (2016 series) #10 [Ethan Van Sciver Cover]\" (https://www.comics.org/api/issue/1658485/?format=json, fetched 2026-11-15): on sale 2016-12-14"
+    }
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Ed Benes"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "major"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lanterns-2016-13",
+   "series": "Green Lanterns",
+   "vol": "2016",
+   "num": "13",
+   "title": "Green Lanterns (2016) #13",
+   "arc": "green-lanterns-the-phantom-lantern",
+   "date": {
+    "cover": "2017-02",
+    "source": "DC Database, \"Green Lanterns Vol 1 13\" (rev 3981346, fetched 2026-11-15): cover date 2017-02",
+    "order": {
+     "date": "2016-12-21",
+     "source": "Grand Comics Database, \"Green Lanterns (2016 series) #13 [Tyler Kirkham Cover]\" (https://www.comics.org/api/issue/1660183/?format=json, fetched 2026-11-15): on sale 2016-12-21"
+    }
+   },
+   "seq": 3,
+   "credits": {
+    "writers": [
+     "Sam Humphries"
+    ],
+    "artists": [
+     "Ronan Cliquet"
+    ]
+   },
+   "presence": [
+    {
+     "who": "simon-baz",
+     "grade": "major"
+    },
+    {
+     "who": "jessica-cruz",
+     "grade": "major"
+    }
+   ],
+   "coreFor": [
+    "simon-baz",
+    "jessica-cruz"
+   ]
+  },
+  {
+   "issueId": "hal-jordan-and-the-green-lantern-corps-2016-11",
+   "series": "Hal Jordan and the Green Lantern Corps",
+   "vol": "2016",
+   "num": "11",
+   "title": "Hal Jordan and the Green Lantern Corps (2016) #11",
+   "arc": "hal-jordan-and-the-green-lantern-corps-bottled-light",
+   "date": {
+    "cover": "2017-02",
+    "source": "DC Database, \"Hal Jordan and the Green Lantern Corps Vol 1 11\" (rev 3716310, fetched 2026-11-15): cover date 2017-02",
+    "order": {
+     "date": "2016-12-28",
+     "source": "Grand Comics Database, \"Hal Jordan and the Green Lantern Corps (2016 series) #11 [Rafa Sandoval / Jordi Tarragona Cover]\" (https://www.comics.org/api/issue/1661605/?format=json, fetched 2026-11-15): on sale 2016-12-28"
+    }
+   },
+   "seq": 4,
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Rafa Sandoval"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "major"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lanterns-2016-14",
+   "series": "Green Lanterns",
+   "vol": "2016",
+   "num": "14",
+   "title": "Green Lanterns (2016) #14",
+   "arc": "green-lanterns-the-phantom-lantern",
+   "date": {
+    "cover": "2017-03",
+    "source": "DC Database, \"Green Lanterns Vol 1 14\" (rev 3983073, fetched 2026-11-15): cover date 2017-03",
+    "order": {
+     "date": "2017-01-04",
+     "source": "Grand Comics Database, \"Green Lanterns (2016 series) #14 [Robson Rocha / Jay Leisten Cover]\" (https://www.comics.org/api/issue/1663333/?format=json, fetched 2026-11-15): on sale 2017-01-04"
+    }
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Sam Humphries"
+    ],
+    "artists": [
+     "Eduardo Pansica",
+     "Ronan Cliquet"
+    ]
+   },
+   "presence": [
+    {
+     "who": "simon-baz",
+     "grade": "major"
+    },
+    {
+     "who": "jessica-cruz",
+     "grade": "major"
+    }
+   ],
+   "coreFor": [
+    "simon-baz",
+    "jessica-cruz"
+   ]
+  },
+  {
+   "issueId": "hal-jordan-and-the-green-lantern-corps-2016-12",
+   "series": "Hal Jordan and the Green Lantern Corps",
+   "vol": "2016",
+   "num": "12",
+   "title": "Hal Jordan and the Green Lantern Corps (2016) #12",
+   "arc": "hal-jordan-and-the-green-lantern-corps-bottled-light",
+   "date": {
+    "cover": "2017-03",
+    "source": "DC Database, \"Hal Jordan and the Green Lantern Corps Vol 1 12\" (rev 3835771, fetched 2026-11-15): cover date 2017-03",
+    "order": {
+     "date": "2017-01-11",
+     "source": "Grand Comics Database, \"Hal Jordan and the Green Lantern Corps (2016 series) #12 [Ethan Van Sciver Cover]\" (https://www.comics.org/api/issue/1665042/?format=json, fetched 2026-11-15): on sale 2017-01-11"
+    }
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Ethan Van Sciver"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "major"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lanterns-2016-15",
+   "series": "Green Lanterns",
+   "vol": "2016",
+   "num": "15",
+   "title": "Green Lanterns (2016) #15",
+   "arc": "green-lanterns-a-day-in-the-life",
+   "date": {
+    "cover": "2017-03",
+    "source": "DC Database, \"Green Lanterns Vol 1 15\" (rev 3436603, fetched 2026-11-15): cover date 2017-03",
+    "order": {
+     "date": "2017-01-18",
+     "source": "Grand Comics Database, \"Green Lanterns (2016 series) #15 [Tyler Kirkham Cover]\" (https://www.comics.org/api/issue/1667227/?format=json, fetched 2026-11-15): on sale 2017-01-18"
+    }
+   },
+   "seq": 3,
+   "credits": {
+    "writers": [
+     "Sam Humphries"
+    ],
+    "artists": [
+     "Tom Derenick",
+     "Miguel Mendonca"
+    ]
+   },
+   "presence": [
+    {
+     "who": "simon-baz",
+     "grade": "major"
+    },
+    {
+     "who": "jessica-cruz",
+     "grade": "major"
+    }
+   ],
+   "coreFor": [
+    "simon-baz",
+    "jessica-cruz"
+   ]
+  },
+  {
+   "issueId": "hal-jordan-and-the-green-lantern-corps-2016-13",
+   "series": "Hal Jordan and the Green Lantern Corps",
+   "vol": "2016",
+   "num": "13",
+   "title": "Hal Jordan and the Green Lantern Corps (2016) #13",
+   "arc": "hal-jordan-and-the-green-lantern-corps-bottled-light",
+   "date": {
+    "cover": "2017-03",
+    "source": "DC Database, \"Hal Jordan and the Green Lantern Corps Vol 1 13\" (rev 3635271, fetched 2026-11-15): cover date 2017-03",
+    "order": {
+     "date": "2017-01-25",
+     "source": "Grand Comics Database, \"Hal Jordan and the Green Lantern Corps (2016 series) #13 [Mikel Janin Cover]\" (https://www.comics.org/api/issue/1669848/?format=json, fetched 2026-11-15): on sale 2017-01-25"
+    }
+   },
+   "seq": 4,
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "V. Ken Marion"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "cameo"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "cameo"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "cameo"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "cameo"
+    },
+    {
+     "who": "indigo-tribe",
+     "grade": "cameo"
+    },
+    {
+     "who": "star-sapphires",
+     "grade": "cameo"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lanterns-2016-16",
+   "series": "Green Lanterns",
+   "vol": "2016",
+   "num": "16",
+   "title": "Green Lanterns (2016) #16",
+   "arc": "green-lanterns-darkest-knights",
+   "date": {
+    "cover": "2017-04",
+    "source": "DC Database, \"Green Lanterns Vol 1 16\" (rev 3925604, fetched 2026-11-15): cover date 2017-04",
+    "order": {
+     "date": "2017-02-01",
+     "source": "Grand Comics Database, \"Green Lanterns (2016 series) #16 [James Harren Cover]\" (https://www.comics.org/api/issue/1671804/?format=json, fetched 2026-11-15): on sale 2017-02-01"
+    }
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Sam Humphries"
+    ],
+    "artists": [
+     "Neil Edwards"
+    ]
+   },
+   "presence": [
+    {
+     "who": "simon-baz",
+     "grade": "major"
+    },
+    {
+     "who": "jessica-cruz",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "hal-jordan-and-the-green-lantern-corps-2016-14",
+   "series": "Hal Jordan and the Green Lantern Corps",
+   "vol": "2016",
+   "num": "14",
+   "title": "Hal Jordan and the Green Lantern Corps (2016) #14",
+   "arc": "hal-jordan-and-the-green-lantern-corps-quest-for-hope",
+   "date": {
+    "cover": "2017-04",
+    "source": "DC Database, \"Hal Jordan and the Green Lantern Corps Vol 1 14\" (rev 3635272, fetched 2026-11-15): cover date 2017-04",
+    "order": {
+     "date": "2017-02-08",
+     "source": "Grand Comics Database, \"Hal Jordan and the Green Lantern Corps (2016 series) #14 [Rafa Sandoval / Jordi Tarragona Cover]\" (https://www.comics.org/api/issue/1673738/?format=json, fetched 2026-11-15): on sale 2017-02-08"
+    }
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Rafa Sandoval"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "major"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lanterns-2016-17",
+   "series": "Green Lanterns",
+   "vol": "2016",
+   "num": "17",
+   "title": "Green Lanterns (2016) #17",
+   "arc": "green-lanterns-darkest-knights",
+   "date": {
+    "cover": "2017-04",
+    "source": "DC Database, \"Green Lanterns Vol 1 17\" (rev 3635221, fetched 2026-11-15): cover date 2017-04",
+    "order": {
+     "date": "2017-02-15",
+     "source": "Grand Comics Database, \"Green Lanterns (2016 series) #17 [James Harren Cover]\" (https://www.comics.org/api/issue/1675061/?format=json, fetched 2026-11-15): on sale 2017-02-15"
+    }
+   },
+   "seq": 3,
+   "credits": {
+    "writers": [
+     "Sam Humphries"
+    ],
+    "artists": [
+     "Eduardo Pansica"
+    ]
+   },
+   "presence": [
+    {
+     "who": "simon-baz",
+     "grade": "cameo"
+    },
+    {
+     "who": "jessica-cruz",
+     "grade": "cameo"
+    }
+   ]
+  },
+  {
+   "issueId": "hal-jordan-and-the-green-lantern-corps-2016-15",
+   "series": "Hal Jordan and the Green Lantern Corps",
+   "vol": "2016",
+   "num": "15",
+   "title": "Hal Jordan and the Green Lantern Corps (2016) #15",
+   "arc": "hal-jordan-and-the-green-lantern-corps-quest-for-hope",
+   "date": {
+    "cover": "2017-04",
+    "source": "DC Database, \"Hal Jordan and the Green Lantern Corps Vol 1 15\" (rev 3635273, fetched 2026-11-15): cover date 2017-04",
+    "order": {
+     "date": "2017-02-22",
+     "source": "Grand Comics Database, \"Hal Jordan and the Green Lantern Corps (2016 series) #15 [Mikel Janin Cover]\" (https://www.comics.org/api/issue/1676251/?format=json, fetched 2026-11-15): on sale 2017-02-22"
+    }
+   },
+   "seq": 4,
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Ethan Van Sciver"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "major"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lanterns-2016-18",
+   "series": "Green Lanterns",
+   "vol": "2016",
+   "num": "18",
+   "title": "Green Lanterns (2016) #18",
+   "arc": "green-lanterns-the-last-testament-of-the-first-lantern",
+   "date": {
+    "cover": "2017-05",
+    "source": "DC Database, \"Green Lanterns Vol 1 18\" (rev 3985443, fetched 2026-11-15): cover date 2017-05",
+    "order": {
+     "date": "2017-03-01",
+     "source": "Grand Comics Database, \"Green Lanterns (2016 series) #18 [Leonardo Manco Cover]\" (https://www.comics.org/api/issue/1677308/?format=json, fetched 2026-11-15): on sale 2017-03-01"
+    }
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Sam Humphries"
+    ],
+    "artists": [
+     "Robson Rocha"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "cameo"
+    }
+   ]
+  },
+  {
+   "issueId": "hal-jordan-and-the-green-lantern-corps-2016-16",
+   "series": "Hal Jordan and the Green Lantern Corps",
+   "vol": "2016",
+   "num": "16",
+   "title": "Hal Jordan and the Green Lantern Corps (2016) #16",
+   "arc": "hal-jordan-and-the-green-lantern-corps-quest-for-hope",
+   "date": {
+    "cover": "2017-05",
+    "source": "DC Database, \"Hal Jordan and the Green Lantern Corps Vol 1 16\" (rev 3765814, fetched 2026-11-15): cover date 2017-05",
+    "order": {
+     "date": "2017-03-08",
+     "source": "Grand Comics Database, \"Hal Jordan and the Green Lantern Corps (2016 series) #16 [Rafa Sandoval / Jordi Tarragona Cover]\" (https://www.comics.org/api/issue/1679036/?format=json, fetched 2026-11-15): on sale 2017-03-08"
+    }
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Rafa Sandoval"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "major"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lanterns-2016-19",
+   "series": "Green Lanterns",
+   "vol": "2016",
+   "num": "19",
+   "title": "Green Lanterns (2016) #19",
+   "arc": "green-lanterns-polarity",
+   "date": {
+    "cover": "2017-05",
+    "source": "DC Database, \"Green Lanterns Vol 1 19\" (rev 3436607, fetched 2026-11-15): cover date 2017-05",
+    "order": {
+     "date": "2017-03-15",
+     "source": "Grand Comics Database, \"Green Lanterns (2016 series) #19 [Leonardo Manco Cover]\" (https://www.comics.org/api/issue/1680367/?format=json, fetched 2026-11-15): on sale 2017-03-15"
+    }
+   },
+   "seq": 3,
+   "credits": {
+    "writers": [
+     "Sam Humphries"
+    ],
+    "artists": [
+     "Ronan Cliquet"
+    ]
+   },
+   "presence": [
+    {
+     "who": "simon-baz",
+     "grade": "major"
+    },
+    {
+     "who": "jessica-cruz",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "hal-jordan-and-the-green-lantern-corps-2016-17",
+   "series": "Hal Jordan and the Green Lantern Corps",
+   "vol": "2016",
+   "num": "17",
+   "title": "Hal Jordan and the Green Lantern Corps (2016) #17",
+   "arc": "hal-jordan-and-the-green-lantern-corps-quest-for-hope",
+   "date": {
+    "cover": "2017-05",
+    "source": "DC Database, \"Hal Jordan and the Green Lantern Corps Vol 1 17\" (rev 3635275, fetched 2026-11-15): cover date 2017-05",
+    "order": {
+     "date": "2017-03-22",
+     "source": "Grand Comics Database, \"Hal Jordan and the Green Lantern Corps (2016 series) #17 [Ethan Van Sciver Cover]\" (https://www.comics.org/api/issue/1683058/?format=json, fetched 2026-11-15): on sale 2017-03-22"
+    }
+   },
+   "seq": 4,
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Ethan Van Sciver"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "major"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lanterns-2016-20",
+   "series": "Green Lanterns",
+   "vol": "2016",
+   "num": "20",
+   "title": "Green Lanterns (2016) #20",
+   "arc": "green-lanterns-polarity",
+   "date": {
+    "cover": "2017-06",
+    "source": "DC Database, \"Green Lanterns Vol 1 20\" (rev 3558686, fetched 2026-11-15): cover date 2017-06",
+    "order": {
+     "date": "2017-04-05",
+     "source": "Grand Comics Database, \"Green Lanterns (2016 series) #20 [Robson Rocha / Daniel Henriques Cover]\" (https://www.comics.org/api/issue/1688650/?format=json, fetched 2026-11-15): on sale 2017-04-05"
+    }
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Sam Humphries"
+    ],
+    "artists": [
+     "Eduardo Pansica"
+    ]
+   },
+   "presence": [
+    {
+     "who": "john-stewart",
+     "grade": "minor"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "minor"
+    },
+    {
+     "who": "simon-baz",
+     "grade": "major"
+    },
+    {
+     "who": "jessica-cruz",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "hal-jordan-and-the-green-lantern-corps-2016-18",
+   "series": "Hal Jordan and the Green Lantern Corps",
+   "vol": "2016",
+   "num": "18",
+   "title": "Hal Jordan and the Green Lantern Corps (2016) #18",
+   "arc": "hal-jordan-and-the-green-lantern-corps-the-prism-of-time",
+   "date": {
+    "cover": "2017-06",
+    "source": "DC Database, \"Hal Jordan and the Green Lantern Corps Vol 1 18\" (rev 3695871, fetched 2026-11-15): cover date 2017-06",
+    "order": {
+     "date": "2017-04-12",
+     "source": "Grand Comics Database, \"Hal Jordan and the Green Lantern Corps (2016 series) #18 [Mikel Janin Cover]\" (https://www.comics.org/api/issue/1690707/?format=json, fetched 2026-11-15): on sale 2017-04-12"
+    }
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "V. Ken Marion"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "major"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lanterns-2016-21",
+   "series": "Green Lanterns",
+   "vol": "2016",
+   "num": "21",
+   "title": "Green Lanterns (2016) #21",
+   "arc": "green-lanterns-polarity",
+   "date": {
+    "cover": "2017-06",
+    "source": "DC Database, \"Green Lanterns Vol 1 21\" (rev 3558687, fetched 2026-11-15): cover date 2017-06",
+    "order": {
+     "date": "2017-04-19",
+     "source": "Grand Comics Database, \"Green Lanterns (2016 series) #21 [Lee Weeks Cover]\" (https://www.comics.org/api/issue/1692373/?format=json, fetched 2026-11-15): on sale 2017-04-19"
+    }
+   },
+   "seq": 3,
+   "credits": {
+    "writers": [
+     "Sam Humphries"
+    ],
+    "artists": [
+     "Robson Rocha"
+    ]
+   },
+   "presence": [
+    {
+     "who": "john-stewart",
+     "grade": "cameo"
+    },
+    {
+     "who": "simon-baz",
+     "grade": "major"
+    },
+    {
+     "who": "jessica-cruz",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "hal-jordan-and-the-green-lantern-corps-2016-19",
+   "series": "Hal Jordan and the Green Lantern Corps",
+   "vol": "2016",
+   "num": "19",
+   "title": "Hal Jordan and the Green Lantern Corps (2016) #19",
+   "arc": "hal-jordan-and-the-green-lantern-corps-the-prism-of-time",
+   "date": {
+    "cover": "2017-06",
+    "source": "DC Database, \"Hal Jordan and the Green Lantern Corps Vol 1 19\" (rev 3635277, fetched 2026-11-15): cover date 2017-06",
+    "order": {
+     "date": "2017-04-26",
+     "source": "Grand Comics Database, \"Hal Jordan and the Green Lantern Corps (2016 series) #19 [Robson Rocha / Daniel Henriques Cover]\" (https://www.comics.org/api/issue/1693477/?format=json, fetched 2026-11-15): on sale 2017-04-26"
+    }
+   },
+   "seq": 4,
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "V. Ken Marion"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "minor"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lanterns-2016-22",
+   "series": "Green Lanterns",
+   "vol": "2016",
+   "num": "22",
+   "title": "Green Lanterns (2016) #22",
+   "arc": "green-lanterns-the-first-ring",
+   "date": {
+    "cover": "2017-07",
+    "source": "DC Database, \"Green Lanterns Vol 1 22\" (rev 3635223, fetched 2026-11-15): cover date 2017-07",
+    "order": {
+     "date": "2017-05-03",
+     "source": "Grand Comics Database, \"Green Lanterns (2016 series) #22 [Mike McKone Cover]\" (https://www.comics.org/api/issue/1696192/?format=json, fetched 2026-11-15): on sale 2017-05-03"
+    }
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Sam Humphries"
+    ],
+    "artists": [
+     "Ronan Cliquet"
+    ]
+   },
+   "presence": [
+    {
+     "who": "john-stewart",
+     "grade": "minor"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "minor"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "minor"
+    },
+    {
+     "who": "simon-baz",
+     "grade": "major"
+    },
+    {
+     "who": "jessica-cruz",
+     "grade": "major"
+    }
+   ],
+   "coreFor": [
+    "simon-baz",
+    "jessica-cruz"
+   ]
+  },
+  {
+   "issueId": "hal-jordan-and-the-green-lantern-corps-2016-20",
+   "series": "Hal Jordan and the Green Lantern Corps",
+   "vol": "2016",
+   "num": "20",
+   "title": "Hal Jordan and the Green Lantern Corps (2016) #20",
+   "arc": "hal-jordan-and-the-green-lantern-corps-the-prism-of-time",
+   "date": {
+    "cover": "2017-07",
+    "source": "DC Database, \"Hal Jordan and the Green Lantern Corps Vol 1 20\" (rev 3635279, fetched 2026-11-15): cover date 2017-07",
+    "order": {
+     "date": "2017-05-10",
+     "source": "Grand Comics Database, \"Hal Jordan and the Green Lantern Corps (2016 series) #20 [Rafa Sandoval / Jordi Tarragona Cover]\" (https://www.comics.org/api/issue/1697897/?format=json, fetched 2026-11-15): on sale 2017-05-10"
+    }
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Rafa Sandoval"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "major"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lanterns-2016-23",
+   "series": "Green Lanterns",
+   "vol": "2016",
+   "num": "23",
+   "title": "Green Lanterns (2016) #23",
+   "arc": "green-lanterns-the-first-ring",
+   "date": {
+    "cover": "2017-07",
+    "source": "DC Database, \"Green Lanterns Vol 1 23\" (rev 3792140, fetched 2026-11-15): cover date 2017-07",
+    "order": {
+     "date": "2017-05-17",
+     "source": "Grand Comics Database, \"Green Lanterns (2016 series) #23 [Mike McKone Cover]\" (https://www.comics.org/api/issue/1699916/?format=json, fetched 2026-11-15): on sale 2017-05-17"
+    }
+   },
+   "seq": 3,
+   "credits": {
+    "writers": [
+     "Sam Humphries"
+    ],
+    "artists": [
+     "Eduardo Pansica"
+    ]
+   },
+   "presence": [
+    {
+     "who": "guy-gardner",
+     "grade": "minor"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "minor"
+    },
+    {
+     "who": "simon-baz",
+     "grade": "major"
+    },
+    {
+     "who": "jessica-cruz",
+     "grade": "major"
+    }
+   ],
+   "coreFor": [
+    "simon-baz",
+    "jessica-cruz"
+   ]
+  },
+  {
+   "issueId": "hal-jordan-and-the-green-lantern-corps-2016-21",
+   "series": "Hal Jordan and the Green Lantern Corps",
+   "vol": "2016",
+   "num": "21",
+   "title": "Hal Jordan and the Green Lantern Corps (2016) #21",
+   "arc": "hal-jordan-and-the-green-lantern-corps-the-prism-of-time",
+   "date": {
+    "cover": "2017-07",
+    "source": "DC Database, \"Hal Jordan and the Green Lantern Corps Vol 1 21\" (rev 3887279, fetched 2026-11-15): cover date 2017-07",
+    "order": {
+     "date": "2017-05-24",
+     "source": "Grand Comics Database, \"Hal Jordan and the Green Lantern Corps (2016 series) #21 [Ethan Van Sciver Cover]\" (https://www.comics.org/api/issue/1704706/?format=json, fetched 2026-11-15): on sale 2017-05-24"
+    }
+   },
+   "seq": 4,
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "V. Ken Marion"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "major"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lanterns-2016-24",
+   "series": "Green Lanterns",
+   "vol": "2016",
+   "num": "24",
+   "title": "Green Lanterns (2016) #24",
+   "arc": "green-lanterns-the-first-ring",
+   "date": {
+    "cover": "2017-08",
+    "source": "DC Database, \"Green Lanterns Vol 1 24\" (rev 3436613, fetched 2026-11-15): cover date 2017-08",
+    "order": {
+     "date": "2017-06-07",
+     "source": "Grand Comics Database, \"Green Lanterns (2016 series) #24 [Brad Walker / Drew Hennessy Cover]\" (https://www.comics.org/api/issue/1709858/?format=json, fetched 2026-11-15): on sale 2017-06-07"
+    }
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Sam Humphries"
+    ],
+    "artists": [
+     "Carlo Barberi"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "minor"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "minor"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "minor"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "minor"
+    },
+    {
+     "who": "simon-baz",
+     "grade": "major"
+    },
+    {
+     "who": "jessica-cruz",
+     "grade": "major"
+    }
+   ],
+   "coreFor": [
+    "simon-baz",
+    "jessica-cruz"
+   ]
+  },
+  {
+   "issueId": "hal-jordan-and-the-green-lantern-corps-2016-22",
+   "series": "Hal Jordan and the Green Lantern Corps",
+   "vol": "2016",
+   "num": "22",
+   "title": "Hal Jordan and the Green Lantern Corps (2016) #22",
+   "arc": "hal-jordan-and-the-green-lantern-corps-fracture",
+   "date": {
+    "cover": "2017-08",
+    "source": "DC Database, \"Hal Jordan and the Green Lantern Corps Vol 1 22\" (rev 3635281, fetched 2026-11-15): cover date 2017-08",
+    "order": {
+     "date": "2017-06-14",
+     "source": "Grand Comics Database, \"Hal Jordan and the Green Lantern Corps (2016 series) #22 [Ethan Van Sciver Cover]\" (https://www.comics.org/api/issue/1713943/?format=json, fetched 2026-11-15): on sale 2017-06-14"
+    }
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Ethan Van Sciver"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "major"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lanterns-2016-25",
+   "series": "Green Lanterns",
+   "vol": "2016",
+   "num": "25",
+   "title": "Green Lanterns (2016) #25",
+   "arc": "green-lanterns-the-first-ring",
+   "date": {
+    "cover": "2017-08",
+    "source": "DC Database, \"Green Lanterns Vol 1 25\" (rev 3436614, fetched 2026-11-15): cover date 2017-08",
+    "order": {
+     "date": "2017-06-21",
+     "source": "Grand Comics Database, \"Green Lanterns (2016 series) #25 [Brad Walker / Drew Hennessy Cover]\" (https://www.comics.org/api/issue/1716881/?format=json, fetched 2026-11-15): on sale 2017-06-21"
+    }
+   },
+   "seq": 3,
+   "credits": {
+    "writers": [
+     "Sam Humphries"
+    ],
+    "artists": [
+     "Robson Rocha"
+    ]
+   },
+   "presence": [
+    {
+     "who": "simon-baz",
+     "grade": "major"
+    },
+    {
+     "who": "jessica-cruz",
+     "grade": "major"
+    }
+   ],
+   "coreFor": [
+    "simon-baz",
+    "jessica-cruz"
+   ]
+  },
+  {
+   "issueId": "hal-jordan-and-the-green-lantern-corps-2016-23",
+   "series": "Hal Jordan and the Green Lantern Corps",
+   "vol": "2016",
+   "num": "23",
+   "title": "Hal Jordan and the Green Lantern Corps (2016) #23",
+   "arc": "hal-jordan-and-the-green-lantern-corps-fracture",
+   "date": {
+    "cover": "2017-08",
+    "source": "DC Database, \"Hal Jordan and the Green Lantern Corps Vol 1 23\" (rev 3635282, fetched 2026-11-15): cover date 2017-08",
+    "order": {
+     "date": "2017-06-28",
+     "source": "Grand Comics Database, \"Hal Jordan and the Green Lantern Corps (2016 series) #23 [Ethan Van Sciver Cover]\" (https://www.comics.org/api/issue/1718617/?format=json, fetched 2026-11-15): on sale 2017-06-28"
+    }
+   },
+   "seq": 4,
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Ethan Van Sciver"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "major"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lanterns-2016-26",
+   "series": "Green Lanterns",
+   "vol": "2016",
+   "num": "26",
+   "title": "Green Lanterns (2016) #26",
+   "arc": "green-lanterns-the-first-ring",
+   "date": {
+    "cover": "2017-09",
+    "source": "DC Database, \"Green Lanterns Vol 1 26\" (rev 3985444, fetched 2026-11-15): cover date 2017-09",
+    "order": {
+     "date": "2017-07-05",
+     "source": "Grand Comics Database, \"Green Lanterns (2016 series) #26 [Mike McKone Cover]\" (https://www.comics.org/api/issue/1720063/?format=json, fetched 2026-11-15): on sale 2017-07-05"
+    }
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Sam Humphries"
+    ],
+    "artists": [
+     "Ronan Cliquet"
+    ]
+   }
+  },
+  {
+   "issueId": "hal-jordan-and-the-green-lantern-corps-2016-24",
+   "series": "Hal Jordan and the Green Lantern Corps",
+   "vol": "2016",
+   "num": "24",
+   "title": "Hal Jordan and the Green Lantern Corps (2016) #24",
+   "arc": "hal-jordan-and-the-green-lantern-corps-fracture",
+   "date": {
+    "cover": "2017-09",
+    "source": "DC Database, \"Hal Jordan and the Green Lantern Corps Vol 1 24\" (rev 3635283, fetched 2026-11-15): cover date 2017-09",
+    "order": {
+     "date": "2017-07-12",
+     "source": "Grand Comics Database, \"Hal Jordan and the Green Lantern Corps (2016 series) #24 [Ethan Van Sciver Cover]\" (https://www.comics.org/api/issue/1721548/?format=json, fetched 2026-11-15): on sale 2017-07-12"
+    }
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Ethan Van Sciver"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "major"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lanterns-2016-27",
+   "series": "Green Lanterns",
+   "vol": "2016",
+   "num": "27",
+   "title": "Green Lanterns (2016) #27",
+   "arc": "green-lanterns-out-of-time",
+   "date": {
+    "cover": "2017-09",
+    "source": "DC Database, \"Green Lanterns Vol 1 27\" (rev 3923095, fetched 2026-11-15): cover date 2017-09",
+    "order": {
+     "date": "2017-07-19",
+     "source": "Grand Comics Database, \"Green Lanterns (2016 series) #27 [Brad Walker / Drew Hennessy Cover]\" (https://www.comics.org/api/issue/1722602/?format=json, fetched 2026-11-15): on sale 2017-07-19"
+    }
+   },
+   "seq": 3,
+   "credits": {
+    "writers": [
+     "Sam Humphries"
+    ],
+    "artists": [
+     "Ronan Cliquet"
+    ]
+   },
+   "presence": [
+    {
+     "who": "simon-baz",
+     "grade": "major"
+    },
+    {
+     "who": "jessica-cruz",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "hal-jordan-and-the-green-lantern-corps-2016-25",
+   "series": "Hal Jordan and the Green Lantern Corps",
+   "vol": "2016",
+   "num": "25",
+   "title": "Hal Jordan and the Green Lantern Corps (2016) #25",
+   "arc": "hal-jordan-and-the-green-lantern-corps-fracture",
+   "date": {
+    "cover": "2017-09",
+    "source": "DC Database, \"Hal Jordan and the Green Lantern Corps Vol 1 25\" (rev 3635284, fetched 2026-11-15): cover date 2017-09",
+    "order": {
+     "date": "2017-07-26",
+     "source": "Grand Comics Database, \"Hal Jordan and the Green Lantern Corps (2016 series) #25 [Ethan Van Sciver Cover]\" (https://www.comics.org/api/issue/1723374/?format=json, fetched 2026-11-15): on sale 2017-07-26"
+    }
+   },
+   "seq": 4,
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Ethan Van Sciver"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "major"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lanterns-2016-28",
+   "series": "Green Lanterns",
+   "vol": "2016",
+   "num": "28",
+   "title": "Green Lanterns (2016) #28",
+   "arc": "green-lanterns-out-of-time",
+   "date": {
+    "cover": "2017-10",
+    "source": "DC Database, \"Green Lanterns Vol 1 28\" (rev 3923446, fetched 2026-11-15): cover date 2017-10",
+    "order": {
+     "date": "2017-08-02",
+     "source": "Grand Comics Database, \"Green Lanterns (2016 series) #28 [Brad Walker / Drew Hennessy Cover]\" (https://www.comics.org/api/issue/1724370/?format=json, fetched 2026-11-15): on sale 2017-08-02"
+    }
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Sam Humphries"
+    ],
+    "artists": [
+     "Eduardo Pansica"
+    ]
+   },
+   "presence": [
+    {
+     "who": "simon-baz",
+     "grade": "major"
+    },
+    {
+     "who": "jessica-cruz",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "hal-jordan-and-the-green-lantern-corps-2016-26",
+   "series": "Hal Jordan and the Green Lantern Corps",
+   "vol": "2016",
+   "num": "26",
+   "title": "Hal Jordan and the Green Lantern Corps (2016) #26",
+   "arc": "hal-jordan-and-the-green-lantern-corps-fall-of-the-gods",
+   "date": {
+    "cover": "2017-10",
+    "source": "DC Database, \"Hal Jordan and the Green Lantern Corps Vol 1 26\" (rev 3437976, fetched 2026-11-15): cover date 2017-10",
+    "order": {
+     "date": "2017-08-09",
+     "source": "Grand Comics Database, \"Hal Jordan and the Green Lantern Corps (2016 series) #26 [Rafa Sandoval / Jordi Tarragona Cover]\" (https://www.comics.org/api/issue/1727019/?format=json, fetched 2026-11-15): on sale 2017-08-09"
+    }
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Rafa Sandoval"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "major"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lanterns-2016-29",
+   "series": "Green Lanterns",
+   "vol": "2016",
+   "num": "29",
+   "title": "Green Lanterns (2016) #29",
+   "arc": "green-lanterns-out-of-time",
+   "date": {
+    "cover": "2017-10",
+    "source": "DC Database, \"Green Lanterns Vol 1 29\" (rev 3923097, fetched 2026-11-15): cover date 2017-10",
+    "order": {
+     "date": "2017-08-16",
+     "source": "Grand Comics Database, \"Green Lanterns (2016 series) #29 [Brad Walker / Drew Hennessy Cover]\" (https://www.comics.org/api/issue/1728023/?format=json, fetched 2026-11-15): on sale 2017-08-16"
+    }
+   },
+   "seq": 3,
+   "credits": {
+    "writers": [
+     "Sam Humphries"
+    ],
+    "artists": [
+     "Eduardo Pansica"
+    ]
+   },
+   "presence": [
+    {
+     "who": "simon-baz",
+     "grade": "major"
+    },
+    {
+     "who": "jessica-cruz",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "hal-jordan-and-the-green-lantern-corps-2016-27",
+   "series": "Hal Jordan and the Green Lantern Corps",
+   "vol": "2016",
+   "num": "27",
+   "title": "Hal Jordan and the Green Lantern Corps (2016) #27",
+   "arc": "hal-jordan-and-the-green-lantern-corps-fall-of-the-gods",
+   "date": {
+    "cover": "2017-10",
+    "source": "DC Database, \"Hal Jordan and the Green Lantern Corps Vol 1 27\" (rev 3713309, fetched 2026-11-15): cover date 2017-10",
+    "order": {
+     "date": "2017-08-23",
+     "source": "Grand Comics Database, \"Hal Jordan and the Green Lantern Corps (2016 series) #27 [Rafa Sandoval / Jordi Tarragona Cover]\" (https://www.comics.org/api/issue/1729101/?format=json, fetched 2026-11-15): on sale 2017-08-23"
+    }
+   },
+   "seq": 4,
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Rafa Sandoval"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "major"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lanterns-2016-30",
+   "series": "Green Lanterns",
+   "vol": "2016",
+   "num": "30",
+   "title": "Green Lanterns (2016) #30",
+   "arc": "green-lanterns-out-of-time",
+   "date": {
+    "cover": "2017-11",
+    "source": "DC Database, \"Green Lanterns Vol 1 30\" (rev 3923096, fetched 2026-11-15): cover date 2017-11",
+    "order": {
+     "date": "2017-09-06",
+     "source": "Grand Comics Database, \"Green Lanterns (2016 series) #30 [Brad Walker / Drew Hennessy Cover]\" (https://www.comics.org/api/issue/1732351/?format=json, fetched 2026-11-15): on sale 2017-09-06"
+    }
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Sam Humphries"
+    ],
+    "artists": [
+     "Carlo Barberi"
+    ]
+   },
+   "presence": [
+    {
+     "who": "simon-baz",
+     "grade": "major"
+    },
+    {
+     "who": "jessica-cruz",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "hal-jordan-and-the-green-lantern-corps-2016-28",
+   "series": "Hal Jordan and the Green Lantern Corps",
+   "vol": "2016",
+   "num": "28",
+   "title": "Hal Jordan and the Green Lantern Corps (2016) #28",
+   "arc": "hal-jordan-and-the-green-lantern-corps-fall-of-the-gods",
+   "date": {
+    "cover": "2017-11",
+    "source": "DC Database, \"Hal Jordan and the Green Lantern Corps Vol 1 28\" (rev 3587269, fetched 2026-11-15): cover date 2017-11",
+    "order": {
+     "date": "2017-09-13",
+     "source": "Grand Comics Database, \"Hal Jordan and the Green Lantern Corps (2016 series) #28 [Rafa Sandoval / Jordi Tarragona Cover]\" (https://www.comics.org/api/issue/1734598/?format=json, fetched 2026-11-15): on sale 2017-09-13"
+    }
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Rafa Sandoval"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "cameo"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lanterns-2016-31",
+   "series": "Green Lanterns",
+   "vol": "2016",
+   "num": "31",
+   "title": "Green Lanterns (2016) #31",
+   "arc": "green-lanterns-out-of-time",
+   "date": {
+    "cover": "2017-11",
+    "source": "DC Database, \"Green Lanterns Vol 1 31\" (rev 3923094, fetched 2026-11-15): cover date 2017-11",
+    "order": {
+     "date": "2017-09-20",
+     "source": "Grand Comics Database, \"Green Lanterns (2016 series) #31 [Brad Walker / Drew Hennessy Cover]\" (https://www.comics.org/api/issue/1735436/?format=json, fetched 2026-11-15): on sale 2017-09-20"
+    }
+   },
+   "seq": 3,
+   "credits": {
+    "writers": [
+     "Sam Humphries"
+    ],
+    "artists": [
+     "Ronan Cliquet"
+    ]
+   },
+   "presence": [
+    {
+     "who": "simon-baz",
+     "grade": "major"
+    },
+    {
+     "who": "jessica-cruz",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "hal-jordan-and-the-green-lantern-corps-2016-29",
+   "series": "Hal Jordan and the Green Lantern Corps",
+   "vol": "2016",
+   "num": "29",
+   "title": "Hal Jordan and the Green Lantern Corps (2016) #29",
+   "arc": "hal-jordan-and-the-green-lantern-corps-fall-of-the-gods",
+   "date": {
+    "cover": "2017-11",
+    "source": "DC Database, \"Hal Jordan and the Green Lantern Corps Vol 1 29\" (rev 3587270, fetched 2026-11-15): cover date 2017-11",
+    "order": {
+     "date": "2017-09-27",
+     "source": "Grand Comics Database, \"Hal Jordan and the Green Lantern Corps (2016 series) #29 [Rafa Sandoval / Jordi Tarragona Cover]\" (https://www.comics.org/api/issue/1737127/?format=json, fetched 2026-11-15): on sale 2017-09-27"
+    }
+   },
+   "seq": 4,
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Rafa Sandoval"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "major"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lanterns-2016-32",
+   "series": "Green Lanterns",
+   "vol": "2016",
+   "num": "32",
+   "title": "Green Lanterns (2016) #32",
+   "arc": "green-lanterns-out-of-time",
+   "date": {
+    "cover": "2017-12",
+    "source": "DC Database, \"Green Lanterns Vol 1 32\" (rev 3923103, fetched 2026-11-15): cover date 2017-12",
+    "order": {
+     "date": "2017-10-04",
+     "source": "Grand Comics Database, \"Green Lanterns (2016 series) #32 [Riccardo Federici Cover]\" (https://www.comics.org/api/issue/1741351/?format=json, fetched 2026-11-15): on sale 2017-10-04"
+    }
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Sam Humphries"
+    ],
+    "artists": [
+     "Scott Godlewski"
+    ]
+   },
+   "presence": [
+    {
+     "who": "john-stewart",
+     "grade": "cameo"
+    },
+    {
+     "who": "simon-baz",
+     "grade": "major"
+    },
+    {
+     "who": "jessica-cruz",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "hal-jordan-and-the-green-lantern-corps-2016-30",
+   "series": "Hal Jordan and the Green Lantern Corps",
+   "vol": "2016",
+   "num": "30",
+   "title": "Hal Jordan and the Green Lantern Corps (2016) #30",
+   "arc": "hal-jordan-and-the-green-lantern-corps-twilight-of-the-guard",
+   "date": {
+    "cover": "2017-12",
+    "source": "DC Database, \"Hal Jordan and the Green Lantern Corps Vol 1 30\" (rev 3635286, fetched 2026-11-15): cover date 2017-12",
+    "order": {
+     "date": "2017-10-11",
+     "source": "Grand Comics Database, \"Hal Jordan and the Green Lantern Corps (2016 series) #30 [Ethan Van Sciver Cover]\" (https://www.comics.org/api/issue/1742296/?format=json, fetched 2026-11-15): on sale 2017-10-11"
+    }
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Patrick Zircher"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "cameo"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "cameo"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "cameo"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lanterns-2016-33",
+   "series": "Green Lanterns",
+   "vol": "2016",
+   "num": "33",
+   "title": "Green Lanterns (2016) #33",
+   "arc": "green-lanterns-work-release",
+   "date": {
+    "cover": "2017-12",
+    "source": "DC Database, \"Green Lanterns Vol 1 33\" (rev 3447525, fetched 2026-11-15): cover date 2017-12",
+    "order": {
+     "date": "2017-10-18",
+     "source": "Grand Comics Database, \"Green Lanterns (2016 series) #33 [Riccardo Federici Cover]\" (https://www.comics.org/api/issue/1744035/?format=json, fetched 2026-11-15): on sale 2017-10-18"
+    }
+   },
+   "seq": 3,
+   "credits": {
+    "writers": [
+     "Tim Seeley"
+    ],
+    "artists": [
+     "Eduardo Pansica"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "cameo"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "cameo"
+    },
+    {
+     "who": "simon-baz",
+     "grade": "major"
+    },
+    {
+     "who": "jessica-cruz",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "hal-jordan-and-the-green-lantern-corps-2016-31",
+   "series": "Hal Jordan and the Green Lantern Corps",
+   "vol": "2016",
+   "num": "31",
+   "title": "Hal Jordan and the Green Lantern Corps (2016) #31",
+   "arc": "hal-jordan-and-the-green-lantern-corps-twilight-of-the-guard",
+   "date": {
+    "cover": "2017-12",
+    "source": "DC Database, \"Hal Jordan and the Green Lantern Corps Vol 1 31\" (rev 3436752, fetched 2026-11-15): cover date 2017-12",
+    "order": {
+     "date": "2017-10-25",
+     "source": "Grand Comics Database, \"Hal Jordan and the Green Lantern Corps (2016 series) #31 [Ethan Van Sciver Cover]\" (https://www.comics.org/api/issue/1745146/?format=json, fetched 2026-11-15): on sale 2017-10-25"
+    }
+   },
+   "seq": 4,
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Patrick Zircher"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "minor"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lanterns-2016-34",
+   "series": "Green Lanterns",
+   "vol": "2016",
+   "num": "34",
+   "title": "Green Lanterns (2016) #34",
+   "arc": "green-lanterns-work-release",
+   "date": {
+    "cover": "2018-01",
+    "source": "DC Database, \"Green Lanterns Vol 1 34\" (rev 3536390, fetched 2026-11-15): cover date 2018-01",
+    "order": {
+     "date": "2017-11-01",
+     "source": "Grand Comics Database, \"Green Lanterns (2016 series) #34 [Mike McKone Cover]\" (https://www.comics.org/api/issue/1746653/?format=json, fetched 2026-11-15): on sale 2017-11-01"
+    }
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Tim Seeley"
+    ],
+    "artists": [
+     "Ronan Cliquet"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "cameo"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "minor"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "cameo"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "cameo"
+    },
+    {
+     "who": "simon-baz",
+     "grade": "major"
+    },
+    {
+     "who": "jessica-cruz",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "hal-jordan-and-the-green-lantern-corps-2016-32",
+   "series": "Hal Jordan and the Green Lantern Corps",
+   "vol": "2016",
+   "num": "32",
+   "title": "Hal Jordan and the Green Lantern Corps (2016) #32",
+   "arc": "hal-jordan-and-the-green-lantern-corps-bats-out-of-hell-part",
+   "date": {
+    "cover": "2018-01",
+    "source": "DC Database, \"Hal Jordan and the Green Lantern Corps Vol 1 32\" (rev 3716448, fetched 2026-11-15): cover date 2018-01",
+    "order": {
+     "date": "2017-11-08",
+     "source": "Grand Comics Database, \"Hal Jordan and the Green Lantern Corps (2016 series) #32 [Ethan Van Sciver Cover]\" (https://www.comics.org/api/issue/1749327/?format=json, fetched 2026-11-15): on sale 2017-11-08"
+    }
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Ethan Van Sciver",
+     "Liam Sharp"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "cameo"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "cameo"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "cameo"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lanterns-2016-35",
+   "series": "Green Lanterns",
+   "vol": "2016",
+   "num": "35",
+   "title": "Green Lanterns (2016) #35",
+   "arc": "green-lanterns-oh-bolphunga-where-art-thou",
+   "date": {
+    "cover": "2018-01",
+    "source": "DC Database, \"Green Lanterns Vol 1 35\" (rev 3436625, fetched 2026-11-15): cover date 2018-01",
+    "order": {
+     "date": "2017-11-15",
+     "source": "Grand Comics Database, \"Green Lanterns (2016 series) #35 [Mike McKone Cover]\" (https://www.comics.org/api/issue/1757692/?format=json, fetched 2026-11-15): on sale 2017-11-15"
+    }
+   },
+   "seq": 3,
+   "credits": {
+    "writers": [
+     "Tim Seeley"
+    ],
+    "artists": [
+     "Carlo Barberi"
+    ]
+   },
+   "presence": [
+    {
+     "who": "john-stewart",
+     "grade": "minor"
+    },
+    {
+     "who": "simon-baz",
+     "grade": "major"
+    },
+    {
+     "who": "jessica-cruz",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "hal-jordan-and-the-green-lantern-corps-2016-33",
+   "series": "Hal Jordan and the Green Lantern Corps",
+   "vol": "2016",
+   "num": "33",
+   "title": "Hal Jordan and the Green Lantern Corps (2016) #33",
+   "arc": "hal-jordan-and-the-green-lantern-corps-twilight-of-the-guard",
+   "date": {
+    "cover": "2018-01",
+    "source": "DC Database, \"Hal Jordan and the Green Lantern Corps Vol 1 33\" (rev 3436754, fetched 2026-11-15): cover date 2018-01",
+    "order": {
+     "date": "2017-11-29",
+     "source": "Grand Comics Database, \"Hal Jordan and the Green Lantern Corps (2016 series) #33 [Francis Manapul Cover]\" (https://www.comics.org/api/issue/1762504/?format=json, fetched 2026-11-15): on sale 2017-11-29"
+    }
+   },
+   "seq": 4,
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Tom Derenick",
+     "Jack Herbert"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "minor"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lanterns-2016-36",
+   "series": "Green Lanterns",
+   "vol": "2016",
+   "num": "36",
+   "title": "Green Lanterns (2016) #36",
+   "arc": "green-lanterns-oh-bolphunga-where-art-thou",
+   "date": {
+    "cover": "2018-02",
+    "source": "DC Database, \"Green Lanterns Vol 1 36\" (rev 3447524, fetched 2026-11-15): cover date 2018-02",
+    "order": {
+     "date": "2017-12-06",
+     "source": "Grand Comics Database, \"Green Lanterns (2016 series) #36 [Mike McKone Cover]\" (https://www.comics.org/api/issue/1762571/?format=json, fetched 2026-11-15): on sale 2017-12-06"
+    }
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Tim Seeley"
+    ],
+    "artists": [
+     "Ronan Cliquet"
+    ]
+   },
+   "presence": [
+    {
+     "who": "john-stewart",
+     "grade": "minor"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "minor"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "minor"
+    },
+    {
+     "who": "simon-baz",
+     "grade": "major"
+    },
+    {
+     "who": "jessica-cruz",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "hal-jordan-and-the-green-lantern-corps-2016-34",
+   "series": "Hal Jordan and the Green Lantern Corps",
+   "vol": "2016",
+   "num": "34",
+   "title": "Hal Jordan and the Green Lantern Corps (2016) #34",
+   "arc": "hal-jordan-and-the-green-lantern-corps-twilight-of-the-guard",
+   "date": {
+    "cover": "2018-02",
+    "source": "DC Database, \"Hal Jordan and the Green Lantern Corps Vol 1 34\" (rev 3437999, fetched 2026-11-15): cover date 2018-02",
+    "order": {
+     "date": "2017-12-13",
+     "source": "Grand Comics Database, \"Hal Jordan and the Green Lantern Corps (2016 series) #34 [Francis Manapul Cover]\" (https://www.comics.org/api/issue/1765763/?format=json, fetched 2026-11-15): on sale 2017-12-13"
+    }
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Tom Derenick",
+     "Jack Herbert"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "major"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lanterns-2016-37",
+   "series": "Green Lanterns",
+   "vol": "2016",
+   "num": "37",
+   "title": "Green Lanterns (2016) #37",
+   "arc": "green-lanterns-a-world-of-our-own",
+   "date": {
+    "cover": "2018-02",
+    "source": "DC Database, \"Green Lanterns Vol 1 37\" (rev 3436627, fetched 2026-11-15): cover date 2018-02",
+    "order": {
+     "date": "2017-12-20",
+     "source": "Grand Comics Database, \"Green Lanterns (2016 series) #37 [Mike McKone Cover]\" (https://www.comics.org/api/issue/1769712/?format=json, fetched 2026-11-15): on sale 2017-12-20"
+    }
+   },
+   "seq": 3,
+   "credits": {
+    "writers": [
+     "Tim Seeley"
+    ],
+    "artists": [
+     "Carlo Barberi"
+    ]
+   },
+   "presence": [
+    {
+     "who": "simon-baz",
+     "grade": "major"
+    },
+    {
+     "who": "jessica-cruz",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "hal-jordan-and-the-green-lantern-corps-2016-35",
+   "series": "Hal Jordan and the Green Lantern Corps",
+   "vol": "2016",
+   "num": "35",
+   "title": "Hal Jordan and the Green Lantern Corps (2016) #35",
+   "arc": "hal-jordan-and-the-green-lantern-corps-twilight-of-the-guard",
+   "date": {
+    "cover": "2018-02",
+    "source": "DC Database, \"Hal Jordan and the Green Lantern Corps Vol 1 35\" (rev 3436756, fetched 2026-11-15): cover date 2018-02",
+    "order": {
+     "date": "2017-12-27",
+     "source": "Grand Comics Database, \"Hal Jordan and the Green Lantern Corps (2016 series) #35 [Francis Manapul Cover]\" (https://www.comics.org/api/issue/1771168/?format=json, fetched 2026-11-15): on sale 2017-12-27"
+    }
+   },
+   "seq": 4,
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Tom Derenick",
+     "Jack Herbert"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "major"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lanterns-2016-38",
+   "series": "Green Lanterns",
+   "vol": "2016",
+   "num": "38",
+   "title": "Green Lanterns (2016) #38",
+   "arc": "green-lanterns-a-world-of-our-own",
+   "date": {
+    "cover": "2018-03",
+    "source": "DC Database, \"Green Lanterns Vol 1 38\" (rev 3436628, fetched 2026-11-15): cover date 2018-03",
+    "order": {
+     "date": "2018-01-03",
+     "source": "Grand Comics Database, \"Green Lanterns (2016 series) #38 [Shane Davis Cover]\" (https://www.comics.org/api/issue/1773359/?format=json, fetched 2026-11-15): on sale 2018-01-03"
+    }
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Tim Seeley"
+    ],
+    "artists": [
+     "German Peralta"
+    ]
+   },
+   "presence": [
+    {
+     "who": "simon-baz",
+     "grade": "major"
+    },
+    {
+     "who": "jessica-cruz",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "hal-jordan-and-the-green-lantern-corps-2016-36",
+   "series": "Hal Jordan and the Green Lantern Corps",
+   "vol": "2016",
+   "num": "36",
+   "title": "Hal Jordan and the Green Lantern Corps (2016) #36",
+   "arc": "hal-jordan-and-the-green-lantern-corps-twilight-of-the-guard",
+   "date": {
+    "cover": "2018-03",
+    "source": "DC Database, \"Hal Jordan and the Green Lantern Corps Vol 1 36\" (rev 3931543, fetched 2026-11-15): cover date 2018-03",
+    "order": {
+     "date": "2018-01-10",
+     "source": "Grand Comics Database, \"Hal Jordan and the Green Lantern Corps (2016 series) #36 [Francis Manapul Cover]\" (https://www.comics.org/api/issue/1775153/?format=json, fetched 2026-11-15): on sale 2018-01-10"
+    }
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Jack Herbert",
+     "José Luis"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "major"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lanterns-2016-39",
+   "series": "Green Lanterns",
+   "vol": "2016",
+   "num": "39",
+   "title": "Green Lanterns (2016) #39",
+   "arc": "green-lanterns-a-world-of-our-own",
+   "date": {
+    "cover": "2018-03",
+    "source": "DC Database, \"Green Lanterns Vol 1 39\" (rev 3438250, fetched 2026-11-15): cover date 2018-03",
+    "order": {
+     "date": "2018-01-17",
+     "source": "Grand Comics Database, \"Green Lanterns (2016 series) #39 [Shane Davis & Michelle Delecki Cover]\" (https://www.comics.org/api/issue/1776088/?format=json, fetched 2026-11-15): on sale 2018-01-17"
+    }
+   },
+   "seq": 3,
+   "credits": {
+    "writers": [
+     "Tim Seeley"
+    ],
+    "artists": [
+     "Ronan Cliquet"
+    ]
+   },
+   "presence": [
+    {
+     "who": "simon-baz",
+     "grade": "major"
+    },
+    {
+     "who": "jessica-cruz",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "hal-jordan-and-the-green-lantern-corps-2016-37",
+   "series": "Hal Jordan and the Green Lantern Corps",
+   "vol": "2016",
+   "num": "37",
+   "title": "Hal Jordan and the Green Lantern Corps (2016) #37",
+   "arc": "hal-jordan-and-the-green-lantern-corps-zod-s-will",
+   "date": {
+    "cover": "2018-03",
+    "source": "DC Database, \"Hal Jordan and the Green Lantern Corps Vol 1 37\" (rev 3931509, fetched 2026-11-15): cover date 2018-03",
+    "order": {
+     "date": "2018-01-24",
+     "source": "Grand Comics Database, \"Hal Jordan and the Green Lantern Corps (2016 series) #37 [Rafa Sandoval & Jordi Tarragona Cover]\" (https://www.comics.org/api/issue/1777729/?format=json, fetched 2026-11-15): on sale 2018-01-24"
+    }
+   },
+   "seq": 4,
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Rafa Sandoval"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "cameo"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "cameo"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lanterns-2016-40",
+   "series": "Green Lanterns",
+   "vol": "2016",
+   "num": "40",
+   "title": "Green Lanterns (2016) #40",
+   "arc": "green-lanterns-superhuman-trafficking",
+   "date": {
+    "cover": "2018-04",
+    "source": "DC Database, \"Green Lanterns Vol 1 40\" (rev 3697346, fetched 2026-11-15): cover date 2018-04",
+    "order": {
+     "date": "2018-02-07",
+     "source": "Grand Comics Database, \"Green Lanterns (2016 series) #40 [Will Conrad Cover]\" (https://www.comics.org/api/issue/1780654/?format=json, fetched 2026-11-15): on sale 2018-02-07"
+    }
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Tim Seeley"
+    ],
+    "artists": [
+     "Barnaby Bagenda"
+    ]
+   },
+   "presence": [
+    {
+     "who": "kyle-rayner",
+     "grade": "cameo"
+    },
+    {
+     "who": "simon-baz",
+     "grade": "major"
+    },
+    {
+     "who": "jessica-cruz",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "hal-jordan-and-the-green-lantern-corps-2016-38",
+   "series": "Hal Jordan and the Green Lantern Corps",
+   "vol": "2016",
+   "num": "38",
+   "title": "Hal Jordan and the Green Lantern Corps (2016) #38",
+   "arc": "hal-jordan-and-the-green-lantern-corps-zod-s-will",
+   "date": {
+    "cover": "2018-04",
+    "source": "DC Database, \"Hal Jordan and the Green Lantern Corps Vol 1 38\" (rev 3931512, fetched 2026-11-15): cover date 2018-04",
+    "order": {
+     "date": "2018-02-14",
+     "source": "Grand Comics Database, \"Hal Jordan and the Green Lantern Corps (2016 series) #38 [Rafa Sandoval & Jordi Tarragona Cover]\" (https://www.comics.org/api/issue/1784502/?format=json, fetched 2026-11-15): on sale 2018-02-14"
+    }
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Ethan Van Sciver"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "minor"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "minor"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lanterns-2016-41",
+   "series": "Green Lanterns",
+   "vol": "2016",
+   "num": "41",
+   "title": "Green Lanterns (2016) #41",
+   "arc": "green-lanterns-superhuman-trafficking",
+   "date": {
+    "cover": "2018-04",
+    "source": "DC Database, \"Green Lanterns Vol 1 41\" (rev 3702510, fetched 2026-11-15): cover date 2018-04",
+    "order": {
+     "date": "2018-02-21",
+     "source": "Grand Comics Database, \"Green Lanterns (2016 series) #41 [Will Conrad Cover]\" (https://www.comics.org/api/issue/1787515/?format=json, fetched 2026-11-15): on sale 2018-02-21"
+    }
+   },
+   "seq": 3,
+   "credits": {
+    "writers": [
+     "Tim Seeley"
+    ],
+    "artists": [
+     "Barnaby Bagenda",
+     "Tom Derenick"
+    ]
+   },
+   "presence": [
+    {
+     "who": "simon-baz",
+     "grade": "major"
+    },
+    {
+     "who": "jessica-cruz",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "hal-jordan-and-the-green-lantern-corps-2016-39",
+   "series": "Hal Jordan and the Green Lantern Corps",
+   "vol": "2016",
+   "num": "39",
+   "title": "Hal Jordan and the Green Lantern Corps (2016) #39",
+   "arc": "hal-jordan-and-the-green-lantern-corps-zod-s-will",
+   "date": {
+    "cover": "2018-04",
+    "source": "DC Database, \"Hal Jordan and the Green Lantern Corps Vol 1 39\" (rev 3931510, fetched 2026-11-15): cover date 2018-04",
+    "order": {
+     "date": "2018-02-28",
+     "source": "Grand Comics Database, \"Hal Jordan and the Green Lantern Corps (2016 series) #39 [Rafa Sandoval & Jordi Tarragona Cover]\" (https://www.comics.org/api/issue/1788597/?format=json, fetched 2026-11-15): on sale 2018-02-28"
+    }
+   },
+   "seq": 4,
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Rafa Sandoval"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "major"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lanterns-2016-42",
+   "series": "Green Lanterns",
+   "vol": "2016",
+   "num": "42",
+   "title": "Green Lanterns (2016) #42",
+   "arc": "green-lanterns-superhuman-trafficking",
+   "date": {
+    "cover": "2018-05",
+    "source": "DC Database, \"Green Lanterns Vol 1 42\" (rev 3675000, fetched 2026-11-15): cover date 2018-05",
+    "order": {
+     "date": "2018-03-07",
+     "source": "Grand Comics Database, \"Green Lanterns (2016 series) #42 [Will Conrad Cover]\" (https://www.comics.org/api/issue/1789672/?format=json, fetched 2026-11-15): on sale 2018-03-07"
+    }
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Tim Seeley"
+    ],
+    "artists": [
+     "V. Ken Marion"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "cameo"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "minor"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "cameo"
+    },
+    {
+     "who": "simon-baz",
+     "grade": "major"
+    },
+    {
+     "who": "jessica-cruz",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "hal-jordan-and-the-green-lantern-corps-2016-40",
+   "series": "Hal Jordan and the Green Lantern Corps",
+   "vol": "2016",
+   "num": "40",
+   "title": "Hal Jordan and the Green Lantern Corps (2016) #40",
+   "arc": "hal-jordan-and-the-green-lantern-corps-zod-s-will",
+   "date": {
+    "cover": "2018-05",
+    "source": "DC Database, \"Hal Jordan and the Green Lantern Corps Vol 1 40\" (rev 3931503, fetched 2026-11-15): cover date 2018-05",
+    "order": {
+     "date": "2018-03-14",
+     "source": "Grand Comics Database, \"Hal Jordan and the Green Lantern Corps (2016 series) #40 [Rafa Sandoval & Jordi Tarragona Cover]\" (https://www.comics.org/api/issue/1790894/?format=json, fetched 2026-11-15): on sale 2018-03-14"
+    }
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Rafa Sandoval"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "major"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lanterns-2016-43",
+   "series": "Green Lanterns",
+   "vol": "2016",
+   "num": "43",
+   "title": "Green Lanterns (2016) #43",
+   "arc": "green-lanterns-superhuman-trafficking",
+   "date": {
+    "cover": "2018-05",
+    "source": "DC Database, \"Green Lanterns Vol 1 43\" (rev 3674998, fetched 2026-11-15): cover date 2018-05",
+    "order": {
+     "date": "2018-03-21",
+     "source": "Grand Comics Database, \"Green Lanterns (2016 series) #43 [Will Conrad Cover]\" (https://www.comics.org/api/issue/1793021/?format=json, fetched 2026-11-15): on sale 2018-03-21"
+    }
+   },
+   "seq": 3,
+   "credits": {
+    "writers": [
+     "Tim Seeley"
+    ],
+    "artists": [
+     "V. Ken Marion"
+    ]
+   },
+   "presence": [
+    {
+     "who": "john-stewart",
+     "grade": "minor"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "minor"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "minor"
+    },
+    {
+     "who": "simon-baz",
+     "grade": "major"
+    },
+    {
+     "who": "jessica-cruz",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "hal-jordan-and-the-green-lantern-corps-2016-41",
+   "series": "Hal Jordan and the Green Lantern Corps",
+   "vol": "2016",
+   "num": "41",
+   "title": "Hal Jordan and the Green Lantern Corps (2016) #41",
+   "arc": "hal-jordan-and-the-green-lantern-corps-zod-s-will",
+   "date": {
+    "cover": "2018-05",
+    "source": "DC Database, \"Hal Jordan and the Green Lantern Corps Vol 1 41\" (rev 3931505, fetched 2026-11-15): cover date 2018-05",
+    "order": {
+     "date": "2018-03-28",
+     "source": "Grand Comics Database, \"Hal Jordan and the Green Lantern Corps (2016 series) #41 [Rafa Sandoval & Jordi Tarragona Cover]\" (https://www.comics.org/api/issue/1796368/?format=json, fetched 2026-11-15): on sale 2018-03-28"
+    }
+   },
+   "seq": 4,
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Brandon Peterson"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "minor"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "minor"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lanterns-2016-44",
+   "series": "Green Lanterns",
+   "vol": "2016",
+   "num": "44",
+   "title": "Green Lanterns (2016) #44",
+   "arc": "green-lanterns-ghosts-of-the-past",
+   "date": {
+    "cover": "2018-06",
+    "source": "DC Database, \"Green Lanterns Vol 1 44\" (rev 3469920, fetched 2026-11-15): cover date 2018-06",
+    "order": {
+     "date": "2018-04-04",
+     "source": "Grand Comics Database, \"Green Lanterns (2016 series) #44 [Will Conrad Cover]\" (https://www.comics.org/api/issue/1797731/?format=json, fetched 2026-11-15): on sale 2018-04-04"
+    }
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Tim Seeley"
+    ],
+    "artists": [
+     "Ronan Cliquet"
+    ]
+   },
+   "presence": [
+    {
+     "who": "simon-baz",
+     "grade": "major"
+    },
+    {
+     "who": "jessica-cruz",
+     "grade": "major"
+    }
+   ],
+   "coreFor": [
+    "simon-baz",
+    "jessica-cruz"
+   ]
+  },
+  {
+   "issueId": "hal-jordan-and-the-green-lantern-corps-2016-42",
+   "series": "Hal Jordan and the Green Lantern Corps",
+   "vol": "2016",
+   "num": "42",
+   "title": "Hal Jordan and the Green Lantern Corps (2016) #42",
+   "arc": "hal-jordan-and-the-green-lantern-corps-dark-stars-rising",
+   "date": {
+    "cover": "2018-06",
+    "source": "DC Database, \"Hal Jordan and the Green Lantern Corps Vol 1 42\" (rev 3436764, fetched 2026-11-15): cover date 2018-06",
+    "order": {
+     "date": "2018-04-11",
+     "source": "Grand Comics Database, \"Hal Jordan and the Green Lantern Corps (2016 series) #42 [Rafa Sandoval & Jordi Tarragona Cover]\" (https://www.comics.org/api/issue/1799079/?format=json, fetched 2026-11-15): on sale 2018-04-11"
+    }
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Ethan Van Sciver"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "major"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lanterns-2016-45",
+   "series": "Green Lanterns",
+   "vol": "2016",
+   "num": "45",
+   "title": "Green Lanterns (2016) #45",
+   "arc": "green-lanterns-ghosts-of-the-past",
+   "date": {
+    "cover": "2018-06",
+    "source": "DC Database, \"Green Lanterns Vol 1 45\" (rev 3625573, fetched 2026-11-15): cover date 2018-06",
+    "order": {
+     "date": "2018-04-18",
+     "source": "Grand Comics Database, \"Green Lanterns (2016 series) #45 [Nelson Blake II Cover]\" (https://www.comics.org/api/issue/1800699/?format=json, fetched 2026-11-15): on sale 2018-04-18"
+    }
+   },
+   "seq": 3,
+   "credits": {
+    "writers": [
+     "Tim Seeley"
+    ],
+    "artists": [
+     "Ronan Cliquet"
+    ]
+   },
+   "presence": [
+    {
+     "who": "simon-baz",
+     "grade": "major"
+    },
+    {
+     "who": "jessica-cruz",
+     "grade": "major"
+    }
+   ],
+   "coreFor": [
+    "simon-baz",
+    "jessica-cruz"
+   ]
+  },
+  {
+   "issueId": "hal-jordan-and-the-green-lantern-corps-2016-43",
+   "series": "Hal Jordan and the Green Lantern Corps",
+   "vol": "2016",
+   "num": "43",
+   "title": "Hal Jordan and the Green Lantern Corps (2016) #43",
+   "arc": "hal-jordan-and-the-green-lantern-corps-dark-stars-rising",
+   "date": {
+    "cover": "2018-06",
+    "source": "DC Database, \"Hal Jordan and the Green Lantern Corps Vol 1 43\" (rev 3436765, fetched 2026-11-15): cover date 2018-06",
+    "order": {
+     "date": "2018-04-25",
+     "source": "Grand Comics Database, \"Hal Jordan and the Green Lantern Corps (2016 series) #43 [Ethan Van Sciver Cover]\" (https://www.comics.org/api/issue/1801123/?format=json, fetched 2026-11-15): on sale 2018-04-25"
+    }
+   },
+   "seq": 4,
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Rafa Sandoval"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "major"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lanterns-2016-46",
+   "series": "Green Lanterns",
+   "vol": "2016",
+   "num": "46",
+   "title": "Green Lanterns (2016) #46",
+   "arc": "green-lanterns-ghosts-of-the-past",
+   "date": {
+    "cover": "2018-07",
+    "source": "DC Database, \"Green Lanterns Vol 1 46\" (rev 3625575, fetched 2026-11-15): cover date 2018-07",
+    "order": {
+     "date": "2018-05-02",
+     "source": "Grand Comics Database, \"Green Lanterns (2016 series) #46 [Brett Booth & Norm Rapmund Cover]\" (https://www.comics.org/api/issue/1802343/?format=json, fetched 2026-11-15): on sale 2018-05-02"
+    }
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Tim Seeley"
+    ],
+    "artists": [
+     "V. Ken Marion"
+    ]
+   },
+   "presence": [
+    {
+     "who": "simon-baz",
+     "grade": "major"
+    },
+    {
+     "who": "jessica-cruz",
+     "grade": "major"
+    }
+   ],
+   "coreFor": [
+    "simon-baz",
+    "jessica-cruz"
+   ]
+  },
+  {
+   "issueId": "hal-jordan-and-the-green-lantern-corps-2016-44",
+   "series": "Hal Jordan and the Green Lantern Corps",
+   "vol": "2016",
+   "num": "44",
+   "title": "Hal Jordan and the Green Lantern Corps (2016) #44",
+   "arc": "hal-jordan-and-the-green-lantern-corps-dark-stars-rising",
+   "date": {
+    "cover": "2018-07",
+    "source": "DC Database, \"Hal Jordan and the Green Lantern Corps Vol 1 44\" (rev 3661437, fetched 2026-11-15): cover date 2018-07",
+    "order": {
+     "date": "2018-05-09",
+     "source": "Grand Comics Database, \"Hal Jordan and the Green Lantern Corps (2016 series) #44 [Rafa Sandoval & Jordi Tarragona Cover]\" (https://www.comics.org/api/issue/1806551/?format=json, fetched 2026-11-15): on sale 2018-05-09"
+    }
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Brandon Peterson"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "major"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lanterns-2016-47",
+   "series": "Green Lanterns",
+   "vol": "2016",
+   "num": "47",
+   "title": "Green Lanterns (2016) #47",
+   "arc": "green-lanterns-ghosts-of-the-past",
+   "date": {
+    "cover": "2018-07",
+    "source": "DC Database, \"Green Lanterns Vol 1 47\" (rev 3625576, fetched 2026-11-15): cover date 2018-07",
+    "order": {
+     "date": "2018-05-16",
+     "source": "Grand Comics Database, \"Green Lanterns (2016 series) #47 [Stjepan Šejić Cover]\" (https://www.comics.org/api/issue/1808304/?format=json, fetched 2026-11-15): on sale 2018-05-16"
+    }
+   },
+   "seq": 3,
+   "credits": {
+    "writers": [
+     "Tim Seeley"
+    ],
+    "artists": [
+     "V. Ken Marion"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "cameo"
+    },
+    {
+     "who": "simon-baz",
+     "grade": "major"
+    },
+    {
+     "who": "jessica-cruz",
+     "grade": "major"
+    }
+   ],
+   "coreFor": [
+    "simon-baz",
+    "jessica-cruz"
+   ]
+  },
+  {
+   "issueId": "hal-jordan-and-the-green-lantern-corps-2016-45",
+   "series": "Hal Jordan and the Green Lantern Corps",
+   "vol": "2016",
+   "num": "45",
+   "title": "Hal Jordan and the Green Lantern Corps (2016) #45",
+   "arc": "hal-jordan-and-the-green-lantern-corps-dark-stars-rising",
+   "date": {
+    "cover": "2018-07",
+    "source": "DC Database, \"Hal Jordan and the Green Lantern Corps Vol 1 45\" (rev 3635290, fetched 2026-11-15): cover date 2018-07",
+    "order": {
+     "date": "2018-05-23",
+     "source": "Grand Comics Database, \"Hal Jordan and the Green Lantern Corps (2016 series) #45 [Jaime Mendoza Cover]\" (https://www.comics.org/api/issue/1809225/?format=json, fetched 2026-11-15): on sale 2018-05-23"
+    }
+   },
+   "seq": 4,
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Ethan Van Sciver"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lanterns-2016-annual-1",
+   "series": "Green Lanterns",
+   "vol": "2016",
+   "num": "Annual 1",
+   "title": "Green Lanterns (2016) Annual #1",
+   "arc": "green-lanterns-annual-the-lost-lantern",
+   "date": {
+    "cover": "2018-07",
+    "source": "DC Database, \"Green Lanterns Annual Vol 1 1\" (rev 3436596, fetched 2026-11-15): cover date 2018-07",
+    "order": {
+     "date": "2018-05-30",
+     "source": "Grand Comics Database, \"Green Lanterns Annual (2018 series) #1\" (https://www.comics.org/api/issue/1812170/?format=json, fetched 2026-11-15): on sale 2018-05-30"
+    }
+   },
+   "seq": 5,
+   "credits": {
+    "writers": [
+     "Andy Diggle"
+    ],
+    "artists": [
+     "Mike Perkins"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "minor"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "minor"
+    },
+    {
+     "who": "simon-baz",
+     "grade": "major"
+    },
+    {
+     "who": "jessica-cruz",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lanterns-2016-48",
+   "series": "Green Lanterns",
+   "vol": "2016",
+   "num": "48",
+   "title": "Green Lanterns (2016) #48",
+   "arc": "green-lanterns-rebel-run",
+   "date": {
+    "cover": "2018-08",
+    "source": "DC Database, \"Green Lanterns Vol 1 48\" (rev 3469923, fetched 2026-11-15): cover date 2018-08",
+    "order": {
+     "date": "2018-06-06",
+     "source": "Grand Comics Database, \"Green Lanterns (2016 series) #48 [Paul Pelletier & Danny Miki Cover]\" (https://www.comics.org/api/issue/1814648/?format=json, fetched 2026-11-15): on sale 2018-06-06"
+    }
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Aaron Gillespie"
+    ],
+    "artists": [
+     "Ronan Cliquet"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "minor"
+    },
+    {
+     "who": "simon-baz",
+     "grade": "cameo"
+    },
+    {
+     "who": "jessica-cruz",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "hal-jordan-and-the-green-lantern-corps-2016-46",
+   "series": "Hal Jordan and the Green Lantern Corps",
+   "vol": "2016",
+   "num": "46",
+   "title": "Hal Jordan and the Green Lantern Corps (2016) #46",
+   "arc": "hal-jordan-and-the-green-lantern-corps-dark-stars-rising",
+   "date": {
+    "cover": "2018-08",
+    "source": "DC Database, \"Hal Jordan and the Green Lantern Corps Vol 1 46\" (rev 3765812, fetched 2026-11-15): cover date 2018-08",
+    "order": {
+     "date": "2018-06-13",
+     "source": "Grand Comics Database, \"Hal Jordan and the Green Lantern Corps (2016 series) #46 [Stephen Segovia Cover]\" (https://www.comics.org/api/issue/1815832/?format=json, fetched 2026-11-15): on sale 2018-06-13"
+    }
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Clayton Henry"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "minor"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lanterns-2016-49",
+   "series": "Green Lanterns",
+   "vol": "2016",
+   "num": "49",
+   "title": "Green Lanterns (2016) #49",
+   "arc": "green-lanterns-rebel-run",
+   "date": {
+    "cover": "2018-08",
+    "source": "DC Database, \"Green Lanterns Vol 1 49\" (rev 3469926, fetched 2026-11-15): cover date 2018-08",
+    "order": {
+     "date": "2018-06-20",
+     "source": "Grand Comics Database, \"Green Lanterns (2016 series) #49 [Paul Pelletier & Danny Miki Cover]\" (https://www.comics.org/api/issue/1818261/?format=json, fetched 2026-11-15): on sale 2018-06-20"
+    }
+   },
+   "seq": 3,
+   "credits": {
+    "writers": [
+     "Aaron Gillespie"
+    ],
+    "artists": [
+     "Roge Antonio"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "minor"
+    },
+    {
+     "who": "simon-baz",
+     "grade": "major"
+    },
+    {
+     "who": "jessica-cruz",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "hal-jordan-and-the-green-lantern-corps-2016-47",
+   "series": "Hal Jordan and the Green Lantern Corps",
+   "vol": "2016",
+   "num": "47",
+   "title": "Hal Jordan and the Green Lantern Corps (2016) #47",
+   "arc": "hal-jordan-and-the-green-lantern-corps-dark-stars-rising",
+   "date": {
+    "cover": "2018-08",
+    "source": "DC Database, \"Hal Jordan and the Green Lantern Corps Vol 1 47\" (rev 3702529, fetched 2026-11-15): cover date 2018-08",
+    "order": {
+     "date": "2018-06-27",
+     "source": "Grand Comics Database, \"Hal Jordan and the Green Lantern Corps (2016 series) #47 [Barry Kitson Cover]\" (https://www.comics.org/api/issue/1820490/?format=json, fetched 2026-11-15): on sale 2018-06-27"
+    }
+   },
+   "seq": 4,
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Fernando Pasarin"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "major"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lanterns-2016-50",
+   "series": "Green Lanterns",
+   "vol": "2016",
+   "num": "50",
+   "title": "Green Lanterns (2016) #50",
+   "arc": "green-lanterns-evil-s-might",
+   "date": {
+    "cover": "2018-09",
+    "source": "DC Database, \"Green Lanterns Vol 1 50\" (rev 3510342, fetched 2026-11-15): cover date 2018-09",
+    "order": {
+     "date": "2018-07-04",
+     "source": "Grand Comics Database, \"Green Lanterns (2016 series) #50 [Mike Perkins Cover]\" (https://www.comics.org/api/issue/1822548/?format=json, fetched 2026-11-15): on sale 2018-07-04"
+    }
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Dan Jurgens"
+    ],
+    "artists": [
+     "Mike Perkins"
+    ]
+   },
+   "presence": [
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "minor"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "minor"
+    },
+    {
+     "who": "simon-baz",
+     "grade": "minor"
+    },
+    {
+     "who": "jessica-cruz",
+     "grade": "minor"
+    }
+   ]
+  },
+  {
+   "issueId": "hal-jordan-and-the-green-lantern-corps-2016-48",
+   "series": "Hal Jordan and the Green Lantern Corps",
+   "vol": "2016",
+   "num": "48",
+   "title": "Hal Jordan and the Green Lantern Corps (2016) #48",
+   "arc": "hal-jordan-and-the-green-lantern-corps-last-charge",
+   "date": {
+    "cover": "2018-09",
+    "source": "DC Database, \"Hal Jordan and the Green Lantern Corps Vol 1 48\" (rev 3635293, fetched 2026-11-15): cover date 2018-09",
+    "order": {
+     "date": "2018-07-11",
+     "source": "Grand Comics Database, \"Hal Jordan and the Green Lantern Corps (2016 series) #48 [Doug Mahnke Cover]\" (https://www.comics.org/api/issue/1824030/?format=json, fetched 2026-11-15): on sale 2018-07-11"
+    }
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Rafa Sandoval"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "major"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lanterns-2016-51",
+   "series": "Green Lanterns",
+   "vol": "2016",
+   "num": "51",
+   "title": "Green Lanterns (2016) #51",
+   "arc": "green-lanterns-evil-s-might",
+   "date": {
+    "cover": "2018-09",
+    "source": "DC Database, \"Green Lanterns Vol 1 51\" (rev 3471671, fetched 2026-11-15): cover date 2018-09",
+    "order": {
+     "date": "2018-07-18",
+     "source": "Grand Comics Database, \"Green Lanterns (2016 series) #51 [Mike Perkins Cover]\" (https://www.comics.org/api/issue/1825089/?format=json, fetched 2026-11-15): on sale 2018-07-18"
+    }
+   },
+   "seq": 3,
+   "credits": {
+    "writers": [
+     "Dan Jurgens"
+    ],
+    "artists": [
+     "Mike Perkins"
+    ]
+   },
+   "presence": [
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "major"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "major"
+    },
+    {
+     "who": "simon-baz",
+     "grade": "major"
+    },
+    {
+     "who": "jessica-cruz",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "hal-jordan-and-the-green-lantern-corps-2016-49",
+   "series": "Hal Jordan and the Green Lantern Corps",
+   "vol": "2016",
+   "num": "49",
+   "title": "Hal Jordan and the Green Lantern Corps (2016) #49",
+   "arc": "hal-jordan-and-the-green-lantern-corps-last-charge",
+   "date": {
+    "cover": "2018-09",
+    "source": "DC Database, \"Hal Jordan and the Green Lantern Corps Vol 1 49\" (rev 3635294, fetched 2026-11-15): cover date 2018-09",
+    "order": {
+     "date": "2018-07-25",
+     "source": "Grand Comics Database, \"Hal Jordan and the Green Lantern Corps (2016 series) #49 [Fernando Pasarin & Eber Ferreira Cover]\" (https://www.comics.org/api/issue/1826871/?format=json, fetched 2026-11-15): on sale 2018-07-25"
+    }
+   },
+   "seq": 4,
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Rafa Sandoval",
+     "Sergio Davila"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "major"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lanterns-2016-52",
+   "series": "Green Lanterns",
+   "vol": "2016",
+   "num": "52",
+   "title": "Green Lanterns (2016) #52",
+   "arc": "green-lanterns-evil-s-might",
+   "date": {
+    "cover": "2018-10",
+    "source": "DC Database, \"Green Lanterns Vol 1 52\" (rev 3471672, fetched 2026-11-15): cover date 2018-10",
+    "order": {
+     "date": "2018-08-01",
+     "source": "Grand Comics Database, \"Green Lanterns (2016 series) #52 [Mike Perkins Cover]\" (https://www.comics.org/api/issue/1830527/?format=json, fetched 2026-11-15): on sale 2018-08-01"
+    }
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Dan Jurgens"
+    ],
+    "artists": [
+     "Marco Santucci"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "major"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "major"
+    },
+    {
+     "who": "simon-baz",
+     "grade": "major"
+    },
+    {
+     "who": "jessica-cruz",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "hal-jordan-and-the-green-lantern-corps-2016-50",
+   "series": "Hal Jordan and the Green Lantern Corps",
+   "vol": "2016",
+   "num": "50",
+   "title": "Hal Jordan and the Green Lantern Corps (2016) #50",
+   "arc": "hal-jordan-and-the-green-lantern-corps-last-charge",
+   "date": {
+    "cover": "2018-10",
+    "source": "DC Database, \"Hal Jordan and the Green Lantern Corps Vol 1 50\" (rev 3635296, fetched 2026-11-15): cover date 2018-10",
+    "order": {
+     "date": "2018-08-08",
+     "source": "Grand Comics Database, \"Hal Jordan and the Green Lantern Corps (2016 series) #50 [Rafa Sandoval & Jordi Tarragona Cover]\" (https://www.comics.org/api/issue/1833414/?format=json, fetched 2026-11-15): on sale 2018-08-08"
+    }
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Rafa Sandoval"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "major"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lanterns-2016-53",
+   "series": "Green Lanterns",
+   "vol": "2016",
+   "num": "53",
+   "title": "Green Lanterns (2016) #53",
+   "arc": "green-lanterns-evil-s-might",
+   "date": {
+    "cover": "2018-10",
+    "source": "DC Database, \"Green Lanterns Vol 1 53\" (rev 3471674, fetched 2026-11-15): cover date 2018-10",
+    "order": {
+     "date": "2018-08-15",
+     "source": "Grand Comics Database, \"Green Lanterns (2016 series) #53 [Mike Perkins Cover]\" (https://www.comics.org/api/issue/1836086/?format=json, fetched 2026-11-15): on sale 2018-08-15"
+    }
+   },
+   "seq": 3,
+   "credits": {
+    "writers": [
+     "Dan Jurgens"
+    ],
+    "artists": [
+     "Marco Santucci"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "major"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "major"
+    },
+    {
+     "who": "simon-baz",
+     "grade": "major"
+    },
+    {
+     "who": "jessica-cruz",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lanterns-2016-54",
+   "series": "Green Lanterns",
+   "vol": "2016",
+   "num": "54",
+   "title": "Green Lanterns (2016) #54",
+   "arc": "green-lanterns-evil-s-might",
+   "date": {
+    "cover": "2018-11",
+    "source": "DC Database, \"Green Lanterns Vol 1 54\" (rev 3471675, fetched 2026-11-15): cover date 2018-11",
+    "order": {
+     "date": "2018-09-05",
+     "source": "Grand Comics Database, \"Green Lanterns (2016 series) #54 [Mike Perkins Cover]\" (https://www.comics.org/api/issue/1843088/?format=json, fetched 2026-11-15): on sale 2018-09-05"
+    }
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Dan Jurgens"
+    ],
+    "artists": [
+     "Marco Santucci"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "major"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "major"
+    },
+    {
+     "who": "simon-baz",
+     "grade": "major"
+    },
+    {
+     "who": "jessica-cruz",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lanterns-2016-55",
+   "series": "Green Lanterns",
+   "vol": "2016",
+   "num": "55",
+   "title": "Green Lanterns (2016) #55",
+   "arc": "green-lanterns-evil-s-might",
+   "date": {
+    "cover": "2018-11",
+    "source": "DC Database, \"Green Lanterns Vol 1 55\" (rev 3471676, fetched 2026-11-15): cover date 2018-11",
+    "order": {
+     "date": "2018-09-19",
+     "source": "Grand Comics Database, \"Green Lanterns (2016 series) #55 [Mike Perkins Cover]\" (https://www.comics.org/api/issue/1849175/?format=json, fetched 2026-11-15): on sale 2018-09-19"
+    }
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "Dan Jurgens"
+    ],
+    "artists": [
+     "Mike Perkins"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "major"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "major"
+    },
+    {
+     "who": "jessica-cruz",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lanterns-2016-56",
+   "series": "Green Lanterns",
+   "vol": "2016",
+   "num": "56",
+   "title": "Green Lanterns (2016) #56",
+   "arc": "green-lanterns-evil-s-might",
+   "date": {
+    "cover": "2018-12",
+    "source": "DC Database, \"Green Lanterns Vol 1 56\" (rev 3471678, fetched 2026-11-15): cover date 2018-12",
+    "order": {
+     "date": "2018-10-03",
+     "source": "Grand Comics Database, \"Green Lanterns (2016 series) #56 [Mike Perkins Foil Cover]\" (https://www.comics.org/api/issue/1854812/?format=json, fetched 2026-11-15): on sale 2018-10-03"
+    }
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Dan Jurgens"
+    ],
+    "artists": [
+     "Mike Perkins"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "major"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "major"
+    },
+    {
+     "who": "simon-baz",
+     "grade": "major"
+    },
+    {
+     "who": "jessica-cruz",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lanterns-2016-57",
+   "series": "Green Lanterns",
+   "vol": "2016",
+   "num": "57",
+   "title": "Green Lanterns (2016) #57",
+   "arc": "green-lanterns-evil-s-might-conclusion",
+   "date": {
+    "cover": "2018-12",
+    "source": "DC Database, \"Green Lanterns Vol 1 57\" (rev 3472219, fetched 2026-11-15): cover date 2018-12",
+    "order": {
+     "date": "2018-10-17",
+     "source": "Grand Comics Database, \"Green Lanterns (2016 series) #57 [Mike Perkins Cover]\" (https://www.comics.org/api/issue/1858453/?format=json, fetched 2026-11-15): on sale 2018-10-17"
+    }
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "Dan Jurgens"
+    ],
+    "artists": [
+     "Mike Perkins"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "major"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "major"
+    },
+    {
+     "who": "simon-baz",
+     "grade": "major"
+    },
+    {
+     "who": "jessica-cruz",
+     "grade": "major"
+    }
+   ]
+  }
+ ]
+}

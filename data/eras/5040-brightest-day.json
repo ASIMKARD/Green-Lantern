@@ -1,0 +1,384 @@
+{
+ "$schema": "../../schema/era-file.schema.json",
+ "era": "brightest-day",
+ "rows": [
+  {
+   "issueId": "green-lantern-2005-53",
+   "series": "Green Lantern",
+   "vol": "2005",
+   "num": "53",
+   "title": "Green Lantern (2005) #53",
+   "arc": "green-lantern-green-lantern-new-guardians",
+   "date": {
+    "cover": "2010-06",
+    "source": "DC Database, \"Green Lantern Vol 4 53\" (rev 3933525, fetched 2026-11-15): cover date 2010-06",
+    "order": {
+     "date": "2010-04-21",
+     "source": "Grand Comics Database, \"Green Lantern (2005 series) #53 [Direct Sales]\" (https://www.comics.org/api/issue/747699/?format=json, fetched 2026-11-15): on sale 2010-04-21"
+    }
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Doug Mahnke"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "cameo"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "minor"
+    },
+    {
+     "who": "green-arrow",
+     "grade": "cameo"
+    }
+   ],
+   "core": true,
+   "coreFor": [
+    "hal-jordan",
+    "guy-gardner"
+   ]
+  },
+  {
+   "issueId": "green-lantern-2005-54",
+   "series": "Green Lantern",
+   "vol": "2005",
+   "num": "54",
+   "title": "Green Lantern (2005) #54",
+   "arc": "green-lantern-green-lantern-new-guardians",
+   "date": {
+    "cover": "2010-07",
+    "source": "DC Database, \"Green Lantern Vol 4 54\" (rev 3965213, fetched 2026-11-15): cover date 2010-07",
+    "order": {
+     "date": "2010-05-26",
+     "source": "Grand Comics Database, \"Green Lantern (2005 series) #54 [Direct Sales]\" (https://www.comics.org/api/issue/758102/?format=json, fetched 2026-11-15): on sale 2010-05-26"
+    }
+   },
+   "seq": 3,
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Doug Mahnke"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    }
+   ],
+   "core": true,
+   "coreFor": [
+    "hal-jordan"
+   ]
+  },
+  {
+   "issueId": "green-lantern-2005-55",
+   "series": "Green Lantern",
+   "vol": "2005",
+   "num": "55",
+   "title": "Green Lantern (2005) #55",
+   "arc": "green-lantern-green-lantern-new-guardians",
+   "date": {
+    "cover": "2010-08",
+    "source": "DC Database, \"Green Lantern Vol 4 55\" (rev 3965214, fetched 2026-11-15): cover date 2010-08",
+    "order": {
+     "date": "2010-06-30",
+     "source": "Grand Comics Database, \"Green Lantern (2005 series) #55 [Doug Mahnke / Christian Alamy Cover]\" (https://www.comics.org/api/issue/765374/?format=json, fetched 2026-11-15): on sale 2010-06-30"
+    }
+   },
+   "seq": 4,
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Doug Mahnke"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    }
+   ],
+   "core": true,
+   "coreFor": [
+    "hal-jordan"
+   ]
+  },
+  {
+   "issueId": "green-lantern-2005-56",
+   "series": "Green Lantern",
+   "vol": "2005",
+   "num": "56",
+   "title": "Green Lantern (2005) #56",
+   "arc": "green-lantern-green-lantern-new-guardians",
+   "date": {
+    "cover": "2010-09",
+    "source": "DC Database, \"Green Lantern Vol 4 56\" (rev 3973491, fetched 2026-11-15): cover date 2010-09",
+    "order": {
+     "date": "2010-07-28",
+     "source": "Grand Comics Database, \"Green Lantern (2005 series) #56 [Direct Sales]\" (https://www.comics.org/api/issue/770917/?format=json, fetched 2026-11-15): on sale 2010-07-28"
+    }
+   },
+   "seq": 3,
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Doug Mahnke"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "indigo-tribe",
+     "grade": "minor"
+    }
+   ],
+   "core": true,
+   "coreFor": [
+    "hal-jordan"
+   ]
+  },
+  {
+   "issueId": "green-lantern-2005-57",
+   "series": "Green Lantern",
+   "vol": "2005",
+   "num": "57",
+   "title": "Green Lantern (2005) #57",
+   "arc": "green-lantern-green-lantern-new-guardians",
+   "date": {
+    "cover": "2010-10",
+    "source": "DC Database, \"Green Lantern Vol 4 57\" (rev 3933530, fetched 2026-11-15): cover date 2010-10",
+    "order": {
+     "date": "2010-09-09",
+     "source": "Grand Comics Database, \"Green Lantern (2005 series) #57 [Doug Mahnke Cover]\" (https://www.comics.org/api/issue/776246/?format=json, fetched 2026-11-15): on sale 2010-09-09"
+    }
+   },
+   "seq": 5,
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Doug Mahnke"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "star-sapphires",
+     "grade": "minor"
+    }
+   ],
+   "core": true,
+   "coreFor": [
+    "hal-jordan"
+   ]
+  },
+  {
+   "issueId": "green-lantern-2005-58",
+   "series": "Green Lantern",
+   "vol": "2005",
+   "num": "58",
+   "title": "Green Lantern (2005) #58",
+   "arc": "green-lantern-green-lantern-new-guardians",
+   "date": {
+    "cover": "2010-11",
+    "source": "DC Database, \"Green Lantern Vol 4 58\" (rev 3933531, fetched 2026-11-15): cover date 2010-11",
+    "order": {
+     "date": "2010-10-13",
+     "source": "Grand Comics Database, \"Green Lantern (2005 series) #58 [Doug Mahnke / Christian Alamy Cover]\" (https://www.comics.org/api/issue/781994/?format=json, fetched 2026-11-15): on sale 2010-10-13"
+    }
+   },
+   "seq": 5,
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Doug Mahnke"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "star-sapphires",
+     "grade": "minor"
+    }
+   ],
+   "core": true,
+   "coreFor": [
+    "hal-jordan"
+   ]
+  },
+  {
+   "issueId": "green-lantern-2005-59",
+   "series": "Green Lantern",
+   "vol": "2005",
+   "num": "59",
+   "title": "Green Lantern (2005) #59",
+   "arc": "green-lantern-green-lantern-new-guardians",
+   "date": {
+    "cover": "2010-12",
+    "source": "DC Database, \"Green Lantern Vol 4 59\" (rev 3933532, fetched 2026-11-15): cover date 2010-12",
+    "order": {
+     "date": "2010-11-17",
+     "source": "Grand Comics Database, \"Green Lantern (2005 series) #59 [Direct Sales]\" (https://www.comics.org/api/issue/787918/?format=json, fetched 2026-11-15): on sale 2010-11-17"
+    }
+   },
+   "seq": 5,
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Doug Mahnke"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "indigo-tribe",
+     "grade": "minor"
+    }
+   ],
+   "core": true,
+   "coreFor": [
+    "hal-jordan"
+   ]
+  },
+  {
+   "issueId": "green-lantern-2005-60",
+   "series": "Green Lantern",
+   "vol": "2005",
+   "num": "60",
+   "title": "Green Lantern (2005) #60",
+   "arc": "green-lantern-green-lantern-new-guardians",
+   "date": {
+    "cover": "2011-01",
+    "source": "DC Database, \"Green Lantern Vol 4 60\" (rev 3933533, fetched 2026-11-15): cover date 2011-01",
+    "order": {
+     "date": "2010-12-15",
+     "source": "Grand Comics Database, \"Green Lantern (2005 series) #60 [Direct Sales]\" (https://www.comics.org/api/issue/793552/?format=json, fetched 2026-11-15): on sale 2010-12-15"
+    }
+   },
+   "seq": 5,
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Doug Mahnke"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "indigo-tribe",
+     "grade": "minor"
+    }
+   ],
+   "core": true,
+   "coreFor": [
+    "hal-jordan"
+   ]
+  },
+  {
+   "issueId": "green-lantern-2005-61",
+   "series": "Green Lantern",
+   "vol": "2005",
+   "num": "61",
+   "title": "Green Lantern (2005) #61",
+   "arc": "green-lantern-green-lantern-new-guardians",
+   "date": {
+    "cover": "2011-02",
+    "source": "DC Database, \"Green Lantern Vol 4 61\" (rev 3976104, fetched 2026-11-15): cover date 2011-02",
+    "order": {
+     "date": "2010-12-29",
+     "source": "Grand Comics Database, \"Green Lantern (2005 series) #61 [Direct Sales]\" (https://www.comics.org/api/issue/794922/?format=json, fetched 2026-11-15): on sale 2010-12-29"
+    }
+   },
+   "seq": 6,
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Doug Mahnke"
+    ]
+   },
+   "core": true
+  },
+  {
+   "issueId": "green-lantern-2005-62",
+   "series": "Green Lantern",
+   "vol": "2005",
+   "num": "62",
+   "title": "Green Lantern (2005) #62",
+   "arc": "green-lantern-green-lantern-new-guardians",
+   "date": {
+    "cover": "2011-03",
+    "source": "DC Database, \"Green Lantern Vol 4 62\" (rev 3933535, fetched 2026-11-15): cover date 2011-03",
+    "order": {
+     "date": "2011-02-16",
+     "source": "Grand Comics Database, \"Green Lantern (2005 series) #62 [Direct Sales]\" (https://www.comics.org/api/issue/807183/?format=json, fetched 2026-11-15): on sale 2011-02-16"
+    }
+   },
+   "seq": 5,
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Doug Mahnke"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "indigo-tribe",
+     "grade": "minor"
+    }
+   ],
+   "core": true,
+   "coreFor": [
+    "hal-jordan"
+   ]
+  }
+ ]
+}

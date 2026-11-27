@@ -1,0 +1,790 @@
+{
+ "$schema": "../../schema/era-file.schema.json",
+ "era": "infinite-frontier",
+ "rows": [
+  {
+   "issueId": "future-state-green-lantern-2021-1",
+   "series": "Future State: Green Lantern",
+   "vol": "2021",
+   "num": "1",
+   "title": "Future State: Green Lantern (2021) #1",
+   "arc": "future-state-green-lantern-invictus",
+   "date": {
+    "cover": "2021-03",
+    "source": "DC Database, \"Future State: Green Lantern Vol 1 1\" (rev 3933720, fetched 2026-11-15): cover date 2021-03",
+    "order": {
+     "date": "2021-01-12",
+     "source": "Grand Comics Database, \"Future State: Green Lantern (2021 series) #1 [Clayton Henry Cover]\" (https://www.comics.org/api/issue/2184923/?format=json, fetched 2026-11-16): on sale 2021-01-12"
+    }
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Geoffrey Thorne"
+    ],
+    "artists": [
+     "Tom Raney"
+    ]
+   },
+   "presence": [
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "major"
+    },
+    {
+     "who": "jessica-cruz",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "future-state-green-lantern-2021-2",
+   "series": "Future State: Green Lantern",
+   "vol": "2021",
+   "num": "2",
+   "title": "Future State: Green Lantern (2021) #2",
+   "arc": "future-state-green-lantern-invictus",
+   "date": {
+    "cover": "2021-04",
+    "source": "DC Database, \"Future State: Green Lantern Vol 1 2\" (rev 3933722, fetched 2026-11-15): cover date 2021-04",
+    "order": {
+     "date": "2021-02-09",
+     "source": "Grand Comics Database, \"Future State: Green Lantern (2021 series) #2 [Clayton Henry Cover]\" (https://www.comics.org/api/issue/2195592/?format=json, fetched 2026-11-16): on sale 2021-02-09"
+    }
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Geoffrey Thorne"
+    ],
+    "artists": [
+     "Tom Raney"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "jo-mullein",
+     "grade": "cameo"
+    }
+   ]
+  },
+  {
+   "issueId": "the-green-lantern-season-two-2020-11",
+   "series": "The Green Lantern: Season Two",
+   "vol": "2020",
+   "num": "11",
+   "title": "The Green Lantern: Season Two (2020) #11",
+   "arc": "the-green-lantern-season-two-contest-of-crowns",
+   "date": {
+    "cover": "2021-04",
+    "source": "DC Database, \"The Green Lantern: Season Two Vol 1 11\" (rev 3847176, fetched 2026-11-15): cover date 2021-04",
+    "order": {
+     "date": "2021-02-09",
+     "source": "Grand Comics Database, \"The Green Lantern Season Two (2020 series) #11 [Liam Sharp Cover]\" (https://www.comics.org/api/issue/2195598/?format=json, fetched 2026-11-16): on sale 2021-02-09"
+    }
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "Grant Morrison"
+    ],
+    "artists": [
+     "Liam Sharp"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "jo-mullein",
+     "grade": "cameo"
+    }
+   ]
+  },
+  {
+   "issueId": "the-green-lantern-season-two-2020-12",
+   "series": "The Green Lantern: Season Two",
+   "vol": "2020",
+   "num": "12",
+   "title": "The Green Lantern: Season Two (2020) #12",
+   "arc": "the-green-lantern-season-two-the-intelligence-engine",
+   "date": {
+    "cover": "2021-05",
+    "source": "DC Database, \"The Green Lantern: Season Two Vol 1 12\" (rev 3694038, fetched 2026-11-15): cover date 2021-05",
+    "order": {
+     "date": "2021-03-09",
+     "source": "Grand Comics Database, \"The Green Lantern Season Two (2020 series) #12 [Liam Sharp Cover]\" (https://www.comics.org/api/issue/2205564/?format=json, fetched 2026-11-16): on sale 2021-03-09"
+    }
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Grant Morrison"
+    ],
+    "artists": [
+     "Liam Sharp"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2021-1",
+   "series": "Green Lantern",
+   "vol": "2021",
+   "num": "1",
+   "title": "Green Lantern (2021) #1",
+   "arc": "green-lantern-invictus",
+   "date": {
+    "cover": "2021-06",
+    "source": "DC Database, \"Green Lantern Vol 6 1\" (rev 3847096, fetched 2026-11-15): cover date 2021-06",
+    "order": {
+     "date": "2021-04-06",
+     "source": "Grand Comics Database, \"Green Lantern (2021 series) #1 [Bernard Chang Cover]\" (https://www.comics.org/api/issue/2214835/?format=json, fetched 2026-11-16): on sale 2021-04-06"
+    }
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Geoffrey Thorne"
+    ],
+    "artists": [
+     "Dexter Soy",
+     "Marco Santucci"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "cameo"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "minor"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "cameo"
+    },
+    {
+     "who": "simon-baz",
+     "grade": "major"
+    },
+    {
+     "who": "jessica-cruz",
+     "grade": "cameo"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2021-2",
+   "series": "Green Lantern",
+   "vol": "2021",
+   "num": "2",
+   "title": "Green Lantern (2021) #2",
+   "arc": "green-lantern-invictus",
+   "date": {
+    "cover": "2021-07",
+    "source": "DC Database, \"Green Lantern Vol 6 2\" (rev 3923106, fetched 2026-11-15): cover date 2021-07",
+    "order": {
+     "date": "2021-05-04",
+     "source": "Grand Comics Database, \"Green Lantern (2021 series) #2 [Bernard Chang Cover]\" (https://www.comics.org/api/issue/2220503/?format=json, fetched 2026-11-16): on sale 2021-05-04"
+    }
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Geoffrey Thorne"
+    ],
+    "artists": [
+     "Dexter Soy"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "cameo"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "minor"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "cameo"
+    },
+    {
+     "who": "simon-baz",
+     "grade": "major"
+    },
+    {
+     "who": "jessica-cruz",
+     "grade": "cameo"
+    },
+    {
+     "who": "jo-mullein",
+     "grade": "minor"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2021-3",
+   "series": "Green Lantern",
+   "vol": "2021",
+   "num": "3",
+   "title": "Green Lantern (2021) #3",
+   "arc": "green-lantern-invictus",
+   "date": {
+    "cover": "2021-08",
+    "source": "DC Database, \"Green Lantern Vol 6 3\" (rev 3923107, fetched 2026-11-15): cover date 2021-08",
+    "order": {
+     "date": "2021-06-01",
+     "source": "Grand Comics Database, \"Green Lantern (2021 series) #3 [Bernard Chang Cover]\" (https://www.comics.org/api/issue/2227496/?format=json, fetched 2026-11-16): on sale 2021-06-01"
+    }
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Geoffrey Thorne"
+    ],
+    "artists": [
+     "Tom Raney",
+     "Marco Santucci"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "cameo"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "cameo"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "cameo"
+    },
+    {
+     "who": "simon-baz",
+     "grade": "minor"
+    },
+    {
+     "who": "jo-mullein",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2021-4",
+   "series": "Green Lantern",
+   "vol": "2021",
+   "num": "4",
+   "title": "Green Lantern (2021) #4",
+   "arc": "green-lantern-invictus",
+   "date": {
+    "cover": "2021-09",
+    "source": "DC Database, \"Green Lantern Vol 6 4\" (rev 3866106, fetched 2026-11-15): cover date 2021-09",
+    "order": {
+     "date": "2021-07-06",
+     "source": "Grand Comics Database, \"Green Lantern (2021 series) #4 [Bernard Chang Cover]\" (https://www.comics.org/api/issue/2237031/?format=json, fetched 2026-11-16): on sale 2021-07-06"
+    }
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Geoffrey Thorne"
+    ],
+    "artists": [
+     "Tom Raney",
+     "Marco Santucci"
+    ]
+   },
+   "presence": [
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "simon-baz",
+     "grade": "minor"
+    },
+    {
+     "who": "jo-mullein",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2021-5",
+   "series": "Green Lantern",
+   "vol": "2021",
+   "num": "5",
+   "title": "Green Lantern (2021) #5",
+   "arc": "green-lantern-horatius",
+   "date": {
+    "cover": "2021-10",
+    "source": "DC Database, \"Green Lantern Vol 6 5\" (rev 3847105, fetched 2026-11-15): cover date 2021-10",
+    "order": {
+     "date": "2021-08-03",
+     "source": "Grand Comics Database, \"Green Lantern (2021 series) #5 [Bernard Chang Cover]\" (https://www.comics.org/api/issue/2250771/?format=json, fetched 2026-11-16): on sale 2021-08-03"
+    }
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Geoffrey Thorne"
+    ],
+    "artists": [
+     "Tom Raney",
+     "Marco Santucci",
+     "Andy McDonald"
+    ]
+   },
+   "presence": [
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "simon-baz",
+     "grade": "minor"
+    },
+    {
+     "who": "jessica-cruz",
+     "grade": "minor"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2021-annual-1",
+   "series": "Green Lantern",
+   "vol": "2021",
+   "num": "Annual 1",
+   "title": "Green Lantern (2021) Annual #1",
+   "arc": "green-lantern-2021-annual-horatius",
+   "date": {
+    "cover": "2021-11",
+    "source": "DC Database, \"Green Lantern 2021 Annual Vol 6 1\" (rev 3933721, fetched 2026-11-15): cover date 2021-11",
+    "order": {
+     "date": "2021-09-07",
+     "source": "Grand Comics Database, \"Green Lantern 2021 Annual (2021 series) #1 [Bernard Chang Cover]\" (https://www.comics.org/api/issue/2260482/?format=json, fetched 2026-11-16): on sale 2021-09-07"
+    }
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Ryan Cady"
+    ],
+    "artists": [
+     "Sami Basri",
+     "Tom Derenick"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "minor"
+    },
+    {
+     "who": "jessica-cruz",
+     "grade": "major"
+    }
+   ],
+   "place": {
+    "before": "green-lantern-2021-5",
+    "source": "DC Database, \"Green Lantern 2021 Annual Vol 6 1\" (rev 3933721, fetched 2026-11-15): \"This story takes place between the events of Green Lantern Vol 6 2 and Green Lantern Vol 6 5.\" Placed just before #5, the place in that range nearest its own date (cover November 2021; John, 20 Nov)."
+   }
+  },
+  {
+   "issueId": "green-lantern-2021-6",
+   "series": "Green Lantern",
+   "vol": "2021",
+   "num": "6",
+   "title": "Green Lantern (2021) #6",
+   "arc": "green-lantern-horatius",
+   "date": {
+    "cover": "2021-11",
+    "source": "DC Database, \"Green Lantern Vol 6 6\" (rev 3847106, fetched 2026-11-15): cover date 2021-11",
+    "order": {
+     "date": "2021-09-07",
+     "source": "Grand Comics Database, \"Green Lantern (2021 series) #6 [Bernard Chang Cover]\" (https://www.comics.org/api/issue/2260489/?format=json, fetched 2026-11-16): on sale 2021-09-07"
+    }
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "Geoffrey Thorne"
+    ],
+    "artists": [
+     "Marco Santucci",
+     "Tom Raney"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "cameo"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "cameo"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "cameo"
+    },
+    {
+     "who": "simon-baz",
+     "grade": "minor"
+    },
+    {
+     "who": "jo-mullein",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2021-7",
+   "series": "Green Lantern",
+   "vol": "2021",
+   "num": "7",
+   "title": "Green Lantern (2021) #7",
+   "arc": "green-lantern-horatius",
+   "date": {
+    "cover": "2021-12",
+    "source": "DC Database, \"Green Lantern Vol 6 7\" (rev 3898340, fetched 2026-11-15): cover date 2021-12",
+    "order": {
+     "date": "2021-10-19",
+     "source": "Grand Comics Database, \"Green Lantern (2021 series) #7 [Bernard Chang Cover]\" (https://www.comics.org/api/issue/2269471/?format=json, fetched 2026-11-16): on sale 2021-10-19"
+    }
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Geoffrey Thorne"
+    ],
+    "artists": [
+     "Tom Raney",
+     "Marco Santucci"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "cameo"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "simon-baz",
+     "grade": "major"
+    },
+    {
+     "who": "jessica-cruz",
+     "grade": "cameo"
+    },
+    {
+     "who": "jo-mullein",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2021-8",
+   "series": "Green Lantern",
+   "vol": "2021",
+   "num": "8",
+   "title": "Green Lantern (2021) #8",
+   "arc": "green-lantern-horatius",
+   "date": {
+    "cover": "2022-01",
+    "source": "DC Database, \"Green Lantern Vol 6 8\" (rev 3846143, fetched 2026-11-15): cover date 2022-01",
+    "order": {
+     "date": "2021-11-16",
+     "source": "Grand Comics Database, \"Green Lantern (2021 series) #8 [Bernard Chang Cover]\" (https://www.comics.org/api/issue/2276179/?format=json, fetched 2026-11-16): on sale 2021-11-16"
+    }
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Geoffrey Thorne"
+    ],
+    "artists": [
+     "ChrisCross",
+     "Marco Santucci"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "cameo"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "cameo"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "cameo"
+    },
+    {
+     "who": "simon-baz",
+     "grade": "minor"
+    },
+    {
+     "who": "jo-mullein",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2021-9",
+   "series": "Green Lantern",
+   "vol": "2021",
+   "num": "9",
+   "title": "Green Lantern (2021) #9",
+   "arc": "green-lantern-horatius",
+   "date": {
+    "cover": "2022-02",
+    "source": "DC Database, \"Green Lantern Vol 6 9\" (rev 3847108, fetched 2026-11-15): cover date 2022-02",
+    "order": {
+     "date": "2021-12-07",
+     "source": "Grand Comics Database, \"Green Lantern (2021 series) #9 [Bernard Chang Cover]\" (https://www.comics.org/api/issue/2283769/?format=json, fetched 2026-11-16): on sale 2021-12-07"
+    }
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Geoffrey Thorne"
+    ],
+    "artists": [
+     "Tom Raney",
+     "Marco Santucci",
+     "Maria Laura Sanapo"
+    ]
+   },
+   "presence": [
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "simon-baz",
+     "grade": "major"
+    },
+    {
+     "who": "jo-mullein",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2021-10",
+   "series": "Green Lantern",
+   "vol": "2021",
+   "num": "10",
+   "title": "Green Lantern (2021) #10",
+   "arc": "green-lantern-horatius",
+   "date": {
+    "cover": "2022-03",
+    "source": "DC Database, \"Green Lantern Vol 6 10\" (rev 3955111, fetched 2026-11-15): cover date 2022-03",
+    "order": {
+     "date": "2022-01-18",
+     "source": "Grand Comics Database, \"Green Lantern (2021 series) #10 [Bernard Chang Cover]\" (https://www.comics.org/api/issue/2300860/?format=json, fetched 2026-11-16): on sale 2022-01-18"
+    }
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Geoffrey Thorne"
+    ],
+    "artists": [
+     "ChrisCross",
+     "Marco Santucci"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "minor"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "simon-baz",
+     "grade": "minor"
+    },
+    {
+     "who": "jo-mullein",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2021-11",
+   "series": "Green Lantern",
+   "vol": "2021",
+   "num": "11",
+   "title": "Green Lantern (2021) #11",
+   "arc": "green-lantern-horatius",
+   "date": {
+    "cover": "2022-04",
+    "source": "DC Database, \"Green Lantern Vol 6 11\" (rev 3933728, fetched 2026-11-15): cover date 2022-04",
+    "order": {
+     "date": "2022-02-15",
+     "source": "Grand Comics Database, \"Green Lantern (2021 series) #11 [Bernard Chang Cover]\" (https://www.comics.org/api/issue/2333825/?format=json, fetched 2026-11-16): on sale 2022-02-15"
+    }
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Geoffrey Thorne"
+    ],
+    "artists": [
+     "Tom Raney",
+     "Marco Santucci"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "jo-mullein",
+     "grade": "major"
+    },
+    {
+     "who": "star-sapphires",
+     "grade": "minor"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2021-12",
+   "series": "Green Lantern",
+   "vol": "2021",
+   "num": "12",
+   "title": "Green Lantern (2021) #12",
+   "arc": "green-lantern-horatius",
+   "date": {
+    "cover": "2022-06",
+    "source": "DC Database, \"Green Lantern Vol 6 12\" (rev 3933768, fetched 2026-11-15): cover date 2022-06",
+    "order": {
+     "date": "2022-04-12",
+     "source": "Grand Comics Database, \"Green Lantern (2021 series) #12 [Bernard Chang Cover]\" (https://www.comics.org/api/issue/2385286/?format=json, fetched 2026-11-16): on sale 2022-04-12"
+    }
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Geoffrey Thorne"
+    ],
+    "artists": [
+     "Tom Raney",
+     "Marco Santucci"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    },
+    {
+     "who": "simon-baz",
+     "grade": "minor"
+    },
+    {
+     "who": "jo-mullein",
+     "grade": "minor"
+    },
+    {
+     "who": "star-sapphires",
+     "grade": "cameo"
+    }
+   ]
+  },
+  {
+   "issueId": "dark-crisis-worlds-without-a-justice-league-green-lantern-2022-1",
+   "series": "Dark Crisis: Worlds Without a Justice League - Green Lantern",
+   "vol": "2022",
+   "num": "1",
+   "title": "Dark Crisis: Worlds Without a Justice League - Green Lantern (2022) #1",
+   "arc": "dark-crisis-worlds-without-a-justice-league-green-lantern-da",
+   "date": {
+    "cover": "2022-10",
+    "source": "DC Database, \"Dark Crisis: Worlds Without a Justice League - Green Lantern Vol 1 1\" (rev 3936103, fetched 2026-11-15): cover date 2022-10",
+    "order": {
+     "date": "2022-08-09",
+     "source": "Grand Comics Database, \"Dark Crisis: Worlds Without a Justice League - Green Lantern (2022 series) #1\" (https://www.comics.org/api/issue/2423142/?format=json, fetched 2026-11-15): on sale 2022-08-09"
+    }
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Phillip Kennedy Johnson"
+    ],
+    "artists": [
+     "Fernando Blanco"
+    ]
+   },
+   "presence": [
+    {
+     "who": "john-stewart",
+     "grade": "major"
+    }
+   ]
+  }
+ ]
+}

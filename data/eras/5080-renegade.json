@@ -1,0 +1,414 @@
+{
+ "$schema": "../../schema/era-file.schema.json",
+ "era": "renegade",
+ "rows": [
+  {
+   "issueId": "green-lantern-2011-41",
+   "series": "Green Lantern",
+   "vol": "2011",
+   "num": "41",
+   "title": "Green Lantern (2011) #41",
+   "arc": "green-lantern-at-odds",
+   "date": {
+    "cover": "2015-08",
+    "source": "DC Database, \"Green Lantern Vol 5 41\" (rev 3436486, fetched 2026-11-15): cover date 2015-08",
+    "order": {
+     "date": "2015-06-03",
+     "source": "Grand Comics Database, \"Green Lantern (2011 series) #41 [Direct Sales]\" (https://www.comics.org/api/issue/1378846/?format=json, fetched 2026-11-15): on sale 2015-06-03"
+    }
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Billy Tan"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2011-42",
+   "series": "Green Lantern",
+   "vol": "2011",
+   "num": "42",
+   "title": "Green Lantern (2011) #42",
+   "arc": "green-lantern-written-in-stone",
+   "date": {
+    "cover": "2015-09",
+    "source": "DC Database, \"Green Lantern Vol 5 42\" (rev 3436487, fetched 2026-11-15): cover date 2015-09",
+    "order": {
+     "date": "2015-07-01",
+     "source": "Grand Comics Database, \"Green Lantern (2011 series) #42 [Direct Sales]\" (https://www.comics.org/api/issue/1430657/?format=json, fetched 2026-11-15): on sale 2015-07-01"
+    }
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Billy Tan"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2011-43",
+   "series": "Green Lantern",
+   "vol": "2011",
+   "num": "43",
+   "title": "Green Lantern (2011) #43",
+   "arc": "green-lantern-a-wounded-universe",
+   "date": {
+    "cover": "2015-10",
+    "source": "DC Database, \"Green Lantern Vol 5 43\" (rev 3436488, fetched 2026-11-15): cover date 2015-10",
+    "order": {
+     "date": "2015-08-05",
+     "source": "Grand Comics Database, \"Green Lantern (2011 series) #43 [Direct Sales]\" (https://www.comics.org/api/issue/1445246/?format=json, fetched 2026-11-15): on sale 2015-08-05"
+    }
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Ethan Van Sciver"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2011-44",
+   "series": "Green Lantern",
+   "vol": "2011",
+   "num": "44",
+   "title": "Green Lantern (2011) #44",
+   "arc": "green-lantern-emergency-stop",
+   "date": {
+    "cover": "2015-11",
+    "source": "DC Database, \"Green Lantern Vol 5 44\" (rev 3436489, fetched 2026-11-15): cover date 2015-11",
+    "order": {
+     "date": "2015-09-02",
+     "source": "Grand Comics Database, \"Green Lantern (2011 series) #44\" (https://www.comics.org/api/issue/1451597/?format=json, fetched 2026-11-15): on sale 2015-09-02"
+    }
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Billy Tan",
+     "Martin Coccolo"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2011-annual-4",
+   "series": "Green Lantern",
+   "vol": "2011",
+   "num": "Annual 4",
+   "title": "Green Lantern (2011) Annual #4",
+   "arc": "green-lantern-annual-renegade",
+   "date": {
+    "cover": "2015-11",
+    "source": "DC Database, \"Green Lantern Annual Vol 5 4\" (rev 3539363, fetched 2026-11-15): cover date 2015-11",
+    "order": {
+     "date": "2015-09-30",
+     "source": "Grand Comics Database, \"Green Lantern Annual (2012 series) #4\" (https://www.comics.org/api/issue/1462098/?format=json, fetched 2026-11-15): on sale 2015-09-30"
+    }
+   },
+   "seq": 4,
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Pascal Alixe"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2011-45",
+   "series": "Green Lantern",
+   "vol": "2011",
+   "num": "45",
+   "title": "Green Lantern (2011) #45",
+   "arc": "green-lantern-idle-hand",
+   "date": {
+    "cover": "2015-12",
+    "source": "DC Database, \"Green Lantern Vol 5 45\" (rev 3436490, fetched 2026-11-15): cover date 2015-12",
+    "order": {
+     "date": "2015-10-07",
+     "source": "Grand Comics Database, \"Green Lantern (2011 series) #45 [Direct Sales]\" (https://www.comics.org/api/issue/1466221/?format=json, fetched 2026-11-15): on sale 2015-10-07"
+    }
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Billy Tan"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2011-46",
+   "series": "Green Lantern",
+   "vol": "2011",
+   "num": "46",
+   "title": "Green Lantern (2011) #46",
+   "arc": "green-lantern-laid-to-rest",
+   "date": {
+    "cover": "2016-01",
+    "source": "DC Database, \"Green Lantern Vol 5 46\" (rev 3436492, fetched 2026-11-15): cover date 2016-01",
+    "order": {
+     "date": "2015-11-04",
+     "source": "Grand Comics Database, \"Green Lantern (2011 series) #46 [Direct Sales]\" (https://www.comics.org/api/issue/1491594/?format=json, fetched 2026-11-15): on sale 2015-11-04"
+    }
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Billy Tan"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2011-47",
+   "series": "Green Lantern",
+   "vol": "2011",
+   "num": "47",
+   "title": "Green Lantern (2011) #47",
+   "arc": "green-lantern-reflections",
+   "date": {
+    "cover": "2016-02",
+    "source": "DC Database, \"Green Lantern Vol 5 47\" (rev 3436494, fetched 2026-11-15): cover date 2016-02",
+    "order": {
+     "date": "2015-12-02",
+     "source": "Grand Comics Database, \"Green Lantern (2011 series) #47\" (https://www.comics.org/api/issue/1505996/?format=json, fetched 2026-11-15): on sale 2015-12-02"
+    }
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Martin Coccolo",
+     "Billy Tan"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2011-48",
+   "series": "Green Lantern",
+   "vol": "2011",
+   "num": "48",
+   "title": "Green Lantern (2011) #48",
+   "arc": "green-lantern-reflections",
+   "date": {
+    "cover": "2016-03",
+    "source": "DC Database, \"Green Lantern Vol 5 48\" (rev 3819229, fetched 2026-11-15): cover date 2016-03",
+    "order": {
+     "date": "2016-01-06",
+     "source": "Grand Comics Database, \"Green Lantern (2011 series) #48\" (https://www.comics.org/api/issue/1523482/?format=json, fetched 2026-11-15): on sale 2016-01-06"
+    }
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Martin Coccolo",
+     "Billy Tan"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2011-49",
+   "series": "Green Lantern",
+   "vol": "2011",
+   "num": "49",
+   "title": "Green Lantern (2011) #49",
+   "arc": "green-lantern-reflections",
+   "date": {
+    "cover": "2016-04",
+    "source": "DC Database, \"Green Lantern Vol 5 49\" (rev 3436497, fetched 2026-11-15): cover date 2016-04",
+    "order": {
+     "date": "2016-02-03",
+     "source": "Grand Comics Database, \"Green Lantern (2011 series) #49 [Direct Sales]\" (https://www.comics.org/api/issue/1531602/?format=json, fetched 2026-11-15): on sale 2016-02-03"
+    }
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Martin Coccolo",
+     "Billy Tan"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2011-50",
+   "series": "Green Lantern",
+   "vol": "2011",
+   "num": "50",
+   "title": "Green Lantern (2011) #50",
+   "arc": "green-lantern-reflections",
+   "date": {
+    "cover": "2016-05",
+    "source": "DC Database, \"Green Lantern Vol 5 50\" (rev 3436499, fetched 2026-11-15): cover date 2016-05",
+    "order": {
+     "date": "2016-03-02",
+     "source": "Grand Comics Database, \"Green Lantern (2011 series) #50 [Direct Sales]\" (https://www.comics.org/api/issue/1541782/?format=json, fetched 2026-11-15): on sale 2016-03-02"
+    }
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Billy Tan",
+     "Vicente Cifuentes"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2011-51",
+   "series": "Green Lantern",
+   "vol": "2011",
+   "num": "51",
+   "title": "Green Lantern (2011) #51",
+   "arc": "green-lantern-reflections",
+   "date": {
+    "cover": "2016-06",
+    "source": "DC Database, \"Green Lantern Vol 5 51\" (rev 3436500, fetched 2026-11-15): cover date 2016-06",
+    "order": {
+     "date": "2016-04-06",
+     "source": "Grand Comics Database, \"Green Lantern (2011 series) #51 [Direct Sales]\" (https://www.comics.org/api/issue/1552989/?format=json, fetched 2026-11-15): on sale 2016-04-06"
+    }
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Rafa Sandoval"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2011-52",
+   "series": "Green Lantern",
+   "vol": "2011",
+   "num": "52",
+   "title": "Green Lantern (2011) #52",
+   "arc": "green-lantern-reflections",
+   "date": {
+    "cover": "2016-07",
+    "source": "DC Database, \"Green Lantern Vol 5 52\" (rev 3937351, fetched 2026-11-15): cover date 2016-07",
+    "order": {
+     "date": "2016-05-04",
+     "source": "Grand Comics Database, \"Green Lantern (2011 series) #52 [Direct Sales]\" (https://www.comics.org/api/issue/1565293/?format=json, fetched 2026-11-15): on sale 2016-05-04"
+    }
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Billy Tan"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    }
+   ]
+  }
+ ]
+}

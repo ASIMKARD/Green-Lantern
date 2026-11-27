@@ -1,0 +1,906 @@
+{
+ "$schema": "../../schema/era-file.schema.json",
+ "era": "new-52",
+ "rows": [
+  {
+   "issueId": "green-lantern-2011-1",
+   "series": "Green Lantern",
+   "vol": "2011",
+   "num": "1",
+   "title": "Green Lantern (2011) #1",
+   "arc": "green-lantern-green-lantern-sinestro",
+   "date": {
+    "cover": "2011-11",
+    "source": "DC Database, \"Green Lantern Vol 5 1\" (rev 3933537, fetched 2026-11-15): cover date 2011-11",
+    "order": {
+     "date": "2011-09-14",
+     "source": "Grand Comics Database, \"Green Lantern (2011 series) #1 [Direct Sales]\" (https://www.comics.org/api/issue/875760/?format=json, fetched 2026-11-15): on sale 2011-09-14"
+    }
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Doug Mahnke"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2011-2",
+   "series": "Green Lantern",
+   "vol": "2011",
+   "num": "2",
+   "title": "Green Lantern (2011) #2",
+   "arc": "green-lantern-green-lantern-sinestro",
+   "date": {
+    "cover": "2011-12",
+    "source": "DC Database, \"Green Lantern Vol 5 2\" (rev 3933538, fetched 2026-11-15): cover date 2011-12",
+    "order": {
+     "date": "2011-10-12",
+     "source": "Grand Comics Database, \"Green Lantern (2011 series) #2 [Direct Sales]\" (https://www.comics.org/api/issue/885835/?format=json, fetched 2026-11-15): on sale 2011-10-12"
+    }
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Doug Mahnke"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2011-3",
+   "series": "Green Lantern",
+   "vol": "2011",
+   "num": "3",
+   "title": "Green Lantern (2011) #3",
+   "arc": "green-lantern-green-lantern-sinestro",
+   "date": {
+    "cover": "2012-01",
+    "source": "DC Database, \"Green Lantern Vol 5 3\" (rev 3933539, fetched 2026-11-15): cover date 2012-01",
+    "order": {
+     "date": "2011-11-09",
+     "source": "Grand Comics Database, \"Green Lantern (2011 series) #3 [Direct Sales]\" (https://www.comics.org/api/issue/893488/?format=json, fetched 2026-11-15): on sale 2011-11-09"
+    }
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Doug Mahnke"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2011-4",
+   "series": "Green Lantern",
+   "vol": "2011",
+   "num": "4",
+   "title": "Green Lantern (2011) #4",
+   "arc": "green-lantern-green-lantern-sinestro",
+   "date": {
+    "cover": "2012-02",
+    "source": "DC Database, \"Green Lantern Vol 5 4\" (rev 3933540, fetched 2026-11-15): cover date 2012-02",
+    "order": {
+     "date": "2011-12-14",
+     "source": "Grand Comics Database, \"Green Lantern (2011 series) #4 [Direct Sales]\" (https://www.comics.org/api/issue/901335/?format=json, fetched 2026-11-15): on sale 2011-12-14"
+    }
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Doug Mahnke"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2011-5",
+   "series": "Green Lantern",
+   "vol": "2011",
+   "num": "5",
+   "title": "Green Lantern (2011) #5",
+   "arc": "green-lantern-green-lantern-sinestro",
+   "date": {
+    "cover": "2012-03",
+    "source": "DC Database, \"Green Lantern Vol 5 5\" (rev 3933541, fetched 2026-11-15): cover date 2012-03",
+    "order": {
+     "date": "2012-01-11",
+     "source": "Grand Comics Database, \"Green Lantern (2011 series) #5 [Direct Sales]\" (https://www.comics.org/api/issue/904799/?format=json, fetched 2026-11-15): on sale 2012-01-11"
+    }
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Doug Mahnke"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2011-6",
+   "series": "Green Lantern",
+   "vol": "2011",
+   "num": "6",
+   "title": "Green Lantern (2011) #6",
+   "arc": "green-lantern-green-lantern-sinestro",
+   "date": {
+    "cover": "2012-04",
+    "source": "DC Database, \"Green Lantern Vol 5 6\" (rev 3669804, fetched 2026-11-15): cover date 2012-04",
+    "order": {
+     "date": "2012-02-08",
+     "source": "Grand Comics Database, \"Green Lantern (2011 series) #6 [Direct Sales]\" (https://www.comics.org/api/issue/916281/?format=json, fetched 2026-11-15): on sale 2012-02-08"
+    }
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Michael Choi"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "indigo-tribe",
+     "grade": "minor"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2011-7",
+   "series": "Green Lantern",
+   "vol": "2011",
+   "num": "7",
+   "title": "Green Lantern (2011) #7",
+   "arc": "green-lantern-revenge-of-the-black-hand",
+   "date": {
+    "cover": "2012-05",
+    "source": "DC Database, \"Green Lantern Vol 5 7\" (rev 3937336, fetched 2026-11-15): cover date 2012-05",
+    "order": {
+     "date": "2012-03-14",
+     "source": "Grand Comics Database, \"Green Lantern (2011 series) #7 [Direct Sales]\" (https://www.comics.org/api/issue/930063/?format=json, fetched 2026-11-15): on sale 2012-03-14"
+    }
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Doug Mahnke"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "indigo-tribe",
+     "grade": "minor"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2011-8",
+   "series": "Green Lantern",
+   "vol": "2011",
+   "num": "8",
+   "title": "Green Lantern (2011) #8",
+   "arc": "green-lantern-revenge-of-the-black-hand",
+   "date": {
+    "cover": "2012-06",
+    "source": "DC Database, \"Green Lantern Vol 5 8\" (rev 3937338, fetched 2026-11-15): cover date 2012-06",
+    "order": {
+     "date": "2012-04-11",
+     "source": "Grand Comics Database, \"Green Lantern (2011 series) #8 [Doug Mahnke Cover]\" (https://www.comics.org/api/issue/936493/?format=json, fetched 2026-11-15): on sale 2012-04-11"
+    }
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Doug Mahnke"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "indigo-tribe",
+     "grade": "minor"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2011-9",
+   "series": "Green Lantern",
+   "vol": "2011",
+   "num": "9",
+   "title": "Green Lantern (2011) #9",
+   "arc": "green-lantern-revenge-of-the-black-hand",
+   "date": {
+    "cover": "2012-07",
+    "source": "DC Database, \"Green Lantern Vol 5 9\" (rev 3937339, fetched 2026-11-15): cover date 2012-07",
+    "order": {
+     "date": "2012-05-09",
+     "source": "Grand Comics Database, \"Green Lantern (2011 series) #9 [Direct Sales]\" (https://www.comics.org/api/issue/943185/?format=json, fetched 2026-11-15): on sale 2012-05-09"
+    }
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Doug Mahnke"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "indigo-tribe",
+     "grade": "minor"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2011-10",
+   "series": "Green Lantern",
+   "vol": "2011",
+   "num": "10",
+   "title": "Green Lantern (2011) #10",
+   "arc": "green-lantern-revenge-of-the-black-hand",
+   "date": {
+    "cover": "2012-08",
+    "source": "DC Database, \"Green Lantern Vol 5 10\" (rev 3937340, fetched 2026-11-15): cover date 2012-08",
+    "order": {
+     "date": "2012-06-13",
+     "source": "Grand Comics Database, \"Green Lantern (2011 series) #10 [Direct Sales]\" (https://www.comics.org/api/issue/952353/?format=json, fetched 2026-11-15): on sale 2012-06-13"
+    }
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Doug Mahnke"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "indigo-tribe",
+     "grade": "minor"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2011-11",
+   "series": "Green Lantern",
+   "vol": "2011",
+   "num": "11",
+   "title": "Green Lantern (2011) #11",
+   "arc": "green-lantern-revenge-of-the-black-hand",
+   "date": {
+    "cover": "2012-09",
+    "source": "DC Database, \"Green Lantern Vol 5 11\" (rev 3937343, fetched 2026-11-15): cover date 2012-09",
+    "order": {
+     "date": "2012-07-25",
+     "source": "Grand Comics Database, \"Green Lantern (2011 series) #11 [Direct Sales]\" (https://www.comics.org/api/issue/974075/?format=json, fetched 2026-11-15): on sale 2012-07-25"
+    }
+   },
+   "seq": 3,
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Doug Mahnke"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "cameo"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "cameo"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "cameo"
+    },
+    {
+     "who": "simon-baz",
+     "grade": "cameo"
+    },
+    {
+     "who": "indigo-tribe",
+     "grade": "minor"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2011-12",
+   "series": "Green Lantern",
+   "vol": "2011",
+   "num": "12",
+   "title": "Green Lantern (2011) #12",
+   "arc": "green-lantern-revenge-of-the-black-hand",
+   "date": {
+    "cover": "2012-10",
+    "source": "DC Database, \"Green Lantern Vol 5 12\" (rev 3937345, fetched 2026-11-15): cover date 2012-10",
+    "order": {
+     "date": "2012-08-15",
+     "source": "Grand Comics Database, \"Green Lantern (2011 series) #12 [Direct Sales]\" (https://www.comics.org/api/issue/990945/?format=json, fetched 2026-11-15): on sale 2012-08-15"
+    }
+   },
+   "seq": 2,
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Renato Guedes",
+     "Jim Calafiore"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "minor"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "minor"
+    },
+    {
+     "who": "indigo-tribe",
+     "grade": "cameo"
+    },
+    {
+     "who": "star-sapphires",
+     "grade": "minor"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2011-annual-1",
+   "series": "Green Lantern",
+   "vol": "2011",
+   "num": "Annual 1",
+   "title": "Green Lantern (2011) Annual #1",
+   "arc": "green-lantern-annual-revenge-of-the-black-hand",
+   "date": {
+    "cover": "2012-10",
+    "source": "DC Database, \"Green Lantern Annual Vol 5 1\" (rev 3695282, fetched 2026-11-15): cover date 2012-10",
+    "order": {
+     "date": "2012-08-29",
+     "source": "Grand Comics Database, \"Green Lantern Annual (2012 series) #1\" (https://www.comics.org/api/issue/996622/?format=json, fetched 2026-11-15): on sale 2012-08-29"
+    }
+   },
+   "seq": 5,
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Ethan Van Sciver"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "cameo"
+    }
+   ]
+  },
+  {
+   "issueId": "green-lantern-2011-0",
+   "series": "Green Lantern",
+   "vol": "2011",
+   "num": "0",
+   "title": "Green Lantern (2011) #0",
+   "arc": "green-lantern-rise-of-the-third-army",
+   "date": {
+    "cover": "2012-11",
+    "source": "DC Database, \"Green Lantern Vol 5 0\" (rev 3925612, fetched 2026-11-15): cover date 2012-11",
+    "order": {
+     "date": "2012-09-05",
+     "source": "Grand Comics Database, \"Green Lantern (2011 series) #0 [Direct Sales]\" (https://www.comics.org/api/issue/997976/?format=json, fetched 2026-11-15): on sale 2012-09-05"
+    }
+   },
+   "seq": 1,
+   "flags": [
+    "SPECIAL_NUMBERING"
+   ],
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Doug Mahnke"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "minor"
+    },
+    {
+     "who": "simon-baz",
+     "grade": "major"
+    }
+   ],
+   "core": true,
+   "coreFor": [
+    "hal-jordan",
+    "simon-baz"
+   ]
+  },
+  {
+   "issueId": "green-lantern-2011-13",
+   "series": "Green Lantern",
+   "vol": "2011",
+   "num": "13",
+   "title": "Green Lantern (2011) #13",
+   "arc": "green-lantern-rise-of-the-third-army",
+   "date": {
+    "cover": "2012-12",
+    "source": "DC Database, \"Green Lantern Vol 5 13\" (rev 3937346, fetched 2026-11-15): cover date 2012-12",
+    "order": {
+     "date": "2012-10-03",
+     "source": "Grand Comics Database, \"Green Lantern (2011 series) #13 [Direct Sales]\" (https://www.comics.org/api/issue/1012929/?format=json, fetched 2026-11-15): on sale 2012-10-03"
+    }
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Doug Mahnke"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "cameo"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "cameo"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "cameo"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "cameo"
+    },
+    {
+     "who": "simon-baz",
+     "grade": "major"
+    }
+   ],
+   "core": true,
+   "coreFor": [
+    "simon-baz"
+   ]
+  },
+  {
+   "issueId": "green-lantern-2011-14",
+   "series": "Green Lantern",
+   "vol": "2011",
+   "num": "14",
+   "title": "Green Lantern (2011) #14",
+   "arc": "green-lantern-rise-of-the-third-army",
+   "date": {
+    "cover": "2013-01",
+    "source": "DC Database, \"Green Lantern Vol 5 14\" (rev 3925611, fetched 2026-11-15): cover date 2013-01",
+    "order": {
+     "date": "2012-11-07",
+     "source": "Grand Comics Database, \"Green Lantern (2011 series) #14 [Direct Sales]\" (https://www.comics.org/api/issue/1030250/?format=json, fetched 2026-11-15): on sale 2012-11-07"
+    }
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Doug Mahnke"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "minor"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "cameo"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "cameo"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "cameo"
+    },
+    {
+     "who": "simon-baz",
+     "grade": "major"
+    }
+   ],
+   "core": true,
+   "coreFor": [
+    "hal-jordan",
+    "simon-baz"
+   ]
+  },
+  {
+   "issueId": "green-lantern-2011-15",
+   "series": "Green Lantern",
+   "vol": "2011",
+   "num": "15",
+   "title": "Green Lantern (2011) #15",
+   "arc": "green-lantern-rise-of-the-third-army",
+   "date": {
+    "cover": "2013-02",
+    "source": "DC Database, \"Green Lantern Vol 5 15\" (rev 3925610, fetched 2026-11-15): cover date 2013-02",
+    "order": {
+     "date": "2012-12-19",
+     "source": "Grand Comics Database, \"Green Lantern (2011 series) #15 [Direct Sales]\" (https://www.comics.org/api/issue/1039365/?format=json, fetched 2026-11-15): on sale 2012-12-19"
+    }
+   },
+   "seq": 4,
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Doug Mahnke"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "minor"
+    },
+    {
+     "who": "simon-baz",
+     "grade": "major"
+    }
+   ],
+   "core": true,
+   "coreFor": [
+    "hal-jordan",
+    "simon-baz"
+   ]
+  },
+  {
+   "issueId": "green-lantern-2011-16",
+   "series": "Green Lantern",
+   "vol": "2011",
+   "num": "16",
+   "title": "Green Lantern (2011) #16",
+   "arc": "green-lantern-rise-of-the-third-army",
+   "date": {
+    "cover": "2013-03",
+    "source": "DC Database, \"Green Lantern Vol 5 16\" (rev 3925613, fetched 2026-11-15): cover date 2013-03",
+    "order": {
+     "date": "2013-01-23",
+     "source": "Grand Comics Database, \"Green Lantern (2011 series) #16 [Direct Sales]\" (https://www.comics.org/api/issue/1052501/?format=json, fetched 2026-11-15): on sale 2013-01-23"
+    }
+   },
+   "seq": 4,
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Doug Mahnke"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "minor"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "cameo"
+    },
+    {
+     "who": "simon-baz",
+     "grade": "major"
+    }
+   ],
+   "core": true,
+   "coreFor": [
+    "hal-jordan",
+    "simon-baz"
+   ]
+  },
+  {
+   "issueId": "green-lantern-2011-17",
+   "series": "Green Lantern",
+   "vol": "2011",
+   "num": "17",
+   "title": "Green Lantern (2011) #17",
+   "arc": "green-lantern-the-end",
+   "date": {
+    "cover": "2013-04",
+    "source": "DC Database, \"Green Lantern Vol 5 17\" (rev 3925609, fetched 2026-11-15): cover date 2013-04",
+    "order": {
+     "date": "2013-02-20",
+     "source": "Grand Comics Database, \"Green Lantern (2011 series) #17 [Direct Sales]\" (https://www.comics.org/api/issue/1079792/?format=json, fetched 2026-11-15): on sale 2013-02-20"
+    }
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Doug Mahnke",
+     "Dan Jurgens",
+     "Phil Jimenez"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "minor"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "cameo"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "cameo"
+    },
+    {
+     "who": "simon-baz",
+     "grade": "major"
+    }
+   ],
+   "core": true,
+   "coreFor": [
+    "hal-jordan",
+    "simon-baz"
+   ]
+  },
+  {
+   "issueId": "green-lantern-2011-18",
+   "series": "Green Lantern",
+   "vol": "2011",
+   "num": "18",
+   "title": "Green Lantern (2011) #18",
+   "arc": "green-lantern-the-end",
+   "date": {
+    "cover": "2013-05",
+    "source": "DC Database, \"Green Lantern Vol 5 18\" (rev 3925608, fetched 2026-11-15): cover date 2013-05",
+    "order": {
+     "date": "2013-03-06",
+     "source": "Grand Comics Database, \"Green Lantern (2011 series) #18 [Direct Sales]\" (https://www.comics.org/api/issue/1092237/?format=json, fetched 2026-11-15): on sale 2013-03-06"
+    }
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Szymon Kudranski",
+     "Ardian Syaf"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "minor"
+    },
+    {
+     "who": "simon-baz",
+     "grade": "major"
+    }
+   ],
+   "core": true,
+   "coreFor": [
+    "hal-jordan",
+    "simon-baz"
+   ]
+  },
+  {
+   "issueId": "green-lantern-2011-19",
+   "series": "Green Lantern",
+   "vol": "2011",
+   "num": "19",
+   "title": "Green Lantern (2011) #19",
+   "arc": "green-lantern-the-end",
+   "date": {
+    "cover": "2013-06",
+    "source": "DC Database, \"Green Lantern Vol 5 19\" (rev 3925607, fetched 2026-11-15): cover date 2013-06",
+    "order": {
+     "date": "2013-04-03",
+     "source": "Grand Comics Database, \"Green Lantern (2011 series) #19 [Direct Sales]\" (https://www.comics.org/api/issue/1098874/?format=json, fetched 2026-11-15): on sale 2013-04-03"
+    }
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Ardian Syaf",
+     "Szymon Kudranski"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "simon-baz",
+     "grade": "major"
+    }
+   ],
+   "core": true,
+   "coreFor": [
+    "hal-jordan",
+    "simon-baz"
+   ]
+  },
+  {
+   "issueId": "green-lantern-2011-20",
+   "series": "Green Lantern",
+   "vol": "2011",
+   "num": "20",
+   "title": "Green Lantern (2011) #20",
+   "arc": "green-lantern-the-end",
+   "date": {
+    "cover": "2013-07",
+    "source": "DC Database, \"Green Lantern Vol 5 20\" (rev 3925606, fetched 2026-11-15): cover date 2013-07",
+    "order": {
+     "date": "2013-05-22",
+     "source": "Grand Comics Database, \"Green Lantern (2011 series) #20 [Direct Sales]\" (https://www.comics.org/api/issue/1115024/?format=json, fetched 2026-11-15): on sale 2013-05-22"
+    }
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Doug Mahnke",
+     "Patrick Gleason",
+     "Cully Hamner",
+     "Aaron Kuder",
+     "Jerry Ordway",
+     "Ivan Reis",
+     "Ethan Van Sciver"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "minor"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "minor"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "minor"
+    },
+    {
+     "who": "simon-baz",
+     "grade": "minor"
+    },
+    {
+     "who": "jessica-cruz",
+     "grade": "minor"
+    },
+    {
+     "who": "indigo-tribe",
+     "grade": "minor"
+    },
+    {
+     "who": "star-sapphires",
+     "grade": "minor"
+    }
+   ],
+   "core": true,
+   "coreFor": [
+    "hal-jordan",
+    "john-stewart",
+    "guy-gardner",
+    "kyle-rayner",
+    "simon-baz",
+    "jessica-cruz"
+   ]
+  }
+ ]
+}

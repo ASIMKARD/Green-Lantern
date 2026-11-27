@@ -1,0 +1,2956 @@
+{
+ "$schema": "./schema/dataset.schema.json",
+ "schemaVersion": 1,
+ "franchise": {
+  "key": "green-lantern",
+  "wordmark": "Green Lantern",
+  "title": "Green Lantern — Reading Order",
+  "strapline": "From Green Lantern: Rebirth (2004) on",
+  "span": "2004–2027",
+  "theme": "#0B5D33",
+  "strictCredits": true
+ },
+ "eras": [
+  {
+   "id": "rebirth",
+   "name": "Rebirth",
+   "rank": 5000
+  },
+  {
+   "id": "sinestro-corps-war",
+   "name": "The Sinestro Corps War",
+   "rank": 5010
+  },
+  {
+   "id": "secret-origin",
+   "name": "Secret Origin to Agent Orange",
+   "rank": 5020
+  },
+  {
+   "id": "blackest-night",
+   "name": "Blackest Night",
+   "rank": 5030
+  },
+  {
+   "id": "brightest-day",
+   "name": "Brightest Day",
+   "rank": 5040
+  },
+  {
+   "id": "war-of-the-green-lanterns",
+   "name": "War of the Green Lanterns",
+   "rank": 5050
+  },
+  {
+   "id": "new-52",
+   "name": "The New 52: to the First Lantern",
+   "rank": 5060
+  },
+  {
+   "id": "lights-out",
+   "name": "Lights Out to Godhead",
+   "rank": 5070
+  },
+  {
+   "id": "renegade",
+   "name": "Renegade and the Lost Army",
+   "rank": 5080
+  },
+  {
+   "id": "rebirth-2016",
+   "name": "Hal Jordan and the Corps; Green Lanterns",
+   "rank": 5090
+  },
+  {
+   "id": "the-green-lantern",
+   "name": "The Green Lantern and Far Sector",
+   "rank": 5100
+  },
+  {
+   "id": "infinite-frontier",
+   "name": "Future State and Infinite Frontier",
+   "rank": 5110
+  },
+  {
+   "id": "dawn-of-dc",
+   "name": "Dawn of DC to today",
+   "rank": 5120
+  }
+ ],
+ "periods": [
+  {
+   "id": "johns",
+   "name": "The Johns era",
+   "label": "2004–2013",
+   "eras": [
+    "rebirth",
+    "sinestro-corps-war",
+    "secret-origin",
+    "blackest-night",
+    "brightest-day",
+    "war-of-the-green-lanterns",
+    "new-52"
+   ]
+  },
+  {
+   "id": "venditti",
+   "name": "After Johns",
+   "label": "2013–2016",
+   "eras": [
+    "lights-out",
+    "renegade"
+   ]
+  },
+  {
+   "id": "rebirth",
+   "name": "DC Rebirth",
+   "label": "2016–2018",
+   "eras": [
+    "rebirth-2016"
+   ]
+  },
+  {
+   "id": "morrison",
+   "name": "Morrison and Jemisin",
+   "label": "2018–2021",
+   "eras": [
+    "the-green-lantern"
+   ]
+  },
+  {
+   "id": "frontier",
+   "name": "Infinite Frontier",
+   "label": "2021–2023",
+   "eras": [
+    "infinite-frontier"
+   ]
+  },
+  {
+   "id": "dawn",
+   "name": "Dawn of DC to today",
+   "label": "2023–",
+   "eras": [
+    "dawn-of-dc"
+   ]
+  }
+ ],
+ "strands": [
+  "Green Lantern",
+  "Corps",
+  "Red Lanterns"
+ ],
+ "types": [
+  "MAIN",
+  "SOLO",
+  "MINI",
+  "SPIN-OFF",
+  "EVENT"
+ ],
+ "tiers": [
+  "Barebones",
+  "Essential",
+  "Everything"
+ ],
+ "media": [
+  "comic"
+ ],
+ "characters": [
+  {
+   "id": "hal-jordan",
+   "name": "Hal Jordan"
+  },
+  {
+   "id": "john-stewart",
+   "name": "John Stewart"
+  },
+  {
+   "id": "guy-gardner",
+   "name": "Guy Gardner"
+  },
+  {
+   "id": "kyle-rayner",
+   "name": "Kyle Rayner"
+  },
+  {
+   "id": "simon-baz",
+   "name": "Simon Baz"
+  },
+  {
+   "id": "jessica-cruz",
+   "name": "Jessica Cruz"
+  },
+  {
+   "id": "jo-mullein",
+   "name": "Jo Mullein"
+  },
+  {
+   "id": "green-arrow",
+   "name": "Green Arrow"
+  },
+  {
+   "id": "indigo-tribe",
+   "name": "The Indigo Tribe"
+  },
+  {
+   "id": "star-sapphires",
+   "name": "The Star Sapphires"
+  }
+ ],
+ "creatorMononyms": [
+  "BIT",
+  "CAFU",
+  "ChrisCross",
+  "Montos",
+  "Moritat",
+  "Xermanico"
+ ],
+ "arcs": [
+  {
+   "id": "green-lantern-rebirth-rebirth",
+   "name": "Rebirth",
+   "era": "rebirth",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Barebones",
+   "importance": 5,
+   "year": "2004",
+   "blurb": "Collected in Green Lantern: Rebirth (2005).",
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Ethan Van Sciver"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-no-fear",
+   "name": "No Fear",
+   "era": "rebirth",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 4,
+   "year": "2005",
+   "blurb": "Collected in Green Lantern: No Fear (2006).",
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Ethan Van Sciver",
+     "Carlos Pacheco",
+     "Simone Bianchi"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-a-perfect-life",
+   "name": "A Perfect Life",
+   "era": "rebirth",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 4,
+   "year": "2006",
+   "blurb": "Collected in Green Lantern: Revenge of the Green Lanterns (2006).",
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Carlos Pacheco"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-branded",
+   "name": "Branded",
+   "era": "rebirth",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 4,
+   "year": "2006",
+   "blurb": "Collected in Green Lantern: Revenge of the Green Lanterns (2006).",
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Ethan Van Sciver"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-revenge-of-the-green-lanterns",
+   "name": "Revenge of the Green Lanterns",
+   "era": "rebirth",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 4,
+   "year": "2006",
+   "blurb": "Collected in Green Lantern: Revenge of the Green Lanterns (2006).",
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Ivan Reis"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-wanted-hal-jordan",
+   "name": "Wanted: Hal Jordan",
+   "era": "rebirth",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 4,
+   "year": "2006",
+   "blurb": "Collected in Green Lantern: Wanted: Hal Jordan (2007).",
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Ivan Reis"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-mystery-of-the-star-sapphires",
+   "name": "Mystery of the Star Sapphires",
+   "era": "rebirth",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 4,
+   "year": "2007",
+   "blurb": "Collected in Green Lantern: Wanted: Hal Jordan (2007).",
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Daniel Acuña"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-the-sinestro-corps-war",
+   "name": "The Sinestro Corps War",
+   "era": "sinestro-corps-war",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Barebones",
+   "importance": 5,
+   "year": "2007",
+   "blurb": "Collected in Green Lantern: The Sinestro Corps War Vol. 1 (2008).",
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Ivan Reis",
+     "Ethan Van Sciver"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-the-alpha-lanterns",
+   "name": "The Alpha-Lanterns",
+   "era": "sinestro-corps-war",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 4,
+   "year": "2008",
+   "blurb": "Collected in Green Lantern: Rage of the Red Lanterns (None).",
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Mike McKone"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-secret-origin",
+   "name": "Secret Origin",
+   "era": "secret-origin",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Barebones",
+   "importance": 5,
+   "year": "2008",
+   "blurb": "Collected in Green Lantern: Secret Origin (2008).",
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Ivan Reis"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-agent-orange",
+   "name": "Agent Orange",
+   "era": "secret-origin",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Barebones",
+   "importance": 5,
+   "year": "2009",
+   "blurb": "Collected in Green Lantern: Agent Orange (2009).",
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Philip Tan",
+     "Eddy Barrows"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-blackest-night-green-lantern",
+   "name": "Blackest Night: Green Lantern",
+   "era": "blackest-night",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Barebones",
+   "importance": 5,
+   "year": "2009",
+   "blurb": "Collected in Blackest Night: Green Lantern (2011).",
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Doug Mahnke"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-tales-of-the-corps",
+   "name": "Tales of the Corps",
+   "era": "blackest-night",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 4,
+   "year": "2010",
+   "blurb": "Collected in Blackest Night: Tales of the Corps (2010).",
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Ed Benes",
+     "Marcos Marz"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-green-lantern-new-guardians",
+   "name": "Green Lantern: New Guardians",
+   "era": "brightest-day",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Barebones",
+   "importance": 5,
+   "year": "2010",
+   "blurb": "Collected in Green Lantern: Brightest Day (2011).",
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Doug Mahnke"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-war-of-the-green-lanterns",
+   "name": "War of the Green Lanterns",
+   "era": "war-of-the-green-lanterns",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Barebones",
+   "importance": 5,
+   "year": "2011",
+   "blurb": "Collected in Green Lantern: War of the Green Lanterns (2011).",
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Doug Mahnke",
+     "Ed Benes",
+     "Ardian Syaf"
+    ]
+   }
+  },
+  {
+   "id": "ion-ion-the-torchbearer",
+   "name": "Ion: The Torchbearer",
+   "era": "rebirth",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "SOLO",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2006",
+   "blurb": "Collected in Ion: The Torchbearer (2007).",
+   "credits": {
+    "writers": [
+     "Ron Marz"
+    ],
+    "artists": [
+     "Greg Tocchini",
+     "Tom Grindberg"
+    ]
+   }
+  },
+  {
+   "id": "ion-ion-the-dying-flame",
+   "name": "Ion: The Dying Flame",
+   "era": "rebirth",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "SOLO",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2006",
+   "blurb": "Collected in Ion: The Dying Flame (2007).",
+   "credits": {
+    "writers": [
+     "Ron Marz"
+    ],
+    "artists": [
+     "Greg Tocchini",
+     "Fernando Pasarin",
+     "Paco Diaz",
+     "Yvel Guichet"
+    ]
+   }
+  },
+  {
+   "id": "guy-gardner-collateral-damage-collateral-damage",
+   "name": "Collateral Damage",
+   "era": "rebirth",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "SOLO",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2007",
+   "blurb": "Collected in Green Lantern: Rebirth Compendium (2025).",
+   "credits": {
+    "writers": [
+     "Howard Chaykin"
+    ],
+    "artists": [
+     "Howard Chaykin"
+    ]
+   }
+  },
+  {
+   "id": "flashpoint-hal-jordan-flashpoint-hal-jordan",
+   "name": "Flashpoint: Hal Jordan",
+   "era": "war-of-the-green-lanterns",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MINI",
+   "mo": "O",
+   "tier": "Everything",
+   "importance": 2,
+   "year": "2011",
+   "blurb": "Collected in The World of Flashpoint Featuring Green Lantern (2012).",
+   "credits": {
+    "writers": [
+     "Adam Schlagman"
+    ],
+    "artists": [
+     "Cliff Richards",
+     "Ben Oliver"
+    ]
+   }
+  },
+  {
+   "id": "flashpoint-abin-sur-the-green-lantern-flashpoint-abin-sur-th",
+   "name": "Flashpoint: Abin Sur – The Green Lantern",
+   "era": "war-of-the-green-lanterns",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MINI",
+   "mo": "O",
+   "tier": "Everything",
+   "importance": 2,
+   "year": "2011",
+   "blurb": "Collected in The World of Flashpoint Featuring Green Lantern (2012).",
+   "credits": {
+    "writers": [
+     "Adam Schlagman"
+    ],
+    "artists": [
+     "Felipe Massafera",
+     "Robson Rocha",
+     "Joe Prado"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-green-lantern-sinestro",
+   "name": "Green Lantern: Sinestro",
+   "era": "new-52",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 4,
+   "year": "2011",
+   "blurb": "Collected in Green Lantern: Sinestro (2012).",
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Doug Mahnke",
+     "Michael Choi"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-revenge-of-the-black-hand",
+   "name": "Revenge of the Black Hand",
+   "era": "new-52",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 4,
+   "year": "2012",
+   "blurb": "Collected in Green Lantern: Revenge of the Black Hand (2013).",
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Doug Mahnke",
+     "Renato Guedes",
+     "Jim Calafiore"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-rise-of-the-third-army",
+   "name": "Rise of the Third Army",
+   "era": "new-52",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Barebones",
+   "importance": 5,
+   "year": "2012",
+   "blurb": "Collected in Green Lantern: The End (2013).",
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Doug Mahnke"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-the-end",
+   "name": "The End",
+   "era": "new-52",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Barebones",
+   "importance": 5,
+   "year": "2013",
+   "blurb": "Collected in Green Lantern: The End (2013).",
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Doug Mahnke",
+     "Szymon Kudranski",
+     "Ardian Syaf",
+     "Dan Jurgens",
+     "Phil Jimenez",
+     "Patrick Gleason",
+     "Cully Hamner",
+     "Aaron Kuder",
+     "Jerry Ordway",
+     "Ivan Reis",
+     "Ethan Van Sciver"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-dark-days",
+   "name": "Dark Days",
+   "era": "lights-out",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2013",
+   "blurb": "Collected in Green Lantern: Dark Days (2014).",
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Billy Tan"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-lights-out",
+   "name": "Lights Out",
+   "era": "lights-out",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "O",
+   "tier": "Everything",
+   "importance": 2,
+   "year": "2013",
+   "blurb": "Collected in Green Lantern: Lights Out (2014).",
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Rags Morales"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-worthy-foes",
+   "name": "Worthy Foes",
+   "era": "lights-out",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "O",
+   "tier": "Everything",
+   "importance": 2,
+   "year": "2013",
+   "credits": {
+    "writers": [
+     "Jim Starlin"
+    ],
+    "artists": [
+     "Howard Porter"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-the-new-black-hand",
+   "name": "The New Black Hand",
+   "era": "lights-out",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "O",
+   "tier": "Everything",
+   "importance": 2,
+   "year": "2013",
+   "credits": {
+    "writers": [
+     "Charles Soule"
+    ],
+    "artists": [
+     "Alberto Ponticelli"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-the-demon-within",
+   "name": "The Demon Within",
+   "era": "lights-out",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "O",
+   "tier": "Everything",
+   "importance": 2,
+   "year": "2013",
+   "blurb": "Collected in Sinestro: The Demon Within (2015).",
+   "credits": {
+    "writers": [
+     "Matt Kindt"
+    ],
+    "artists": [
+     "Dale Eaglesham"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-test-of-wills",
+   "name": "Test of Wills",
+   "era": "lights-out",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2014",
+   "blurb": "Collected in Green Lantern: Test of Wills (2014).",
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Billy Tan",
+     "Martin Coccolo",
+     "Dale Eaglesham"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-supergirl-red-daughter-of-krypton",
+   "name": "Supergirl: Red Daughter of Krypton",
+   "era": "lights-out",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2014",
+   "blurb": "Collected in Green Lantern: Test of Wills (2014).",
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Billy Tan"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-the-life-equation",
+   "name": "The Life Equation",
+   "era": "lights-out",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2014",
+   "blurb": "Collected in Green Lantern: The Life Equation (2015).",
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Billy Tan",
+     "Francis Portela",
+     "Scott McDaniel",
+     "Admira Wijaya"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-at-odds",
+   "name": "At Odds",
+   "era": "renegade",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2015",
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Billy Tan"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-written-in-stone",
+   "name": "Written in Stone",
+   "era": "renegade",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2015",
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Billy Tan"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-a-wounded-universe",
+   "name": "A Wounded Universe",
+   "era": "renegade",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2015",
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Ethan Van Sciver"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-emergency-stop",
+   "name": "Emergency Stop",
+   "era": "renegade",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2015",
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Billy Tan",
+     "Martin Coccolo"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-idle-hand",
+   "name": "Idle Hand",
+   "era": "renegade",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2015",
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Billy Tan"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-laid-to-rest",
+   "name": "Laid to Rest",
+   "era": "renegade",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2016",
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Billy Tan"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-reflections",
+   "name": "Reflections",
+   "era": "renegade",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2016",
+   "blurb": "Collected in Green Lantern: Reflections (2016).",
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Billy Tan",
+     "Martin Coccolo",
+     "Vicente Cifuentes",
+     "Rafa Sandoval"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-annual-revenge-of-the-black-hand",
+   "name": "Revenge of the Black Hand",
+   "era": "new-52",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MINI",
+   "mo": "O",
+   "tier": "Everything",
+   "importance": 2,
+   "year": "2012",
+   "blurb": "Collected in Green Lantern: Revenge of the Black Hand (2013).",
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Ethan Van Sciver"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-annual-lights-out",
+   "name": "Lights Out",
+   "era": "lights-out",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MINI",
+   "mo": "O",
+   "tier": "Everything",
+   "importance": 2,
+   "year": "2013",
+   "blurb": "Collected in Green Lantern: Lights Out (2014).",
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Sean Chen"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-annual-the-life-equation",
+   "name": "The Life Equation",
+   "era": "lights-out",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MINI",
+   "mo": "O",
+   "tier": "Everything",
+   "importance": 2,
+   "year": "2015",
+   "blurb": "Collected in Green Lantern: The Life Equation (2015).",
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Billy Tan"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-annual-renegade",
+   "name": "Renegade",
+   "era": "renegade",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MINI",
+   "mo": "O",
+   "tier": "Everything",
+   "importance": 2,
+   "year": "2015",
+   "blurb": "Collected in Green Lantern: Renegade (2016).",
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Pascal Alixe"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-futures-end-the-next-life",
+   "name": "The Next Life",
+   "era": "lights-out",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MINI",
+   "mo": "O",
+   "tier": "Everything",
+   "importance": 1,
+   "year": "2014",
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Martin Coccolo",
+     "Aaron Lopresti"
+    ]
+   }
+  },
+  {
+   "id": "green-lanterns-rebirth-rage-planet",
+   "name": "Rage Planet",
+   "era": "rebirth-2016",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2016",
+   "blurb": "Collected in Green Lanterns: Rage Planet (2017).",
+   "credits": {
+    "writers": [
+     "Geoff Johns",
+     "Sam Humphries"
+    ],
+    "artists": [
+     "Ethan Van Sciver",
+     "Ed Benes"
+    ]
+   }
+  },
+  {
+   "id": "green-lanterns-rage-planet",
+   "name": "Rage Planet",
+   "era": "rebirth-2016",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2016",
+   "blurb": "Collected in Green Lanterns: Rage Planet (2017).",
+   "credits": {
+    "writers": [
+     "Sam Humphries"
+    ],
+    "artists": [
+     "Robson Rocha",
+     "Tom Derenick",
+     "Jack Herbert",
+     "Neil Edwards",
+     "Ed Benes",
+     "Eduardo Pansica",
+     "Will Conrad"
+    ]
+   }
+  },
+  {
+   "id": "green-lanterns-family-matters",
+   "name": "Family Matters",
+   "era": "rebirth-2016",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2016",
+   "blurb": "Collected in Green Lanterns: The Phantom Lantern (2017).",
+   "credits": {
+    "writers": [
+     "Sam Humphries"
+    ],
+    "artists": [
+     "Ronan Cliquet",
+     "Ed Benes"
+    ]
+   }
+  },
+  {
+   "id": "green-lanterns-the-phantom-lantern",
+   "name": "The Phantom Lantern",
+   "era": "rebirth-2016",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2016",
+   "blurb": "Collected in Green Lanterns: The Phantom Lantern (2017).",
+   "credits": {
+    "writers": [
+     "Sam Humphries"
+    ],
+    "artists": [
+     "Eduardo Pansica",
+     "Robson Rocha",
+     "Ronan Cliquet"
+    ]
+   }
+  },
+  {
+   "id": "green-lanterns-a-day-in-the-life",
+   "name": "A Day in the Life",
+   "era": "rebirth-2016",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2017",
+   "blurb": "Collected in Green Lanterns: Polarity (2017).",
+   "credits": {
+    "writers": [
+     "Sam Humphries"
+    ],
+    "artists": [
+     "Tom Derenick",
+     "Miguel Mendonca"
+    ]
+   }
+  },
+  {
+   "id": "green-lanterns-darkest-knights",
+   "name": "Darkest Knights",
+   "era": "rebirth-2016",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2017",
+   "blurb": "Collected in Green Lanterns: Polarity (2017).",
+   "credits": {
+    "writers": [
+     "Sam Humphries"
+    ],
+    "artists": [
+     "Neil Edwards",
+     "Eduardo Pansica"
+    ]
+   }
+  },
+  {
+   "id": "green-lanterns-the-last-testament-of-the-first-lantern",
+   "name": "The Last Testament of the First Lantern",
+   "era": "rebirth-2016",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2017",
+   "blurb": "Collected in Green Lanterns: Polarity (2017).",
+   "credits": {
+    "writers": [
+     "Sam Humphries"
+    ],
+    "artists": [
+     "Robson Rocha"
+    ]
+   }
+  },
+  {
+   "id": "green-lanterns-polarity",
+   "name": "Polarity",
+   "era": "rebirth-2016",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2017",
+   "blurb": "Collected in Green Lanterns: Polarity (2017).",
+   "credits": {
+    "writers": [
+     "Sam Humphries"
+    ],
+    "artists": [
+     "Ronan Cliquet",
+     "Eduardo Pansica",
+     "Robson Rocha"
+    ]
+   }
+  },
+  {
+   "id": "green-lanterns-the-first-ring",
+   "name": "The First Ring",
+   "era": "rebirth-2016",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2017",
+   "blurb": "Collected in Green Lanterns: The First Ring (2017).",
+   "credits": {
+    "writers": [
+     "Sam Humphries"
+    ],
+    "artists": [
+     "Ronan Cliquet",
+     "Eduardo Pansica",
+     "Carlo Barberi",
+     "Robson Rocha"
+    ]
+   }
+  },
+  {
+   "id": "green-lanterns-out-of-time",
+   "name": "Out of Time",
+   "era": "rebirth-2016",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2017",
+   "blurb": "Collected in Green Lanterns: Out of Time (2018).",
+   "credits": {
+    "writers": [
+     "Sam Humphries"
+    ],
+    "artists": [
+     "Ronan Cliquet",
+     "Eduardo Pansica",
+     "Carlo Barberi",
+     "Scott Godlewski"
+    ]
+   }
+  },
+  {
+   "id": "green-lanterns-work-release",
+   "name": "Work Release",
+   "era": "rebirth-2016",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2017",
+   "blurb": "Collected in Green Lanterns: A World of Our Own (2018).",
+   "credits": {
+    "writers": [
+     "Tim Seeley"
+    ],
+    "artists": [
+     "Eduardo Pansica",
+     "Ronan Cliquet"
+    ]
+   }
+  },
+  {
+   "id": "green-lanterns-oh-bolphunga-where-art-thou",
+   "name": "Oh, Bolphunga, Where Art Thou?",
+   "era": "rebirth-2016",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2018",
+   "blurb": "Collected in Green Lanterns: A World of Our Own (2018).",
+   "credits": {
+    "writers": [
+     "Tim Seeley"
+    ],
+    "artists": [
+     "Carlo Barberi",
+     "Ronan Cliquet"
+    ]
+   }
+  },
+  {
+   "id": "green-lanterns-a-world-of-our-own",
+   "name": "A World of Our Own",
+   "era": "rebirth-2016",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2018",
+   "blurb": "Collected in Green Lanterns: A World of Our Own (2018).",
+   "credits": {
+    "writers": [
+     "Tim Seeley"
+    ],
+    "artists": [
+     "Carlo Barberi",
+     "German Peralta",
+     "Ronan Cliquet"
+    ]
+   }
+  },
+  {
+   "id": "green-lanterns-superhuman-trafficking",
+   "name": "Superhuman Trafficking",
+   "era": "rebirth-2016",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2018",
+   "credits": {
+    "writers": [
+     "Tim Seeley"
+    ],
+    "artists": [
+     "Barnaby Bagenda",
+     "V. Ken Marion",
+     "Tom Derenick"
+    ]
+   }
+  },
+  {
+   "id": "green-lanterns-ghosts-of-the-past",
+   "name": "Ghosts of the Past",
+   "era": "rebirth-2016",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2018",
+   "credits": {
+    "writers": [
+     "Tim Seeley"
+    ],
+    "artists": [
+     "Ronan Cliquet",
+     "V. Ken Marion"
+    ]
+   }
+  },
+  {
+   "id": "green-lanterns-rebel-run",
+   "name": "Rebel Run",
+   "era": "rebirth-2016",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2018",
+   "credits": {
+    "writers": [
+     "Aaron Gillespie"
+    ],
+    "artists": [
+     "Ronan Cliquet",
+     "Roge Antonio"
+    ]
+   }
+  },
+  {
+   "id": "green-lanterns-evil-s-might",
+   "name": "Evil's Might",
+   "era": "rebirth-2016",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2018",
+   "credits": {
+    "writers": [
+     "Dan Jurgens"
+    ],
+    "artists": [
+     "Mike Perkins",
+     "Marco Santucci"
+    ]
+   }
+  },
+  {
+   "id": "green-lanterns-evil-s-might-conclusion",
+   "name": "Evil's Might Conclusion",
+   "era": "rebirth-2016",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2018",
+   "credits": {
+    "writers": [
+     "Dan Jurgens"
+    ],
+    "artists": [
+     "Mike Perkins"
+    ]
+   }
+  },
+  {
+   "id": "green-lanterns-annual-the-lost-lantern",
+   "name": "The Lost Lantern",
+   "era": "rebirth-2016",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MINI",
+   "mo": "O",
+   "tier": "Everything",
+   "importance": 2,
+   "year": "2018",
+   "credits": {
+    "writers": [
+     "Andy Diggle"
+    ],
+    "artists": [
+     "Mike Perkins"
+    ]
+   }
+  },
+  {
+   "id": "hal-jordan-and-the-green-lantern-corps-rebirth-reflections",
+   "name": "Reflections",
+   "era": "rebirth-2016",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2016",
+   "blurb": "Collected in Green Lantern: Reflections (2016).",
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Ethan Van Sciver"
+    ]
+   }
+  },
+  {
+   "id": "hal-jordan-and-the-green-lantern-corps-sinestro-s-law",
+   "name": "Sinestro's Law",
+   "era": "rebirth-2016",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 4,
+   "year": "2016",
+   "blurb": "Collected in Hal Jordan and the Green Lantern Corps: Sinestro's Law (2017).",
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Rafa Sandoval",
+     "Ethan Van Sciver"
+    ]
+   }
+  },
+  {
+   "id": "hal-jordan-and-the-green-lantern-corps-bottled-light",
+   "name": "Bottled Light",
+   "era": "rebirth-2016",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 4,
+   "year": "2017",
+   "blurb": "Collected in Hal Jordan and the Green Lantern Corps: Bottled Light (2017).",
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Ethan Van Sciver",
+     "Rafa Sandoval",
+     "Ed Benes",
+     "V. Ken Marion"
+    ]
+   }
+  },
+  {
+   "id": "hal-jordan-and-the-green-lantern-corps-quest-for-hope",
+   "name": "Quest for Hope",
+   "era": "rebirth-2016",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 4,
+   "year": "2017",
+   "blurb": "Collected in Hal Jordan and the Green Lantern Corps: Quest for the Blue Lanterns (2017).",
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Rafa Sandoval",
+     "Ethan Van Sciver"
+    ]
+   }
+  },
+  {
+   "id": "hal-jordan-and-the-green-lantern-corps-the-prism-of-time",
+   "name": "The Prism of Time",
+   "era": "rebirth-2016",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 4,
+   "year": "2017",
+   "blurb": "Collected in Hal Jordan and the Green Lantern Corps: Quest for the Blue Lanterns (2017).",
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "V. Ken Marion",
+     "Rafa Sandoval"
+    ]
+   }
+  },
+  {
+   "id": "hal-jordan-and-the-green-lantern-corps-fracture",
+   "name": "Fracture",
+   "era": "rebirth-2016",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 4,
+   "year": "2017",
+   "blurb": "Collected in Hal Jordan and the Green Lantern Corps: Fracture (2018).",
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Ethan Van Sciver"
+    ]
+   }
+  },
+  {
+   "id": "hal-jordan-and-the-green-lantern-corps-fall-of-the-gods",
+   "name": "Fall of the Gods",
+   "era": "rebirth-2016",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 4,
+   "year": "2017",
+   "blurb": "Collected in Hal Jordan and the Green Lantern Corps: Fracture (2018).",
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Rafa Sandoval"
+    ]
+   }
+  },
+  {
+   "id": "hal-jordan-and-the-green-lantern-corps-twilight-of-the-guard",
+   "name": "Twilight of the Guardians",
+   "era": "rebirth-2016",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 4,
+   "year": "2017",
+   "blurb": "Collected in Hal Jordan and the Green Lantern Corps: Twilight of the Guardians (2018).",
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Jack Herbert",
+     "Tom Derenick",
+     "Patrick Zircher",
+     "José Luis"
+    ]
+   }
+  },
+  {
+   "id": "hal-jordan-and-the-green-lantern-corps-bats-out-of-hell-part",
+   "name": "Bats out of Hell, Part Three: None More Black",
+   "era": "rebirth-2016",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 4,
+   "year": "2018",
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Ethan Van Sciver",
+     "Liam Sharp"
+    ]
+   }
+  },
+  {
+   "id": "hal-jordan-and-the-green-lantern-corps-zod-s-will",
+   "name": "Zod's Will",
+   "era": "rebirth-2016",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 4,
+   "year": "2018",
+   "blurb": "Collected in Hal Jordan and the Green Lantern Corps: Zod's Will (2018).",
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Rafa Sandoval",
+     "Ethan Van Sciver",
+     "Brandon Peterson"
+    ]
+   }
+  },
+  {
+   "id": "hal-jordan-and-the-green-lantern-corps-dark-stars-rising",
+   "name": "Dark Stars Rising",
+   "era": "rebirth-2016",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 4,
+   "year": "2018",
+   "blurb": "Collected in Hal Jordan and the Green Lantern Corps: Darkstars Rising (2019).",
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Ethan Van Sciver",
+     "Rafa Sandoval",
+     "Brandon Peterson",
+     "Clayton Henry",
+     "Fernando Pasarin"
+    ]
+   }
+  },
+  {
+   "id": "hal-jordan-and-the-green-lantern-corps-last-charge",
+   "name": "Last Charge",
+   "era": "rebirth-2016",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 4,
+   "year": "2018",
+   "blurb": "Collected in Hal Jordan and the Green Lantern Corps: Darkstars Rising (2019).",
+   "credits": {
+    "writers": [
+     "Robert Venditti"
+    ],
+    "artists": [
+     "Rafa Sandoval",
+     "Sergio Davila"
+    ]
+   }
+  },
+  {
+   "id": "the-green-lantern-intergalactic-lawman",
+   "name": "Intergalactic Lawman",
+   "era": "the-green-lantern",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Barebones",
+   "importance": 5,
+   "year": "2019",
+   "blurb": "Collected in The Green Lantern: Intergalactic Lawman (2019).",
+   "credits": {
+    "writers": [
+     "Grant Morrison"
+    ],
+    "artists": [
+     "Liam Sharp"
+    ]
+   }
+  },
+  {
+   "id": "the-green-lantern-the-day-the-stars-fell",
+   "name": "The Day the Stars Fell",
+   "era": "the-green-lantern",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Barebones",
+   "importance": 5,
+   "year": "2019",
+   "blurb": "Collected in The Green Lantern: The Day the Stars Fell (2019).",
+   "credits": {
+    "writers": [
+     "Grant Morrison"
+    ],
+    "artists": [
+     "Liam Sharp"
+    ]
+   }
+  },
+  {
+   "id": "the-green-lantern-annual-the-day-the-stars-fell",
+   "name": "The Day the Stars Fell",
+   "era": "the-green-lantern",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MINI",
+   "mo": "O",
+   "tier": "Everything",
+   "importance": 2,
+   "year": "2019",
+   "blurb": "Collected in The Green Lantern: The Day the Stars Fell (2019).",
+   "credits": {
+    "writers": [
+     "Grant Morrison"
+    ],
+    "artists": [
+     "Giuseppe Camuncoli"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-blackstars-blackstars",
+   "name": "Blackstars",
+   "era": "the-green-lantern",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Barebones",
+   "importance": 5,
+   "year": "2020",
+   "blurb": "Collected in The Green Lantern Season Two Vol. 1 (2020).",
+   "credits": {
+    "writers": [
+     "Grant Morrison"
+    ],
+    "artists": [
+     "Xermanico"
+    ]
+   }
+  },
+  {
+   "id": "the-green-lantern-season-two-the-green-lantern-season-two",
+   "name": "The Green Lantern Season Two",
+   "era": "the-green-lantern",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Barebones",
+   "importance": 5,
+   "year": "2020",
+   "blurb": "Collected in The Green Lantern Season Two Vol. 1 (2020).",
+   "credits": {
+    "writers": [
+     "Grant Morrison"
+    ],
+    "artists": [
+     "Liam Sharp"
+    ]
+   }
+  },
+  {
+   "id": "the-green-lantern-season-two-ultrawarrior",
+   "name": "Ultrawarrior",
+   "era": "the-green-lantern",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2020",
+   "credits": {
+    "writers": [
+     "Grant Morrison"
+    ],
+    "artists": [
+     "Liam Sharp"
+    ]
+   }
+  },
+  {
+   "id": "the-green-lantern-season-two-war-of-with-the-anti-world",
+   "name": "War of with the Anti-World",
+   "era": "the-green-lantern",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2020",
+   "credits": {
+    "writers": [
+     "Grant Morrison"
+    ],
+    "artists": [
+     "Liam Sharp"
+    ]
+   }
+  },
+  {
+   "id": "the-green-lantern-season-two-the-wedding-of-the-trillennium",
+   "name": "The Wedding of the Trillennium!",
+   "era": "the-green-lantern",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2021",
+   "credits": {
+    "writers": [
+     "Grant Morrison"
+    ],
+    "artists": [
+     "Liam Sharp"
+    ]
+   }
+  },
+  {
+   "id": "the-green-lantern-season-two-multi-crisis-on-intimate-earths",
+   "name": "Multi-Crisis On Intimate Earths!",
+   "era": "the-green-lantern",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2021",
+   "credits": {
+    "writers": [
+     "Grant Morrison"
+    ],
+    "artists": [
+     "Liam Sharp"
+    ]
+   }
+  },
+  {
+   "id": "the-green-lantern-season-two-contest-of-crowns",
+   "name": "Contest of Crowns",
+   "era": "infinite-frontier",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2021",
+   "credits": {
+    "writers": [
+     "Grant Morrison"
+    ],
+    "artists": [
+     "Liam Sharp"
+    ]
+   }
+  },
+  {
+   "id": "the-green-lantern-season-two-the-intelligence-engine",
+   "name": "The Intelligence Engine",
+   "era": "infinite-frontier",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2021",
+   "credits": {
+    "writers": [
+     "Grant Morrison"
+    ],
+    "artists": [
+     "Liam Sharp"
+    ]
+   }
+  },
+  {
+   "id": "far-sector-far-sector",
+   "name": "Far Sector",
+   "era": "the-green-lantern",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "SOLO",
+   "mo": "M",
+   "tier": "Barebones",
+   "importance": 5,
+   "year": "2020",
+   "blurb": "Collected in Far Sector (2021).",
+   "credits": {
+    "writers": [
+     "N.K. Jemisin"
+    ],
+    "artists": [
+     "Jamal Campbell"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-80th-anniversary-100-page-super-spectacular-da",
+   "name": "Dark Things Cannot Stand the Light",
+   "era": "the-green-lantern",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MINI",
+   "mo": "O",
+   "tier": "Everything",
+   "importance": 2,
+   "year": "2020",
+   "blurb": "Collected in Green Lantern Corps by Peter J. Tomasi and Patrick Gleason Omnibus Vol. 2 (2024).",
+   "credits": {
+    "writers": [
+     "James Tynion IV"
+    ],
+    "artists": [
+     "Gary Frank"
+    ]
+   }
+  },
+  {
+   "id": "future-state-green-lantern-invictus",
+   "name": "Invictus",
+   "era": "infinite-frontier",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MINI",
+   "mo": "O",
+   "tier": "Everything",
+   "importance": 2,
+   "year": "2021",
+   "blurb": "Collected in Green Lantern: Invictus (2021).",
+   "credits": {
+    "writers": [
+     "Geoffrey Thorne"
+    ],
+    "artists": [
+     "Tom Raney"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-invictus",
+   "name": "Invictus",
+   "era": "infinite-frontier",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2021",
+   "blurb": "Collected in Green Lantern: Invictus (2021).",
+   "credits": {
+    "writers": [
+     "Geoffrey Thorne"
+    ],
+    "artists": [
+     "Marco Santucci",
+     "Dexter Soy",
+     "Tom Raney"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-horatius",
+   "name": "Horatius",
+   "era": "infinite-frontier",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2021",
+   "blurb": "Collected in Green Lantern: Horatius (2022).",
+   "credits": {
+    "writers": [
+     "Geoffrey Thorne"
+    ],
+    "artists": [
+     "Marco Santucci",
+     "Tom Raney",
+     "ChrisCross",
+     "Andy McDonald",
+     "Maria Laura Sanapo"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-2021-annual-horatius",
+   "name": "Horatius",
+   "era": "infinite-frontier",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MINI",
+   "mo": "O",
+   "tier": "Everything",
+   "importance": 2,
+   "year": "2021",
+   "blurb": "Collected in Green Lantern: Horatius (2022).",
+   "credits": {
+    "writers": [
+     "Ryan Cady"
+    ],
+    "artists": [
+     "Sami Basri",
+     "Tom Derenick"
+    ]
+   }
+  },
+  {
+   "id": "dark-crisis-worlds-without-a-justice-league-green-lantern-da",
+   "name": "Dark Crisis: Worlds Without a Justice League - Green Lantern",
+   "era": "infinite-frontier",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MINI",
+   "mo": "O",
+   "tier": "Everything",
+   "importance": 1,
+   "year": "2022",
+   "credits": {
+    "writers": [
+     "Phillip Kennedy Johnson"
+    ],
+    "artists": [
+     "Fernando Blanco"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-war-journal-war-journal-contagion",
+   "name": "War Journal: Contagion",
+   "era": "dawn-of-dc",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "SOLO",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2023",
+   "blurb": "Collected in Green Lantern: War Journal: Contagion (2024).",
+   "credits": {
+    "writers": [
+     "Phillip Kennedy Johnson"
+    ],
+    "artists": [
+     "Montos"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-war-journal-war-journal-the-builder",
+   "name": "War Journal: The Builder",
+   "era": "dawn-of-dc",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "SOLO",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2024",
+   "blurb": "Collected in Green Lantern: War Journal: The Builder (2025).",
+   "credits": {
+    "writers": [
+     "Phillip Kennedy Johnson"
+    ],
+    "artists": [
+     "Montos"
+    ]
+   }
+  },
+  {
+   "id": "knight-terrors-green-lantern-back-in-action",
+   "name": "Back in Action",
+   "era": "dawn-of-dc",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MINI",
+   "mo": "O",
+   "tier": "Everything",
+   "importance": 1,
+   "year": "2023",
+   "blurb": "Collected in Green Lantern: Back in Action (2024).",
+   "credits": {
+    "writers": [
+     "Jeremy Adams"
+    ],
+    "artists": [
+     "Eduardo Pansica",
+     "Jordi Tarragona",
+     "Julio Ferreira"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-back-in-action",
+   "name": "Back in Action",
+   "era": "dawn-of-dc",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2023",
+   "blurb": "Collected in Green Lantern: Back in Action (2024).",
+   "credits": {
+    "writers": [
+     "Jeremy Adams"
+    ],
+    "artists": [
+     "Xermanico"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-love-and-war",
+   "name": "Love and War",
+   "era": "dawn-of-dc",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2024",
+   "blurb": "Collected in Green Lantern: Love and War (2025).",
+   "credits": {
+    "writers": [
+     "Jeremy Adams"
+    ],
+    "artists": [
+     "Xermanico",
+     "Amancay Nahuelpan"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-power-of-will",
+   "name": "Power of Will",
+   "era": "dawn-of-dc",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2024",
+   "blurb": "Collected in Green Lantern: Power of Will (2025).",
+   "credits": {
+    "writers": [
+     "Jeremy Adams"
+    ],
+    "artists": [
+     "Fernando Pasarin"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-civil-corps",
+   "name": "Civil Corps",
+   "era": "dawn-of-dc",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2024",
+   "blurb": "Collected in Green Lantern: Civil Corps (2025).",
+   "credits": {
+    "writers": [
+     "Jeremy Adams"
+    ],
+    "artists": [
+     "Xermanico"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-loose-threads",
+   "name": "Loose Threads",
+   "era": "dawn-of-dc",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2025",
+   "credits": {
+    "writers": [
+     "Jeremy Adams"
+    ],
+    "artists": [
+     "Fernando Pasarin",
+     "Oclair Albert",
+     "Jason Paz"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-the-life-and-death-of-erastus-the-blacksmith",
+   "name": "The Life and Death of Erastus the Blacksmith",
+   "era": "dawn-of-dc",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2025",
+   "credits": {
+    "writers": [
+     "Jeremy Adams"
+    ],
+    "artists": [
+     "Jack Herbert"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-mind-games",
+   "name": "Mind Games",
+   "era": "dawn-of-dc",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2025",
+   "credits": {
+    "writers": [
+     "Jeremy Adams"
+    ],
+    "artists": [
+     "Jack Herbert"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-highway-to-hell",
+   "name": "Highway to Hell",
+   "era": "dawn-of-dc",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2025",
+   "credits": {
+    "writers": [
+     "Jeremy Adams"
+    ],
+    "artists": [
+     "Xermanico"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-hellbound",
+   "name": "Hellbound",
+   "era": "dawn-of-dc",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2025",
+   "credits": {
+    "writers": [
+     "Jeremy Adams"
+    ],
+    "artists": [
+     "Xermanico"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-because-i-m-happy",
+   "name": "Because I'm Happy",
+   "era": "dawn-of-dc",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2025",
+   "credits": {
+    "writers": [
+     "Jeremy Adams"
+    ],
+    "artists": [
+     "Xermanico"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-with-this-ring",
+   "name": "With This Ring",
+   "era": "dawn-of-dc",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2025",
+   "blurb": "Collected in Green Lantern: With This Ring (2026).",
+   "credits": {
+    "writers": [
+     "Jeremy Adams"
+    ],
+    "artists": [
+     "Carmine Di Giandomenico",
+     "Montos",
+     "V. Ken Marion",
+     "Xermanico"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-a-star-is-born",
+   "name": "A Star Is Born",
+   "era": "dawn-of-dc",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2026",
+   "credits": {
+    "writers": [
+     "Jeremy Adams"
+    ],
+    "artists": [
+     "Montos",
+     "Ig Guara"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-filler-episode",
+   "name": "Filler Episode",
+   "era": "dawn-of-dc",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2026",
+   "credits": {
+    "writers": [
+     "Jeremy Adams"
+    ],
+    "artists": [
+     "Montos",
+     "Ig Guara"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-second-chance",
+   "name": "Second Chance",
+   "era": "dawn-of-dc",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2026",
+   "credits": {
+    "writers": [
+     "Jeremy Adams"
+    ],
+    "artists": [
+     "Montos",
+     "Ig Guara"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-don-t-feed-the-trolls",
+   "name": "Don't Feed the Trolls",
+   "era": "dawn-of-dc",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2026",
+   "credits": {
+    "writers": [
+     "Jeremy Adams"
+    ],
+    "artists": [
+     "Montos",
+     "Ig Guara"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-food-fight",
+   "name": "Food Fight",
+   "era": "dawn-of-dc",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2026",
+   "credits": {
+    "writers": [
+     "Jeremy Adams"
+    ],
+    "artists": [
+     "Xermanico",
+     "Szymon Kudranski",
+     "Adriana Melo"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-civil-corps-special-civil-corps",
+   "name": "Civil Corps",
+   "era": "dawn-of-dc",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MINI",
+   "mo": "O",
+   "tier": "Everything",
+   "importance": 2,
+   "year": "2024",
+   "blurb": "Collected in Green Lantern: Civil Corps (2025).",
+   "credits": {
+    "writers": [
+     "Jeremy Adams",
+     "Phillip Kennedy Johnson"
+    ],
+    "artists": [
+     "Salvador Larroca"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-fractured-spectrum-civil-corps",
+   "name": "Civil Corps",
+   "era": "dawn-of-dc",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MINI",
+   "mo": "O",
+   "tier": "Everything",
+   "importance": 2,
+   "year": "2025",
+   "blurb": "Collected in Green Lantern: Civil Corps (2025).",
+   "credits": {
+    "writers": [
+     "Jeremy Adams"
+    ],
+    "artists": [
+     "V. Ken Marion"
+    ]
+   }
+  },
+  {
+   "id": "green-lantern-green-arrow-world-s-finest-special-livin-free",
+   "name": "Livin' Free",
+   "era": "dawn-of-dc",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MINI",
+   "mo": "O",
+   "tier": "Everything",
+   "importance": 2,
+   "year": "2025",
+   "credits": {
+    "writers": [
+     "Jeremy Adams"
+    ],
+    "artists": [
+     "Lucas Meyer"
+    ]
+   }
+  },
+  {
+   "id": "dc-k-o-green-lantern-galactic-slam-green-lantern-galactic-sl",
+   "name": "Green Lantern Galactic Slam",
+   "era": "dawn-of-dc",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MINI",
+   "mo": "O",
+   "tier": "Everything",
+   "importance": 1,
+   "year": "2026",
+   "credits": {
+    "writers": [
+     "Jeremy Adams"
+    ],
+    "artists": [
+     "Cian Tormey",
+     "Pat Boutin"
+    ]
+   }
+  },
+  {
+   "id": "tales-of-the-green-lantern-corps-guy-gardner-light-club",
+   "name": "Light Club",
+   "era": "dawn-of-dc",
+   "strands": [
+    "Green Lantern"
+   ],
+   "type": "MINI",
+   "mo": "O",
+   "tier": "Everything",
+   "importance": 2,
+   "year": "2026",
+   "credits": {
+    "writers": [
+     "Gerry Duggan"
+    ],
+    "artists": [
+     "Matteo Lolli",
+     "Laura Braga",
+     "Vasco Georgiev"
+    ]
+   }
+  },
+  {
+   "id": "rage-of-the-red-lanterns",
+   "name": "Rage of the Red Lanterns",
+   "era": "secret-origin",
+   "strands": [
+    "Red Lanterns",
+    "Green Lantern"
+   ],
+   "type": "SPIN-OFF",
+   "mo": "O",
+   "tier": "Everything",
+   "importance": 4,
+   "year": "2008",
+   "blurb": "Collected in Green Lantern: Rage of the Red Lanterns (2009).",
+   "credits": {
+    "writers": [
+     "Geoff Johns"
+    ],
+    "artists": [
+     "Ivan Reis",
+     "Shane Davis"
+    ]
+   }
+  },
+  {
+   "id": "starbreaker-supremacy",
+   "name": "Starbreaker Supremacy",
+   "era": "dawn-of-dc",
+   "strands": [
+    "Green Lantern",
+    "Corps"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2025",
+   "credits": {
+    "writers": [
+     "Jeremy Adams",
+     "Morgan Hampton"
+    ],
+    "artists": [
+     "Fernando Pasarin",
+     "Xermanico",
+     "V. Ken Marion"
+    ]
+   }
+  },
+  {
+   "id": "first-light",
+   "name": "First Light",
+   "era": "dawn-of-dc",
+   "strands": [
+    "Green Lantern",
+    "Corps"
+   ],
+   "type": "MAIN",
+   "mo": "M",
+   "tier": "Essential",
+   "importance": 3,
+   "year": "2026",
+   "credits": {
+    "writers": [
+     "Jeremy Adams",
+     "Morgan Hampton"
+    ],
+    "artists": [
+     "Scott Godlewski",
+     "Vasco Georgiev",
+     "Fernando Pasarin",
+     "Serg Acuña",
+     "Juan José Ryp",
+     "Szymon Kudranski"
+    ]
+   }
+  }
+ ],
+ "sources": [
+  "data/eras/5000-rebirth.json",
+  "data/eras/5010-sinestro-corps-war.json",
+  "data/eras/5020-secret-origin.json",
+  "data/eras/5030-blackest-night.json",
+  "data/eras/5040-brightest-day.json",
+  "data/eras/5050-war-of-the-green-lanterns.json",
+  "data/eras/5060-new-52.json",
+  "data/eras/5070-lights-out.json",
+  "data/eras/5080-renegade.json",
+  "data/eras/5090-rebirth-2016.json",
+  "data/eras/5100-the-green-lantern.json",
+  "data/eras/5110-infinite-frontier.json",
+  "data/eras/5120-dawn-of-dc.json"
+ ],
+ "legend": [
+  {
+   "term": "Absolute Green Lantern",
+   "meaning": "in the Absolute tracker (asimkard.github.io/Absolute/), not here"
+  }
+ ],
+ "maintenance": [
+  "Stage 2 (Green Lantern #1): the core spine, sub-era by sub-era. Each sub-era's rows are committed after John approves its report. Rows come from Research-Repo sessions/2026-11-14-green-lantern/ (stage2.py)."
+ ]
+}

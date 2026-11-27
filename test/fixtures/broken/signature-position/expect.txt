@@ -1,0 +1,1 @@
+refused — only a ::before or ::after decoration may have position

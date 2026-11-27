@@ -1,0 +1,481 @@
+# CLAUDE.md — read this before touching anything
+
+This is the **Green Lantern** tracker, built on Pull-List-template v3 (copied at template
+`f7ae723`; template T0 at `9aac63d`; T1 + T2 at `b9a0128`; T7 at `d5c1585`; T6 at `e21c338`). Where the work stands and where the next step begins: `PROGRESS.md`. The approved
+plan: `PLAN.md`.
+
+## Repo rules (read first, every session)
+
+### What may change
+- **Green-Lantern** (this repo): John approved building it. Work goes on the session's branch and
+  reaches `main` only through a pull request John merges.
+- **Research-Repo is add-only:** one folder, `sessions/2026-11-14-green-lantern/` for Green Lantern #1;
+  each later session writes only inside its own new `sessions/<yyyy-mm-dd>-<label>/` folder. Never
+  remove, rename or change anything outside it, `toolkit/` included. `toolkit/sources.py` hard-codes
+  `../cache`; point its `CACHE_DIR` at the session folder at run time, never edit the toolkit.
+- **Master-Repo:** only the session's own `log/` and `archive/code/` files, once John approves it for
+  the session ("Master-Repo log and archive", below).
+- **Pull-List-template is read-only** unless John approves a named template change (T1, T3, T5 in
+  `PLAN.md`): each goes through the template's own branch and a pull request John merges, and this
+  repo then copies the changed files and records the template commit in `PROGRESS.md`.
+- **Absolute and every other repo are read-only:** read them from local copies (clone or pull
+  only); never commit, push, create branches or open pull requests on them.
+
+### Standing rule from John
+**Never edit any repo without John's explicit say-so,** given per piece of work. Before the first
+edit to any repo not approved above, **stop and tell John**, and wait for his say-so. (Full text:
+Master-Repo `starter/STANDARDS.md`, "Repo safety".)
+
+### Green Lantern's own rules
+- **Every date is fetched from the DC Database API and cited, never recalled:**
+  `date: {cover, onsale (only when the page states it), source: "DC Database, \"<page>\" (rev N, fetched <date>)"}`.
+- **Each stage ends with a change report John approves before its rows are committed.**
+- **Absolute Green Lantern stays out.** It is in the Absolute tracker; a gap note points there.
+- **Verify current status at build time:** the GL ongoings, any Lanterns comic, Tales of the Green
+  Lantern Corps, anything announced.
+- **Check the reading order issue by issue before any report goes to John** (John, 15 Nov; standing rule
+  for every stage):
+  - **Every issue in its final position,** read back from `tools/build.py`'s output (never from the draft),
+    with its cover date, its on-sale date where the page states one, and its source revision.
+  - **Completeness:** for every volume in the stage, every number from first to last (#0s, annuals,
+    specials and one-shots included), or listed as left out with the reason. No duplicates.
+  - **Numbering:** within a series, numbers ascend in reading order. Each exception is listed with its reason.
+  - **Within a cover month:**
+    - order by stated on-sale date: the DC Database's, else the Grand Comics Database's (a second source
+      for ordering only; the DC Database stays the date of record);
+    - crossovers keep the event's published chapter order, checked against two sources;
+    - anything the sources don't settle goes to John as a question. Never pick silently.
+  - **A second, independent pass** (`verify_order.py` in the research folder) rebuilds the order from the
+    cached pages alone and must match: report issues checked and mismatches (0).
+- **Only true Elseworlds leave the spine** (John, 15 Nov): a series the DC Database files under Publisher
+  "Elseworlds", with its own reality, goes to the Elseworlds stage. Event timelines and futures stay.
+- **Placement notes settle same-month order** (John, 18 Nov). A DC Database page's own "takes place
+  between/after/before" note orders two issues in the same cover month, cited with page and revision like a
+  date. Hedged notes ("likely", "seems") are skipped. Check every unsettled pair against these notes before
+  asking John; ask only what's left.
+- **Two orders: release order and story order** (John, 18 Nov).
+  - The reading order is the story order; Publication order is the release order.
+  - Within a month, a placement note beats an on-sale date in the reading order: list every such override.
+  - Across months it needs template change **T6** (a row placed after or before another issue by a cited note,
+    keeping its true date; Publication order ignores it). T6 is in, at template `e21c338` (27 Nov): each stage applies
+    the cross-month notes whose issues it holds as `place`, and lists the rest in its report, from a scan of every page.
+  - A placement that would put an issue before a lower number of its own series isn't applied, but listed for John.
+- **Story links need evidence; collections give an event's chapter order** (John, 19 Nov). Settle what the
+  sources can before asking John, and build the method into the code:
+  - Two issues' stories link only through a placement note, shared part numbering or story title, one page's
+    synopsis or notes linking to the other issue, or an interleaved collection holding both. Sharing an event
+    page alone isn't a link: such a same-day pair keeps the provisional order (John's Group A answer).
+  - When an event page lists series by series, interleaved collections are the published chapter order. Use
+    every collection named in the issues' "reprinted in" notes, and fetch any not cached. A collection counts
+    only if it interleaves series (A, B, A). Two that agree settle a pair, cited; one alone sets the provisional
+    order and is shown in the question; any disagreement is a question.
+  - For a pair still open, show John the end of the earlier issue's synopsis and the start of the later one's.
+- **The reading step** (John, 20 Nov). Links in the pages can't show when one story picks up from another, so
+  for every same-day pair on the same event page, read the end of one issue's synopsis and the start of the
+  other's, and decide whether one picks up from the other. This is done by reading, not by a pattern.
+  - Record each verdict with the quoted lines in a file the order reads (`readings.json` in the research
+    folder), and list them in the report so they can be checked.
+  - "Picks up" orders the pair; "no link" leaves it to John's Group A rule.
+- **Stage 2's sub-eras commit on a clean report** (John, 26 Nov).
+  - Work through the sub-eras back to back. Commit each one, or up to three together with one full test run, as soon
+    as its order equals stage 1's, the independent pass is 0 mismatches and it has no questions. Don't wait for John.
+  - Every sub-era report carries three checks, each sub-era in its own section:
+    - rows against their saved pages (revision, cover month, writer, artist);
+    - every collection holding two or more of its issues, with each difference and its reason (plain-text "#41"-style
+      entries counted);
+    - every presence tag where a marker decided the grade, with the line that decided it.
+  - Save questions up and ask them together in one form once there are four, or at the end of stage 2, whichever comes
+    first. Each says which sub-era it's from.
+  - Still ask about every template PR.
+  - Stop before the go-live PR, so all of stage 2 can be checked in one pass.
+- **Presence comes only from main-world or event-timeline links** (John, 23 and 26 Nov). A presence tag comes from a
+  line whose link names New Earth, Prime Earth or an event's own timeline (Flashpoint, Futures End, Future State), or
+  reaches one by the DC Database's redirect. A disambiguation page or another world's counterpart is listed, never
+  counted. The research's `stage2.py` checks every tag on every row built.
+
+### Migrations go in place (John, 23 Oct)
+Every migration goes in place, on the tracker's own repo, the way Absolute did (v8,
+8 Oct). This replaces the fresh repo and the cut-over swap. It covers Archie Sonic,
+IDW Sonic, Spider-Man, Dark Nights and X-Men's fixes. Because the tracker's `main` is live:
+1. **John tags the current `main` `vN-final` first:** the one-step rollback. A session
+   can't push tags or `main`, so John makes the tag. Before the first change, confirm the
+   tag exists and points at `main`; if it doesn't, stop and tell him.
+2. **The work reaches `main` only through a branch and a pull request John merges.**
+3. **Before the merge, it all passes on the tracker's own data:** the harness, the layout
+   suite, the verify gate, and the in-place upgrade proof in real Chromium. Load the old
+   version, mark issues, add a bookmark and a review, and pick a skin. Then serve the new
+   version over it at the same address and reload. It must open as the new version with
+   everything intact, and the old service worker and its cache must hand over cleanly.
+4. **After the merge, every file is verified live by hash.** A migration's first deploy
+   replaces everything (fonts, icons, manifest and `qrcode.js` included) and removes the
+   old tracker's own files.
+
+Saved progress carries over: the address and the origin stay the same, and v3 reads the
+old keys through `franchise.storage.legacy` and never writes them, so reverting `main` to
+its `vN-final` tag restores the old version as it was. Absolute's rollback tags are
+`v7-final` (`7304f82`), `v8-final` (`36fd088`) and `v9-final` (`27dca56`).
+
+### Master-Repo log and archive (John, 13 Nov)
+Every Pull List session keeps Master-Repo up to date as it goes, without being asked:
+a running log of what it did, and a word-for-word archive of the session.
+- **Name.** The session's name is its title, for example "Green Lantern #1" or "Archie
+  Sonic Code #2". Its file name is that name in lower case, with spaces and `#` as
+  dashes: `green-lantern-1`. If the title isn't a name like that, ask John for it.
+- **Ask once, at the start.** Before the first update, ask John, with a question form,
+  to approve adding to Master-Repo's `log/` and `archive/code/` for this session. Without
+  that approval, never touch Master-Repo. Any other Master-Repo file still needs its own
+  say-so.
+- **When.** After every commit you push to the session's own repo, at least every three
+  of John's messages, and before you stop.
+- **What.**
+  1. `log/<file name>.md`: append an entry. Give the date and time (UTC), what changed
+     (commits and PRs, with their short hashes), each decision John made (dated, in his
+     words where they're short), and what's next. Never rewrite earlier entries. The
+     first entry also names the repos the session works on.
+  2. `archive/code/<file name>.md`: rebuild it from the session's own transcript, in
+     the format Master-Repo's `archive/INDEX.md` describes. Do it entirely in a script
+     that writes the file. Never print transcript text in a reply or tool output; report
+     only counts and checks (messages missing = 0, tokens remaining = 0). Remove GitHub
+     tokens and claude.ai export links. If a safety check stops this step, keep the log
+     going, tell John, and don't retry the archive.
+- **How.** Push to your session's own branch in Master-Repo, started from the latest
+  `main`. Keep one pull request open for it, opened with GitHub's REST API. If that pull
+  request has been merged, start the branch again from the new `main` and open a new one.
+  Master-Repo merges a pull request automatically when it only adds or changes files in
+  `log/` and `archive/` (never `archive/INDEX.md`); anything else waits for John.
+- **Check merges with GitHub's public API.** The git proxy and the GitHub tool have
+  shown a merged `main` as unmerged for hours.
+- **Never edit `archive/INDEX.md`.** The next Master-Repo update indexes new files.
+
+### Working method
+- Each session works on its own branch and pushes it. John reviews and merges.
+  Do not open a pull request unless John asks.
+- Commit everything — sessions start from a fresh container.
+- Run `node test/run.js` after every change and report the **assertion count**.
+- Update `PROGRESS.md` at the end of every step.
+- Ask design questions as short multiple-choice options; locked decisions are
+  never reopened. Percentage-only progress updates.
+- **Stop cleanly (John, permanent).**
+  - Every step ends **committed, pushed and green**: the harness, the layout suite and CI.
+  - Never start a step that can't be finished.
+  - If a session runs long, stop at the end of a completed step and write in `PROGRESS.md`
+    exactly where the next step begins: the first file, the first test, and any half-made
+    decisions. Then push and tell John.
+  - A script that commits must stop unless both test runs came back clean. Session 4 pushed a
+    commit while a crash was still unexplained, because its script committed anyway.
+- The spec is Master-Repo `starter/specs/in-progress/Green-Lantern-Tracker-Spec.md` (locked), with
+  `starter/standards/essential-complete-event-standard.md`. Suite rules are `starter/STANDARDS.md`;
+  the template is v3. Where the spec predates them, STANDARDS and the template win; where they
+  disagree with this file, ask.
+
+## Repo map
+| Path | What it is |
+|---|---|
+| `dataset.json`, `data/eras/*.json` | the franchise's data — **the master**. Edit these. |
+| `events/*.json` | canonical shared event definitions (master copy lives here) |
+| `data.js`, `sw.js` cache name, version, `workbook.xlsx`, the `?v=` stamps in `index.html` | **generated** by `tools/build.py` — never hand-edit |
+| `schema/*.json` | JSON Schema for the data files; the harness validates fixtures against it |
+| `tools/build.py` | stitch + derive keys + validate + emit `data.js` (stdlib only) |
+| `tools/build_workbook.py` | the workbook writer (stdlib; off per tracker with `deliverables.workbook: false`) |
+| `tools/verify_gate.py`, `tools/verify.py`, `tools/verify.lock` | the verify gate; `verify.py` is Research-Repo's, pinned byte for byte — never edit it here |
+| `tools/version_tag.py`, `.github/workflows/version-tag.yml` | version tags: a merge into `main` that changes the readable version is tagged `vN` (John, 12 Oct); never moves or touches an existing tag |
+| `README.md`, `BUILD-NOTES.md`, `MIGRATING.md`, `.claude/skills/comic-tracker-build/` | start a tracker; conventions; migrating; the Skill. `25-docs` checks every path and command they name |
+| `test/layout/` | real-Chromium suites (`npm run test:layout`): overflow sweep, motion, fonts, the rule finder, contrast, Pull vs X-Men (`ref/`), the v9 frame's guard (47-frame-v9). Same runner; CI runs it |
+| `test/run.js` | the harness; `test/suites/*.test.js`; `test/fixtures/` (`basic`, `no-periods`, `mixed` formats, `minimal` (comics only, one era, no extras), `pull-ref` (the X-Men comparison's data), `sig-v9` (the v9 frame's guard), `broken/*`, `gate/*`); `test/lib/colour.js`, the tests' own copy of the colour maths (OKLCH, the sRGB gamut, contrast) |
+| `FEATURE-INVENTORY.md` | the template's parity checklist; this tracker dropped its copy at stage 2 (21 Nov), as planned (`25-docs` allows that once the key isn't `starter`) |
+
+## Data rules (v3)
+- **`id` is the progress key and never changes.** Migrated trackers keep their old
+  sort key as `id`; new trackers default `id` to `issueId`. Removing an id
+  orphans someone's saved progress: the build fails unless it is listed in
+  `retiredIds`.
+- **`issueId` is the cross-tracker identity**: `<series>-<volume-start-year>[-<token>…]`,
+  lowercase kebab, e.g. `justice-league-2016-32`, `x-men-1963-annual-1`,
+  `…-half`, `…-minus-1`, `…-1-5`, `sonic-frontiers-2022`, `sonic-prime-2022-s1e3`.
+  Event chapters reference it; the merge dedupes on it.
+- **Sort keys are derived, never hand-written**: `RRRR·YYYYMM·NNN` (13 digits).
+  Era ranks start at 5000, spaced 10 — add an earlier era with a lower rank,
+  never renumber. `NNN` is assigned by the build within each era+month; `seq` is
+  only a hint. `altKey` is pure publication order (no era rank).
+- **Dates are sourced individually** (`date: {cover, onsale?, source}`). Never
+  interpolate, never write series data from memory.
+- **Two orders (T6; John, 18 and 20 Nov).** The reading order is the story order; Publication
+  order is the release order. A row's `place: {after|before, source}` moves it next to another
+  issue in the reading order by a cited note, keeping its date; it must be in its target's era.
+  Publication order sorts a cover month by `date.onsale`, else a cited `date.order`, blanks last,
+  and ignores `place` and `seq`. `BUILD-NOTES.md`, "Two orders".
+- **Events state their era** in `dataset.json` (`events: [{id, era}]`); chapters
+  the tracker doesn't have are placed inside that era by date then event order.
+- **An era's own colour** (`eras[].colour`, `#RRGGBB`, optional) is drawn exactly
+  as given in Pull (John, 12 Oct), and ignored by every other skin. The build warns,
+  never fails, when white text on it is under 4.5:1.
+- **Credits**: full canonical names, never surnames alone. Missing credits warn
+  (coverage %), and fail only under `strictCredits`.
+- **Durations (per format), whole minutes.**
+  - **Comics:** every comic counts as one issue, timed by the minutes-per-issue setting.
+    A comic `duration` or `durations.comic` fails the build.
+  - **Shows:** `durations: {screen: 22}` gives the default, and a row's `duration` overrides it.
+  - **Games:** each game needs its own `duration`. A missing one warns (coverage %), adds
+    nothing to time left, and shows as "+N untimed".
+  - **Finish-by** = minutes left ÷ (issues per week × minutes per issue).
+- **Read fields by name, never by position.** v2's generator read columns by
+  index and a missing column shifted every downstream field into garbage.
+- **`dataVersion` ties a compact QR code to one list.** It hashes the ids in row
+  order, and the compact QR stores marks by position. Any change to the ids or
+  their order changes it, which by design invalidates old QR codes. The full
+  code and the backup file are keyed on id and survive. Old v2 codes are decoded
+  in v2's key order, rebuilt from legacy ids **plus `retiredIds`**: keep retired
+  ids listed, or every later position shifts.
+
+## UI rules (v3)
+- **Two frames (John, 25 Oct).** The shared skins use the x frame, the X-Men
+  tracker's arrangement. A signature skin may keep the v9 frame (`"frame": "v9"`),
+  the template's arrangement as it was up to v9, exactly; Absolute's own skin
+  does. Scope every x-only rule to `:root[data-frame="x"]` and split a render path
+  only where the structure differs; `test/layout/47-frame-v9` fails on any change
+  to the v9 frame. Within a frame, a skin never moves a control.
+- **Data-driven visibility: a rule, not a one-off (decided 4 Oct).** A control or
+  section renders only when the dataset gives it something to do. The data
+  decides this, never a setting or a skin; skins never hide a control.
+  - **One medium:** no per-format header lines, no format filter, no progress-mode
+    setting, no duration copy and no "+N untimed". Verbs are that medium's own; for
+    comics that is plain "Read".
+  - **The rest:**
+    - no Characters section without presence data or two or more strands;
+    - no Creators section without credits;
+    - no Essential/Complete toggle without events;
+    - no ALT toggle without ALT rows;
+    - no order switch without a second order;
+    - no bands without periods;
+    - no era jump bar with only one era.
+  - **Extended (accepted 4 Oct).** Each control needs:
+    - depth, type and strand chips: two or more in use;
+    - "Including cameos": cameo data; "Lead": both major and minor grades in use (T2);
+    - the per-character core hint: `coreFor` data (T1);
+    - "Mandatory only": both mandatory and optional rows;
+    - "Notes only" and tap to reveal: notes;
+    - "Gap notes": a gap note;
+    - the era filter, era picker, Mark range, "Newest era first" and era colours: two eras;
+    - the look-up link: `searchUrl`;
+    - the skin control: two or more configured skins;
+    - help copy that names bands: periods.
+
+    "+N untimed" follows the data: comics never lack a length, so a comics-only tracker never
+    shows it. A saved filter for a control that isn't offered is ignored.
+  - **How:** one capability map, built once at boot from the data, decides every
+    case. A missing capability means the control is **not rendered**; don't hide it
+    with CSS. That keeps the reachability guard and the visibility tests in
+    agreement.
+  - **Every new control** is added through that map, and it gets a row in the
+    visibility suite.
+    - The suite boots a bare fixture (comics only, one era, no extras), where none
+      of these controls appear, and the full fixture, where all of them do.
+    - A self-test forces each capability on in turn and must catch it.
+
+---
+
+## Traps carried over from v2 (each one cost real time)
+
+Tag key: **[applies]** still true in v3 · **[superseded §N]** the v3 spec section
+that removes the cause — keep the lesson anyway.
+
+### Duplicate function names — [applies]
+JavaScript keeps the **last** definition and silently discards earlier ones. v2
+shipped `switchTab` twice, `jumpToIssue` three times, `issueByKey` twice: you
+patch the copy that never runs. The harness fails if any function is defined
+twice (found by brace-depth scan, never by a newline-brace string). Fix that
+first if it fires.
+
+### jsdom has no layout engine — [applies]
+The harness can't see overlap, gaps, sticky positioning, size or truncation.
+Three layout "fixes" shipped without changing anything visible because they
+were reasoned about, not measured. Use real Chromium (Playwright,
+`executablePath: '/opt/pw-browsers/chromium'` in cloud sessions) for anything
+visual. If no browser is available, say so rather than guessing.
+Session 3: the fourth tab pushed the page wider than 390 px, and at 320 px it was
+cut off inside the tab bar. Both were invisible to jsdom. Sweep every tab at
+320 px and check `scrollWidth`. `test/layout/10-sweep` does this on every push.
+Session 4: reduced motion had never worked. A `* { transition: none }` rule has no
+specificity, so every class rule that declares a transition beat it, and a test of the
+CSS text "passed". Every duration now scales with `--motion`, and `test/layout/20-motion`
+measures it.
+After session 4 (John's phone): a depth chip was cut off inside its own scrolling row,
+and Settings rows split their buttons. The page never got wider, so the sweep passed. "No
+page overflow" is not "it fits": `10-sweep` now checks every control against every box
+that clips it.
+
+### CI draws text with full hinting — [applies]
+GitHub's Ubuntu runner hints text fully by default, which rounds every glyph to whole
+pixels. A text-sized box measured in a session moved by 1 or 2 px in CI (47-frame-v9,
+28 Oct). `test/layout/lib.js` launches Chromium without hinting on every machine, so
+measure anything exact through it, never through a browser of your own. Symbols the
+vendored fonts lack (★ ✎ ↗ ✓) come from each machine's own fonts; anything measured to
+the pixel draws them from one face (`test/layout/ref/frame-map.js`).
+
+### grep can't see multi-line CSS selectors — [applies]
+A grouped rule spanning lines won't match `grep '\.tabs.*{'`. Ask the browser:
+iterate `document.styleSheets` and test `el.matches(rule.selectorText)`.
+`cssRules` throws on `file://` — serve over `http://localhost`.
+
+### position:sticky vs position:relative — [applies]
+`top:` means "stick here" on sticky and "shift down" on relative. One skin
+declaration of `position:relative` turned every sticky offset into a
+displacement: a phantom gap, an overlap and floating text.
+
+### content-visibility — [superseded §1, resolved session 4]
+v2 removed `content-visibility:auto` + `contain-intrinsic-size`: blank unpainted
+rows on iOS, mis-positioned scroll-to-row, wrong estimates. Spec §1 says keep
+the performance guard. **Closed (John, 4 Oct):** v3 lands
+collapsed and renders an era's rows only when it is first expanded (90-render:
+5,000 rows render none at landing). The guard is unnecessary, and the iOS bugs
+can't occur. Don't add `content-visibility`.
+
+### Two stores for one setting — [superseded §2 by design; lesson applies]
+v2 split settings between `state.settings` and `view`; a control that wrote one
+while `applyView()` read the other appeared to work, then snapped back.
+v3 has **one** settings store. Write to the store the reader uses.
+
+### Writes are debounced 400 ms — [applies]
+A change made just before close never reaches storage unless flushed. Flush on
+`pagehide` and `visibilitychange` (hidden). When testing persistence, **wait for
+the debounce** — reading 30 ms early looks exactly like a broken save and has
+produced two false bug reports.
+In a real browser, seed storage with `addInitScript` **before** load. If you write
+localStorage while the page is open and then reload, the `pagehide` flush correctly
+saves the app's in-memory state over what you wrote, which looks like the app
+ignoring your seed.
+
+### One guard word is also a CSS keyword — [applies]
+The franchise-string guard matches "absolute" (the Absolute line), and CSS
+needs `position: absolute`. The guard exempts that one declaration, with a
+self-test that "Absolute Batman" is still caught. If a guard fires on
+legitimate code, narrow it with a self-test. Never rename real code to dodge
+it, and never weaken it wholesale.
+
+### Maps compared as JSON depend on key order — [applies]
+`t.eq` compares `JSON.stringify` output, and decoders return maps in row order.
+Compare canonicalised (keys sorted) when the order is not the point, or a
+correct round-trip reads as a failure.
+
+### One toast, one Undo — [applies]
+Bulk marks, Clear all, Replace and preset deletes each offer Undo on the
+toast. A newer toast replaces it, so only the latest action is undoable.
+Write tests (and expectations) one action at a time.
+
+### Colour lived in five places — [superseded §1: one token block]
+v2: base `:root`, seven `data-bg` swatches, the signature-skin palette, the
+`--eN-t/-a/-d` era ramp per scheme, and `.era[data-e=N]` rules that stopped at
+era 25 while the ramp went to 34 — rows past the lowest ceiling went unstyled.
+v3: one colour-token block; ramps generated, no cap (60+ eras), and a guard
+asserts exactly one token block. Era tints are pale washes, except in Pull, whose
+era boxes are solid with white text (John, 9 Oct; `BUILD-NOTES.md`, "Era colours").
+**Design dark skins against the surface.** The first dark skin had 39 of 54
+era colours failing WCAG AA (worst 1.35:1). Measure contrast; don't eyeball.
+**How v3 holds this (session 4):**
+- `:root` holds numeric inputs (hue, saturation, lightness per role) and derives
+  every colour from them. Skins, paper swatches and the other Look settings set
+  inputs only, in bare `:root[data-…]` blocks, and 80-guards rejects anything else.
+- Outside `:root` the only colours allowed are *derived* ones, where every component
+  is a token: an era's wash is `oklch(var(--era-tint-l) var(--era-tint-c) var(--era-h))`,
+  with `--era-h` computed from the era's index (`style="--ei:N"`, a token, not a
+  style). A literal component anywhere is caught.
+- `test/layout/40-look` measures contrast for every skin × paper and for 64 eras.
+  Its first run caught Night's control outlines at 2.95:1 on the warm and mint
+  papers: at the same HSL lightness, a yellowish hue is brighter.
+- **Session 7:** a text is measured as drawn (its alpha blended in), against what
+  is painted behind it. That is an opaque background, or Pull's folder tab, whose
+  colour is a background layer.
+  - A browser draws "85 %" at 8-bit alpha (217/255); the build blends the same.
+  - Chromium reports computed colours to 7 figures. At the very edge of the gamut that
+    rounding stepped outside it (by 3e-8): judge a colour by the pixels it draws, or keep a
+    step in hand.
+  - Pull's default era colours are the X-Men tracker's eleven, each nudged darker only as
+    far as it must to pass (John, 13 Oct; `BUILD-NOTES.md`, "Era colours").
+- Every control must be at least 24 × 24 px (WCAG 2.5.8). Creator names inside a
+  line of credits are the inline exception.
+
+### A control that saves a value nobody reads — [applies]
+v2's refresh reminder stored an interval for a whole build before anything used
+it. Add the setting and the code that acts on it in the same change, or not at all.
+
+### iOS specifics — [applies]
+- A home-screen app registers its **own** service worker; it must be opened once
+  **online** after install. Settings → Offline reports readiness.
+- iOS caches the home-screen icon at install; delete and re-add to change it.
+- `respondWith(undefined)` is a network error: an offline fallback that misses
+  its cache gives a blank page. Always end with a real `Response`.
+
+### Service worker — [applies]
+- Evaluate `sw.js`, don't just parse it: a temporal-dead-zone error passes
+  `node --check` and silently kills the worker. The harness runs it in a vm.
+- Network-first for the shell (`skipWaiting` + `clients.claim`), cache-first
+  only for fonts and icons. A cache-first shell makes correct fixes invisible.
+- `addAll` rejects the whole install on one 404 — every precached path must exist.
+- Playwright's `setOffline` doesn't reach the service worker's own fetches, so an
+  "offline" test can quietly pass through the server. Take the test server down
+  instead (`test/layout/lib.js` `down()`), as `test/layout/70-pwa` does.
+- Every tracker on one GitHub Pages site shares one cache storage. A worker
+  deletes only its own old caches (`<key>-v<N>`, `<key>-<12 hex>`). v2's deleted
+  everyone's.
+
+### GitHub Pages caches every file for 10 minutes — [applies]
+Pages sends `max-age=600`. The Absolute upgrade proofs (sessions 5 and 6) caught four
+consequences, and a test server that sends `no-store` had hidden all of them:
+- **A new worker can precache the old deploy.** `addAll` goes through the
+  browser's HTTP cache, so the worker stored v7's files under v8's cache name.
+  It now precaches with `cache: 'reload'` and fetches the shell with
+  `cache: 'no-cache'` (a 304 when nothing changed).
+- **A reload can mix two builds.** Within those minutes Chromium takes scripts
+  and styles from its memory cache, and the worker never sees the request. v8's
+  `app.js` met v7's `data.js` and crashed. `app.js` now checks the data's shape
+  and the stylesheet's `--skin-ok` before anything reads them. On a mismatch it
+  loads both again at `?r=<time>` and starts over, once; if they're still stale
+  it says so and never loops.
+- **A reload can show the whole old build** (the v8 → v9 proof, session 6). The
+  page was fresh, but Chromium reused v8's `app.js` and `data.js` from its memory
+  cache, and with the same data shape the check above can't tell. The build now
+  stamps `index.html`'s links to `styles.css`, `data.js` and `app.js` with its hash
+  (`?v=<build>`), so every build has new addresses. `70-pwa` measures one reload,
+  and the same reload without the stamps (it shows the old build). Offline, the
+  worker answers a stamped address from the copy it stored without one
+  (`ignoreSearch`). Never hand-edit a stamp: `--check` catches a stale one.
+- **From a v2 worker, the first reopen can still show the old build.** Within
+  those minutes v7's worker served its own page from the HTTP cache. The new
+  worker takes over behind it, and the next open is the new build. Nothing a new
+  worker does can reach that page; `WindowClient.navigate()` closes it in headless
+  Chromium, so it isn't used. A v3 worker checks the page with the server, so
+  from v8 on one reload shows the new build (the v8 → v9 proof, 28 of 28).
+
+Test with `serve(dir, { pages: true })` (`test/layout/lib.js`), which sends
+Pages' headers. `page.waitForFunction` doesn't wait for an async check: its
+promise counts as true at once. Use `poll()` from the same file.
+
+### Preloading isn't free — [applies]
+A preloaded font competes for bandwidth with the render-blocking stylesheet. On a
+1.6 Mbps link, preloading the display font cost about 100 ms of first paint, and
+landed it before that paint, so the title never swaps. Preloading the body font as
+well cost another 260 ms. Only the display font is preloaded; `test/layout/80-paint`
+measures it. Measure before adding a preload.
+
+### Cache name and build tag — [superseded: automatic in v3]
+v2 required bumping `CACHE` and the build tag together by hand. v3 derives the
+cache name from a content hash at build time, and the readable version ("v13")
+counts up by itself (session 5). Still: check the version on the phone before
+judging anything; Settings → About shows the hash.
+
+### A crashed harness looks like a pass — [applies]
+A crash mid-suite reports fewer passes, not a failure. `test/run.js` fails on
+any suite crash and on **zero assertions**; always report the count.
+
+### Test the real rendered DOM — [applies]
+Never synthetic elements. Boot the real `index.html` + generated `data.js`.
+
+## Before declaring anything done
+1. `python3 tools/build.py --check` — generated files are fresh.
+2. `node test/run.js` — 0 failures, and the **count** is what you expect.
+3. `npm run test:layout` — real Chromium: 0 failures and the count. Add a check there for anything visual.
+4. Manifest and icons franchised (they have shipped with placeholder name and
+   another franchise's artwork).
+5. Verify a deploy **by hash**, not HTTP 200; GitHub Pages takes ~100 s.
+6. First deploy uploads everything: `fonts/`, `icons/`, manifest, `qrcode.js`.
+7. Master-Repo's log and archive are up to date for this session ("Master-Repo log and archive", above).
