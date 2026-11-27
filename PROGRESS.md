@@ -1,8 +1,8 @@
 # Green Lantern — progress
 
-Built on Pull-List-template v3: copied at template `f7ae723`, then template T0 at `9aac63d` (15 Nov 2026), then T1 + T2 at `b9a0128` (21 Nov), then T7 at `d5c1585` (22 Nov). The approved plan is
-`PLAN.md`; the rules are `CLAUDE.md`. Sessions: Green Lantern #1 (14–21 Nov), its log in Master-Repo
-`log/green-lantern-1.md`.
+Built on Pull-List-template v3: copied at template `f7ae723`, then template T0 at `9aac63d` (15 Nov 2026), then T1 + T2 at `b9a0128` (21 Nov), then T7 at `d5c1585` (22 Nov), then T6 at `e21c338` (27 Nov). The approved plan is
+`PLAN.md`; the rules are `CLAUDE.md`. Sessions: Green Lantern #1 (14–26 Nov) and Green Lantern #2 (26 Nov on), their logs in Master-Repo
+`log/green-lantern-1.md` and `log/green-lantern-2.md`.
 
 ## Where it stands (21 Nov)
 - **Stage 0 (setup): done and pushed (15 Nov).**
@@ -226,22 +226,47 @@ Built on Pull-List-template v3: copied at template `f7ae723`, then template T0 a
    - **Stage 2 is complete: 13 sub-eras, 381 issues and one gap note** (21–26 Nov).
      - All 381 rows match their saved pages, and the presence check gives 1,026 tags, 0 failures.
      - `change-report-stage2.md` (Research-Repo) has every sub-era in its own section, for John's one-pass check.
-   - **Next step: T6** (John: after stage 2's sub-eras, merged before go-live v1). Design approved 20 Nov, with four recommendations (`t6-design.md`):
+   - **T6: done (Green Lantern #2, 26–27 Nov).**
+     - **The template PR:** ASIMKARD/Pull-List-template#15 (`6d05dd8`), merged by John on 27 Nov as `e21c338`.
+       - Harness 1844 and layout 490 in the template, 0 failed.
+       - 32 bugs put back, each caught.
+       - Five calls beyond the design, listed in the PR for John: a placed row must be in its target's era; gap notes keep their place in the release order; Table view leaves the line out; the order-date columns and the About copy; `date.order` beside `date.onsale` fails.
+     - **Copied in (27 Nov):** every code file T6 changed was first checked identical to template `d5c1585`, then taken as it is from `e21c338`:
+       - `app.js`, `styles.css`, `tools/build.py`, `tools/build_workbook.py`, `schema/dataset.schema.json`, `BUILD-NOTES.md`;
+       - the tests and fixtures, including the new `9n-placement` and 11 `broken/` cases.
+
+       `CLAUDE.md` takes the template's T6 data rule and records `e21c338`.
+     - **Applied (Research-Repo `sessions/2026-11-26-green-lantern-2/`: `t6_apply.py`, `t6-placements.json`):**
+       - **`date.order` on all 359 rows the DC Database leaves undated.** Each takes the ordering date stage 1 used: 358 from the GCD record (cited from the cached API response) and 1 from John's DC.com citation (the World's Finest Special). The 22 rows with a DC Database on-sale date keep it.
+       - **`place` on two rows:**
+         - Hal Jordan and the GLC: Rebirth #1, just before Green Lanterns: Rebirth #1 (John, 20 Nov);
+         - Green Lantern (2021) Annual #1, just before #5 (the note says between #2 and #5; T6's first choice puts it nearest its own date).
+       - Nothing else in the data changed (checked row by row).
+     - **Built v16 (`4958a2209566`).** `--check` is fresh, and the gate gives 0 failures and 0 warnings. Harness 1843 and layout 490, 0 failed.
+     - **`t6_check.py` → `t6-check.json`:** the order rebuilt from stage 1's approved order with the two placements equals the build, 381 of 381.
+       - Each placed row sits just before its target, in its era.
+       - Every issue has a release date.
+       - Publication order has 0 neighbouring pairs in one cover month against their release dates (3 before T6), with 12 rows moved.
+       - The Absolute gap note stays after Green Lantern (2023) #22 in both orders.
+       - On the build before T6 the check fails: the reading order, both placements, and 359 rows undated.
+     - **Wait for their stage:**
+       - Blackest Night #0, after Green Lantern (2005) #43 at stage 5, replacing its `sortDate`;
+       - Tales of the GLC: Guy Gardner #1, before Green Lantern Corps (2025) #13 at stage 3.
+     - **Listed, not applied:**
+       - Green Lanterns (2016) #14 and #50, which cross their own series;
+       - the hedged Green Lantern Corps (2025) #1–3 note.
+   - **T6's design** (approved 20 Nov), with four recommendations (`t6-design.md`):
      - "between A and B" lands nearest the row's own date;
      - the release date is `date.order` with a citation;
      - "before the epilogue of" places a row before the whole issue;
      - the "Placed after …" line shows.
 
-     Where it begins:
-     1. Pull-List-template branch `claude/awesome-brahmagupta-89pq1z` from `main` `d5c1585`.
-     2. `schema/dataset.schema.json` gains `rows[].place` and `date.order`; then `tools/build.py` (placement, validation, a release order for Publication order); then a new placement suite with its bug-back proofs.
-     3. A template PR pasted to John. After he merges it, this repo copies it in and applies the "waiting for T6" notes.
-   - **Then the pass before go-live:**
+   - **Next: the pass before go-live** (Green Lantern #2):
      - Check Green Lantern (2023) #41's page again and add it if it is complete (John, 26 Nov).
      - Check the current status again.
      - Stop before the go-live PR for John's one-pass check of all of stage 2.
        - **Fixed:** `stage2.py` lists a sub-era's volumes in reading order. Ordering them by first cover date left ties to Python's set order, which changes run to run.
-       - **Still to do, in sub-era 13:** Green Lantern: War Journal #1–2 have no credits in stage 1's draft. Check their pages before that report.
+       - **Done in sub-era 13:** Green Lantern: War Journal #1–2's credits were read from their pages (listed under an untitled story 2).
 
 ## Decisions (John)
 - **14 Nov, question forms:**
@@ -313,6 +338,15 @@ Built on Pull-List-template v3: copied at template `f7ae723`, then template T0 a
   - T6's design note approved, with the four recommendations.
   - A fix: Green Lantern (2005) #48 comes before Blackest Night #5 (wrongly given the Group A rule).
   - The reading step (`CLAUDE.md`, "Green Lantern's own rules").
+- **26 Nov (Green Lantern #2):**
+  - Question form: the Master-Repo log and archive for Green Lantern #2 are approved.
+  - The session's five steps:
+    1. T6 with his four choices, as a template PR with bug-back proofs, pasted to him before he merges;
+    2. after the merge, copy it in and apply the placements whose issues are in the tracker, plus the release order from the GCD dates. The rest wait for their stage; Green Lanterns #14 and #50 and the hedged Green Lantern Corps (2025) #1–3 note stay listed;
+    3. the pass before go-live (Green Lantern (2023) #41's page, the current status);
+    4. a Research-Repo PR for stage 2's work;
+    5. stop before the go-live PR and send its summary.
+- **27 Nov:** John merged T6, ASIMKARD/Pull-List-template#15, as `e21c338`.
 
 ## Decided, not yet built
 - **T3, cross-tracker progress for shared issues** (John, 14 Nov). It is built at stage 5, in its own template PR, which John approves first, like T1.
@@ -336,7 +370,7 @@ Built on Pull-List-template v3: copied at template `f7ae723`, then template T0 a
 |---|---|---|
 | 0 | Setup | done and pushed (15 Nov) |
 | 1 | Arc spine | approved (20 Nov); Research-Repo#6 merged (`a43c300`, 21 Nov) |
-| 2 | Core spine (goes live as v1) | **all 13 sub-eras committed (21–26 Nov)**; next T6, merged before go-live v1; then the pass before go-live; stop before the go-live PR |
+| 2 | Core spine (goes live as v1) | **all 13 sub-eras committed (21–26 Nov)**; T6 merged (`e21c338`) and applied (27 Nov); next the pass before go-live; stop before the go-live PR |
 | 3 | Green Lantern Corps and New Guardians | — |
 | 4 | Spectrum spin-offs | — |
 | 5 | Canonical events, with T3 | — |

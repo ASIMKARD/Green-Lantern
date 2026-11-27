@@ -11,7 +11,11 @@
    "arc": "green-lantern-back-in-action",
    "date": {
     "cover": "2023-07",
-    "source": "DC Database, \"Green Lantern Vol 7 1\" (rev 3866680, fetched 2026-11-15): cover date 2023-07"
+    "source": "DC Database, \"Green Lantern Vol 7 1\" (rev 3866680, fetched 2026-11-15): cover date 2023-07",
+    "order": {
+     "date": "2023-05-09",
+     "source": "Grand Comics Database, \"Green Lantern (2023 series) #1\" (https://www.comics.org/api/issue/2527756/?format=json, fetched 2026-11-16): on sale 2023-05-09"
+    }
    },
    "seq": 1,
    "credits": {
@@ -42,7 +46,11 @@
    "arc": "green-lantern-back-in-action",
    "date": {
     "cover": "2023-08",
-    "source": "DC Database, \"Green Lantern Vol 7 2\" (rev 3824742, fetched 2026-11-15): cover date 2023-08"
+    "source": "DC Database, \"Green Lantern Vol 7 2\" (rev 3824742, fetched 2026-11-15): cover date 2023-08",
+    "order": {
+     "date": "2023-06-13",
+     "source": "Grand Comics Database, \"Green Lantern (2023 series) #2\" (https://www.comics.org/api/issue/2544708/?format=json, fetched 2026-11-16): on sale 2023-06-13"
+    }
    },
    "seq": 1,
    "credits": {
@@ -73,7 +81,11 @@
    "arc": "knight-terrors-green-lantern-back-in-action",
    "date": {
     "cover": "2023-09",
-    "source": "DC Database, \"Knight Terrors: Green Lantern Vol 1 1\" (rev 3635484, fetched 2026-11-15): cover date 2023-09"
+    "source": "DC Database, \"Knight Terrors: Green Lantern Vol 1 1\" (rev 3635484, fetched 2026-11-15): cover date 2023-09",
+    "order": {
+     "date": "2023-07-11",
+     "source": "Grand Comics Database, \"Knight Terrors: Green Lantern (2023 series) #1\" (https://www.comics.org/api/issue/2553981/?format=json, fetched 2026-11-16): on sale 2023-07-11"
+    }
    },
    "seq": 1,
    "credits": {
@@ -100,7 +112,11 @@
    "arc": "knight-terrors-green-lantern-back-in-action",
    "date": {
     "cover": "2023-10",
-    "source": "DC Database, \"Knight Terrors: Green Lantern Vol 1 2\" (rev 3635485, fetched 2026-11-15): cover date 2023-10"
+    "source": "DC Database, \"Knight Terrors: Green Lantern Vol 1 2\" (rev 3635485, fetched 2026-11-15): cover date 2023-10",
+    "order": {
+     "date": "2023-08-08",
+     "source": "Grand Comics Database, \"Knight Terrors: Green Lantern (2023 series) #2\" (https://www.comics.org/api/issue/2560783/?format=json, fetched 2026-11-16): on sale 2023-08-08"
+    }
    },
    "seq": 1,
    "credits": {
@@ -129,7 +145,11 @@
    "arc": "green-lantern-back-in-action",
    "date": {
     "cover": "2023-11",
-    "source": "DC Database, \"Green Lantern Vol 7 3\" (rev 3872690, fetched 2026-11-15): cover date 2023-11"
+    "source": "DC Database, \"Green Lantern Vol 7 3\" (rev 3872690, fetched 2026-11-15): cover date 2023-11",
+    "order": {
+     "date": "2023-09-12",
+     "source": "Grand Comics Database, \"Green Lantern (2023 series) #3\" (https://www.comics.org/api/issue/2567304/?format=json, fetched 2026-11-16): on sale 2023-09-12"
+    }
    },
    "seq": 1,
    "credits": {
@@ -164,7 +184,11 @@
    "arc": "green-lantern-war-journal-war-journal-contagion",
    "date": {
     "cover": "2023-11",
-    "source": "DC Database, \"Green Lantern: War Journal Vol 1 1\" (rev 3857516, fetched 2026-11-15): cover date 2023-11"
+    "source": "DC Database, \"Green Lantern: War Journal Vol 1 1\" (rev 3857516, fetched 2026-11-15): cover date 2023-11",
+    "order": {
+     "date": "2023-09-19",
+     "source": "Grand Comics Database, \"Green Lantern: War Journal (2023 series) #1 [Taj Tenfold Cover]\" (https://www.comics.org/api/issue/2568310/?format=json, fetched 2026-11-16): on sale 2023-09-19"
+    }
    },
    "seq": 2,
    "credits": {
@@ -191,7 +215,11 @@
    "arc": "green-lantern-back-in-action",
    "date": {
     "cover": "2023-12",
-    "source": "DC Database, \"Green Lantern Vol 7 4\" (rev 3700252, fetched 2026-11-15): cover date 2023-12"
+    "source": "DC Database, \"Green Lantern Vol 7 4\" (rev 3700252, fetched 2026-11-15): cover date 2023-12",
+    "order": {
+     "date": "2023-10-10",
+     "source": "Grand Comics Database, \"Green Lantern (2023 series) #4\" (https://www.comics.org/api/issue/2572176/?format=json, fetched 2026-11-16): on sale 2023-10-10"
+    }
    },
    "seq": 1,
    "credits": {
@@ -218,7 +246,11 @@
    "arc": "green-lantern-war-journal-war-journal-contagion",
    "date": {
     "cover": "2023-12",
-    "source": "DC Database, \"Green Lantern: War Journal Vol 1 2\" (rev 3872670, fetched 2026-11-15): cover date 2023-12"
+    "source": "DC Database, \"Green Lantern: War Journal Vol 1 2\" (rev 3872670, fetched 2026-11-15): cover date 2023-12",
+    "order": {
+     "date": "2023-10-17",
+     "source": "Grand Comics Database, \"Green Lantern: War Journal (2023 series) #2 [Taj Tenfold Cover]\" (https://www.comics.org/api/issue/2573219/?format=json, fetched 2026-11-16): on sale 2023-10-17"
+    }
    },
    "seq": 2,
    "credits": {
@@ -245,7 +277,11 @@
    "arc": "green-lantern-back-in-action",
    "date": {
     "cover": "2024-01",
-    "source": "DC Database, \"Green Lantern Vol 7 5\" (rev 3671723, fetched 2026-11-15): cover date 2024-01"
+    "source": "DC Database, \"Green Lantern Vol 7 5\" (rev 3671723, fetched 2026-11-15): cover date 2024-01",
+    "order": {
+     "date": "2023-11-14",
+     "source": "Grand Comics Database, \"Green Lantern (2023 series) #5 [Xermanico Cover]\" (https://www.comics.org/api/issue/2579468/?format=json, fetched 2026-11-16): on sale 2023-11-14"
+    }
    },
    "seq": 1,
    "credits": {
@@ -280,7 +316,11 @@
    "arc": "green-lantern-war-journal-war-journal-contagion",
    "date": {
     "cover": "2024-01",
-    "source": "DC Database, \"Green Lantern: War Journal Vol 1 3\" (rev 3826027, fetched 2026-11-15): cover date 2024-01"
+    "source": "DC Database, \"Green Lantern: War Journal Vol 1 3\" (rev 3826027, fetched 2026-11-15): cover date 2024-01",
+    "order": {
+     "date": "2023-11-21",
+     "source": "Grand Comics Database, \"Green Lantern: War Journal (2023 series) #3 [Montos Cover]\" (https://www.comics.org/api/issue/2580965/?format=json, fetched 2026-11-16): on sale 2023-11-21"
+    }
    },
    "seq": 2,
    "credits": {
@@ -307,7 +347,11 @@
    "arc": "green-lantern-back-in-action",
    "date": {
     "cover": "2024-02",
-    "source": "DC Database, \"Green Lantern Vol 7 6\" (rev 3912373, fetched 2026-11-15): cover date 2024-02"
+    "source": "DC Database, \"Green Lantern Vol 7 6\" (rev 3912373, fetched 2026-11-15): cover date 2024-02",
+    "order": {
+     "date": "2023-12-12",
+     "source": "Grand Comics Database, \"Green Lantern (2023 series) #6 [Xermanico Cover]\" (https://www.comics.org/api/issue/2588675/?format=json, fetched 2026-11-16): on sale 2023-12-12"
+    }
    },
    "seq": 1,
    "credits": {
@@ -334,7 +378,11 @@
    "arc": "green-lantern-war-journal-war-journal-contagion",
    "date": {
     "cover": "2024-02",
-    "source": "DC Database, \"Green Lantern: War Journal Vol 1 4\" (rev 3824736, fetched 2026-11-15): cover date 2024-02"
+    "source": "DC Database, \"Green Lantern: War Journal Vol 1 4\" (rev 3824736, fetched 2026-11-15): cover date 2024-02",
+    "order": {
+     "date": "2023-12-19",
+     "source": "Grand Comics Database, \"Green Lantern: War Journal (2023 series) #4 [Montos Cover]\" (https://www.comics.org/api/issue/2590332/?format=json, fetched 2026-11-16): on sale 2023-12-19"
+    }
    },
    "seq": 2,
    "credits": {
@@ -361,7 +409,11 @@
    "arc": "green-lantern-love-and-war",
    "date": {
     "cover": "2024-03",
-    "source": "DC Database, \"Green Lantern Vol 7 7\" (rev 3635141, fetched 2026-11-15): cover date 2024-03"
+    "source": "DC Database, \"Green Lantern Vol 7 7\" (rev 3635141, fetched 2026-11-15): cover date 2024-03",
+    "order": {
+     "date": "2024-01-09",
+     "source": "Grand Comics Database, \"Green Lantern (2023 series) #7 [Edwin Galmon Cover]\" (https://www.comics.org/api/issue/2596221/?format=json, fetched 2026-11-16): on sale 2024-01-09"
+    }
    },
    "seq": 1,
    "credits": {
@@ -412,7 +464,11 @@
    "arc": "green-lantern-war-journal-war-journal-contagion",
    "date": {
     "cover": "2024-03",
-    "source": "DC Database, \"Green Lantern: War Journal Vol 1 5\" (rev 3824740, fetched 2026-11-15): cover date 2024-03"
+    "source": "DC Database, \"Green Lantern: War Journal Vol 1 5\" (rev 3824740, fetched 2026-11-15): cover date 2024-03",
+    "order": {
+     "date": "2024-01-16",
+     "source": "Grand Comics Database, \"Green Lantern: War Journal (2023 series) #5 [Montos Cover]\" (https://www.comics.org/api/issue/2598987/?format=json, fetched 2026-11-16): on sale 2024-01-16"
+    }
    },
    "seq": 2,
    "credits": {
@@ -439,7 +495,11 @@
    "arc": "green-lantern-love-and-war",
    "date": {
     "cover": "2024-04",
-    "source": "DC Database, \"Green Lantern Vol 7 8\" (rev 3826168, fetched 2026-11-15): cover date 2024-04"
+    "source": "DC Database, \"Green Lantern Vol 7 8\" (rev 3826168, fetched 2026-11-15): cover date 2024-04",
+    "order": {
+     "date": "2024-02-13",
+     "source": "Grand Comics Database, \"Green Lantern (2023 series) #8 [Steve Beach Cover]\" (https://www.comics.org/api/issue/2609060/?format=json, fetched 2026-11-16): on sale 2024-02-13"
+    }
    },
    "seq": 1,
    "credits": {
@@ -474,7 +534,11 @@
    "arc": "green-lantern-war-journal-war-journal-contagion",
    "date": {
     "cover": "2024-04",
-    "source": "DC Database, \"Green Lantern: War Journal Vol 1 6\" (rev 3769255, fetched 2026-11-15): cover date 2024-04"
+    "source": "DC Database, \"Green Lantern: War Journal Vol 1 6\" (rev 3769255, fetched 2026-11-15): cover date 2024-04",
+    "order": {
+     "date": "2024-02-20",
+     "source": "Grand Comics Database, \"Green Lantern: War Journal (2023 series) #6 [Montos Cover]\" (https://www.comics.org/api/issue/2610525/?format=json, fetched 2026-11-16): on sale 2024-02-20"
+    }
    },
    "seq": 2,
    "credits": {
@@ -501,7 +565,11 @@
    "arc": "green-lantern-love-and-war",
    "date": {
     "cover": "2024-05",
-    "source": "DC Database, \"Green Lantern Vol 7 9\" (rev 3954905, fetched 2026-11-15): cover date 2024-05"
+    "source": "DC Database, \"Green Lantern Vol 7 9\" (rev 3954905, fetched 2026-11-15): cover date 2024-05",
+    "order": {
+     "date": "2024-03-12",
+     "source": "Grand Comics Database, \"Green Lantern (2023 series) #9 [Steve Beach Cover]\" (https://www.comics.org/api/issue/2615532/?format=json, fetched 2026-11-16): on sale 2024-03-12"
+    }
    },
    "seq": 1,
    "credits": {
@@ -536,7 +604,11 @@
    "arc": "green-lantern-war-journal-war-journal-the-builder",
    "date": {
     "cover": "2024-05",
-    "source": "DC Database, \"Green Lantern: War Journal Vol 1 7\" (rev 3661027, fetched 2026-11-15): cover date 2024-05"
+    "source": "DC Database, \"Green Lantern: War Journal Vol 1 7\" (rev 3661027, fetched 2026-11-15): cover date 2024-05",
+    "order": {
+     "date": "2024-03-19",
+     "source": "Grand Comics Database, \"Green Lantern: War Journal (2023 series) #7 [Montos Cover]\" (https://www.comics.org/api/issue/2616872/?format=json, fetched 2026-11-16): on sale 2024-03-19"
+    }
    },
    "seq": 2,
    "credits": {
@@ -567,7 +639,11 @@
    "arc": "green-lantern-love-and-war",
    "date": {
     "cover": "2024-06",
-    "source": "DC Database, \"Green Lantern Vol 7 10\" (rev 3672842, fetched 2026-11-15): cover date 2024-06"
+    "source": "DC Database, \"Green Lantern Vol 7 10\" (rev 3672842, fetched 2026-11-15): cover date 2024-06",
+    "order": {
+     "date": "2024-04-09",
+     "source": "Grand Comics Database, \"Green Lantern (2023 series) #10 [Steve Beach Cover]\" (https://www.comics.org/api/issue/2621753/?format=json, fetched 2026-11-16): on sale 2024-04-09"
+    }
    },
    "seq": 1,
    "credits": {
@@ -615,7 +691,11 @@
    "arc": "green-lantern-war-journal-war-journal-the-builder",
    "date": {
     "cover": "2024-06",
-    "source": "DC Database, \"Green Lantern: War Journal Vol 1 8\" (rev 3661028, fetched 2026-11-15): cover date 2024-06"
+    "source": "DC Database, \"Green Lantern: War Journal Vol 1 8\" (rev 3661028, fetched 2026-11-15): cover date 2024-06",
+    "order": {
+     "date": "2024-04-16",
+     "source": "Grand Comics Database, \"Green Lantern: War Journal (2023 series) #8 [Montos Cover]\" (https://www.comics.org/api/issue/2624661/?format=json, fetched 2026-11-16): on sale 2024-04-16"
+    }
    },
    "seq": 2,
    "credits": {
@@ -646,7 +726,11 @@
    "arc": "green-lantern-love-and-war",
    "date": {
     "cover": "2024-07",
-    "source": "DC Database, \"Green Lantern Vol 7 11\" (rev 3712400, fetched 2026-11-15): cover date 2024-07"
+    "source": "DC Database, \"Green Lantern Vol 7 11\" (rev 3712400, fetched 2026-11-15): cover date 2024-07",
+    "order": {
+     "date": "2024-05-14",
+     "source": "Grand Comics Database, \"Green Lantern (2023 series) #11 [Xermanico Cover]\" (https://www.comics.org/api/issue/2629919/?format=json, fetched 2026-11-16): on sale 2024-05-14"
+    }
    },
    "seq": 1,
    "credits": {
@@ -693,7 +777,11 @@
    "arc": "green-lantern-war-journal-war-journal-the-builder",
    "date": {
     "cover": "2024-07",
-    "source": "DC Database, \"Green Lantern: War Journal Vol 1 9\" (rev 3872680, fetched 2026-11-15): cover date 2024-07"
+    "source": "DC Database, \"Green Lantern: War Journal Vol 1 9\" (rev 3872680, fetched 2026-11-15): cover date 2024-07",
+    "order": {
+     "date": "2024-05-21",
+     "source": "Grand Comics Database, \"Green Lantern: War Journal (2023 series) #9 [Montos Cover]\" (https://www.comics.org/api/issue/2631994/?format=json, fetched 2026-11-16): on sale 2024-05-21"
+    }
    },
    "seq": 2,
    "credits": {
@@ -724,7 +812,11 @@
    "arc": "green-lantern-love-and-war",
    "date": {
     "cover": "2024-08",
-    "source": "DC Database, \"Green Lantern Vol 7 12\" (rev 3698718, fetched 2026-11-15): cover date 2024-08"
+    "source": "DC Database, \"Green Lantern Vol 7 12\" (rev 3698718, fetched 2026-11-15): cover date 2024-08",
+    "order": {
+     "date": "2024-06-11",
+     "source": "Grand Comics Database, \"Green Lantern (2023 series) #12 [Xermanico Cover]\" (https://www.comics.org/api/issue/2636248/?format=json, fetched 2026-11-16): on sale 2024-06-11"
+    }
    },
    "seq": 1,
    "credits": {
@@ -767,7 +859,11 @@
    "arc": "green-lantern-war-journal-war-journal-the-builder",
    "date": {
     "cover": "2024-08",
-    "source": "DC Database, \"Green Lantern: War Journal Vol 1 10\" (rev 3857518, fetched 2026-11-15): cover date 2024-08"
+    "source": "DC Database, \"Green Lantern: War Journal Vol 1 10\" (rev 3857518, fetched 2026-11-15): cover date 2024-08",
+    "order": {
+     "date": "2024-06-18",
+     "source": "Grand Comics Database, \"Green Lantern: War Journal (2023 series) #10 [Montos Cover]\" (https://www.comics.org/api/issue/2637082/?format=json, fetched 2026-11-16): on sale 2024-06-18"
+    }
    },
    "seq": 2,
    "credits": {
@@ -798,7 +894,11 @@
    "arc": "green-lantern-power-of-will",
    "date": {
     "cover": "2024-09",
-    "source": "DC Database, \"Green Lantern Vol 7 13\" (rev 3712401, fetched 2026-11-15): cover date 2024-09"
+    "source": "DC Database, \"Green Lantern Vol 7 13\" (rev 3712401, fetched 2026-11-15): cover date 2024-09",
+    "order": {
+     "date": "2024-07-10",
+     "source": "Grand Comics Database, \"Green Lantern (2023 series) #13 [Ariel Colon Cover]\" (https://www.comics.org/api/issue/2644115/?format=json, fetched 2026-11-16): on sale 2024-07-10"
+    }
    },
    "seq": 1,
    "credits": {
@@ -833,7 +933,11 @@
    "arc": "green-lantern-war-journal-war-journal-the-builder",
    "date": {
     "cover": "2024-09",
-    "source": "DC Database, \"Green Lantern: War Journal Vol 1 11\" (rev 3872673, fetched 2026-11-15): cover date 2024-09"
+    "source": "DC Database, \"Green Lantern: War Journal Vol 1 11\" (rev 3872673, fetched 2026-11-15): cover date 2024-09",
+    "order": {
+     "date": "2024-07-17",
+     "source": "Grand Comics Database, \"Green Lantern: War Journal (2023 series) #11 [Montos Cover]\" (https://www.comics.org/api/issue/2646388/?format=json, fetched 2026-11-16): on sale 2024-07-17"
+    }
    },
    "seq": 2,
    "credits": {
@@ -864,7 +968,11 @@
    "arc": "green-lantern-power-of-will",
    "date": {
     "cover": "2024-10",
-    "source": "DC Database, \"Green Lantern Vol 7 14\" (rev 3712403, fetched 2026-11-15): cover date 2024-10"
+    "source": "DC Database, \"Green Lantern Vol 7 14\" (rev 3712403, fetched 2026-11-15): cover date 2024-10",
+    "order": {
+     "date": "2024-08-14",
+     "source": "Grand Comics Database, \"Green Lantern (2023 series) #14 [Ariel Colon Cover]\" (https://www.comics.org/api/issue/2651176/?format=json, fetched 2026-11-16): on sale 2024-08-14"
+    }
    },
    "seq": 1,
    "credits": {
@@ -891,7 +999,11 @@
    "arc": "green-lantern-war-journal-war-journal-the-builder",
    "date": {
     "cover": "2024-10",
-    "source": "DC Database, \"Green Lantern: War Journal Vol 1 12\" (rev 3872669, fetched 2026-11-15): cover date 2024-10"
+    "source": "DC Database, \"Green Lantern: War Journal Vol 1 12\" (rev 3872669, fetched 2026-11-15): cover date 2024-10",
+    "order": {
+     "date": "2024-08-21",
+     "source": "Grand Comics Database, \"Green Lantern: War Journal (2023 series) #12 [Montos Cover]\" (https://www.comics.org/api/issue/2652622/?format=json, fetched 2026-11-16): on sale 2024-08-21"
+    }
    },
    "seq": 2,
    "credits": {
@@ -922,7 +1034,11 @@
    "arc": "green-lantern-power-of-will",
    "date": {
     "cover": "2024-11",
-    "source": "DC Database, \"Green Lantern Vol 7 15\" (rev 3918059, fetched 2026-11-15): cover date 2024-11"
+    "source": "DC Database, \"Green Lantern Vol 7 15\" (rev 3918059, fetched 2026-11-15): cover date 2024-11",
+    "order": {
+     "date": "2024-09-11",
+     "source": "Grand Comics Database, \"Green Lantern (2023 series) #15 [Ariel Colon Cover]\" (https://www.comics.org/api/issue/2656046/?format=json, fetched 2026-11-16): on sale 2024-09-11"
+    }
    },
    "seq": 1,
    "credits": {
@@ -953,7 +1069,11 @@
    "arc": "green-lantern-civil-corps-special-civil-corps",
    "date": {
     "cover": "2024-12",
-    "source": "DC Database, \"Green Lantern: Civil Corps Special Vol 1 1\" (rev 3933548, fetched 2026-11-15): cover date 2024-12"
+    "source": "DC Database, \"Green Lantern: Civil Corps Special Vol 1 1\" (rev 3933548, fetched 2026-11-15): cover date 2024-12",
+    "order": {
+     "date": "2024-10-09",
+     "source": "Grand Comics Database, \"Green Lantern Civil Corps Special (2024 series) #1 [Brad Walker Cover]\" (https://www.comics.org/api/issue/2662807/?format=json, fetched 2026-11-16): on sale 2024-10-09"
+    }
    },
    "seq": 1,
    "credits": {
@@ -989,7 +1109,11 @@
    "arc": "green-lantern-civil-corps",
    "date": {
     "cover": "2024-12",
-    "source": "DC Database, \"Green Lantern Vol 7 16\" (rev 3918057, fetched 2026-11-15): cover date 2024-12"
+    "source": "DC Database, \"Green Lantern Vol 7 16\" (rev 3918057, fetched 2026-11-15): cover date 2024-12",
+    "order": {
+     "date": "2024-10-16",
+     "source": "Grand Comics Database, \"Green Lantern (2023 series) #16 (583) [Xermanico Cover]\" (https://www.comics.org/api/issue/2666737/?format=json, fetched 2026-11-16): on sale 2024-10-16"
+    }
    },
    "seq": 2,
    "credits": {
@@ -1032,7 +1156,11 @@
    "arc": "green-lantern-civil-corps",
    "date": {
     "cover": "2025-01",
-    "source": "DC Database, \"Green Lantern Vol 7 17\" (rev 3857513, fetched 2026-11-15): cover date 2025-01"
+    "source": "DC Database, \"Green Lantern Vol 7 17\" (rev 3857513, fetched 2026-11-15): cover date 2025-01",
+    "order": {
+     "date": "2024-11-13",
+     "source": "Grand Comics Database, \"Green Lantern (2023 series) #17 (584)\" (https://www.comics.org/api/issue/2675326/?format=json, fetched 2026-11-16): on sale 2024-11-13"
+    }
    },
    "seq": 1,
    "credits": {
@@ -1083,7 +1211,11 @@
    "arc": "green-lantern-civil-corps",
    "date": {
     "cover": "2025-02",
-    "source": "DC Database, \"Green Lantern Vol 7 18\" (rev 3933549, fetched 2026-11-15): cover date 2025-02"
+    "source": "DC Database, \"Green Lantern Vol 7 18\" (rev 3933549, fetched 2026-11-15): cover date 2025-02",
+    "order": {
+     "date": "2024-12-11",
+     "source": "Grand Comics Database, \"Green Lantern (2023 series) #18 (585)\" (https://www.comics.org/api/issue/2686002/?format=json, fetched 2026-11-16): on sale 2024-12-11"
+    }
    },
    "seq": 1,
    "credits": {
@@ -1134,7 +1266,11 @@
    "arc": "green-lantern-green-arrow-world-s-finest-special-livin-free",
    "date": {
     "cover": "2025-02",
-    "source": "DC Database, \"Green Lantern/Green Arrow: World's Finest Special Vol 1 1\" (rev 3687344, fetched 2026-11-15): cover date 2025-02"
+    "source": "DC Database, \"Green Lantern/Green Arrow: World's Finest Special Vol 1 1\" (rev 3687344, fetched 2026-11-15): cover date 2025-02",
+    "order": {
+     "date": "2024-12-18",
+     "source": "DC's page for the issue, dc.com/comics/green-lantern/green-arrow-worlds-finest-special-1, cited by John (18 Nov): on sale 18 Dec 2024 (https://www.dc.com/comics/green-lantern/green-arrow-worlds-finest-special-1); John, 18 Nov"
+    }
    },
    "seq": 2,
    "credits": {
@@ -1165,7 +1301,11 @@
    "arc": "green-lantern-fractured-spectrum-civil-corps",
    "date": {
     "cover": "2025-03",
-    "source": "DC Database, \"Green Lantern: Fractured Spectrum Vol 1 1\" (rev 3933662, fetched 2026-11-15): cover date 2025-03"
+    "source": "DC Database, \"Green Lantern: Fractured Spectrum Vol 1 1\" (rev 3933662, fetched 2026-11-15): cover date 2025-03",
+    "order": {
+     "date": "2025-01-15",
+     "source": "Grand Comics Database, \"Green Lantern: Fractured Spectrum (2025 series) #1 [Fernando Blanco Cover]\" (https://www.comics.org/api/issue/2687595/?format=json, fetched 2026-11-16): on sale 2025-01-15"
+    }
    },
    "seq": 1,
    "credits": {
@@ -1216,7 +1356,11 @@
    "arc": "green-lantern-loose-threads",
    "date": {
     "cover": "2025-03",
-    "source": "DC Database, \"Green Lantern Vol 7 19\" (rev 3804553, fetched 2026-11-15): cover date 2025-03"
+    "source": "DC Database, \"Green Lantern Vol 7 19\" (rev 3804553, fetched 2026-11-15): cover date 2025-03",
+    "order": {
+     "date": "2025-01-29",
+     "source": "Grand Comics Database, \"Green Lantern (2023 series) #19 (586)\" (https://www.comics.org/api/issue/2706963/?format=json, fetched 2026-11-16): on sale 2025-01-29"
+    }
    },
    "seq": 2,
    "credits": {
@@ -1253,7 +1397,11 @@
    "arc": "green-lantern-the-life-and-death-of-erastus-the-blacksmith",
    "date": {
     "cover": "2025-04",
-    "source": "DC Database, \"Green Lantern Vol 7 20\" (rev 3715966, fetched 2026-11-15): cover date 2025-04"
+    "source": "DC Database, \"Green Lantern Vol 7 20\" (rev 3715966, fetched 2026-11-15): cover date 2025-04",
+    "order": {
+     "date": "2025-02-26",
+     "source": "Grand Comics Database, \"Green Lantern (2023 series) #20 (587)\" (https://www.comics.org/api/issue/2713764/?format=json, fetched 2026-11-16): on sale 2025-02-26"
+    }
    },
    "seq": 2,
    "credits": {
@@ -1284,7 +1432,11 @@
    "arc": "green-lantern-mind-games",
    "date": {
     "cover": "2025-05",
-    "source": "DC Database, \"Green Lantern Vol 7 21\" (rev 3847110, fetched 2026-11-15): cover date 2025-05"
+    "source": "DC Database, \"Green Lantern Vol 7 21\" (rev 3847110, fetched 2026-11-15): cover date 2025-05",
+    "order": {
+     "date": "2025-03-26",
+     "source": "Grand Comics Database, \"Green Lantern (2023 series) #21 (588) [Xermánico Cover]\" (https://www.comics.org/api/issue/2720048/?format=json, fetched 2026-11-16): on sale 2025-03-26"
+    }
    },
    "seq": 2,
    "credits": {
@@ -1323,7 +1475,11 @@
    "arc": "green-lantern-highway-to-hell",
    "date": {
     "cover": "2025-06",
-    "source": "DC Database, \"Green Lantern Vol 7 22\" (rev 3787141, fetched 2026-11-15): cover date 2025-06"
+    "source": "DC Database, \"Green Lantern Vol 7 22\" (rev 3787141, fetched 2026-11-15): cover date 2025-06",
+    "order": {
+     "date": "2025-04-23",
+     "source": "Grand Comics Database, \"Green Lantern (2023 series) #22 (589) [Xermánico Cover]\" (https://www.comics.org/api/issue/2728262/?format=json, fetched 2026-11-16): on sale 2025-04-23"
+    }
    },
    "seq": 2,
    "credits": {
@@ -1354,7 +1510,11 @@
    "arc": "green-lantern-hellbound",
    "date": {
     "cover": "2025-07",
-    "source": "DC Database, \"Green Lantern Vol 7 23\" (rev 3794502, fetched 2026-11-15): cover date 2025-07"
+    "source": "DC Database, \"Green Lantern Vol 7 23\" (rev 3794502, fetched 2026-11-15): cover date 2025-07",
+    "order": {
+     "date": "2025-05-28",
+     "source": "Grand Comics Database, \"Green Lantern (2023 series) #23 (590) [Xermánico Cover]\" (https://www.comics.org/api/issue/2740380/?format=json, fetched 2026-11-16): on sale 2025-05-28"
+    }
    },
    "seq": 2,
    "credits": {
@@ -1385,7 +1545,11 @@
    "arc": "green-lantern-because-i-m-happy",
    "date": {
     "cover": "2025-08",
-    "source": "DC Database, \"Green Lantern Vol 7 24\" (rev 3794504, fetched 2026-11-15): cover date 2025-08"
+    "source": "DC Database, \"Green Lantern Vol 7 24\" (rev 3794504, fetched 2026-11-15): cover date 2025-08",
+    "order": {
+     "date": "2025-06-25",
+     "source": "Grand Comics Database, \"Green Lantern (2023 series) #24 (591) [Xermánico Cover]\" (https://www.comics.org/api/issue/2749599/?format=json, fetched 2026-11-16): on sale 2025-06-25"
+    }
    },
    "seq": 2,
    "credits": {
@@ -1416,7 +1580,11 @@
    "arc": "starbreaker-supremacy",
    "date": {
     "cover": "2025-09",
-    "source": "DC Database, \"Green Lantern Vol 7 25\" (rev 3857643, fetched 2026-11-15): cover date 2025-09"
+    "source": "DC Database, \"Green Lantern Vol 7 25\" (rev 3857643, fetched 2026-11-15): cover date 2025-09",
+    "order": {
+     "date": "2025-07-23",
+     "source": "Grand Comics Database, \"Green Lantern (2023 series) #25 (592) [Xermánico Wraparound Cover]\" (https://www.comics.org/api/issue/2757383/?format=json, fetched 2026-11-16): on sale 2025-07-23"
+    }
    },
    "seq": 2,
    "credits": {
@@ -1455,7 +1623,11 @@
    "arc": "starbreaker-supremacy",
    "date": {
     "cover": "2025-10",
-    "source": "DC Database, \"Green Lantern Vol 7 26\" (rev 3904506, fetched 2026-11-15): cover date 2025-10"
+    "source": "DC Database, \"Green Lantern Vol 7 26\" (rev 3904506, fetched 2026-11-15): cover date 2025-10",
+    "order": {
+     "date": "2025-08-27",
+     "source": "Grand Comics Database, \"Green Lantern (2023 series) #26 (593) [V Ken Marion Cover]\" (https://www.comics.org/api/issue/2766298/?format=json, fetched 2026-11-16): on sale 2025-08-27"
+    }
    },
    "seq": 2,
    "credits": {
@@ -1502,7 +1674,11 @@
    "arc": "starbreaker-supremacy",
    "date": {
     "cover": "2025-11",
-    "source": "DC Database, \"Green Lantern Vol 7 27\" (rev 3827222, fetched 2026-11-15): cover date 2025-11"
+    "source": "DC Database, \"Green Lantern Vol 7 27\" (rev 3827222, fetched 2026-11-15): cover date 2025-11",
+    "order": {
+     "date": "2025-09-24",
+     "source": "Grand Comics Database, \"Green Lantern (2023 series) #27 (594) [V Ken Marion Cover]\" (https://www.comics.org/api/issue/2772378/?format=json, fetched 2026-11-16): on sale 2025-09-24"
+    }
    },
    "seq": 2,
    "credits": {
@@ -1557,7 +1733,11 @@
    "arc": "green-lantern-with-this-ring",
    "date": {
     "cover": "2025-12",
-    "source": "DC Database, \"Green Lantern Vol 7 28\" (rev 3846281, fetched 2026-11-15): cover date 2025-12"
+    "source": "DC Database, \"Green Lantern Vol 7 28\" (rev 3846281, fetched 2026-11-15): cover date 2025-12",
+    "order": {
+     "date": "2025-10-22",
+     "source": "Grand Comics Database, \"Green Lantern (2023 series) #28 (595) [Xermánico Cover]\" (https://www.comics.org/api/issue/2779253/?format=json, fetched 2026-11-16): on sale 2025-10-22"
+    }
    },
    "seq": 2,
    "credits": {
@@ -1600,7 +1780,11 @@
    "arc": "green-lantern-with-this-ring",
    "date": {
     "cover": "2026-01",
-    "source": "DC Database, \"Green Lantern Vol 7 29\" (rev 3846283, fetched 2026-11-15): cover date 2026-01"
+    "source": "DC Database, \"Green Lantern Vol 7 29\" (rev 3846283, fetched 2026-11-15): cover date 2026-01",
+    "order": {
+     "date": "2025-11-26",
+     "source": "Grand Comics Database, \"Green Lantern (2023 series) #29 (596) [Eddy Barrows Cover]\" (https://www.comics.org/api/issue/2788413/?format=json, fetched 2026-11-16): on sale 2025-11-26"
+    }
    },
    "seq": 2,
    "credits": {
@@ -1631,7 +1815,11 @@
    "arc": "green-lantern-with-this-ring",
    "date": {
     "cover": "2026-02",
-    "source": "DC Database, \"Green Lantern Vol 7 30\" (rev 3918063, fetched 2026-11-15): cover date 2026-02"
+    "source": "DC Database, \"Green Lantern Vol 7 30\" (rev 3918063, fetched 2026-11-15): cover date 2026-02",
+    "order": {
+     "date": "2025-12-24",
+     "source": "Grand Comics Database, \"Green Lantern (2023 series) #30 (597) [Annie Wu Cover]\" (https://www.comics.org/api/issue/2797705/?format=json, fetched 2026-11-16): on sale 2025-12-24"
+    }
    },
    "seq": 2,
    "credits": {
@@ -1658,7 +1846,11 @@
    "arc": "dc-k-o-green-lantern-galactic-slam-green-lantern-galactic-sl",
    "date": {
     "cover": "2026-03",
-    "source": "DC Database, \"DC K.O.: Green Lantern Galactic Slam Vol 1 1\" (rev 3959247, fetched 2026-11-15): cover date 2026-03"
+    "source": "DC Database, \"DC K.O.: Green Lantern Galactic Slam Vol 1 1\" (rev 3959247, fetched 2026-11-15): cover date 2026-03",
+    "order": {
+     "date": "2026-01-21",
+     "source": "Grand Comics Database, \"DC K.O.: Green Lantern Galactic Slam (2026 series) #1 [Cian Tormey Cover]\" (https://www.comics.org/api/issue/2798236/?format=json, fetched 2026-11-16): on sale 2026-01-21"
+    }
    },
    "seq": 2,
    "credits": {
@@ -1690,7 +1882,11 @@
    "arc": "green-lantern-with-this-ring",
    "date": {
     "cover": "2026-03",
-    "source": "DC Database, \"Green Lantern Vol 7 31\" (rev 3911500, fetched 2026-11-15): cover date 2026-03"
+    "source": "DC Database, \"Green Lantern Vol 7 31\" (rev 3911500, fetched 2026-11-15): cover date 2026-03",
+    "order": {
+     "date": "2026-01-28",
+     "source": "Grand Comics Database, \"Green Lantern (2023 series) #31 (598) [Annie Wu Cover]\" (https://www.comics.org/api/issue/2809983/?format=json, fetched 2026-11-16): on sale 2026-01-28"
+    }
    },
    "seq": 3,
    "credits": {
@@ -1717,7 +1913,11 @@
    "arc": "green-lantern-with-this-ring",
    "date": {
     "cover": "2026-04",
-    "source": "DC Database, \"Green Lantern Vol 7 32\" (rev 3933733, fetched 2026-11-15): cover date 2026-04"
+    "source": "DC Database, \"Green Lantern Vol 7 32\" (rev 3933733, fetched 2026-11-15): cover date 2026-04",
+    "order": {
+     "date": "2026-02-25",
+     "source": "Grand Comics Database, \"Green Lantern (2023 series) #32 (599) [Xermánico Cover]\" (https://www.comics.org/api/issue/2817893/?format=json, fetched 2026-11-16): on sale 2026-02-25"
+    }
    },
    "seq": 2,
    "credits": {
@@ -1748,7 +1948,11 @@
    "arc": "green-lantern-with-this-ring",
    "date": {
     "cover": "2026-05",
-    "source": "DC Database, \"Green Lantern Vol 7 33\" (rev 3937374, fetched 2026-11-15): cover date 2026-05"
+    "source": "DC Database, \"Green Lantern Vol 7 33\" (rev 3937374, fetched 2026-11-15): cover date 2026-05",
+    "order": {
+     "date": "2026-03-25",
+     "source": "Grand Comics Database, \"Green Lantern (2023 series) #33 (600) [Xermánico Wraparound Cover]\" (https://www.comics.org/api/issue/2823938/?format=json, fetched 2026-11-16): on sale 2026-03-25"
+    }
    },
    "seq": 2,
    "credits": {
@@ -1803,7 +2007,11 @@
    "arc": "green-lantern-a-star-is-born",
    "date": {
     "cover": "2026-06",
-    "source": "DC Database, \"Green Lantern Vol 7 34\" (rev 3927386, fetched 2026-11-15): cover date 2026-06"
+    "source": "DC Database, \"Green Lantern Vol 7 34\" (rev 3927386, fetched 2026-11-15): cover date 2026-06",
+    "order": {
+     "date": "2026-04-22",
+     "source": "Grand Comics Database, \"Green Lantern (2023 series) #34 (601) [Xermánico Cover]\" (https://www.comics.org/api/issue/2829368/?format=json, fetched 2026-11-16): on sale 2026-04-22"
+    }
    },
    "seq": 2,
    "credits": {
@@ -1835,7 +2043,11 @@
    "arc": "tales-of-the-green-lantern-corps-guy-gardner-light-club",
    "date": {
     "cover": "2026-07",
-    "source": "DC Database, \"Tales of the Green Lantern Corps: Guy Gardner Vol 1 1\" (rev 3897486, fetched 2026-11-15): cover date 2026-07"
+    "source": "DC Database, \"Tales of the Green Lantern Corps: Guy Gardner Vol 1 1\" (rev 3897486, fetched 2026-11-15): cover date 2026-07",
+    "order": {
+     "date": "2026-05-06",
+     "source": "Grand Comics Database, \"Tales of the Green Lantern Corps: Guy Gardner (2026 series) #1 [Edwin Galmon Cover]\" (https://www.comics.org/api/issue/2825865/?format=json, fetched 2026-11-16): on sale 2026-05-06"
+    }
    },
    "seq": 1,
    "credits": {
@@ -1876,7 +2088,11 @@
    "arc": "green-lantern-filler-episode",
    "date": {
     "cover": "2026-07",
-    "source": "DC Database, \"Green Lantern Vol 7 35\" (rev 3911516, fetched 2026-11-15): cover date 2026-07"
+    "source": "DC Database, \"Green Lantern Vol 7 35\" (rev 3911516, fetched 2026-11-15): cover date 2026-07",
+    "order": {
+     "date": "2026-05-27",
+     "source": "Grand Comics Database, \"Green Lantern (2023 series) #35 (602) [Xermánico Cover]\" (https://www.comics.org/api/issue/2837030/?format=json, fetched 2026-11-16): on sale 2026-05-27"
+    }
    },
    "seq": 3,
    "credits": {
@@ -1904,7 +2120,11 @@
    "arc": "green-lantern-second-chance",
    "date": {
     "cover": "2026-08",
-    "source": "DC Database, \"Green Lantern Vol 7 36\" (rev 3954742, fetched 2026-11-15): cover date 2026-08"
+    "source": "DC Database, \"Green Lantern Vol 7 36\" (rev 3954742, fetched 2026-11-15): cover date 2026-08",
+    "order": {
+     "date": "2026-06-24",
+     "source": "Grand Comics Database, \"Green Lantern (2023 series) #36 (603) [Eddy Barrows Cover]\" (https://www.comics.org/api/issue/2845460/?format=json, fetched 2026-11-16): on sale 2026-06-24"
+    }
    },
    "seq": 2,
    "credits": {
@@ -1932,7 +2152,11 @@
    "arc": "green-lantern-don-t-feed-the-trolls",
    "date": {
     "cover": "2026-09",
-    "source": "DC Database, \"Green Lantern Vol 7 37\" (rev 3937407, fetched 2026-11-15): cover date 2026-09"
+    "source": "DC Database, \"Green Lantern Vol 7 37\" (rev 3937407, fetched 2026-11-15): cover date 2026-09",
+    "order": {
+     "date": "2026-07-22",
+     "source": "Grand Comics Database, \"Green Lantern (2023 series) #37 (604) [Eddy Barrows Cover]\" (https://www.comics.org/api/issue/2852999/?format=json, fetched 2026-11-16): on sale 2026-07-22"
+    }
    },
    "seq": 2,
    "credits": {
@@ -1964,7 +2188,11 @@
    "arc": "green-lantern-food-fight",
    "date": {
     "cover": "2026-10",
-    "source": "DC Database, \"Green Lantern Vol 7 38\" (rev 3954743, fetched 2026-11-15): cover date 2026-10"
+    "source": "DC Database, \"Green Lantern Vol 7 38\" (rev 3954743, fetched 2026-11-15): cover date 2026-10",
+    "order": {
+     "date": "2026-08-26",
+     "source": "Grand Comics Database, \"Green Lantern (2023 series) #38 (605) [Eddy Barrows Cover]\" (https://www.comics.org/api/issue/2862122/?format=json, fetched 2026-11-16): on sale 2026-08-26"
+    }
    },
    "seq": 2,
    "credits": {
@@ -1996,7 +2224,11 @@
    "arc": "green-lantern-food-fight",
    "date": {
     "cover": "2026-11",
-    "source": "DC Database, \"Green Lantern Vol 7 39\" (rev 3956166, fetched 2026-11-15): cover date 2026-11"
+    "source": "DC Database, \"Green Lantern Vol 7 39\" (rev 3956166, fetched 2026-11-15): cover date 2026-11",
+    "order": {
+     "date": "2026-09-23",
+     "source": "Grand Comics Database, \"Green Lantern (2023 series) #39 (606) [Ig Guara Cover]\" (https://www.comics.org/api/issue/2868677/?format=json, fetched 2026-11-16): on sale 2026-09-23"
+    }
    },
    "seq": 2,
    "credits": {
@@ -2031,7 +2263,11 @@
    "arc": "first-light",
    "date": {
     "cover": "2026-12",
-    "source": "DC Database, \"Green Lantern Vol 7 40\" (rev 3993537, fetched 2026-11-15): cover date 2026-12"
+    "source": "DC Database, \"Green Lantern Vol 7 40\" (rev 3993537, fetched 2026-11-15): cover date 2026-12",
+    "order": {
+     "date": "2026-10-28",
+     "source": "Grand Comics Database, \"Green Lantern (2023 series) #40 (607) [Fernando Pasarín Cover]\" (https://www.comics.org/api/issue/2875851/?format=json, fetched 2026-11-16): on sale 2026-10-28"
+    }
    },
    "seq": 2,
    "credits": {

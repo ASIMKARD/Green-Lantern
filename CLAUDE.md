@@ -1,7 +1,7 @@
 # CLAUDE.md — read this before touching anything
 
 This is the **Green Lantern** tracker, built on Pull-List-template v3 (copied at template
-`f7ae723`; template T0 at `9aac63d`; T1 + T2 at `b9a0128`; T7 at `d5c1585`). Where the work stands and where the next step begins: `PROGRESS.md`. The approved
+`f7ae723`; template T0 at `9aac63d`; T1 + T2 at `b9a0128`; T7 at `d5c1585`; T6 at `e21c338`). Where the work stands and where the next step begins: `PROGRESS.md`. The approved
 plan: `PLAN.md`.
 
 ## Repo rules (read first, every session)
@@ -57,8 +57,8 @@ Master-Repo `starter/STANDARDS.md`, "Repo safety".)
   - The reading order is the story order; Publication order is the release order.
   - Within a month, a placement note beats an on-sale date in the reading order: list every such override.
   - Across months it needs template change **T6** (a row placed after or before another issue by a cited note,
-    keeping its true date; Publication order ignores it). Until T6, list cross-month notes in each report as
-    "story placements, waiting for T6", from a scan of every page.
+    keeping its true date; Publication order ignores it). T6 is in, at template `e21c338` (27 Nov): each stage applies
+    the cross-month notes whose issues it holds as `place`, and lists the rest in its report, from a scan of every page.
   - A placement that would put an issue before a lower number of its own series isn't applied, but listed for John.
 - **Story links need evidence; collections give an event's chapter order** (John, 19 Nov). Settle what the
   sources can before asking John, and build the method into the code:
@@ -199,6 +199,11 @@ a running log of what it did, and a word-for-word archive of the session.
   only a hint. `altKey` is pure publication order (no era rank).
 - **Dates are sourced individually** (`date: {cover, onsale?, source}`). Never
   interpolate, never write series data from memory.
+- **Two orders (T6; John, 18 and 20 Nov).** The reading order is the story order; Publication
+  order is the release order. A row's `place: {after|before, source}` moves it next to another
+  issue in the reading order by a cited note, keeping its date; it must be in its target's era.
+  Publication order sorts a cover month by `date.onsale`, else a cited `date.order`, blanks last,
+  and ignores `place` and `seq`. `BUILD-NOTES.md`, "Two orders".
 - **Events state their era** in `dataset.json` (`events: [{id, era}]`); chapters
   the tracker doesn't have are placed inside that era by date then event order.
 - **An era's own colour** (`eras[].colour`, `#RRGGBB`, optional) is drawn exactly
