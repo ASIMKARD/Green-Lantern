@@ -287,9 +287,15 @@ Built on Pull-List-template v3: copied at template `f7ae723`, then template T0 a
        - Every presence tag comes from a main-world line.
        - Publication order puts it in January 2027, after #40.
      - **`t6_check.py`, rerun:** still 0 problems. It lists #41 as the one row added since stage 1.
+   - **Go-live is v1 (John, 27 Nov).** The plan's first deploy is v1, built as `main`'s would be: `main` has no `data.js`, so the version starts at 1.
+     - The branch's `data.js` (v17) was removed and rebuilt.
+     - Only `version` changed (17 → 1). The build hash (`5dd787a012e7`), the cache name, `sw.js`, `index.html` and the workbook are byte for byte the same.
+     - `--check` is fresh, the gate passes, and harness 1843 and layout 490 have 0 failed.
+     - The merge into `main` tags `v1` (`tools/version_tag.py`).
    - **Next:**
-     1. The Research-Repo PR for stage 2's work, for John to merge.
-     2. Stop before the go-live PR; John checks all of stage 2 in one pass, merges, then turns on Pages.
+     1. Research-Repo #7 (stage 2's research) and this session's folder's PR, for John to merge.
+     2. The go-live PR (`claude/serene-fermi-1io9gs` → `main`), opened for John. He merges it and turns on Pages.
+     3. Then every file is verified live by hash, the first deploy included (fonts, icons, manifest, `qrcode.js`).
        - **Fixed:** `stage2.py` lists a sub-era's volumes in reading order. Ordering them by first cover date left ties to Python's set order, which changes run to run.
        - **Done in sub-era 13:** Green Lantern: War Journal #1–2's credits were read from their pages (listed under an untitled story 2).
 
@@ -374,6 +380,10 @@ Built on Pull-List-template v3: copied at template `f7ae723`, then template T0 a
 - **27 Nov:**
   - John merged T6, ASIMKARD/Pull-List-template#15, as `e21c338`.
   - Green Lantern (2023) #41, question form: "Add it". The page lists the story and the appearances. Its on-sale date is the wiki's derived day, as for #40, and the GCD orders it.
+  - The go-live summary, checked by John:
+    - go-live is v1, rebuilt against `main` (which has no `data.js`);
+    - open a Research-Repo PR for this session's folder;
+    - open the go-live PR. After his merge he turns on Pages, and every file is verified live by hash.
 
 ## Decided, not yet built
 - **T3, cross-tracker progress for shared issues** (John, 14 Nov). It is built at stage 5, in its own template PR, which John approves first, like T1.
