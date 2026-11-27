@@ -261,10 +261,35 @@ Built on Pull-List-template v3: copied at template `f7ae723`, then template T0 a
      - "before the epilogue of" places a row before the whole issue;
      - the "Placed after …" line shows.
 
-   - **Next: the pass before go-live** (Green Lantern #2):
-     - Check Green Lantern (2023) #41's page again and add it if it is complete (John, 26 Nov).
-     - Check the current status again.
-     - Stop before the go-live PR for John's one-pass check of all of stage 2.
+   - **The pass before go-live: done (Green Lantern #2, 27 Nov).** Research-Repo `sessions/2026-11-26-green-lantern-2/`.
+     - **The current status** (`status_check.py` → `status-2026-11-27.json`): the nine pages checked on 26 Nov were fetched fresh.
+       - Green Lantern (2023) #41 now lists the story and the appearances (below).
+       - #42 and #43 still have no pages, and neither do Lanterns or Tales of the Green Lantern Corps: Training Day.
+       - Green Lantern Corps (2025)'s volume page names #23–24, which belong to stage 3.
+       - Absolute Green Lantern names up to #22; it belongs to the Absolute tracker.
+     - **Green Lantern (2023) #41, added (John, 27 Nov, question form: "Add it").**
+       - The page (rev 4000700) lists the story ("First Light Part Three") and the appearances.
+       - Its on-sale date is only the wiki's derived form (Day 25, no on-sale month), the same as #40's.
+       - The GCD states 25 Nov 2026 (`gcd_status.py`).
+     - **`add_gl41.py` → `gl41-report.json`:**
+       - **The row:** cover January 2027, cited to the page, with the GCD's date as `date.order`.
+       - **Credits:** Jeremy Adams; Scott Godlewski, Juan José Ryp and Szymon Kudranski. The page's "Szymon Kudrański" joins the canonical "Szymon Kudranski" by `creators.py`'s rule; the build had caught the two spellings.
+       - **Arc:** First Light, part 3. The arc's credits are recounted over its pages as `spine.py` counts them; without #41 the recount reproduces the old list exactly.
+       - **Presence:** Hal, Guy, Kyle and Jessica major; John Stewart and Simon Baz cameo (the page's "cameo" marker). All six are Prime Earth links, and nothing is listed as another world's.
+       - **No ★ and no picks:** First Light is Essential (3).
+       - **The span** follows the covers: 2004–2027.
+     - **No collection holds #41 yet.**
+     - **Built v17 (`5dd787a012e7`):** 383 rows, 382 issues and the gap note. `--check` is fresh, and the gate gives 0 failures and 0 warnings. Harness 1843 and layout 490, 0 failed.
+     - **`gl41_check.py` → `gl41-check.json`:** every check passes.
+       - The reading order is v16's with #41 just after #40, and nothing else moved.
+       - Green Lantern (2023) #1–41 appear once each, in ascending order.
+       - The row matches its page on revision, cover, writer and artists.
+       - Every presence tag comes from a main-world line.
+       - Publication order puts it in January 2027, after #40.
+     - **`t6_check.py`, rerun:** still 0 problems. It lists #41 as the one row added since stage 1.
+   - **Next:**
+     1. The Research-Repo PR for stage 2's work, for John to merge.
+     2. Stop before the go-live PR; John checks all of stage 2 in one pass, merges, then turns on Pages.
        - **Fixed:** `stage2.py` lists a sub-era's volumes in reading order. Ordering them by first cover date left ties to Python's set order, which changes run to run.
        - **Done in sub-era 13:** Green Lantern: War Journal #1–2's credits were read from their pages (listed under an untitled story 2).
 
@@ -346,7 +371,9 @@ Built on Pull-List-template v3: copied at template `f7ae723`, then template T0 a
     3. the pass before go-live (Green Lantern (2023) #41's page, the current status);
     4. a Research-Repo PR for stage 2's work;
     5. stop before the go-live PR and send its summary.
-- **27 Nov:** John merged T6, ASIMKARD/Pull-List-template#15, as `e21c338`.
+- **27 Nov:**
+  - John merged T6, ASIMKARD/Pull-List-template#15, as `e21c338`.
+  - Green Lantern (2023) #41, question form: "Add it". The page lists the story and the appearances. Its on-sale date is the wiki's derived day, as for #40, and the GCD orders it.
 
 ## Decided, not yet built
 - **T3, cross-tracker progress for shared issues** (John, 14 Nov). It is built at stage 5, in its own template PR, which John approves first, like T1.
@@ -370,7 +397,7 @@ Built on Pull-List-template v3: copied at template `f7ae723`, then template T0 a
 |---|---|---|
 | 0 | Setup | done and pushed (15 Nov) |
 | 1 | Arc spine | approved (20 Nov); Research-Repo#6 merged (`a43c300`, 21 Nov) |
-| 2 | Core spine (goes live as v1) | **all 13 sub-eras committed (21–26 Nov)**; T6 merged (`e21c338`) and applied (27 Nov); next the pass before go-live; stop before the go-live PR |
+| 2 | Core spine (goes live as v1) | **all 13 sub-eras committed (21–26 Nov)**; T6 merged (`e21c338`) and applied, and the pass before go-live done with Green Lantern (2023) #41 added (27 Nov); stop before the go-live PR |
 | 3 | Green Lantern Corps and New Guardians | — |
 | 4 | Spectrum spin-offs | — |
 | 5 | Canonical events, with T3 | — |

@@ -6,7 +6,7 @@
   "wordmark": "Green Lantern",
   "title": "Green Lantern — Reading Order",
   "strapline": "From Green Lantern: Rebirth (2004) on",
-  "span": "2004–2026",
+  "span": "2004–2027",
   "theme": "#0B5D33",
   "strictCredits": true
  },
@@ -2919,10 +2919,12 @@
      "Morgan Hampton"
     ],
     "artists": [
-     "Vasco Georgiev",
      "Scott Godlewski",
+     "Vasco Georgiev",
      "Fernando Pasarin",
-     "Serg Acuña"
+     "Serg Acuña",
+     "Juan José Ryp",
+     "Szymon Kudranski"
     ]
    }
   }

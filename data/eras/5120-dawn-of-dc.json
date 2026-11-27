@@ -2303,6 +2303,59 @@
    ]
   },
   {
+   "issueId": "green-lantern-2023-41",
+   "series": "Green Lantern",
+   "vol": "2023",
+   "num": "41",
+   "title": "Green Lantern (2023) #41",
+   "arc": "first-light",
+   "date": {
+    "cover": "2027-01",
+    "source": "DC Database, \"Green Lantern Vol 7 41\" (rev 4000700, fetched 2026-11-27): cover date 2027-01",
+    "order": {
+     "date": "2026-11-25",
+     "source": "Grand Comics Database, \"Green Lantern (2023 series) #41 (608) [Fernando Pasarín Cover]\" (https://www.comics.org/api/issue/2886977/?format=json, fetched 2026-11-27): on sale 2026-11-25"
+    }
+   },
+   "seq": 1,
+   "credits": {
+    "writers": [
+     "Jeremy Adams"
+    ],
+    "artists": [
+     "Scott Godlewski",
+     "Juan José Ryp",
+     "Szymon Kudranski"
+    ]
+   },
+   "presence": [
+    {
+     "who": "hal-jordan",
+     "grade": "major"
+    },
+    {
+     "who": "john-stewart",
+     "grade": "cameo"
+    },
+    {
+     "who": "guy-gardner",
+     "grade": "major"
+    },
+    {
+     "who": "kyle-rayner",
+     "grade": "major"
+    },
+    {
+     "who": "simon-baz",
+     "grade": "cameo"
+    },
+    {
+     "who": "jessica-cruz",
+     "grade": "major"
+    }
+   ]
+  },
+  {
    "id": "gap-absolute-green-lantern",
    "title": "Absolute Green Lantern (2025–)",
    "arc": "green-lantern-highway-to-hell",
