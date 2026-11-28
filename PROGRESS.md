@@ -293,10 +293,13 @@ Built on Pull-List-template v3: copied at template `f7ae723`, then template T0 a
      - `--check` is fresh, the gate passes, and harness 1843 and layout 490 have 0 failed.
      - The merge into `main` tags `v1` (`tools/version_tag.py`).
      - **`.nojekyll` added (27 Nov),** so Pages serves the files as they are, as `MIGRATING.md` step 8 says and Absolute's live repo has. The template has never carried it. The build, `--check`, the gate and both suites are unchanged (harness 1843, layout 490).
-   - **Next:**
-     1. Research-Repo #7 (stage 2's research) and this session's folder's PR, for John to merge.
-     2. The go-live PR (`claude/serene-fermi-1io9gs` → `main`), opened for John. He merges it and turns on Pages.
-     3. Then every file is verified live by hash, the first deploy included (fonts, icons, manifest, `qrcode.js`).
+   - **Live: v1 (27 Nov).**
+     - John merged ASIMKARD/Green-Lantern#1 as `7e5301e`. Its tree is the reviewed head `9a33753`, the merge was tagged `v1`, and the Pages deployment succeeded.
+     - **Verified live by hash** (Research-Repo `sessions/2026-11-26-green-lantern-2/`, `verify_live.sh` → `live-verify-2026-11-27.tsv`): 248 of `main`'s 250 files are identical at `asimkard.github.io/Green-Lantern/`.
+       - They include the app shell, `data.js` (live v1, build `5dd787a012e7`, 383 rows) and `sw.js`, the 12 fonts, the 3 icons, the manifest, `qrcode.js`, the workbook and `.nojekyll`.
+       - The other 2 are `.github/workflows/*.yml`, which Pages never publishes (404).
+     - John merged Research-Repo #7 (stage 2) and #8 (this session's folder).
+   - **Next: stage 3,** Green Lantern Corps and New Guardians (`PLAN.md`), in a new session. It applies the T6 placements its issues hold: Tales of the GLC: Guy Gardner #1 before Green Lantern Corps (2025) #13 (`t6-placements.json`).
        - **Fixed:** `stage2.py` lists a sub-era's volumes in reading order. Ordering them by first cover date left ties to Python's set order, which changes run to run.
        - **Done in sub-era 13:** Green Lantern: War Journal #1–2's credits were read from their pages (listed under an untitled story 2).
 
@@ -385,6 +388,7 @@ Built on Pull-List-template v3: copied at template `f7ae723`, then template T0 a
     - go-live is v1, rebuilt against `main` (which has no `data.js`);
     - open a Research-Repo PR for this session's folder;
     - open the go-live PR. After his merge he turns on Pages, and every file is verified live by hash.
+  - He merged the go-live PR, ASIMKARD/Green-Lantern#1 (`7e5301e`, tagged `v1`).
 
 ## Decided, not yet built
 - **T3, cross-tracker progress for shared issues** (John, 14 Nov). It is built at stage 5, in its own template PR, which John approves first, like T1.
@@ -408,7 +412,7 @@ Built on Pull-List-template v3: copied at template `f7ae723`, then template T0 a
 |---|---|---|
 | 0 | Setup | done and pushed (15 Nov) |
 | 1 | Arc spine | approved (20 Nov); Research-Repo#6 merged (`a43c300`, 21 Nov) |
-| 2 | Core spine (goes live as v1) | **all 13 sub-eras committed (21–26 Nov)**; T6 merged (`e21c338`) and applied, and the pass before go-live done with Green Lantern (2023) #41 added (27 Nov); stop before the go-live PR |
+| 2 | Core spine (goes live as v1) | **live as v1 (27 Nov)**: 382 issues; T6 applied; Green Lantern (2023) #41 added; every file verified live by hash |
 | 3 | Green Lantern Corps and New Guardians | — |
 | 4 | Spectrum spin-offs | — |
 | 5 | Canonical events, with T3 | — |
